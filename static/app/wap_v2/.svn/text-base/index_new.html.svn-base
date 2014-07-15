@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>首页-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+<style type="text/css">
+	html{background-color:#f2f2f2;}
+</style>
+</head>
+<body>
+<div id="header" class="row">
+	<h1 class="logo-full"><a href="" title="">273二手车交易网</a></h1>
+	<span class="gps"><a href="" title="">福州</a></span>
+</div>
+
+<div id="index-ads" class="dt-slider row">
+	<div class="dt-slider-cont">
+		<ul>
+			<li><img src="pics/new-ads.png" /></li>
+		</ul>
+		<div class="num">
+			<span>1</span>
+			<span class="on">2</span>
+			<span>3</span>
+		</div>
+	</div>
+</div>
+
+<!-- 点击搜索框后，#search层添加search-show的class,index-new要去掉，#main层添加hidden -->
+<div id="search" class="index-new row (search-show)">
+	<form action="#" method="get">
+		<span class="close" style="right:10px;" title="清除">x</span>
+		<input type="search" name="s" class="sinput" placeholder="请输入关键字" autofocus /><span class="cancel"><a href="">取消</a></span>		
+		<div class="search-auto">
+			<ul>
+				<li><a href="">大众</a><span>123条车源</span></li>
+				<li><a href="">本田</a><span>123条车源</span></li>
+				<li><a href="">丰田</a><span>123条车源</span></li>
+				<li><a href="">梅赛德斯奔驰</a><span>123条车源</span></li>
+				<li><a href="">宝马</a><span>123条车源</span></li>
+				<li><a href="">保时捷</a><span>123条车源</span></li>
+			</ul>
+			<span class="btn">关闭</span>
+		</div>
+	</form>
+	<div class="search-history hidden">
+		<ul>
+			<li><a href="">大众</a><em>&nbsp;</em></li>
+			<li><a href="">本田</a><em>&nbsp;</em></li>
+			<li><a href="">丰田</a><em>&nbsp;</em></li>
+			<li><a href="">梅赛德斯奔驰</a><em>&nbsp;</em></li>
+			<li><a href="">宝马</a><em>&nbsp;</em></li>
+			<li><a href="">保时捷</a><em>&nbsp;</em></li>
+		</ul>
+		<span class="btn">清除历史纪录</span>
+	</div>
+</div>
+
+<div id="main" class="row">
+
+	<div class="type-select row">
+		<div class="types type-car">
+			<span class="type-click"><a href="">买车</a></span>
+		</div>
+		<div class="types type-price">
+			<span class="type-click"><a href="">卖车</a></span>
+		</div>
+		<div class="types type-pg">
+			<span class="type-click"><a href="">评估</a></span>
+		</div>
+		<div class="types type-sx">
+			<span class="type-click"><a href="">筛选</a></span>
+		</div>
+	</div>
+
+	<div class="index-daogou row">
+		<div class="fl">
+			<span class="daogou-syc"><a href="">家用省油车</a></span>
+		</div>
+		<div class="fr">
+			<span class="daogou-syc"><a href="">新手练车</a></span>
+			<span class="daogou-syc"><a href="">旅游休闲</a></span>
+		</div>
+	</div>
+
+	<div class="type-select row" style="">
+		<div class="row">
+			<h3 class="type-select-h3-price">价格</h3>
+			<div class="type-select-list">
+				<table>
+					<tr>
+						<td><a href="">3万以下</a></td>
+						<td><a href="">3-5万</a></td>
+						<td><a href="">5-10万</a></td>
+						<td><a href="">10-15万</a></td>
+					</tr>
+					<tr>
+						<td><a href="">15-20万</a></td>
+						<td><a href="">20-30万</a></td>
+						<td><a href="">30-40万</a></td>
+						<td><a href="">40万以上</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<h3 class="type-select-h3-brand">品牌</h3>
+			<div class="type-select-list">
+				<table class="type-select-list-brand">
+					<tr>
+						<td><a href=""><img src="theme/hotbrand/i1.jpg" />大众</a></td>
+						<td><a href=""><img src="theme/hotbrand/i2.jpg" />丰田</a></td>
+						<td><a href=""><img src="theme/hotbrand/i3.jpg" />现代</a></td>
+						<td><a href=""><img src="theme/hotbrand/i4.jpg" />福特</a></td>
+					</tr>
+					<tr>
+						<td><a href=""><img src="theme/hotbrand/i5.jpg" />奥迪</a></td>
+						<td><a href=""><img src="theme/hotbrand/i6.jpg" />宝马</a></td>
+						<td><a href=""><img src="theme/hotbrand/i7.jpg" />别克</a></td>
+						<td><a href=""><img src="theme/hotbrand/i8.jpg" />更多品牌</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div class="row">
+			<h3 class="type-select-h3-cartype">车型</h3>
+			<div class="type-select-list">
+				<table>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row shops-join">
+		<div class="fl">
+			<a href=""><h4>门店</h4><p>全国<b>578</b>家</p></a>
+		</div>
+		<div class="fr">
+			<a href=""><h4>我要加盟</h4><p>造富从此开始</p></a>
+		</div>
+	</div>
+	<div class="row index-bottom-ad">
+		<a href=""><img src="pics/bottom-ad.png" /></a>
+	</div>
+
+	<div id="index-footer" class="row">
+		<div class="row index-hot-click">
+			<a href=""><i class="i-7day"></i>7天无理由退车</a>
+			<a href=""><i class="i-ckb"></i>车况宝检测</a>
+		</div>
+
+		<div class="qlink row">
+			<p>
+				<a href="#">电脑版</a> | 
+				<a href="#">问题反馈</a> | 
+				<a href="#">客户端</a>	
+			</p>
+			<p style="font-size:12px;">全国统一客服热线 <b class="color-orange">400-6000-273</b></p>
+		</div>
+	
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div class="gohome"><a href="">返回首页</a></div>
+<div class="uptop"><a href="">回到顶部</a></div>
+
+<div class="bg"></div>
+<div class="popbox">
+	<div class="popbox-contents">
+		<p class="tc"><b>居中</b></p>
+		<p class="tl color-999">左对齐，文本灰色</p>
+		<p class="tr color-f50">右对齐，文本橙色，<span class="color-f00">红色是color-red</span></p>
+	</div>
+	<div class="popbox-btn"><span class="btn">关闭</span></div>
+</div>
+
+<div class="popbox">
+	<div class="popbox-contents">
+		<p class="tc"><b>我要卖车</b></p>
+		<p class="tl">感谢您提交卖车需求，我们将为您接通273客服热线，请将您的车辆信息告知我们的客服人员！</p>
+	</div>
+	<div class="popbox-btn shange2">
+		<div class="left"><span class="btn">取消</span></div>
+		<div class="right"><span class="btn btn-green"><a href="sdg">拨打电话</a></span></div>
+	</div>
+</div>
+
+</body>
+</html>

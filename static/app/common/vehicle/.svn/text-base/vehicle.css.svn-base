@@ -1,0 +1,262 @@
+/* common */
+.vehicle {
+    float: left;
+    padding-bottom: 1px;
+    font-size: 12px;
+    color: #6C6C6C;
+}
+
+.vehicle a {
+    text-decoration: none;
+    color: #6C6C6C;
+}
+
+.vehicle li a {
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    overflow:hidden;
+}
+
+.vehicle li a:hover {
+    background: #F1F1F1;
+}
+
+.vehicle ul,
+.vehicle li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.vehicle li {
+    height: 27px;
+    line-height: 27px;
+    padding: 0px 1px 0px 1px;
+}
+
+.vehicle input {
+    width: 130px;
+    height: 24px;
+    line-height: 24px;
+    border: 1px solid #D4D4D4;
+    color: #6C6C6C;
+    padding: 0 9px;
+}
+
+.vehicle .vehicle-outer {
+    position: relative;
+}
+
+.vehicle .vehicle-inner {
+    width: 148px;
+    display: none;
+    background: #FFF;
+    border: 1px solid #D4D4D4;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+}
+
+.active .vehicle-inner {
+    display: block;
+}
+
+.vehicle .tip {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 0 0 10px;
+    color: #B4B4B4;
+}
+
+.vehicle .close {
+    float: right;
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background: url(./images/close.gif) no-repeat center center;
+    margin: 5px 3px 0 0;
+}
+
+.vehicle-loading {
+    background: url(./images/loading.gif) no-repeat center center;
+    height: 27px;
+    border: 1px solid #D4D4D4;
+    margin-top: 1px;
+    display: none;
+    width: 148px;
+    background-color: #F5F5F5;
+    position: absolute;
+}
+
+#vehicle-model .vehicle-loading {
+    width: 273px;
+}
+
+.loading .vehicle-loading {
+    display: block
+}
+
+.vehicle .close:hover {
+    background-color: #F1F1F1;
+}
+
+/* vehicle-type */
+#vehicle-type input {
+    width: 118px;
+    padding: 0 21px 0 9px;
+    background: #FFF url(./images/arrow.gif) no-repeat 134px center;
+    cursor: pointer;
+}
+
+#vehicle-type ul {
+    line-height: 27px;
+}
+
+#vehicle-type .vehicle-inner {
+    width: 148px;
+}
+
+/* vehicle-brand */
+#vehicle-brand .tip {
+    width: 138px;
+}
+
+#vehicle-brand .list {
+    height: 445px;
+    *position: relative;
+    overflow-y: scroll;
+}
+
+#vehicle-brand .list ul {
+    width: 110px;
+    position: relative;
+}
+
+#vehicle-brand .list li {
+    width: 110px;
+}
+
+#vehicle-brand ul.anchors {
+    position: absolute;
+    top: 24px;
+    right:19px;
+    text-align: center;
+    padding: 2px 0px 2px 0px;
+    width:auto;
+}
+
+#vehicle-brand li.letter {
+    background: #F1F1F1;
+    font-size: 14px;
+}
+
+#vehicle-brand li.nav {
+    background: #F1F1F1;
+    font-size: 14px;
+    display: none;
+}
+
+#vehicle-brand li.letter a {
+    cursor: default;
+}
+
+#vehicle-brand ul.anchors li {
+    padding-left: 0px;
+    line-height: 17px;
+    height: auto;
+    font-size: 14px;
+}
+
+#vehicle-brand ul.anchors a {
+    padding-left: 0px;
+    _display: inline;
+    *height:auto;
+}
+
+#vehicle-brand ul.anchors a:hover{
+    color: #F37C06;
+    background: #FFF;
+}
+
+.vehicle .overflow {
+    height: 270px;
+    *position: relative;
+    overflow-y: scroll;
+}
+
+.vehicle-auto span.kw {
+    color: #F37C06;
+}
+
+
+/* vehicle-model */
+#vehicle-model input {
+    width: 255px;
+}
+
+#vehicle-model .list {
+    position: relative;
+}
+
+#vehicle-model li.letter {
+    background: #F1F1F1;
+}
+
+#vehicle-model ul {
+    position: relative;
+}
+
+#vehicle-model .vehicle-inner {
+    width: 273px;
+}
+
+#vehicle-series,
+#vehicle-model {
+    display: none;
+}
+
+.vechicle-nav {
+    background: #F1F1F1;
+    display: none;
+    height: 27px;
+    line-height: 27px;
+    padding: 0px 1px 0px 1px;
+}
+
+.vechicle-nav a {
+    display: block;
+    height: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+    color: #6C6C6C;
+    text-decoration: none;
+}
+
+#vehicle-brand-nav {
+    font-size: 14px;
+    width: 110px;
+}
+
+#vehicle-model-nav {
+    font-size: 12px;
+    width: 271px;
+}
+
+#vehicle-model .tip {
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

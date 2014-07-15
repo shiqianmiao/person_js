@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>uploader test</title>
+    <meta charset="UTF-8" />
+    <script src="http://static.273.cn/g.js"  charset="UTF-8"></script>
+    <script src="http://static.273.cn/config.js"  charset="UTF-8"></script>
+    </head>
+<body>
+
+<div id="uploader"></div>
+
+<script type="text/javascript">
+G.use(['uploader'], function () {
+
+    G.use(['jquery', 'widget/imageUploader/image_uploader.js'], function ($, Uploader) {
+        var uploader = new Uploader({
+            el: '#uploader',
+            width: 100,
+            height: 25,
+            maxNum: 20,
+            type : 'jpg,jpeg,png,gif',
+            onSetCover : function() {
+                $('#js-cover-tip').hide();
+            },
+            frontCover : false,
+            postParams : {
+                thumbWidth:120,
+                thumbHeight:90,
+                category: 'store_car',
+            },
+            url: 'http://upload.273.com.cn/'
+        });
+    });
+
+});
+</script>
+</body>
+</html>

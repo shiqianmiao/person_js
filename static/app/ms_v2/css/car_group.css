@@ -1,0 +1,34 @@
+#main{
+	margin: 0;
+}
+
+#main .content{
+	text-align: center;
+	font-size: 16px;
+	border:1px solid #ebebeb;
+}
+#main .content span{
+	display: inline-block;
+	margin: 45px 0;
+}
+#main .content span a{
+	margin: 0 5px;
+	font-weight: 700;
+}
+.cloud{
+	margin: 0 auto;
+	width: 75%;
+	text-align: center;
+}
+#tags a{display: inline-block;height: 50px;line-height: 50px;padding: 5px 10px;margin: 0 10px 10px 0;border: 1px solid #fff;font-family: Arial;}
+#tags .tags0{color: #bfbfbf;font-size: 12px;}
+#tags .tags1{color: #ff8c51;font-size: 12px;}
+#tags .tags2{color: #fc5300;font-size: 12px;} 
+#tags .tags3{color: #fea58d;font-size: 30px;} 
+#tags .tags4{color: #fea579;font-size: 46px;} 
+#tags .tags5{color: #ff8c51;font-size: 32px;} 
+#tags .tags6{color: #fc5300;font-size: 26px;} 
+#tags .tags7{color: #fc5300;font-size: 46px;} 
+#tags .tags8{color: #25d;font-size: 24px;}
+#tags .tags9{color: #25d;font-size: 32px;} 
+#tags a:hover{border: 1px solid #bebebe;border-radius: 5px;}

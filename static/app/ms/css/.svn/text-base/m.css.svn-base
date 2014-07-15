@@ -1,0 +1,54 @@
+.m-bg{background:url(../images/m-bg.png) repeat 0 0;}
+.m-bg #top_nav{margin-bottom:0;}
+.m-head-bg{background:#fff;width:100%;position:relative;z-index:1;}
+.m-head-bg #head{background:#fff;}
+#m-top{background:#C1D4E2;_background:url(../images/m-top-bg-color.png) repeat 0 0;height:440px;}
+.m-top-boxs{background:url(../images/m-top-bg.png) no-repeat center 0;width:1200px;height:440px;margin:auto;position:relative;z-index:1;}
+.m-top-boxs ul{z-index:1;/*background:url(../images/m-top-boxs-ul-bg.png) repeat-x 0 12px;*/position:absolute;right:143px;display:block;width:397px;top:-35px;}
+.m-top-boxs ul li{width:99px;float:left;font-size:16px;font-family:"Microsoft Yahei";}
+.m-top-boxs ul li span{display:block;text-align:center;}
+.m-top-boxs ul li span a{display:block;width:99px;height:35px;padding-bottom:9px;line-height:35px;}
+.m-top-boxs ul li span a:hover{text-decoration:none;}
+.m-top-boxs ul li.on span a{width:100px;color:#fff;background:url(../images/m-top-boxs-li-bg.png) no-repeat 0 0;}
+.m-top-boxs ul li .m-top-box{display:none;}
+.m-top-boxs ul li.on .m-top-box{display:block;}
+.m-top-box{width:397px;height:400px;overflow:hidden;position:absolute;left:0;top:44px;}
+.m-top-box img{width:100px;height:100px;position:absolute;left:238px;top:187px;}
+.tab1{background:url(../images/m-top-box-1.png) no-repeat 0 0;}
+.tab2{background:url(../images/m-top-box-2.png) no-repeat 0 0;}
+.tab3{background:url(../images/m-top-box-3.png) no-repeat 0 0;}
+.tab4{background:url(../images/m-top-box-4.png) no-repeat 0 0;}
+.m-top-box p.downbtn a{display:block;width:185px;height:60px;position:relative;top:185px;left:25px;text-indent:-82982px;}
+.m-top-box p.update{display:block;text-align:left;position:relative;top:200px;left:40px;}
+.m-top-box p.downloads{position:absolute;bottom:2px;height:50px;line-height:48px;width:100%;font-size:14px;color:#000;}
+.m-top-box p.downloads strong{margin-left:35px;}
+.m-top-box p.downloads a{margin:0 5px;color:#3689CF;text-decoration:underline;}
+.m-top-bottom{background:url(../images/m-bg-main.png) no-repeat center 0;width:1200px;margin:auto;height:60px;}
+#m-layer{width:1200px;margin:auto;font-size:14px;}
+#m-layer .m-layer-content{position:absolute;}
+#m-layer h2{font-size:30px;font-weight:100;font-family:"Microsoft Yahei";}
+#m-layer p{padding:10px 0;width:420px;line-height:24px;color:#666;}
+.m-layer1{background:url(../images/m-l1.png) no-repeat 0 0;height:350px;position:relative;}
+.m-layer2{background:url(../images/m-l2.png) no-repeat 0 0;height:350px;position:relative;}
+.m-layer3{background:url(../images/m-l3.png) no-repeat 0 0;height:350px;position:relative;}
+.m-layer4{background:url(../images/m-l4.png) no-repeat 0 0;height:440px;position:relative;}
+.m-layer1 .m-layer-content{top:130px;left:130px;}
+.m-layer2 .m-layer-content{top:130px;right:130px;text-align:right;}
+.m-layer3 .m-layer-content{top:150px;left:130px;}
+.m-layer4 .m-layer-content{top:160px;right:130px;text-align:right;}
+#m-layer .m-layer2 p{width:340px;}
+#m-layer .m-layer4 p{width:330px;float:right;}
+
+.report-msg{display:none;position:absolute;z-index:2;width:430px;border:5px #969696 solid;background:#fff;top:-180px;left:0;}
+.report-msg h4{background:#f0f0f0;height:26px;line-height:26px;padding:2px 20px;font-size:14px;position:relative;}
+.report-msg h4 span.close{display:block;width:30px;height:30px;background:url(../images/close.png) no-repeat 0 0;text-indent:-82982px;right:0;top:0;position:absolute;cursor:pointer;}
+.report-msg form{margin:20px;line-height:24px; zoom: 1;}
+.report-msg form p{clear:both;position:relative;color:#999;margin-bottom:10px;}
+.report-msg form p.phone input{color:#989898;font-size:14px;width:380px;border:1px #cecece solid;height:24px;line-height:24px;padding:5px;}
+.report-msg form p.phone input.on{color:#333;}
+.report-msg form p.form-msg-no{display:none;line-height:18px;border:1px #d40000 solid;background:#FFF1F1;color:#d40000;padding:5px;}
+.report-msg form p.form-msg-no span{display:inline-block;width:20px;height:15px;background:url(../images/form-msg-no.png) no-repeat 0 0;margin-left:5px;}
+.report-msg form p.btn{text-align:center;}
+.report-msg form p.btn input{border:0;width:160px;height:50px;background:url(../images/m-report-msg-btn.png) no-repeat 0 0;cursor:pointer;}
+
+#foot{border-top:1px #ccc solid;width:100%;background:url(../images/m-foot-bg.png) repeat 0 -5px;}

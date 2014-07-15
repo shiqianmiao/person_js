@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>G.js test</title>
+        <meta charset="UTF-8" />
+        <script type="text/javascript" src="/g.js"></script>
+        <script type="text/javascript" src="/config.js"></script>
+    </head>
+<body>
+<div id="mocha"></div>
+
+<script type="text/javascript">
+G.use(['Promise', 'lib/mocha/mocha.js', 'lib/mocha/mocha.css'], function (Promise, Mocha) {
+    var testDefers = [];
+
+
+    mocha = window.mocha = new Mocha({ reporter: 'html' });
+
+    /**
+     * Override ui to ensure that the ui functions are initialized.
+     * Normally this would happen in Mocha.prototype.loadFiles.
+     */
+
+    mocha.ui = function(ui){
+      Mocha.prototype.ui.call(this, ui);
+      this.suite.emit('pre-require', window, null, this);
+      return this;
+    };
+
+    /**
+     * Setup mocha with the given setting options.
+     */
+
+    mocha.setup = function(opts){
+      if ('string' == typeof opts) opts = { ui: opts };
+      for (var opt in opts) this[opt](opts[opt]);
+      return this;
+    };
+
+    /**
+     * Run mocha, returning the Runner.
+     */
+
+    mocha.run = function(fn){
+      var options = mocha.options;
+      mocha.globals('location');
+
+      var query = Mocha.utils.parseQuery(window.location.search || '');
+      if (query.grep) mocha.grep(query.grep);
+      if (query.invert) mocha.invert();
+
+      return Mocha.prototype.run.call(mocha, function(){
+        Mocha.utils.highlightTags('code');
+        if (fn) fn();
+      });
+    };
+
+
+    mocha.setup('bdd');
+
+    var testCase = [
+        'gConfig.test.js',
+        'localStorage.test.js'
+    ];
+
+    testCase.forEach(function (testName) {
+        var defer = Promise.defer();
+        testDefers.push(G.use(['./test_case/'+testName], function (test) {
+            test(defer);
+        }));
+    });
+
+    Promise.when(testDefers).done(function () {
+        mocha.run().globals(['match']);
+    });
+});
+</script>
+</body>
+</html>

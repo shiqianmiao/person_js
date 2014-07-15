@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>操作编辑</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" type="text/css" href="css/operationmanage.css">
+</head>
+<body>
+  <div class="navbar" id="navbar" name="navbar">
+  <div class="container-fluid">
+      <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <a class="logo" href="#">273业务管理系统</a>
+      <span class="localname">鼓山服务中心</span>
+      <div class="nav-collapse">
+          <ul class="nav navigation">
+              <li class="active">
+                  <a href="#">业务管理</a>
+              </li>
+              <li>
+                  <a href="#">积分系统</a>
+              </li>
+              <li>
+                  <a href="#">电话转接</a>
+              </li>
+          </ul>
+          <div class="btn-group userexit-group">
+              <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>29300001<span class="icon-chevron-down"></span></button>
+              <ul class="dropdown-menu">
+                  <li><a href="#">退出</a></li>
+              </ul>
+            </div>
+        </div>  
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+      <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>我的事务</li>
+                <li><a href="#">事务管理</a></li>
+                <li><a href="#">审核页面</a></li>
+                <li><a href="#">提醒页面</a></li>
+            </ul>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>质检管理</li>
+                <li><a href="#">车源图质检-人车合照图</a></li>
+                <li><a href="#">车源图质检-车牌正面图</a></li>
+            </ul>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>组织管理
+                  <ul class="nav nav-list">
+                    <li class="nav-header"><i class="i_deltadown"></i>人员管理</li>
+                    <li class="active"><a href="#">操作编辑</a></li>
+                  </ul>
+                </li>      
+            </ul>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>操作管理
+                  <ul class="nav nav-list">
+                    <li class="nav-header"><i class="i_deltadown"></i>提交成交明细</li>
+                  </ul>
+                </li>      
+            </ul>
+      </div>
+      <div class="span10 main">
+          <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">组织管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">人员管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">操作编辑</li>
+          </ul>
+          <div class="clearfix">
+            <div class="form-inline mt10">
+                <button class="btn btn-success ml10">返&nbsp回</button>
+                <button class="btn btn-success ml10">修改密码</button>
+            </div>
+          </div>
+          <hr style="border-style:dashed;"/>
+          <div class="ctitle mt10">用户编辑</div>
+          <div class="clearfix form-horizontal">
+            <div class="span9">
+                <div class="control-group">
+                  <label class="control-label span2">城市：</label>
+                  <div class="controls span9">
+                    <select class="span2">
+                      <option>省份</option>
+                      <option>福建</option>
+                    </select>
+                    <select class="span2 ml10">
+                      <option>城市</option>
+                      <option>福州</option>
+                      <option>泉州</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">编号：</label>
+                  <div class="controls span9">
+                    <select class="span4">
+                      <option>请选择</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">真实姓名：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text" placeholder="">
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">角色：</label>
+                  <div class="controls span9">
+                    <select class="span4">
+                      <option>请选择</option>
+                    </select>
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">附属角色：</label>
+                  <div class="controls span10">
+                    <div class="form-inline">
+                      <label class="checkbox"><input type="checkbox"> 呼叫中心客服</label>
+                      <label class="checkbox"><input type="checkbox"> 店务秘书</label>
+                      <label class="checkbox"><input type="checkbox"> 店长</label>
+                      <label class="checkbox"><input type="checkbox"> 交易顾问</label>
+                      <label class="checkbox"><input type="checkbox"> 呼叫中心客服经理</label>
+                      <label class="checkbox"><input type="checkbox"> 检测师</label>
+                      <label class="checkbox"><input type="checkbox"> 开发人员</label>
+                      <label class="checkbox"><input type="checkbox"> 专业顾问</label>
+                      <label class="checkbox"><input type="checkbox"> 系统管理员</label>
+                      <label class="checkbox"><input type="checkbox"> 人事管理员</label>
+                      <label class="checkbox"><input type="checkbox"> 业务主任</label>
+                      <label class="checkbox"><input type="checkbox"> 加盟部人员</label>
+                      <label class="checkbox"><input type="checkbox"> 副总裁</label>
+                      <label class="checkbox"><input type="checkbox"> 总裁</label>
+                      <label class="checkbox"><input type="checkbox"> 车况宝店长</label>
+                      <label class="checkbox"><input type="checkbox"> 区域中心经理</label>
+                      <label class="checkbox"><input type="checkbox"> 财务</label>
+                      <label class="checkbox"><input type="checkbox"> 营销主管</label>
+                      <label class="checkbox"><input type="checkbox"> 总部人员</label>
+                      <label class="checkbox"><input type="checkbox"> 品牌专员</label>
+                      <label class="checkbox"><input type="checkbox"> 编辑</label>
+                      <label class="checkbox"><input type="checkbox"> 车况宝店秘</label>
+                      <label class="checkbox"><input type="checkbox"> 拍车宝车源交易顾问</label>
+                      <label class="checkbox"><input type="checkbox"> 电话转接店秘</label>
+                      <label class="checkbox"><input type="checkbox"> 账号管理员</label>
+                      <label class="checkbox"><input type="checkbox"> 网络中心产品角色</label>
+                      <label class="checkbox"><input type="checkbox"> 电话转接店长</label>
+                      <label class="checkbox"><input type="checkbox"> 招商经理</label>
+                      <label class="checkbox"><input type="checkbox"> 总裁办人员</label>
+                      <label class="checkbox"><input type="checkbox"> 厦门置顶权限角色</label>
+                      <label class="checkbox"><input type="checkbox"> 质检人员</label>
+                      <label class="checkbox"><input type="checkbox"> 质检经理</label>
+                      <label class="checkbox"><input type="checkbox"> 合作经销商</label>
+                    </div>
+                  </div>
+                </div>
+                 <div class="control-group">
+                  <label class="control-label span2">用户名：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">密码：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">重置密码：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">EMAIL：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">移动电话：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">验证手机：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">性别：</label>
+                  <div class="controls span9">
+                    <div class="form-inline">
+                      <label class="radio"><input type="radio" name="" id="" value="" checked>男</label>
+                      <label class="radio"><input type="radio" name="" id="" value="">女</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">出生日期：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">身份证：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                    <span class="alerttxt">*</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2" style="line-height:45px;">身份证照片：</label>
+                  <div class="controls span9">
+                    <button class="btn">Choose File</button><span class="ml10">No file chosen</span>
+                  </div>
+                  <div class="controls span9 mt10">
+                    <span class="alerttxt">请保证身份证信息清晰可见</span>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">家庭电话：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2">家庭地址：</label>
+                  <div class="controls span9">
+                    <input class="span4" type="text">
+                  </div>
+                </div>
+                <div class="control-group">
+                  <label class="control-label span2" style="line-height:215px;">照片：</label>
+                  <div class="controls span9">
+                     <img src="img/tmp/01.jpg" alt="" style="width:170px;height:214px;">
+                  </div>
+                  <div class="controls span9 mt10">
+                     <button class="btn btn-success">保存</button>
+                     <button class="btn btn-success ml10">重置</button>
+                  </div>
+                </div>
+            </div>
+          </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>

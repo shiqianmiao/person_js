@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>29300001<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li class="active"><span>88</span><a href="#">我的卖车信息</a></li>
+                <li><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li><a href="#">业务管理</a> <span class="divider">&gt;</span></li>
+              <li><a href="#">买车信息管理</a> <span class="divider">&gt;</span></li>
+              <li class="active">车源详情</li>
+            </ul>
+            <ul class="carinfobar clearfix mt10" id="j-carinfobar">
+                <li class="active"><a href="#carinfo-main">车源信息</a></li>
+                <li><a href="#carinfo-rtvisit">回访信息</a></li>
+                <li><a href="#carinfo-record">状态变更记录</a></li>
+            </ul>
+            <div class="nopassmassege">
+	            <p><i class="i_tishi"></i>您的“车牌正面图”审核未通过，原因：“图片车牌号不清晰”</p>
+	            <p><i class="i_tishi"></i>您的“人车合照图”审核未通过，原因：“人未站在车门旁”</p>
+	        </div>
+	        <div class="carinfobody">
+	            <div class="ctitle">车牌图片</div>
+	            <div class="carpictureinfo">
+	                <table class="table table-hover" >
+		                <thead >
+		                	<tr>
+		                		<th>车源图片信息</th>
+		                		<th>质检审核</th>
+		                		<th>外网展示</th>
+		                	</tr>
+		                </thead>
+		                <tbody>
+		                	<tr>
+		                		<td><span class="tit">车牌正面图：</span><img src="img/samplepic01.jpg" style="width:75px;height:56px;" /></td>
+		                		<td>已审核<span class="reveal"><a href="">[查看质检详情]</a></span></td>
+		                		<td rowspan="3">车源已置顶<span class="wordtag">行驶证已审核</span><span class="wordtag">顾问已看车</span>已标识</td>
+		                	</tr>
+		                	<tr>
+		                		<td><span class="tit">行驶证图：</span><img src="img/samplepic02.jpg" style="width:75px;height:56px;" /></td>
+		                		<td>已审核<span class="reveal"><a href="">[查看质检详情]</a></span></td>
+		                	</tr>
+		                	<tr>
+		                		<td><span class="tit">人车合照图：</span>未上传</td>
+		                		<td></td>
+		                	</tr>
+		                </tbody>
+	               </table>
+	            </div>
+	            <div class="ctitle mt10">车主信息</div>
+            	<div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">车主姓名：</span><span class="ml10">黄凯旋</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">联系电话：</span><span class="ml10">***********<span class="reveal"><a href="">[显示]</a></span>
+                    </div>
+            	</div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">省份证号：</span><span class="ml10">350103198604081555</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">信息来源：</span><span class="ml10">网站</span>
+                    </div>
+                </div>
+                <div class="ctitle mt10">车辆信息</div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">交易城市：</span><span class="ml10">福建-福州-台江区</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">车牌所在城市：</span><span class="ml10">福建-福州-台江区</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">车型品牌：</span><span class="ml10">江淮-瑞风-色彩之旅 长轴距版舒适型手动2.4</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">上牌年份：</span><span class="ml10">2007-05</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">车牌号码：</span><span class="ml10">******</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">行驶公里数：</span><span class="ml10">11万公里</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">价格：</span><span class="ml10">5.28万</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">颜色：</span><span class="ml10">银灰</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">商业保险到期：</span><span class="ml10">2014-05-22</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">使用性质：</span><span class="ml10">非营运</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">交强险到期：</span><span class="ml10">2014-05-22</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">过户次数：</span><span class="ml10">变更过1次</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">年检到期：</span><span class="ml10">2014-05-22</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">保养地点：</span><span class="ml10">在一般维修点保养</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">车源性质：</span><span class="ml10">个人</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="textright span2" >车源图片：</span>                        
+                        <ul class="ml10 span10 mt10">
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                            <li class="picbox"><img src="img/samplepic06.jpg" alt="" /><i class="i-mglass"></i></li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">车主描述：</span>
+                        <span class="ml10">江淮 瑞风2.4L 手动档 长轴 私家用车 保养好 无重大事故 看车方便</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">标题：</span>                                             
+                        <span class="ml10">江淮-瑞风-色彩之旅 长轴距版舒适型手动2.4（代步车，看车方便，便宜出售）</span>
+                    </div> 
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">一句话广告：</span>                                             
+                        <span class="ml10">代步车，看车方便，便宜出售</span>
+                    </div> 
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">内部备注：</span>                                             
+                        <span class="ml10">其实是一部很烂的车</span>
+                    </div> 
+                </div>
+                <div class="ctitle mt10">其他信息</div>
+                <div class="clearfix ">
+                    <div class="span7">
+                        <span class="span2 textright">发布时间：</span><span class="ml10">2013-05-14 15:47:21</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">发布人员：</span><span class="ml10">黄凯旋</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">分配时间：</span><span class="ml10">2013-05-14 15:47:21</span>
+                    </div>
+                    <div class="span5">
+                        <span class="span3 textright">更新时间：</span><span class="ml10">2013-05-14 15:47:21</span>
+                    </div>
+                </div>
+                <div class="ctitle mt10">回访信息<span class="reveal"><a href="">[查看历史记录（2）]</a></span></div>
+                <div class="clearfix">
+                    <div class="rtvisit">
+                        <ul class="rtinfo-ul">
+                            <li>
+                                <span class="tit">回访时间：<span class="ml10">2013-05-16 11:02:33</span></span>
+                                <span class="tit">客户意向：<span class="ml10">意向高度-A</span></span>
+                                <span class="tit">回访内容：<span class="ml10">价格还可以商量</span></span>
+                                <span class="tit">回访人员：<span class="ml10">凯旋</span></span>
+                            </li>
+                            <li class="last">
+                                <span class="tit">回访时间：<span class="ml10">2013-05-16 11:02:33</span></span>
+                                <span class="tit">客户意向：<span class="ml10">意向高度-A</span></span>
+                                <span class="tit">回访内容：<span class="ml10">价格还可以商量</span></span>
+                                <span class="tit">回访人员：<span class="ml10">凯旋</span></span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">客户信息：</span><span class="ml10">李先生 ***********</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">客户意向：</span>
+                            <select class="input-large ml10">
+                                <option>意向高度-A</option>
+                                <option>意向高度-B</option>
+                                <option>意向高度-C</option>
+                                <option>意向高度-D</option>
+                                <option>意向高度-E</option>
+                            </select>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span7">
+                        <span class="span2 textright">回访内容：</span><textarea class="input-xlarge ml10" id="textarea" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="clearfix mt10">
+                    <div class="span7">
+                        <span class="span2 textright"></span><button class="btn btn-success ml10">发布买车</button>
+                    </div>
+                </div>
+               
+                <div class="ctitle mt40">状态变更记录</div>
+                <div class="clearfix statechangelist">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>操作时间</th>
+                                <th>操作人</th>
+                                <th>操作内容</th>
+                                <th>备注</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2013-05-16 11:02:33</td>
+                                <td>林英</td>
+                                <td>审核通过</td>
+                                <td>请及时跟进</td>
+                            </tr>
+                            <tr>
+                                <td>2013-05-16 11:02:33</td>
+                                <td>林英</td>
+                                <td>审核通过</td>
+                                <td>请及时跟进</td>
+                            </tr>
+                            <tr>
+                                <td>2013-05-16 11:02:33</td>
+                                <td>林英</td>
+                                <td >审核通过</td>
+                                <td>请及时跟进</td>
+                            </tr>
+                            <tr>
+                                <td>2013-05-16 11:02:33</td>
+                                <td>林英</td>
+                                <td>审核通过</td>
+                                <td>请及时跟进</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

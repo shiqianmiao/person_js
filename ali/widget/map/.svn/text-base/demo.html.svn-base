@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>地图组件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js'></script>
+<script src='http://static.273.cn/config.js'></script>
+</head>
+<body>
+
+    <div id="demo" style="width:285px;height:215px;margin:0 auto;"></div>
+    <script>
+    G.use(['widget/map/map.js'], function (Map) {
+        var map = Map.create({
+            zoom : 10,
+            type : 'dynamic',
+            el : '#demo',
+            center : '北京'//'116.398053, 39.913741' //'福州',
+        });
+
+        var point = '116.398053, 39.913741';
+        var point2 = '116.498153, 39.913941';
+
+        map.ready(function () {
+            this.addControl({ctype:'navigation', type : BMAP_NAVIGATION_CONTROL_ZOOM});
+            this.addOverlay({
+                type : 'marker',
+                point: Map.formatPoint(point)
+            });
+
+        });
+
+        var marker;
+
+
+        // map.on('click', function (e) {
+        //     this.addOverlay({
+        //         type : 'marker',
+        //         point: Map.formatPoint(e.point.lng, e.point.lat)
+        //     });
+        //     console.log(this);
+        // });
+        map.on('rightclick', function (e) {
+            this.clearOverlays();
+        });
+
+        map.ready(function () {
+            this.addOverlay({
+                type : 'tip',
+                point: Map.formatPoint(point),
+                letter: 'H',
+                text : '马小金VIP门店',
+                url : 'http://www.273.cn/',
+                width : 20
+            });
+            this.addOverlay({
+                type : 'tip',
+                point: Map.formatPoint(point2),
+                letter: 'A',
+                text : '马小金第二门店',
+                url : 'http://www.273.cn/',
+                width : 20
+            });
+
+            this.setViewport([point, point2]);
+        });
+        window.map = map;
+
+    });
+    </script>
+</body>
+</html>

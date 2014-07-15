@@ -1,0 +1,78 @@
+@charset "utf-8";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px; color: #4b4b4b;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a { color: #494949; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+
+#head { background: url(../images/top_bg.gif) repeat-x;}
+#top { height: 29px; line-height: 29px;}
+#top .home { height: 29px; line-height: 29px; color: #1c5897; font-family: SimSun; float: left; display: inline;}
+#top .top_nav { float: right; display: inline; color: #eaeaea; margin: 0 18px 0 0;}
+#top .top_nav span { margin: 0 13px;}
+#head_con { height: 88px; overflow: hidden; clear: both;}
+#head_con #logo { float: left; display: inline; padding: 13px 0 0 0;}
+#head_con ul { float: right; display: inline; padding: 20px 0 0 0;}
+#head_con li { width: 122px; height: 47px; float: left; display: inline; background: url(../images/head_con_line.gif) no-repeat left center; margin-left: -1px;}
+#head_con li.first { background: none; margin-left: 0;}
+#head_con li a { display: inline-block; width: 66px; height: 38px; line-height: 14px; padding: 9px 0 0 56px; background: url(../images/head_con_icon.png) no-repeat 19px 8px;}
+#head_con li a:hover { background-color: #f2f6fb; background-position: 18px 7px; text-decoration: none; width: 65px; height: 36px; border: 1px solid #dce5ed; padding: 8px 0 0 55px;}
+#head_con li a.a2 { background-position: -167px 8px;}
+#head_con li a.a2:hover { background-position: -168px 7px;}
+#head_con li a.a3 { background-position: -353px 8px;}
+#head_con li a.a3:hover { background-position: -354px 7px;}
+#head_con li a.a4 { background-position: -539px 8px;}
+#head_con li a.a4:hover { background-position: -540px 7px;}
+#head_con li a.a5 { background-position: -725px 8px;}
+#head_con li a.a5:hover { background-position: -726px 7px;}
+#nav { background: #1c5897; height: 50px; position: relative; line-height: 50px; font-family: Microsoft YaHei; font-size: 16px; color: #f2f2f2;}
+#nav .bg { height: 50px; background: #2567a9; width: 50%; z-index:1;}
+#nav .lay1 { height: 50px; background: url(../images/nav_bg.gif) no-repeat; position: absolute; top: 0; left: 50%; margin: 0 0 0 -495px; z-index: 2; overflow: hidden;}
+#nav .lay1 ul { float: left; display: inline;}
+#nav .lay1 li { float: left; display: inline;}
+#nav .lay1 li a { display: inline-block; float: left; color: #f2f2f2; padding: 0 29px;}
+#nav .lay1 li a.current { background: #1c5897;}
+#nav .lay1 li a:hover { background: #1c5897; text-decoration: none;}
+#nav .lay1 li span { display: block; float: left; border-right: 1px solid #3b76b2; height: 14px; line-height: 14px; margin: 17px 0 0 0;}
+#nav .lay1 .tel { float: right; display: inline; background: url(../images/nav_tel_icon.gif) no-repeat left center; padding: 0 0 0 32px; margin: 0 12px 0 0;}
+
+.lay1 { width: 990px; margin: 0 auto;}
+
+.title_style { background: #2567a9; height: 36px; line-height: 36px; color: #fff; font-size: 18px; font-family: Microsoft YaHei;}
+.title_style h2 { font-size: 18px; font-weight: normal;}
+.title_style h2 span { display: inline-block; width: 23px; height: 36px; vertical-align: middle; background: url(../images/title_icon.png) no-repeat left 5px; margin: 0 8px 0 13px;}
+
+#foot { clear: both; background: #2e2e2e; line-height: 24px; text-align: center; color: #fff; font-family: Arial, SimSun; padding: 26px 0 36px 0;}
+#foot p { margin: 0 0 7px 0;}
+#foot a { color: #fff;}
+#foot span { color: #7f7f7f; margin: 0 5px;}
+#foot strong { color: #f70;}
+#foot p img { height: 41px; margin: 0 3px;}
+
+#foot2 { clear: both; background: #fff; line-height: 24px; text-align: center; color: #494949; font-family: Arial, SimSun; padding: 26px 0 36px 0;}
+#foot2 p { margin: 0 0 7px 0;}
+#foot2 a { color: #494949;}
+#foot2 span { color: #d2d2d2; margin: 0 5px;}
+#foot2 strong { color: #f37c06;}
+#foot2 p img { height: 41px; margin: 0 3px;}

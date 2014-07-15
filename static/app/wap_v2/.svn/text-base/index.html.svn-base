@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>首页-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+<div class="banner row">
+	<a href="" title=""><img src="pics/zhaoshang.png" /></a>
+	<span class="close">关闭</span>
+</div>
+<div id="header" class="row">
+	<h1 class="logo-full"><a href="" title="">273二手车交易网</a></h1>
+	<span class="gps"><a href="" title="">福州</a></span>
+</div>
+
+<!-- 点击搜索框后，#search层添加search-show的class,#main层添加hidden -->
+<div id="search" class="row (search-show)">
+	<form action="#" method="get">
+		<span class="close" style="right:10px;" title="清除">x</span>
+		<input type="search" name="s" class="sinput" placeholder="请输入关键字" autofocus /><span class="cancel"><a href="">取消</a></span>		
+		<div class="search-auto">
+			<ul>
+				<li><a href="">大众</a><span>123条车源</span></li>
+				<li><a href="">本田</a><span>123条车源</span></li>
+				<li><a href="">丰田</a><span>123条车源</span></li>
+				<li><a href="">梅赛德斯奔驰</a><span>123条车源</span></li>
+				<li><a href="">宝马</a><span>123条车源</span></li>
+				<li><a href="">保时捷</a><span>123条车源</span></li>
+			</ul>
+			<span class="btn">关闭</span>
+		</div>
+	</form>
+	<div class="search-history hidden">
+		<ul>
+			<li><a href="">大众</a><em>&nbsp;</em></li>
+			<li><a href="">本田</a><em>&nbsp;</em></li>
+			<li><a href="">丰田</a><em>&nbsp;</em></li>
+			<li><a href="">梅赛德斯奔驰</a><em>&nbsp;</em></li>
+			<li><a href="">宝马</a><em>&nbsp;</em></li>
+			<li><a href="">保时捷</a><em>&nbsp;</em></li>
+		</ul>
+		<span class="btn">清除历史纪录</span>
+	</div>
+</div>
+
+<div id="main" class="row">
+
+	<div class="type-select row">
+		<div class="type-car">
+			<span class="type-click"><a href="">按车型</a></span>
+			<span class="type-select-list">
+				<table>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+				</table>
+			</span>
+		</div>
+		<div class="type-price active">
+			<span class="type-click"><a href="">按价格</a></span>
+			<span class="type-select-list">
+				<table>
+					<tr>
+						<td><a href="">3万以下</a></td>
+						<td><a href="">3-5万</a></td>
+						<td><a href="">5-10万</a></td>
+						<td><a href="">10-15万</a></td>
+					</tr>
+					<tr>
+						<td><a href="">15-20万</a></td>
+						<td><a href="">20-30万</a></td>
+						<td><a href="">30-40万</a></td>
+						<td><a href="">40万以上</a></td>
+					</tr>
+				</table>
+			</span>
+		</div>
+		<div class="type-like">
+			<span class="type-click"><a href="">按热门</a></span>
+			<span class="type-select-list">
+				<table>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+					<tr>
+						<td><a href="">轿车</a></td>
+						<td><a href="">越野车</a></td>
+						<td><a href="">面包车</a></td>
+						<td><a href="">跑车</a></td>
+					</tr>
+				</table>
+			</span>
+		</div>
+		<div class="type-search">
+			<span class="type-click"><a href="">高级搜索</a></span>
+		</div>
+	</div>
+
+	<div class="row">
+		<ul class="carlist">
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+		</ul>
+		<div class="row"><a class="btn" href="list.html">查看更多车源</a></div>
+	</div>
+
+	<div id="footer" class="row">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> | 
+			<a href="#">电脑版</a> | 
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div class="gohome"><a href="">返回首页</a></div>
+<div class="uptop"><a href="">回到顶部</a></div>
+
+<div class="bg"></div>
+<div class="popbox">
+	<div class="popbox-contents">
+		<p class="tc"><b>居中</b></p>
+		<p class="tl color-999">左对齐，文本灰色</p>
+		<p class="tr color-f50">右对齐，文本橙色，<span class="color-f00">红色是color-red</span></p>
+	</div>
+	<div class="popbox-btn"><span class="btn">关闭</span></div>
+</div>
+
+<div class="popbox">
+	<div class="popbox-contents">
+		<p class="tc"><b>我要卖车</b></p>
+		<p class="tl">感谢您提交卖车需求，我们将为您接通273客服热线，请将您的车辆信息告知我们的客服人员！</p>
+	</div>
+	<div class="popbox-btn shange2">
+		<div class="left"><span class="btn">取消</span></div>
+		<div class="right"><span class="btn btn-green"><a href="sdg">拨打电话</a></span></div>
+	</div>
+</div>
+
+</body>
+</html>

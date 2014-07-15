@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://sta.273.com.cn/",
+    "alias": {
+        "jquery": "lib/jquery/jquery-1.8.2.js",
+        "underscore": "lib/underscore/underscore.js",
+        "events": "lib/event/event.js",
+        "widget": "lib/widget/widget.js",
+        "uploader": "widget/imageUploader/image_uploader.cmb.js",
+        "validator": "widget/form/form.cmb.js",
+        "zepto": "lib/zepto/zepto-1.0.js"
+    }
+}

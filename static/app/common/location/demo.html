@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://sta.273.com.cn/g.js"></script>
+    <script src="http://sta.273.com.cn/config.js"></script>
+</head>
+<body>
+<form>
+    <label><select class="js_location" data-type="province" data-group="1" data-default="请选择省份"
+                   data-post-value="12"></select></label>
+    <label><select class="js_location" data-type="city" data-group="1"data-default="请选择城市"
+                   data-post-value="1"></select></label>
+    <label><select class="js_location" data-type="dist" data-group="1" data-default="请选择地区"
+                   data-post-value="38"></select></label>
+    <label><select class="js_location" data-type="province" data-group="2" data-post-value="12"></select></label>
+    <label><select class="js_location" data-type="city" data-group="2" data-post-value="1"></select></label>
+    <label><select class="js_location" data-type="dept" data-group="2" data-post-value="30"></select></label>
+    <hr />
+
+    <label><select class="js_location" data-type="province" data-group="3" data-default="请选择省份"
+                   data-post-field="#js_province"></select></label>
+    <label><select class="js_location" data-type="city" data-group="3" data-default="请选择城市"
+                   data-post-field=".js_city"></select></label>
+    <label><select class="js_location" data-type="dist" data-group="3" data-default="请选择地区"
+                   data-post-field="input[name=dist]"></select></label>
+    <input id="js_province" type="hidden" name="province" value="14" />
+    <input class="js_city" type="hidden" name="city" value="86" />
+    <input type="hidden" name="dist" value="74" />
+</form>
+
+<script>
+    G.use(['jquery', 'app/common/location/location.js'], function ($, Location) {
+        window.lo = Location({
+            $el: '.js_location'
+        }).finish(function() {
+            console.log('finish');
+        });
+    });
+</script>
+</body>
+</html>

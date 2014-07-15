@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>iframe-rpc</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+</head>
+<body>
+    <h1>sta.273.com.cn</h1>
+    <iframe id="iframe1" src="http://static.273.cn/lib/rpc/demo/iframe1.html" width="550px" height="300px"></iframe>
+    <iframe id="iframe2" src="http://static.273.cn/lib/rpc/demo/iframe2.html" width="550px" height="300px"></iframe>
+<script type="text/javascript">
+G.use(['jquery', 'lib/rpc/rpc.js'], function ($, RPC) {
+
+
+    var rpc = new RPC({
+        remote : $('#iframe1')[0]['contentWindow']
+    });
+
+    rpc.register('hostOne', function () {
+        console.log('hostOne: ', arguments);
+        return 'hostOne result';
+    });
+
+    rpc
+        .call('iframeOne', [1, 2, 3])
+        .done(function (data) {
+            console.log(data);
+        })
+        .fail(function (data) {
+            console.log(data);
+        });
+
+    var rpc2 = new RPC({
+        remote : $('#iframe2')[0]['contentWindow']
+    });
+
+    rpc2.register('hostTwo', function () {
+            console.log('hostTwo: ', arguments);
+            return 'hostTwo result';
+        })
+
+    rpc2
+        .call('iframeTwo', 1, 2)
+        .done(function (data) {
+            console.log(data);
+        })
+        .fail(function (data) {
+            console.log(data);
+        });
+
+
+    window.rpc = rpc;
+    window.rpc2 = rpc2;
+    window.$ = $;
+
+});
+</script>
+</body>
+</html>

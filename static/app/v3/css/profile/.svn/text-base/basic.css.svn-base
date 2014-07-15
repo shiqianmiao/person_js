@@ -1,0 +1,140 @@
+@charset "utf-8";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px; color: #818181;}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,form,input,select,button,fieldset,legend { margin: 0px; padding: 0px;}
+img, fieldset { border: 0;}
+ul,ol,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a { color: #000; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+i {font-style:normal;}
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+
+/*共用部分*/
+.u1 { padding: 23px 0 0 0;}
+.u1 label { float: left; display: inline-block; width: 117px; text-align: right; line-height: 40px; font-size: 14px; padding: 0 11px 0 0;}
+.u1 li { margin: 0 0 20px 0; clear: both;}
+.u1 li.clear-margin {margin:0; height:auto;}
+.form1 { width: 880px; margin: 0 auto; padding: 0 0 34px 0;}
+.form1 .title1 { background: url(../images/h3_bg.gif) repeat-x left center; height: 40px; line-height: 40px; zoom: 1;}
+.form1 h3 { font-size: 14px; font-weight: bold; color: #ff7800; padding: 0 19px; background: #fff; display: inline;}
+.input1 { padding: 11px; border: 1px solid #d4d4d4; color: #4b4b4b; font-size: 14px; float: left; display: inline; width: 246px;}
+.input_short { width: 108px;}
+.input_content1 { float: left; display: inline; height: 40px; line-height: 40px; font-size: 14px; color: #2c2c2c;}
+.input_content1 .link1:link, .input_content1 .link1:visited { font-size: 12px; color: #06f; margin: 0 0 0 20px;}
+.input_gray { color: #b9b9b9;}
+.input_border1 { border: 1px solid #d40000;}
+.btn1 { padding: 0 0 0 128px; clear: both;}
+.btn1 span { display: inline-block; height: 42px; line-height: 42px; float: left; margin: 0 0 0 12px;}
+.button1 { background: url(../images/button1_bg.gif) no-repeat; width: 102px; height: 42px; line-height: 42px; font-size: 14px; font-weight: bold; color: #fff; text-align: center; border: 0; cursor: pointer; float: left;}
+
+.step1 { width: 945px; height: 46px; margin: 0 auto; background: url(../images/step1.gif) no-repeat;}
+.step1 li { float: left; display: inline; width: 33%; height: 46px; line-height: 46px; text-indent: -9999px;}
+.s1 { background-position: 0 0;}
+.s2 { background-position: 0 -80px;}
+.s3 { background-position: 0 -160px;}
+.step2 { width: 946px; height: 46px; margin: 0 auto; background: url(../images/step2.gif) no-repeat;}
+.step2 li { float: left; display: inline; width: 33%; height: 46px; line-height: 46px; text-indent: -9999px;}
+.s2_1 { background-position: 0 0;}
+.s2_2 { background-position: 0 -107px;}
+.s2_3 { background-position: 0 -214px;}
+.s2_4 { background-position: 0 -320px;}
+.step3 { width: 945px; height: 46px; margin: 0 auto; background: url(../images/step3.gif) no-repeat;}
+.step3 li { float: left; display: inline; width: 33%; height: 46px; line-height: 46px; text-indent: -9999px;}
+.s3_1 { background-position: 0 0;}
+.s3_2 { background-position: 0 -102px;}
+.s3_3 { background-position: 0 -204px;}
+
+.msg { float: left; display: inline; height: 40px; line-height: 40px; margin: 0 0 0 11px;}
+.msg i { display: inline-block; width: 14px; height: 40px; background: url(../images/icon1.png) no-repeat; vertical-align: middle; margin: 0 8px 0 0;}
+.msg .i1 { background-position: 0 11px;}
+.msg .i2 { background-position: 0 -19px;}
+.msg .i3 { background-position: 0 -49px;}
+.msg strong { color: #ff7800;}
+.m1 { color: #b9b9b9;}
+.m2 { color: #d40000;}
+
+.num { clear: both; padding: 0 0 0 128px; height: 40px; line-height: 40px;}
+.num .link_code { float: left; display: inline-block; height: 28px; line-height: 28px; text-align: center; background: #f5f5f5; border: 1px solid #d4d4d4; width: 130px; margin: 8px 0 0 0;}
+.num .again { float: left; display: inline-block; height: 28px; line-height: 28px; text-align: center; background: #fafafa; border: 1px solid #eaeaea; width: 130px; margin: 8px 0 0 0; color: #d3d3d3;}
+.num .gray { float: left; display: inline-block; margin: 8px 0 0 11px; height: 28px; line-height: 28px; color: #b9b9b9;}
+.tip_box { height: 293px;}
+.tip_box h5 { font-size: 16px; font-weight: bold; color: #565656; line-height: 30px;}
+.tip_box h5 i { display: inline-block; width: 30px; height: 30px; line-height: 30px; vertical-align: middle; background: url(../images/icon2.png) no-repeat; margin: 0 16px 0 0;}
+.tip_box h5 .i2 { background-position: 0 -70px;}
+.tip_box .link1 { color: #008bd3; margin: 0 0 13px 47px; display: block; padding: 6px 0 0 0;}
+.tip_box .a2 { color: #06f;}
+.tip_box .tip_box_font { margin: 0 auto;}
+.tip_box .t1 { width: 280px; padding: 118px 0 0 0;}
+.tip_box .p1 { color: #818181; line-height: 20px; border-top: 1px solid #d7d7d7; margin: 0 0 0 47px; padding: 7px 0 0 0;}
+.tip_box .p1 strong { color: #ff7800;}
+
+.img1 { float: left; display: inline; margin: 0 0 0 11px;}
+.img1 img { width: 84px; height: 38px; display: block; border: 1px solid #d4d4d4;}
+
+/*样式开始*/
+body { background: #fafafa;}
+
+#head { width: 990px; margin: 0 auto; height: 88px; overflow: hidden;}
+#head h1 { font-size: 20px; font-family: Microsoft YaHei; color: #868686;}
+#head span { border-left: 1px solid #e1e1e1; display: inline-block; padding: 0 0 0 21px; line-height: 37px; position: relative; top: -32px;}
+
+#main { width: 988px; margin: 0 auto; background: #fff; border: 1px solid #e5e5e5;}
+
+#foot { width: 900px; margin: 0 auto; text-align: center; line-height: 20px; color: #666; font-family: Arial, "宋体"; padding: 28px 0 15px 0;}
+
+/*个人设置*/
+#setting { padding: 39px 0 0 0;}
+
+/*更换手机号码1*/
+#change_phone1 { padding: 18px 0 35px 0;}
+#change_phone2 { padding: 18px 0 35px 0;}
+#change_phone2 .link_code { margin-top: 0;}
+#change_phone2 .num { padding-top: 19px; margin-bottom: -10px;}
+#change_phone2 .step1 { margin-bottom: 33px;}
+#change_phone3 { padding: 18px 0 35px 0;}
+
+/*密码更改*/
+#password_modify1 { padding: 18px 0 35px 0;}
+#password_modify1 .step2 { margin-bottom: 33px;}
+#password_modify1 .form1 { padding-bottom: 60px;}
+#password_modify2 { padding: 18px 0 35px 0;}
+#password_modify2 .form1 { padding: 11px 0 50px 0;}
+#password_modify2_2 { padding: 18px 0 35px 0;}
+#password_modify2_2 .tip_box .t1 { width: 430px; padding: 103px 0 0 0;}
+#password_modify3 { padding: 18px 0 35px 0;}
+#password_modify3 .form1 { padding: 32px 0 70px 0;}
+#password_modify4 { padding: 18px 0 35px 0;}
+#password_modify5 { padding: 47px 0 36px 0;}
+#password_modify5 .u1 .num { padding-top: 11px;}
+#password_modify5_2 { padding: 34px 0 37px 0;}
+
+/*提高帐户安全*/
+#improve_safe1 { padding: 18px 0 35px 0;}
+#improve_safe1 .form1 { padding: 34px 0 9px 0;}
+#improve_safe2 { padding: 18px 0 35px 0;}
+#improve_safe2 .form1 { padding: 33px 0 20px 0;}
+#improve_safe2 .u1 .num { padding-top: 11px;}
+#improve_safe2_2 { padding: 18px 0 35px 0;}
+#improve_safe2_2 .form1 { padding: 33px 0 20px 0;}
+#improve_safe2_2 .u1 .num { padding-top: 11px; margin-bottom: -2px;}
+#improve_safe3 { padding: 18px 0 35px 0;}
+#improve_safe3 .tip_box .t1 { width: 320px;}
+
+#sms_btn {text-decoration:none}

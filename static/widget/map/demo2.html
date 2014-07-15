@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>地图组件demo2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js'></script>
+<script src='http://static.273.cn/config.js'></script>
+</head>
+<body>
+
+    <div id="demo" style="width:600px;height:400px;"></div>
+
+    <input id="start" type="text">
+    <input id="end" type="text" autocomplete="off">
+
+    <input id="type" type="text" value="gj">
+
+    <div id="container"></div>
+
+    <button id="btn">搜索</button>
+    <script>
+    G.use(['jquery', 'widget/map/map.js'], function ($, Map) {
+        var map = Map.create({
+            zoom : 18,
+            el : '#demo',
+            center : '福州'
+        });
+
+        var point = '119.305356, 26.091912';
+
+        map.ready(function () {
+            this.addControl({ctype:'navigation', type : BMAP_NAVIGATION_CONTROL_ZOOM});
+            this.addOverlay({
+                type : 'marker',
+                point: Map.formatPoint(point)
+            });
+            this.initAutoComplete({
+                el : $('#start')[0]
+            });
+            var transit = this.initRoute({
+                el : '#container',
+                onSearchComplete : callback
+            });
+            var driving = this.initRoute({
+                el : '#container',
+                type : 'driving',
+                onSearchComplete : callback,
+                policy : BMAP_DRIVING_POLICY_LEAST_TIME
+            });
+
+            function callback (results) {
+                var type = $('#type').val();
+                var route = type === 'gj' ? transit : driving;
+                if (route.getStatus() !== BMAP_STATUS_SUCCESS) {
+                    $('#container').html('未找到合适的路线');
+                } 
+            }
+
+            $('#btn').click(function () {
+                var type = $('#type').val();
+                var start = $('#start').val();
+                var end = $('#end').val();
+
+                if (!$.trim(start)) {
+                    $('#container').html('请输入起点');
+                    return;
+                }
+                if ( type === 'gj') {
+                    transit.search(start, end);
+                } else {
+                    driving.search(start, end);
+                }
+            })
+        });
+
+        window.map = map;
+
+    });
+    </script>
+</body>
+</html>

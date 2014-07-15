@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>image magnifier</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+<style> 
+body {
+    margin:0px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+#demo {
+    border:1px solid #CDCDCD;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+}
+
+ul li {
+    float: left;
+    margin-right: 10px;
+    border:1px solid #CDCDCD;
+}
+
+</style>
+</head>
+<body>
+
+<img id="demo" src="http://static.273.cn/widget/imageMagnifier/pics/s1.jpg" data-src="http://static.273.cn/widget/imageMagnifier/pics/b1.jpg"/>
+
+
+<ul id="thumb_list" class="clearfix">
+    <li><img src="http://static.273.cn/widget/imageMagnifier/pics/t1.jpg" data-s-src="http://static.273.cn/widget/imageMagnifier/pics/s1.jpg" data-b-src="http://static.273.cn/widget/imageMagnifier/pics/b1.jpg"></li>
+    <li><img src="http://static.273.cn/widget/imageMagnifier/pics/t2.jpg" data-s-src="http://static.273.cn/widget/imageMagnifier/pics/s2.jpg" data-b-src="http://static.273.cn/widget/imageMagnifier/pics/b2.jpg"></li>
+    <li><img src="http://static.273.cn/widget/imageMagnifier/pics/t3.jpg" data-s-src="http://static.273.cn/widget/imageMagnifier/pics/s3.jpg" data-b-src="http://static.273.cn/widget/imageMagnifier/pics/b3.jpg"></li>
+</ul>
+
+
+
+
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/imageMagnifier/image_magnifier.js'], function ($, Magnifier) {
+
+    var magifier = new Magnifier({
+        el : '#demo',
+        position : 'right',
+        width : 400,    //高度默认为小图高度
+        simWidth : 1280,
+        simHeight : 1024,
+        offsetX : 20
+    });
+
+    var $img = $('#demo');
+
+    $('#thumb_list').find('img').click(function () {
+        var $this = $(this);
+        var sSrc = $this.data('sSrc');
+        var bSrc = $this.data('bSrc');
+
+        $img.attr('src', sSrc);
+        magifier.change(bSrc);
+    });
+
+    // for test
+    window.magifier = magifier;
+    
+});
+</script>
+</body>
+</html>

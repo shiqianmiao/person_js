@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>店员照片审核</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-yjfk"><i class="i-yjfk"></i>意见反馈</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>组织管理</li>
+                <li class="active"><span>88</span><a href="#">店员照片审核</a></li>
+                <li><a href="#">组织结构管理</a></li>
+                <li><a href="#">门店管理</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">组织管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">店员照片审核</li>
+            </ul>
+
+            <div id="aboutphoto" class="infobox">
+                <h4>照片规范性审核 <em>请务必保证店员照片符合“照片标准规范”</em></h4>
+                <div class="clearfix">
+                    <div class="fl">照片标准规范</div>
+                    <div class="fl">
+                        <ul>
+                            <li>1、拍摄背景：门店形象墙（从形象墙正对角度拍摄，要出现273标致）。</li>
+                            <li>2、着装要求：穿黑西装、白衬衫，男士必须系领带。</li>
+                            <li>3、正面免冠照，无首饰，目光直视，面带微笑，发型衣着整齐，保持良好精神状态。</li>
+                            <li>4、半身照，拍到胸膛网上，照片截至西装最顶部纽扣处。</li>
+                            <li>5、相机要竖着拍，注意光线及拍摄角度，勿出现照片模糊或光斑等现象。</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="shaixuan">
+                <span>筛选范围选择：</span>
+                <select class="span1">
+                    <option>待审核</option>
+                    <option>不限不限</option>
+                    <option>3</option>
+                </select>
+                <select class="span1 ml10">
+                    <option>省份</option>
+                    <option>福建</option>
+                    <option>3</option>
+                </select>
+                <select class="span1 ml10">
+                    <option>城市</option>
+                    <option>福州</option>
+                    <option>3</option>
+                </select>
+                <select class="span1 ml10">
+                    <option>请选择</option>
+                    <option>1</option>
+                    <option>2</option>
+                </select>
+                <button class="btn btn-success ml10">筛选</button>
+            </div><!-- / -->
+
+            <div class="salerphotos">
+                <ul>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                    <li>
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg"></p>
+                        <p><strong>张某三</strong></p>
+                        <p>福州三叉街服务中心</p>
+                        <p><span>2013-10-09 修改</span></p>
+                        <p><button class="btn btn-success">合格</button> <button class="btn btn-success">不合格</button></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

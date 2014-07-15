@@ -1,0 +1,66 @@
+/* CSS Document */
+
+/*×¢²áÒ³Ãæ*/
+
+#top_nav2 { float: right; display: inline; color: #c5c5c5; margin: 56px 0 0 0;}
+#top_nav2 a { color: #666;}
+
+#main { background: url(../images/reg_main_bg.gif) repeat-x; position: relative;}
+
+#r_left { width: 812px; float: left; display: inline; padding: 0 0 13px 0;}
+#r_right { width: 178px; float: right; display: inline; margin: 40px 0 0 0; background: url(../images/r_right_bg.gif) no-repeat; height: 409px; padding: 4px 0 0 0;}
+
+#reg { padding: 41px 0 0 0;}
+#reg .input, #reg .input2, #reg .input3 { border: 1px solid #acacac; padding: 3px; width: 174px;}
+#reg .input2 { width: 76px;}
+#reg .input3 { width: 244px;}
+#reg label { display: inline-block; width: 131px; text-align: right; color: #333;}
+#reg label em { color: #f58500; margin: 0 5px 0 0; font-style: normal;}
+#reg p { margin: 0 0 19px 0;}
+#reg .point { color: #999; margin: 0 0 0 4px;}
+#reg span.right { background: url(../images/reg_icon.gif) no-repeat; display: inline-block; width: 19px; height: 19px; margin: -5px 0 0 4px;}
+#reg span.error { background: url(../images/reg_icon2.gif) no-repeat; display: inline-block; height: 19px; margin: -3px 0 0 0; padding: 0 0 0 25px; color: #f00; margin: 0 0 0 4px;}
+#reg p.agree { padding: 15px 0 0 137px; margin: 0 0 13px 0;}
+#reg p.agree input { margin: 0 5px 0 0; *margin: 0 3px 0 0;}
+#reg p.agree a { color: #0f5fb8;}
+#reg p.btn { padding: 0 0 0 137px;}
+#reg p.btn button { background: url(../images/reg_btn.gif) no-repeat; width: 117px; height: 32px; line-height: 32px; text-align: center; color: #fff; font-size: 14px; font-weight: bold; border: 0; cursor: pointer;}
+#reg .pic img { width: 75px; height: 75px; padding: 3px; border: 1px solid #d4d4d4;}
+
+#r_right p { padding: 0 0 0 22px; color: #575757;}
+#r_right a { display: inline-block; width: 114px; height: 32px; line-height: 32px; background: url(../images/reg_btn2.gif) no-repeat; font-size: 14px; font-weight: bold; color: #333; text-align: center; margin: 11px 0 0 0;}
+
+#clause { width: 590px; height: 170px; border: 1px solid #ccc; background: #f8f8f8; position: absolute; top: 45%; left: 50%; margin: -85px 0 0 -295px;}
+#clause h4 { color: #404040; margin: 11px 0 4px 10px;}
+#clause .content { width: 560px; height: 86px; overflow-y: scroll; background: #fff; border: 1px solid #e9e9e9; margin: 0 auto 8px auto; padding: 2px 3px; line-height: 18px;}
+#clause div.btn { text-align: center;}
+#clause div.btn button { width: 78px; height: 25px; line-height: 25px; text-align: center; background: url(../images/btn.png) no-repeat; border: 0; color: #fff; font-weight: bold; cursor: pointer;}
+
+.t_iframe { height: 1000px; width: 990px; z-index: -1; position: absolute; top: 0; left: 0;} 
+.mask { width: 100%; height: 1000px; background: #000; filter: Alpha(Opacity=00); opacity:0.0; z-index: 1; position: absolute; left: 0; top: 0;}
+.mask2 { width: 100%; height: 1000px; background: #000; filter: Alpha(Opacity=30); opacity:0.3; z-index: 2; position: absolute; left: 0; top: 0;}
+#clause { z-index: 3;}
+
+/*µÇÂ¼Ò³Ãæ*/
+
+#l_left { width: 770px; float: left; display: inline; height: 279px; padding: 96px 0 0 0;}
+#l_left label { width: 130px; padding: 0 8px 0 0; text-align: right; display: inline-block;}
+#l_left a { color: #0f5fb8;}
+#l_left .input1, #l_left .input2 { padding: 3px; border: 1px solid #acacac; width: 176px;}
+#l_left .input2 { width: 64px; margin: 0 8px 0 0;}
+#l_left p { margin: 0 0 19px 0;}
+#l_left p span { color: #999; margin: 0 0 0 15px;}
+#l_left p.btn { padding: 0 0 0 138px;}
+#l_left p.btn button { background: url(../images/reg_btn.gif) no-repeat; width: 117px; height: 32px; line-height: 32px; text-align: center; color: #fff; font-size: 14px; font-weight: bold; border: 0; cursor: pointer;}
+#l_left p.btn a { margin: 0 0 0 21px;}
+#l_left p.code { margin-top: -4px; margin-bottom: 27px;}
+#l_left p.code img { position: relative; top: 9px; *top: 5px;}
+#l_left p.code a.change { margin: 0 0 0 18px;}
+
+#l_right { width: 186px; float: right; display: inline; height: 289px; background: url(../images/login_right_bg.gif) no-repeat left 40px; padding: 86px 0 0 34px; color: #575757;}
+#l_right a.btn { display: inline-block; width: 114px; height: 32px; line-height: 32px; background: url(../images/reg_btn2.gif) no-repeat; font-size: 14px; font-weight: bold; color: #333; text-align: center; margin: 11px 0 29px 0;}
+#l_right li { line-height: 26px;}
+#l_right li a { color: #0f5fb8; display: inline-block; background: url(../images/login_icon.gif) no-repeat left center; padding: 0 0 0 23px;}
+#l_right li a.a2 { background: url(../images/login_icon2.gif) no-repeat left center;}
+#l_right p.p2 { margin: 0 0 11px 0;}
+

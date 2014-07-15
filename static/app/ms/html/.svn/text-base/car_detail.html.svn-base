@@ -1,0 +1,1093 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>车源详情</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../css/detail.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="top_nav"><!--顶部导航-->
+        <div class="top_nav lay1">
+            <div class="tel">全国统一客服热线 <strong>400-6000-273</strong></div>
+            <div class="nav">
+            <a href="# "rel="nofollow" class="navlink">登录</a>
+            <a href="#" rel="nofollow" class="navlink">注册</a>
+            <span class="">
+                <a href="javascript:;" class="navlink"><b>免费订阅</b></a>
+                <!-- 免费订阅 -->
+                <div id="chewuzhi"><h5>车物志</h5><p class="des">每月一刊为您提供最新最全的购车、汽车美容、维修出行等资讯及服务...</p><form id="dyForm" method="get" action="http://news.273.cn/Subscribe/signup/"><p class="mail"><label>免费订阅请输入您的常用邮箱</label><input value="abc@abc.com" name="dyEmail" id="dyEmail"><br><button id="dyButton" class="no" >完成订阅</button></p></form><h5>分享至</h5>
+                <!-- Baidu Button BEGIN -->
+                <div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+                <a class="bds_qzone"></a>
+                <a class="bds_tsina"></a>
+                <a class="bds_tqq"></a>
+                <a class="bds_renren"></a>
+                <a class="bds_t163"></a>
+                <span class="bds_more"></span>
+                </div>
+                <script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+                <script type="text/javascript" id="bdshell_js"></script>
+                <script type="text/javascript">
+                document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+                </script>
+                <!-- Baidu Button END -->
+            </div>
+        </span>
+        <a href="#" class="navlink">收藏</a>
+        <span class="o n">
+            <a href="javascript:;" class="navlink last"><b>导航</b></a>
+            <!-- 网站导航 -->
+            <div id="daohang" class="clearfix">
+                <ul>
+                <li>汽车资讯</li>
+                <li><a href="" title="">汽车百科科科科科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                </ul>
+                <ul>
+                <li>工具箱</li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                </ul>
+                <ul>
+                <li>特色服务</li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                </ul>
+                <ul>
+                <li>快速找车</li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                </ul>
+                <ul>
+                <li>其他分类</li>
+                <li><a href="" title="">手机客户端</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                <li><a href="" title="">汽车百科</a></li>
+                </ul>
+            </div>
+        </span>
+        </div>
+
+
+        </div>
+    </div>
+
+    <div class="gg1"><span class="close">关闭</span><a href="#" target="_blank" rel="nofollow"><img src="../pics/index_gg1.jpg" /></a></div>
+
+    <div id="head" class="lay1"><!--头部-->
+        <div class="logo"><h1><a href="#">273二手车交易网</a></h1></div>
+        <div class="city">
+            <span class="current"><a class="oncity" href="#">福州站</a> [<a class="change" href="#">切换城市</a>]</span>
+        </div>
+        <div class="search">
+            <div class="s1 clearfix">
+                <div class="search_box">
+                    <input value="试试搜索“宝马”或者“福克斯 自动档”" class="on" />
+                    <button>搜　索</button>
+                </div>
+            </div>
+            <div class="s2"><a href="#">奥迪</a><a href="#">奔驰</a><a href="#" class="hot">宝马320</a><a href="#">SSC跑车</a><a href="#" class="hot">准新车</a><a href="#">雪弗兰</a></div>
+        </div>
+    </div>
+
+    <div id="nav" class="lay1"><!--导航-->
+        <div class="left"><a href="#" class="current">首页</a><a href="#">买车</a><a href="#">卖车</a><a href="#" class="new">车况宝<span><img src="../images/nav_a_icon.png" /></span></a><a href="#">拍车宝</a><a href="#">车价评估</a><a href="#" class="last">我要加盟</a></div>
+        <div class="right"><a href="#">免费评估</a><a href="#" class="last">273连锁店</a></div>
+    </div>
+
+    <div id="main" class="lay1 clearfix">
+        <div id="sub_left">
+            <div id="bread"><a href="#">首页</a><span>&gt;</span><a href="#">买车</a><span>&gt;</span><strong>奥迪A4L2012款舒适型无级/手动一体式2.0T</strong></div>
+
+            <div id="car_info">
+                <div class="title">
+                    <h1>奇瑞旗云 2006款 1.6 舒适型车况保证 2006年上牌</h1>
+                    <div class="title_info clearfix">
+                        <div class="left">
+                            <ul>
+                                <li><span>信息编号：</span>6157848</li>
+                                <li><span>发布时间：</span>2013.6.12</li>
+                                <li><span>浏览量：</span>6157</li>
+                            </ul>
+                        </div>
+                        <div class="right">
+                            <ul class="u1">
+                                <li class="加on">
+                                    <span><em class="e1"></em>免费发送到手机<em class="e4"></em></span>
+                                    <div class="message">
+                                        <span class="close">关闭</span>
+                                        <span class="title"><em class="e1"></em>免费发送到手机<em class="e4"></em></span>
+                          <form>
+                                            <div class="left">
+                                                <p>奇瑞旗云 2006款 手动1.6</p>
+                                                <p>7.7万</span></p>
+                                                <p>06年12月上牌</p>
+                                                <p>15万公里</p>
+                                                <p>信息编号：3895136</p>
+                                                <p>电话：<br />400-603-0273 转 007562</p>
+                                            </div>
+                                            <div class="right">
+                                                <p class="title">将左侧信息<b>免费</b>发送到手机(不支持小灵通)</p>
+                                                <p class="phone"><input type="text" value="填写手机号码" /><span class="form-msg-no" title="帮助信息、错误提示语">&nbsp;</span></p>
+                                                <p class="btn"><input class="submit" type="submit" value="免费发送" /><input type="submit" value="取　消" /></p>
+                                                <p class="note">273二手车交易网承诺保障您的隐私，不会泄漏您的手机号码。</p>
+                                            </div>
+                                        </form>
+                                    </div>
+                              </li>
+                                <li><span><em class="e2"></em>收藏</span></li>
+                                <li class="(加类名on显示下拉内容)">
+                                  <span><em class="e3"></em>分享<em class="e4"></em></span>
+                                    <div id="share">
+                                        <span class="share_title"><em class="e3"></em>分享<em class="e4"></em></span>
+                                        <span class="share_content">
+                                            <a href="#" class="a1">一键分享</a>
+                                            <a href="#" class="a2">新浪微博</a>
+                                            <a href="#" class="a3">人人网</a>
+                                            <a href="#" class="a4">百度相册</a>
+                                            <a href="#" class="a5">腾讯朋友</a>                                        </span>                                    </div>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="content clearfix">
+                    <div class="pic_show">
+                        <div class="b_pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+<div class="s_pic clearfix">
+                            <span class="left_arrow"><a href="#"></a></span>
+                            <ul>
+                                <li><a href="#"><img src="../pics/car_list_pic.jpg" /></a></li>
+                                <li class="current"><a href="#"><img src="../pics/car_list_pic.jpg" /></a></li>
+                                <li><a href="#"><img src="../pics/car_list_pic.jpg" /></a></li>
+                                <li><a href="#"><img src="../pics/car_list_pic.jpg" /></a></li>
+                            </ul>
+                            <span class="right_arrow"><a href="#"></a></span>
+                        </div>
+                    </div>
+
+                    <div class="basic_info">
+                        <div class="para">
+                            <ul>
+                                <li><label>车主报价：</label><span class="price">7.7<em>万</em></span><a href=""><span class="ml10 icon-daikuangouche"></span></a></li>
+                                <li><label>出厂报价：</label><strong>38.8万<span class="gray">(2008年)</span>+14.27万<span class="gray">(购置税)</span></strong></li>
+                                <li><label>首次上牌：</label>2006-09 [泉州牌]</li>
+                                <li><span style="float:left"><label>表显里程：</label>50000 公里</span> <span class="fr"><label>交 强 险：</label>2013-08-01</span></li>
+                                <li><span style="float:left"><label>年检到期：</label>2013-08-01</span><span class="fr"><label>保养情况：</label>4S店保养</span></li>
+                                <li><label><span class="gwykc">顾问已看车</span> <span class="xszysh">行驶证已审核</span> <span class="xszysh">门店已验车</span></label></li>
+                            </ul>
+                                <div class="biaoshi" style="">
+                                    <span class="bs-rz"><a href="">认证车辆</a></span>
+                                    <!--<span class="bs-273"><a href="">273保障</a></span> -->
+                                    <!--  <span class="bs-yjd"><a href="">已鉴定</a></span> -->
+                                    <span class="bs-seal">此车已售</span>                                
+                                    <span class="icons-ckb-l" style=" display: none;"></span>                              
+                                    <span class="icons-7days-l"></span>
+                                </div>
+                        </div>
+                        <div class="other">
+                            <div class="info_num clearfix">
+                                <div class="num">信息编号:3895136</div>
+                            </div>
+                            <div class="tel">
+                                免费咨询电话 <span class="gray">接听时间:07:00-24:00 周六日不休</span><br>
+                                <strong>400-6030-273</strong> <span class="font14">转</span> <strong>335 222</strong>
+                            </div>
+                            <div class="btn">
+                                <a href="" class="pjgw">评价顾问</a>
+                                <a href="" class="pjjl">评价记录(12)</a>
+                            </div>
+
+                            <div class="pjjl-ts" style="display:block;">此顾问近期有<b>1</b>次重大投诉<span class="close"><a href="">关闭</a></span></div>
+
+                            <div class="tel_member" style="display:none">
+                                <span class="num">13600003333</span>
+                                <span class="mem">张先生</span><br />
+                                拨打电话时告知是在273看到该车源信息
+                            </div>
+                            <div class="tel_soldout" style="display:none">
+                                该车已经出售，您可以点击查看
+                                <a href="#" class="link">更多 奇瑞奇瑞 的车源 &gt;&gt;</a>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+            </div>
+            <div id="car_detail">
+                <div class="title_style">
+                        <h3><a href="#" class="current">基本信息</a><a href="#"><span>实拍照片</span></a><a href="#"><span>用户评价<b>（23）</b></span></a><a href="#">保障服务</a><a href="#">看车路线</a></h3>
+                </div>
+              <div class="info"><!--基本信息-->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="16%" class="gray">交易地区</td>
+                    <td width="17%">福建/泉州</td>
+                    <td width="16%" class="gray">车门数</td>
+                    <td width="17%">4</td>
+                    <td width="16%" class="gray">轴距(mm)</td>
+                    <td width="18%">2685</td>
+                  </tr>
+                  <tr>
+                    <td class="gray">车型名称</td>
+                    <td>舒适版</td>
+                    <td class="gray">座位数(座)</td>
+                    <td>5</td>
+                    <td class="gray">整备质量(Kg)</td>
+                    <td>1380</td>
+                  </tr>
+                  <tr>
+                    <td class="gray">厂商</td>
+                    <td>上海通用别克</td>
+                    <td class="gray">车身型式</td>
+                    <td>三厢</td>
+                    <td class="gray">油箱容积(L)</td>
+                    <td>60</td>
+                  </tr>
+                  <tr>
+                    <td class="gray">类别</td>
+                    <td>紧凑型车</td>
+                    <td class="gray">长×宽×高(mm)</td>
+                    <td>4671*1815*1478</td>
+                    <td class="gray">行李箱容积(L)</td>
+                    <td>455</td>
+                  </tr>
+                  <tr>
+                    <td class="gray">发动机型号</td>
+                    <td>无数据</td>
+                    <td class="gray">交强险到期</td>
+                    <td>2013-09-30</td>
+                    <td class="gray">年检到期</td>
+                    <td>2013-09-30</td>
+                  </tr>
+                </table>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td colspan="6" style="border-bottom:0;border-top:0;" >
+                        <p class="third_title"><span>车况信息</span></p>
+                        <p class="ck_info">
+                            <span style="width:30%">车架有无事故痕迹：<b class="has">*有</b><a href="#" class="btn_detail">查看详细</a></span></li>
+                            <span>有无泡水痕迹：<b class="none">无</b></span>
+                            <span>发动机有无拆过：<b class="has">*有</b></span></li>
+                            <span>里程表有无调过：<b class="none">待确认</b></span>
+                        </p>
+                    </td>
+                  </tr>
+                  <tr class="other">
+                    <td colspan="6" style="border-top:0;">
+                        <p class="third_title"><span>顾问推荐</span></p>
+                        <p>小米网支持支付宝、财付通与国内二十多家主流银行机构的储蓄卡、信用卡的网上付款，如果您没有开通网上银行，建议使用支付宝快捷支付输入您的银行卡号及手机号码，验证信息后，即可成功支付。</p>
+                    </td>
+                  </tr>
+                  <tr class="last">
+                     <td colspan="6"><i class="i-right">&nbsp;</i>顾问<a href="#"><strong>田坤辉</strong></a>承诺以上信息全部属实，如有不实，请致电客服投诉热线：<strong>400-600-0273</strong></td> 
+                  </tr>
+                </table>
+              </div>
+              <div class="ckb_introduce">
+                  <a href=""><img src="../pics/ckb_int_pic.jpg"></a>
+              </div>
+                <div class="consultant"><!--更多顾问-->
+                    <div class="title_style">
+                        <h3><strong class="current">更多顾问<i>以下顾问也在销售此车</i></strong></h3>
+                    </div>
+                    <ul class="consultant_list">
+                        <li>
+                            <div class="consultant_list_box clearfix" onmouseover="this.className='consultant_list_box clearfix on'" onmouseout="this.className='consultant_list_box clearfix'">
+                                <div class="pic"><a href="#" target="_blank"><img src="../pics/car_list_pic.jpg" /></a></div>
+                                <div class="font1">
+                                    <strong><a href="#" target="_blank">邓智文</a></strong><br />
+                                    <a href="#" class="ser_cen">仓山万达服务中心</a><br />
+                                    <label>近期投诉</label> <strong class="orange">2</strong>
+                                </div>
+                                <div class="font2">
+                                    <label>联系方式：</label><strong class="red">400-60030-273</strong> 转 <strong class="red">007562</strong><br />
+                                    <label>信息编号：</label><strong class="gray">6157844</strong> <span class="gwykc">顾问已看车</span> <span class="gwykc">门店已验车</span><br />
+                                    <label>车主描述：</label>小米网支持支付宝、财付通与国内二十多家。
+                                </div>
+                                <div class="price">18万</div>
+                                <div class="detail"><a href="#" target="_blank">查看详细</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="consultant_list_box clearfix" onmouseover="this.className='consultant_list_box clearfix on'" onmouseout="this.className='consultant_list_box clearfix'">
+                                <div class="pic"><a href="#" target="_blank"><img src="../pics/car_list_pic.jpg" /></a></div>
+                                <div class="font1">
+                                    <strong><a href="#" target="_blank">邓智文</a></strong><br />
+                                    <a href="#">仓山万达服务中心</a><br />
+                                    <label>近期成交</label> <strong class="orange">92</strong><br />
+                                    <label>近期投诉</label> <strong class="orange">2</strong>
+                                </div>
+                                <div class="font2">
+                                    <label>联系方式：</label><strong class="red">400-60030-273</strong> 转 <strong class="red">007562</strong><br />
+                                    <label>信息编号：</label><strong class="gray">6157844</strong><br />
+                                    <label>车主描述：</label>小米网支持支付宝、财付通与国内二十多家。车源真实很赞啊，性能车况超级无敌浩啊！
+                                </div>
+                                <div class="price">18万</div>
+                                <div class="detail"><a href="#" target="_blank">查看详细</a></div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="consultant_list_box clearfix" onmouseover="this.className='consultant_list_box clearfix on'" onmouseout="this.className='consultant_list_box clearfix'">
+                                <div class="pic"><a href="#" target="_blank"><img src="../pics/car_list_pic.jpg" /></a></div>
+                                <div class="font1">
+                                    <strong><a href="#" target="_blank">邓智文</a></strong><br />
+                                    <a href="#">仓山万达服务中心</a><br />
+                                    <label>近期成交</label> <strong class="orange">92</strong><br />
+                                    <label>近期投诉</label> <strong class="orange">2</strong>
+                                </div>
+                                <div class="font2">
+                                    <label>联系方式：</label><strong class="red">400-60030-273</strong> 转 <strong class="red">007562</strong><br />
+                                    <label>信息编号：</label><strong class="gray">6157844</strong><br />
+                                    <label>车主描述：</label>小米网支持支付宝、财付通与国内二十多家。车源真实很赞啊，性能车况超级无敌浩啊！
+                                </div>
+                                <div class="price">18万</div>
+                                <div class="detail"><a href="#" target="_blank">查看详细</a></div>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="consultant_list_box clearfix" onmouseover="this.className='consultant_list_box clearfix on'" onmouseout="this.className='consultant_list_box clearfix'">
+                                <div class="pic"><a href="#" target="_blank"><img src="../pics/car_list_pic.jpg" /></a></div>
+                                <div class="font1">
+                                    <strong><a href="#" target="_blank">邓智文</a></strong><br />
+                                    <a href="#">仓山万达服务中心</a><br />
+                                    <label>近期成交</label> <strong class="orange">92</strong><br />
+                                    <label>近期投诉</label> <strong class="orange">2</strong>
+                                </div>
+                                <div class="font2">
+                                    <label>联系方式：</label><strong class="red">400-60030-273</strong> 转 <strong class="red">007562</strong><br />
+                                    <label>信息编号：</label><strong class="gray">6157844</strong><br />
+                                    <label>车主描述：</label>小米网支持支付宝、财付通与国内二十多家。车源真实很赞啊，性能车况超级无敌浩啊！
+                                </div>
+                                <div class="price">18万</div>
+                                <div class="detail"><a href="#" target="_blank">查看详细</a></div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="view_more">
+                        <a href="#">查看更多<i class="i1"></i></a>
+                    </div>
+                </div>
+
+                <div class="photo"><!--实拍照片-->
+                    <div class="title_style">
+                        <h3><strong class="current">实拍照片</strong></h3>
+                    </div>
+                    <ul>
+                        <li><img src="../pics/car_list_pic.jpg" /></li>
+                        <li><img src="../pics/car_list_pic.jpg" /></li>
+                    </ul>
+                </div>
+
+                <div class="yhpj"><!--用户评价-->
+                    <div class="title_style">
+                        <h3><strong class="current">用户评价</strong></h3>
+                            <div class="report" style="display:none;">
+                                <span class="title noclick">评价该车源<em class="e1"></em></span>
+                                <span class="title click">关闭窗口<em class="close"></em></span>
+                                <div class="pingjia-box">
+                                    <form>
+                                        <div class="clearfix">
+                                            <p><span class="label"><em>*</em>评价类型</span><span class="hp1">信息真实</span><span class="hp2">车况经典</span><span class="hp3">看车方便</span></p>
+                                        </div>
+                                        <div class="clearfix">
+                                            <p><span class="label">&nbsp;</span><span class="cp1">信息虚假</span><span class="cp2">价格虚假</span><span class="cp3">图片虚假</span><span class="cp2">该车已售</span></p>
+                                        </div>
+                                        <div class="clearfix err on">
+                                            <span class="label">&nbsp;</span><span class="form-msg-no">请至少选择一个评价</span>
+                                        </div>
+                                        <div class="clearfix">
+                                            <p><span class="label"><em>*</em>我的评论</span><textarea>写点评价吧~你的评价对其他买家很有帮助</textarea></p>
+                                        </div>
+                                        <div class="clearfix err on">
+                                            <span class="label">&nbsp;</span><span class="form-msg-no">请填写评价最多不超过1000个字</span>
+                                        </div>
+                                        <div class="clearfix btn">
+                                            <span class="label">&nbsp;</span><input type="submit" value="提交评价"><input type="submit" class="cancel" value="取 消">
+                                        </div>
+                                    </form>
+                                </div>
+                                </div>
+                    </div>
+                    <div class="pj-box">
+                        <div class="clearfix pj-title" style="display:none;">
+                            <p><span class="hp1">全部评价(23)</span><span class="hp2">信息真实(23)</span><span class="hp2">车况经典(23)</span><span class="hp2">看车方便(23)</span><span class="cp2">信息虚假(23)</span><span class="cp2">价格虚假(23)</span><span class="cp2">图片虚假(23)</span><span class="cp2">该车已售(23)</span></p>
+                        </div>
+                        <ul>
+                            <li class="tab">
+                                <a href="" class="btn">评价顾问</a>
+                                <table cellspacing="0" cellpadding="0" border="0">
+                                    <tr>
+                                        <td class="on left" valign="top" width="50%">
+                                            <h4>交易顾问评价</h4>
+                                            <div class="tab-header-contents">
+                                                <img src="../pics/tra_ad_pic.jpg" width="38" />
+                                                <div><strong>苏元灿</strong><p>好评：11 &nbsp; 投诉：3 &nbsp; 重大投诉：<b>2</b></p></div>
+                                            </div>
+                                        </td>
+                                        <td valign="top" width="50%">
+                                            <h4>所属门店评价</h4>
+                                            <div class="tab-header-contents">
+                                                <img src="../pics/store_pic.jpg" width="68" />
+                                                <div>
+                                                    <strong>福州五里亭服务中心</strong>
+                                                    <p>好评：11 &nbsp; 投诉：3 &nbsp; 重大投诉：<b>2</b></p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li class="pjjl-no">
+                                <p>该顾问暂无评价纪录</p>
+                            </li>
+                            <li class="pj-md" style="display:block;"><!--li的css有两种，1种是pj-gw代表顾问的纪录，另一种是pj-md代表门店的纪录， pj-md默认隐藏。用JS修改li的class 的css（display:none;或者display:block;）-->
+                                <div class="pj-content clearfix">
+                                    <span class="pjlp-good"></span>
+                                    <p class="texts">全车除前后保险杠外无修复痕迹，全车结构件及加强件无任何损伤，覆盖件有修复</p>
+                                    <p class="type"><label>评价类型：</label><span class="hp">信息真实</span></p>
+                                    <p class="user">135****1234<span>2013-08-13</span></p>
+                                    <div class="guwen">被评价车源：<a href="">奇瑞旗云 2006款 1.6 舒适型车况保证 2006年上牌</a><span class="zdts">重大投诉</span></div>
+                                </div>
+                            </li>
+                            <li class="pj-gw">
+                                <div class="pj-content clearfix">                                    
+                                    <span class="pjlp-bad"></span>
+                                    <p class="texts">全车除前后保险杠外无修复痕迹，全车结构件及加强件无任何损伤，覆盖件有修复</p>
+                                    <p class="type"><label>评价类型：</label><span class="cp">图片虚假</span></p>
+                                    <p class="user">135****1234<span>2013-08-13</span></p>
+                                    <div class="guwen">被评价车源：奇瑞旗云 2006款 1.6 舒适型车况保证 2006年上牌<span class="zdts">重大投诉</span></div>
+                                </div>
+                            </li>
+                            <li class="pj-gw">
+                                <div class="pj-content clearfix">
+                                    <span class="pjlp-normal"></span>
+                                    <p class="texts">全车除前后保险杠外无修复痕迹，全车结构件及加强件无任何损伤，覆盖件有修复</p>
+                                    <p class="type"><label>评价类型：</label><span class="hp">信息真实</span></p>
+                                    <p class="user">135****1234<span>2013-08-13</span></p>
+                                </div>
+                            </li>
+                            <li class="pj-gw">
+                                <div class="pj-content clearfix">
+                                    <p class="texts">全车除前后保险杠外无修复痕迹，全车结构件及加强件无任何损伤，覆盖件有修复</p>
+                                    <p class="type"><label>评价类型：</label><span class="hp">信息真实</span></p>
+                                    <p class="user">135****1234<span>2013-08-13</span></p>
+                                </div>
+                            </li>
+                            <li class="last">
+                                <div class="pj-content clearfix">
+                                    <p class="texts">全车除前后保险杠外无修复痕迹，全车结构件及加强件无任何损伤，覆盖件有修复</p>
+                                    <p class="type"><label>评价类型：</label><span class="hp">信息真实</span><span class="hp">信息真实</span><span class="hp">信息真实</span><span class="hp">信息真实</span></p>
+                                    <p class="user">135****1234<span>2013-08-13</span></p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="pj-none"><p>当前车源暂无评价 <a href="">评价此车</a></p></div>
+                        <div class="view_more">
+                            <a href="#">查看更多<i class="i1"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="ckb"><!--车况宝鉴定-->
+                    <div class="title_style">
+                        <h3><strong class="current">车况宝鉴定</strong></h3>
+                    </div>
+                    <div class="jianding">
+                        <span>鉴定结论：<strong>C级</strong> <a href="">查看鉴定等级说明</a>
+                        <div id="ckb-dec" style="display:block;">
+                            A级：全车除前后保险杠外无修复痕迹 <br>
+                            B级：全车结构件及加强件无任何损伤，允许覆盖件有修复<br>
+                            C级：全车结构件无任何损伤，允许覆盖件和加强件有修复<br>
+                            D级：全车结构件发生一处变形类损伤<br>
+                            E级：全车结构件发生多处变形类损伤<br>
+                        </div></span>
+                        <span>鉴定编号：<b>20130625002198</b></span>
+                        <span>鉴定日期：<b>2013年06月25日</b></span>                    </div>
+      <div class="jianding-info">
+                        <h4>以下部位未见修复痕迹</h4>
+                        <table cellspacing="1" cellpadding="0" border="0">
+                            <tr>
+                                <td width="16%" class="t">发动机舱</td>
+                              <td width="84%">防火墙 | 水箱 | 左前减震座 | 右前减震座 | 左前叶子板内侧 | 右前叶子板内侧</td>
+                          </tr>
+                            <tr>
+                                <td class="t">前横纵梁</td>
+                                <td>左前纵梁 | 右前纵梁 | 前防撞梁 | 后横梁</td>
+                            </tr>
+                            <tr>
+                                <td class="t">发动机舱</td>
+                                <td>防火墙 | 水箱 | 左前减震座 | 右前减震座 | 左前叶子板内侧 | 右前叶子板内侧</td>
+                            </tr>
+                            <tr>
+                                <td class="t">前横纵梁</td>
+                                <td>左前纵梁 | 右前纵梁 | 前防撞梁 | 后横梁</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="service"><!--保障服务-->
+                    <div class="title_style">
+                        <h3><strong class="current">保障服务</strong></h3>
+                    </div>
+                    <div class="sub_content clearfix">
+                        <dl class="d1">
+                            <dt>不赚差价</dt>
+                            <dd>273为保障消费者的利益，车辆交易价格是通过买卖双方商谈确定，而273只提供中介服务，以服务佣金为盈利点，将差价让利给买卖对方。</dd>
+                        </dl>
+                        <dl class="d2">
+                            <dt>全国连锁</dt>
+                            <dd>截止2012年12月273全国连锁加盟店已达<strong>303</strong>家，覆盖<strong>86</strong>个城市累计已有<strong>1062635</strong>人通过273进行交易。</dd>
+                        </dl>
+                        <dl class="d3">
+                            <dt>车况透明</dt>
+                            <dd>车况宝提供二手车车况鉴定服务，拥有国家核准的二手车鉴定资质。凡在273交易的车况宝已鉴定车辆，若鉴定有误，可享原价退车！全国预约热线：<strong>400-6000-273</strong></dd>
+                        </dl>
+                    </div>
+                </div>
+
+                <div class="route"><!--看车路线-->
+                    <div class="title_style">
+                        <h3><strong class="current">看车路线</strong></h3>
+                    </div>
+                    <div class="sub_content clearfix">
+                        <div class="pic"><a href="#" target="_blank"><img src="../pics/car_detail_route_map.gif" /></a></div>
+                        <div class="font">
+                            <div class="add">
+                                <h5><a href="#" target="_blank">福州五里亭服务中心</a></h5>
+                                <p>
+                                    <label>地址：</label>福州市福马路411号渠成新村一楼B21商铺<br />
+                                    <label>电话：</label><strong>0591-87504303</strong><br />
+                                </p>
+                            </div>
+                            <div class="find">
+                                <h6><a href="#" class="current">查询公交路线</a><a href="#">查询驾车路线</a></h6>
+                                <div class="enter">
+                                    <div class="input_box"><label>起点</label><input type="text" /></div>
+                                    <div class="input_box"><label>终点</label><input type="text" value="福州市福马路411号渠成新村一楼B21商铺" disabled="disabled" /></div>
+                                </div>
+                                <div class="btn"><button type="submit">查找路线</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="sub_right">
+            <div id="tra_ad" class="hot_box"><!--交易顾问-->
+                <div class="title_style">
+                    <h3><strong class="current">交易顾问</strong></h3>
+                </div>
+                <div class="right_content_style">
+                    <div class="man_info">
+                        <div class="pic"><a href="#" target="_blank"><img src="../pics/tra_ad_pic.jpg" /></a></div>
+                        <div class="font">
+                            <p><label>顾问：</label>田坤辉</p>
+                            <p><label>门店：</label>晋江华泰服务中心<br /></p>
+                            <p class="p3"><label>地址：</label>福州市仓山区浦上大道正祥一品新筑一楼12-07</p>
+                        </div>
+                        <div class="btn"><a href="#" target="_blank">我的商铺</a><a href="#" target="_blank" class="a2">看车路线</a></div>
+                    </div>
+                    <div class="car_num">
+                        <ul class="u1">
+                            <li><span><strong>358</strong><br />车源数</span></li><!--
+                          <li><span><strong>158</strong><br />近期成交</span></li> -->
+                          <li class="last"><span><strong>1</strong><br />近期投诉</span></li>
+                      </ul>
+                        <!--<div class="on">
+                            <span><strong>1</strong><br />车源排名</span>                        </div> -->
+
+                        <!--<div class="on chengjiao">
+                            <span><strong>1</strong><br />成交排名</span>                        </div> -->
+                        <!--<div class="icon1"></div>
+                        <div class="icon2"></div> -->
+                  </div>
+
+                  <div class="saler-pj">
+                    <h4><span class="zhpj">综合评价</span></span></h4>
+
+                    <ul class="sp">
+                        <li>
+                            <p>服务态度：<span class="star-4"><strong>&nbsp;</strong></span><em>4.6分</em></p>
+                            <p class="gao"><span>高于</span> 平均水平 <b>21%</b></p>
+                        </li>
+                        <li>
+                            <p>描述真实：<span class="star-3"><strong>&nbsp;</strong></span></p>
+                            <p class="di"><span>低于</span> 平均水平 <b>21%</b></p>
+                        </li>
+                        <li>
+                            <p>专业能力：<span class="star-2"><strong>&nbsp;</strong></span></p>
+                            <p class="gao"><span>高于</span> 平均水平 <b>21%</b></p>
+                        </li>
+                    </ul>
+
+                    <ul class="hpcp">
+                        <li class="hp">
+                            <p><b>[好评]</b><span>服务态度不错，介绍的很清楚...</span></p>
+                            <p><span>2013-08-13 14:32</span></p>
+                        </li>
+                        <li class="cp">
+                            <p><b>[差评]</b><span>服务态度不行，介绍的很不清楚...</span></p>
+                            <p>2013-08-13 14:32</p>
+                        </li>
+                        <li class="hp">
+                            <p><b>[好评]</b><span>服务态度不错，介绍的很清楚...</span></p>
+                            <p>2013-08-13 14:32</p>
+                        </li>
+                        <li class="hpcp-last">&nbsp;</li>
+                    </ul>
+
+                    <p><span class="pjgw"><a href="">评价该顾问</a></span></p>
+
+                  </div>
+
+              </div>
+            </div>
+
+            <div id="hot_rec" class="hot_box">
+                <div class="title_style">
+                    <h3><strong class="current">热门推荐</strong></h3>
+                </div>
+                <div class="right_content_style">
+                  <ul class="com_list">
+                    <li>
+                            <div class="com_pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span><span class="com_authen_icon"></span></div>
+                            <div class="com_font">
+                                <h5><a href="#" target="_blank" title="宝马520Li全新5系典雅型手自">宝马520Li全新5系典雅型手自</a></h5>
+                                <p><strong>18万</strong>2009年上牌 7万公里</p>
+                            </div>
+                    </li>
+                        <li>
+                            <div class="com_pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <div class="com_font">
+                                <h5><a href="#" target="_blank" title="宝马520Li全新5系典雅型手自">宝马520Li全新5系典雅型手自</a></h5>
+                                <p><strong>18万</strong>2009年上牌 7万公里</p>
+                            </div>
+                        </li>
+                        <li class="last">
+                            <div class="com_pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <div class="com_font">
+                                <h5><a href="#" target="_blank" title="宝马520Li全新5系典雅型手自">宝马520Li全新5系典雅型手自</a></h5>
+                                <p><strong>18万</strong>2009年上牌 7万公里</p>
+                            </div>
+                        </li>
+                  </ul>
+                </div>
+            </div>
+
+            <div id="hot_tag" class="hot_box">
+                <div class="title_style">
+                    <h3><strong class="current">热门车系推荐</strong></h3>
+                </div>
+                <div class="right_content_style">
+                    <ul>
+                        <h4>轿车</h4>
+                        <li><a href="">福克斯</a></li>
+                        <li><a href="">捷达</a></li>
+                        <li><a href="">迈腾</a></li>
+                        <li><a href="">宝来</a></li>
+                        <li><a href="">科鲁兹</a></li>
+                        <li><a href="">凯越</a></li>
+                        <li><a href="">速腾</a></li>
+                        <li><a href="">君威</a></li>
+                        <li><a href="">奥迪A4L</a></li>
+                    </ul>
+                    <ul>
+                        <h4>越野车</h4>
+                        <li><a href="">奥迪Q5</a></li>
+                        <li><a href="">汉兰达</a></li>
+                        <li><a href="">RAV4</a></li>
+                        <li><a href="">逍客</a></li>
+                        <li><a href="">普拉多</a></li>
+                        <li><a href="">本田CR-V</a></li>
+                    </ul>
+                    <ul>
+                        <h4>商务车</h4>
+                        <li><a href="">奥德赛</a></li>
+                        <li><a href="">和悦RS</a></li>
+                        <li><a href="">嘉华</a></li>
+                        <li><a href="">菱智</a></li>
+                        <li><a href="">马自达5</a></li>
+                        <li><a href="">别克GL8</a></li>
+                    </ul>
+                    <ul>
+                        <h4>跑车</h4>
+                        <li><a href="">宝马Z4</a></li>
+                        <li><a href="">奥迪TT</a></li>
+                        <li><a href="">大众尚酷</a></li>
+                    </ul>
+                    <ul>
+                        <h4>面包车</h4>
+                        <li><a href="">五菱之光</a></li>
+                        <li>&nbsp;</li>
+                        <li><a href="">长安之星</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="more_ser_car" class="lay1"><!--更多朗逸二手车-->
+        <div class="title_style">
+            <h3><strong class="current">更多朗逸二手车</strong></h3>
+        </div>
+        <div class="right_content_style">
+            <ul class="car_list clearfix">
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li class="last">
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    </ul>
+        </div>
+    </div>
+
+    <div id="more_pri_car" class="lay1"><!--更多9.41万二手车-->
+        <div class="title_style">
+            <h3><strong class="current">更多9.41万二手车</strong></h3>
+        </div>
+        <div class="right_content_style">
+            <ul class="car_list clearfix">
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li>
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                        <li class="last">
+                            <div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    </ul>
+        </div>
+    </div>
+
+    <div id="quick_nav" class="lay1 clearfix"><!--快速导航-->
+      <dl class="d1">
+            <dt>售后服务电话</dt>
+        <dd class="tel">400-6000-273</dd>
+            <dd class="time">7x24小时(全年无休)</dd>
+            <dd>客服邮箱:service@273.cn</dd>
+      </dl>
+      <dl class="d2">
+            <dt>交易帮助</dt>
+            <dd><a href="#" target="_blank">买车帮助</a></dd>
+            <dd><a href="#" target="_blank">卖车帮助</a></dd>
+            <dd><a href="#" target="_blank">过户帮助</a></dd>
+      </dl>
+      <dl class="d3">
+            <dt>了解我们</dt>
+            <dd><a href="#" target="_blank">关于273</a></dd>
+            <dd><a href="#" target="_blank">273动态</a></dd>
+      </dl>
+      <dl class="d4">
+            <dt>客服中心</dt>
+            <dd><a href="#" target="_blank">免费咨询电话</a></dd>
+            <dd><a href="#" target="_blank">网站合作</a></dd>
+            <dd><a href="#" target="_blank">意见与建议</a></dd>
+      </dl>
+      <dl class="d5">
+            <dt>投诉中心</dt>
+            <dd><a href="#" target="_blank">信息投诉</a></dd>
+            <dd><a href="#" target="_blank">门店投诉</a></dd>
+            <dd><a href="#" target="_blank">网页纠错</a></dd>
+      </dl>
+      <dl class="d6">
+            <dt>特色服务</dt>
+            <dd><a href="#" target="_blank">车况宝</a></dd>
+            <dd><a href="#" target="_blank">车友问答</a></dd>
+            <dd><a href="#" target="_blank">二手车评估</a></dd>
+      </dl>
+    </div>
+
+    <div id="foot" class="lay1"><!--底部-->
+        <p>
+            <a href="#" target="_blank">关于我们</a> <span>|</span> <a href="#" target="_blank">加盟273</a> <span>|</span> <a href="#" target="_blank">人才招聘</a> <span>|</span> <a href="#" target="_blank">联系我们</a> <span>|</span> <a href="#" target="_blank">使用帮助</a> <span>|</span> <a href="#" target="_blank">友情链接</a> <span>|</span> <a href="#" target="_blank">网站地图</a> <span>|</span> <a href="#" target="_blank">帮助中心</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+            273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+            Copyright © 1998 - 2013 273.cn All Rights Reserved<br />
+            273旗下：<a href="#" target="_blank">拍车宝</a> <span>|</span> <a href="#" target="_blank">车况宝</a> <span>|</span> <a href="#" target="_blank">二手车贷款</a>
+        </p>
+    </div>
+
+    <div id="title_float" >
+        <div class="title_style">
+            <h3><a href="#" class="current">基本信息</a><a href="#"><span>实拍照片</span></a><a href="#">保障服务</a><a href="#">看车路线</a><a href="#">车况宝鉴定</a><span class="call"><strong>400-603-0273 <em>转</em> 007562</strong> 信息编号：<em>3895136</em></span></h3>
+        </div>
+    </div>
+
+<div id="login" class="report-msg" style="top: 0; left: 0;">
+    <h4>会员登录<span class="close">关闭</span></h4>
+    <form>
+        <p class="phone"><input type="text" value="用户名" /><span class="form-msg-no" title="帮助信息、错误提示语">&nbsp;</span></p>
+        <p class="phone"><span class="label">密　码</span><input type="password" value="" /><span class="form-msg-no" title="帮助信息、错误提示语">&nbsp;</span></p>
+        <p class="btn"><input class="submit" type="submit" value="确认提交" /><input type="submit" value="取　消" /></p>
+        <p class="note">不是会员？<a href="">立即注册</a>，享受更多的实惠！</p>
+    </form>
+</div>
+
+
+<div class="report-msg" style=" top: 260px;">
+    <h4>车源信息虚假<span class="close">关闭</span></h4>
+    <form>
+        <p class="phone"><input type="text" value="填写手机号码（必填）" /><span class="form-msg-no" title="帮助信息、错误提示语">&nbsp;</span></p>
+        <p><textarea>填写举报内容</textarea><span class="form-msg-yes">&nbsp;</span></p>
+        <p class="btn"><input class="submit" type="submit" value="确认提交" /><input type="submit" value="取　消" /></p>
+        <p class="note">*请留下联系方式，方便客服与您联系反馈</p>
+    </form>
+</div>
+
+<div id="report-ok" class="report-msg" style="  top: 580px;">
+    <h4><span class="close">关闭</span></h4>
+    <form>
+        <p class="form-msg-ok"><span class="form-msg-ok">&nbsp;</span>举报已提交！我们会尽快受理并给您反馈！</p>
+        <p class="autoclose"><b>4</b>秒后本窗口将自动关闭</p>
+    </form>
+</div>
+
+<div id="pingfen" style="z-index:999;display:none;">
+    <h4>我要评价<span class="close">关闭</span></h4>
+    <form>
+        <div class="clearfix miaoshu"><span class="title"><em>*</em> 车源描述</span> <span class="radio"><input type="radio" name="mioashu" class="miaoshu">相符</span> <span class="radio"><input type="radio" name="mioashu" class="miaoshu">不相符</span> <span class="selected">该车已售</span><span class="select"  style="display:bloc k"><a href="javascript:;">该车已售</a><a href="javascript:;">该车已售</a></span></div>
+        <div class="clearfix pingfen">
+            <span class="title"><em>*</em> 专业能力</span>
+            <span class="star j4">
+                <a href="javascript:;" id="s1"><p><b>1分 很差</b></p></a>
+                <a href="javascript:;" id="s2"><p><b>2分 不满意</b>交易顾问有点不耐烦，让人感觉很不好</p></a>
+                <a href="javascript:;" id="s3"><p><strong>3分 一般</strong></p></a>
+                <a href="javascript:;" id="s4"><p style="display:bloc k"><strong>4分 满意</strong>卖家服务挺好的，沟通挺顺畅的，总体满意</p></a>
+                <a href="javascript:;" id="s5"><p><strong>5分 很好</strong></p></a>
+            </span>
+            <span class="title"><em>*</em> 服务质量</span>
+            <span class="star j2">
+                <a href="javascript:;" id="s1"><p><b>1分 很差</b></p></a>
+                <a href="javascript:;" id="s2"><p style="display:bloc k"><b>2分 不满意</b>交易顾问有点不耐烦，让人感觉很不好</p></a>
+                <a href="javascript:;" id="s3"><p><strong>3分 一般</strong></p></a>
+                <a href="javascript:;" id="s4"><p><strong>4分 满意</strong>卖家服务挺好的，沟通挺顺畅的，总体满意。</p></a>
+                <a href="javascript:;" id="s5"><p><strong>5分 很好</strong></p></a>
+            </span>
+        </div>
+        <div class="clearfix err" style="display:bloc k"><span class="title">&nbsp;</span><span class="form-msg-no" style="display:block">请对专业能力评价</span><span class="title">&nbsp;</span><span class="form-msg-no service" style="display:block">请对服务质量评价</span></div>
+        <div class="clearfix pinglun"><span class="title"><em>*</em> 我的评论</span><textarea class="选中状态加class名focus">请填写评论（最多不超过100字）</textarea></div>
+        <div class="clearfix err" style="display:bloc k"><span class="title">&nbsp;</span><span class="form-msg-no" style="display:block">填写的评论最多不超过100个字</span></div>
+        <div class="clearfix phone"><span class="title"><em>*</em> 手机号码</span><input type="text" value="" class="focus" /><span class="form-msg-no" style="display:block">请填写正确的手机号</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend">免费获取短信验证码</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend waiter">重新发送<b>（58）</b></span><span class="freesended">已发送，若1分钟未收到，请重新发送</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend"> &nbsp; 重新发送验证码 &nbsp; </span></div>
+        <div class="clearfix phone"><span class="title"><em>*</em> 验 证 码</span><input type="text" value="请输入短信验证码" /></div>
+        <div class="clearfix err" style="display:block"><span class="title">&nbsp;</span><span class="form-msg-no" style="display:block">填写的正确的手机验证码</span></div>
+        <div class="clearfix btn"><span class="title">&nbsp;</span><input type="submit" value="确认提交" /><input type="submit" value="取 消" class="cancel" /></div>
+    </form>
+    <div class="pingfen-ok">
+        <h5>感谢您的评价！我们将根据您的反馈继续改进！</h5>
+        <p><strong>4</strong>秒后本窗口将自动关闭</p>
+    </div>
+    <div class="pingfen-ok" style="display:bloc k;">
+        <h5>您已对该车源评价过当前交易顾问，我们已收到您的反馈，感谢您对273的支持！</h5>
+        <p><strong>4</strong>秒后本窗口将自动关闭</p>
+    </div>
+</div>
+
+<div id="pingfen" style="z-index:999;display:none;">
+    <h4>请对交易顾问的服务评价<span class="close">关闭</span></h4>
+    <form style=";">
+        <div class="clearfix miaoshu"><span class="title"><em>*</em> 整体评价</span> <span class="radio"><input type="radio" name="manyi" class="miaoshu">满意</span> <span class="radio"><input type="radio" name="manyi" class="miaoshu">不满意</span>
+            <span class="form-msg-no zpj" style="display:block">请进行总评价</span></div>
+        <div class="clearfix pingfen">
+            <span class="title"><em>*</em> 服务态度</span>
+            <span class="star j4">
+                <a href="javascript:;" id="s1"><p><b>1分 很差</b></p></a>
+                <a href="javascript:;" id="s2"><p><b>2分 不满意</b>交易顾问有点不耐烦，让人感觉很不好</p></a>
+                <a href="javascript:;" id="s3"><p><strong>3分 一般</strong></p></a>
+                <a href="javascript:;" id="s4"><p style="display:bloc k"><strong>4分 满意</strong>卖家服务挺好的，沟通挺顺畅的，总体满意</p></a>
+                <a href="javascript:;" id="s5"><p><strong>5分 很好</strong></p></a>
+            </span>
+            <span class="form-msg-no" style="display:block">请对服务态度评价</span>
+        </div>
+        <div class="clearfix pingfen">
+            <span class="title"><em>*</em> 描述真实</span>
+            <span class="star j4">
+                <a href="javascript:;" id="s1"><p><b>1分 很差</b></p></a>
+                <a href="javascript:;" id="s2"><p><b>2分 不满意</b>交易顾问有点不耐烦，让人感觉很不好</p></a>
+                <a href="javascript:;" id="s3"><p><strong>3分 一般</strong></p></a>
+                <a href="javascript:;" id="s4"><p style="display:bloc k"><strong>4分 满意</strong>卖家服务挺好的，沟通挺顺畅的，总体满意</p></a>
+                <a href="javascript:;" id="s5"><p><strong>5分 很好</strong></p></a>
+            </span>
+            <span class="form-msg-no" style="display:block">请对描述真实评价</span>
+        </div>
+        <div class="clearfix pingfen">
+            <span class="title"><em>*</em> 专业能力</span>
+            <span class="star j2">
+                <a href="javascript:;" id="s1"><p><b>1分 很差</b></p></a>
+                <a href="javascript:;" id="s2"><p style="display:bloc k"><b>2分 不满意</b>交易顾问有点不耐烦，让人感觉很不好</p></a>
+                <a href="javascript:;" id="s3"><p><strong>3分 一般</strong></p></a>
+                <a href="javascript:;" id="s4"><p><strong>4分 满意</strong>卖家服务挺好的，沟通挺顺畅的，总体满意。</p></a>
+                <a href="javascript:;" id="s5"><p><strong>5分 很好</strong></p></a>
+            </span>
+            <span class="form-msg-no" style="display:block">请对专业能力评价</span>
+        </div>
+
+        <div class="clearfix pinglun"><span class="title"><em>*</em> 我的评论</span><textarea class="选中状态加class名focus">请填写评论（最多不超过100字）</textarea></div>
+        <div class="clearfix err" style="display:block"><span class="title">&nbsp;</span><span class="form-msg-no" style="display:block">填写的评论最多不超过100个字</span></div>
+
+        <div class="clearfix btn"><span class="title">&nbsp;</span><input type="submit" value="确认提交" /><input type="submit" value="取 消" class="cancel" /></div>
+    </form>
+
+    <form style="">
+        <div class="clearfix pingfen-ok-box" style="display:block;">
+            <h5>感谢您做出的评价！</h5>
+            <p>为了更好跟进您的意见，请填写手机号码。</p>
+        </div>
+        <div class="clearfix phone"><span class="title"><em>*</em> 手机号码</span><input type="text" value="" class="focus" /></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="form-msg-no" style="width:201px;display:block">请填写正确的手机号码</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend">免费获取短信验证码</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend waiter">重新发送<b>（58）</b></span><span class="freesended">已发送，1分钟后可重发</span></div>
+        <div class="clearfix"><span class="title">&nbsp;</span><span class="freesend"> &nbsp; 重新发送验证码 &nbsp; </span></div>
+        <div class="clearfix phone"><span class="title"><em>*</em> 验 证 码</span><input type="text" value="请输入短信验证码" /></div>
+        <div class="clearfix err" style="display:block"><span class="title">&nbsp;</span><span class="form-msg-no" style="width:201px;display:block">请填写的正确的手机验证码</span></div>
+        <div class="clearfix btn"><span class="title">&nbsp;</span><input type="submit" value="确认提交" /><input type="submit" value="取 消" class="cancel" /></div>
+    </form>
+    <div class="pingfen-ok" style="display:block">
+        <h5>多谢支持！我们将根据您的反馈继续改进！</h5>
+        <p><strong>4</strong>秒后本窗口将自动关闭</p>
+    </div>
+    <div class="pingfen-ok" style="display:block;">
+        <h5>您已对该车源评价过当前交易顾问，我们已收到您的反馈，感谢您对273的支持！</h5>
+        <p><strong>4</strong>秒后本窗口将自动关闭</p>
+    </div>
+</div>
+
+<div id="pingfen" style="z-index:999;width:820px;">
+    <h4>车架结构图<span class="close">关闭</span></h4>
+    <div class="ck_box clearfix">
+        <div class="pic">
+            <img src="../pics/ck_rec_pic.jpg">
+        </div>
+        <div class="info">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                    <tr>
+                        <td><i>1</i>前横梁</td>
+                        <td><i>11</i>左前纵梁</td>
+                    </tr>
+                    <tr>
+                        <td><i>2</i>右前纵梁</td>
+                        <td><i>12</i>左前减震座</td>
+                    </tr>
+                    <tr>
+                        <td class="warm"><i>3</i>右前减震座</td>
+                        <td><i>13</i>左侧A柱</td>
+                    </tr>
+                    <tr>
+                        <td><i>4</i>右侧A柱</td>
+                        <td><i>14</i>后隔板</td>
+                    </tr>
+                    <tr>
+                        <td><i>5</i>防火墙</td>
+                        <td><i>15</i>左侧B柱</td>
+                    </tr>
+                    <tr>
+                        <td><i>6</i>右侧B柱</td>
+                        <td><i>16</i>驾驶舱底板</td>
+                    </tr>
+                    <tr>
+                        <td><i>7</i>右侧C柱</td>
+                        <td><i>17</i>后横梁</td>
+                    </tr>
+                    <tr>
+                        <td><i>8</i>右后减震座</td>
+                        <td><i>18</i>左侧C柱</td>
+                    </tr>
+                    <tr>
+                        <td><i>9</i>右后纵梁</td>
+                        <td><i>19</i>右后减震座</td>
+                    </tr>
+                    <tr>
+                        <td><i>10</i>后备箱底板</td>
+                        <td><i>20</i>左后纵梁</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>   
+    </div>  
+</div>
+
+<div class="report o n">
+    <div class="pingjia-box" style="top:300px;left:400px;">
+        <h4>评价顾问<span class="close">关闭</span></h4>
+        <form>
+            <div class="clearfix">
+                <p><span class="label"><em>*</em>评价类型</span><span class="hp1">信息真实</span><span class="hp2">车况经典</span><span class="hp3">看车方便</span></p>
+            </div>
+            <div class="clearfix">
+                <p><span class="label">&nbsp;</span><span class="cp1">信息虚假</span><span class="cp2">价格虚假</span><span class="cp3">图片虚假</span><span class="cp2">该车已售</span><span class="cp2">服务态度差</span></p>
+            </div>
+            <div class="clearfix err on">
+                <span class="label">&nbsp;</span><span class="form-msg-no">请至少选择一个评价</span>
+            </div>
+            <div class="clearfix">
+                <p><span class="label"><em>*</em>我的评论</span><textarea>写点评价吧~你的评价对其他买家很有帮助</textarea></p>
+            </div>
+            <div class="clearfix err on">
+                <span class="label">&nbsp;</span><span class="form-msg-no">请填写评价最多不超过1000个字</span>
+            </div>
+            <div class="clearfix btn">
+                <span class="label">&nbsp;</span><input type="submit" value="提交评价"><input type="submit" class="cancel" value="取 消">
+            </div>
+        </form>
+    </div>
+</div>
+
+<div id="uptop">
+    <span class="pingjia"><a href="">评价</a></span>
+    <span class="fankui"><a href="">意见反馈</a></span>
+    <span class="uptop"><a href="">返回顶部</a></span>
+</div>
+</body>
+</html>

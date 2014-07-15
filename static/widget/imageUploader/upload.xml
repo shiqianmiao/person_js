@@ -1,0 +1,12 @@
+<invoke name=" StartUpload " returntype="javascript ">
+    <arguments>
+        <string>SWFUpload_0_0</string>
+        <object>
+            <property id="width"><number>0</number></property>
+            <property id="height "><number>0</number></property>
+            <property id="encoding "><number>0</number></property>
+            <property id="quality "><number>65</number></property>
+            <property id="allowEnlarging "><undefined/></property>
+        </object>
+    </arguments>
+</invoke>

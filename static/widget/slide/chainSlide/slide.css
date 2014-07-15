@@ -1,0 +1,120 @@
+ol, ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ui-chain-slide {
+    width: 810px;
+    height: 375px;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    position: relative
+}
+
+.ui-chain-slide a.prev {
+    display: block;
+    width: 150px;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5
+}
+
+.ui-chain-slide a.prev span {
+    display: block;
+    width: 150px;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background: #000;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    cursor: pointer
+}
+
+.ui-chain-slide a.prev i {
+    display: inline-block;
+    width: 27px;
+    height: 51px;
+    background: url("http://sta.273.com.cn/app/ms_v2/images/icons.png") no-repeat -540px -690px;
+    margin-top: 162px;
+    position: absolute;
+    left: 62px;
+    cursor: pointer;
+    z-index: 4
+}
+
+.ui-chain-slide a.prev i.on {
+    background-position: -620px -690px
+}
+
+.ui-chain-slide a.next {
+    display: block;
+    width: 150px;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5
+}
+
+.ui-chain-slide a.next span {
+    display: block;
+    width: 150px;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+    background: #000;
+    filter: Alpha(Opacity=50);
+    opacity: 0.5;
+    cursor: pointer
+}
+
+.ui-chain-slide a.next i {
+    display: inline-block;
+    width: 27px;
+    height: 51px;
+    background: url("http://sta.273.com.cn/app/ms_v2/images/icons.png") no-repeat -580px -690px;
+    margin-top: 162px;
+    position: absolute;
+    left: 62px;
+    cursor: pointer;
+    z-index: 4
+}
+
+.ui-chain-slide a.next i.on {
+    background-position: -660px -690px
+}
+
+.ui-chain-slide .content_wrap {
+    width: 2000px;
+    height: 375px;
+    overflow: hidden;
+    margin: 0 0 0 -350px;
+    position: absolute
+}
+
+.ui-chain-slide .content_wrap .inner {
+    width: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+.ui-chain-slide .content_wrap li {
+    float: left;
+    display: inline;
+    width: 500px;
+    height: 375px;
+    margin: 0 5px 0 0
+}
+
+.ui-chain-slide .content_wrap li img {
+    width: 500px;
+    height: 375px
+}

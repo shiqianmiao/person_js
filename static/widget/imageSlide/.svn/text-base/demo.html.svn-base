@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>图片轮播组件 -- demo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="./image_slide.css">
+<script src='http://sta.273.com.cn/g.js'></script>
+<script src='http://sta.273.com.cn/config.js'></script>
+</head>
+<body>
+    <div id="demo" class="ui-imageslide"></div>
+
+    <script>
+    G.use(['widget/imageSlide/image_slide.js'], function(ImageSlide) {
+        var slide = new ImageSlide({
+            el: '#demo',
+            onClick: function (index, images) {
+                console.log(this, index, images);
+            },
+            images: {
+                s: [
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s1.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s2.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s3.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s4.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s5.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s6.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s7.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s8.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s9.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s10.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s11.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/s12.jpg'
+                ],
+
+                m: [
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m1.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m2.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m3.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m4.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m5.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m6.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m7.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m8.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m9.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m10.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m11.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m12.jpg'
+                ],
+
+                b: [
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m1.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m2.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m3.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m4.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m5.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m6.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m7.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m8.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m9.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m10.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m11.jpg',
+                    'http://sta.273.com.cn/widget/imageSlide/pics/m12.jpg'
+                ]
+            }
+        });
+
+        // setInterval(function () {
+        //     slide.next();
+        // }, 1000);
+        window.slide = slide;
+    });
+    </script>
+</body>
+</html>

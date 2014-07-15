@@ -1,0 +1,30 @@
+/**
+ * 各个模板页面自定义 
+ * 4个状态（父级元素的4种class）
+ * ui-field-done(验证通过)
+ * ui-field-fail(验证失败)
+ * ui-field-focus(验证聚焦)
+ * ui-field-process(验证进行中，ajax)
+ **/
+
+/*
+ <div class="ui-field-item {{class}}">
+    <input />
+    <span class="ui-field-tip"></span>
+</div>
+*/
+
+/*
+.ui-field-focus .ui-field-tip{
+    color: blue;
+}
+
+.ui-field-fail .ui-field-tip{
+    color: red;
+}
+*/
+
+
+/*
+ 另外：ui-button-disabled(提交按钮状态)
+*/

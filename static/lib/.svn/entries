@@ -1,0 +1,79 @@
+10
+
+dir
+27217
+svn://192.168.5.33/v3/static/lib
+svn://192.168.5.33/v3
+
+
+
+2014-06-13T07:59:04.489744Z
+27216
+chenhan
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ed597562-ae53-11e2-a499-1389c266d0bc
+
+form
+dir
+
+backbone
+dir
+
+messager
+dir
+
+underscore
+dir
+
+uploader
+dir
+
+async
+dir
+
+jquery
+dir
+
+event
+dir
+
+widget
+dir
+
+rpc
+dir
+
+swfobject
+dir
+
+expect
+dir
+
+umeditor
+dir
+
+print
+dir
+
+hogan
+dir
+
+imageCroper
+dir
+
+zepto
+dir
+

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>详情页-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css?1139"/>
+</head>
+<body>
+
+<div id="pageheader" class="row">
+	<span class="reback"><a href="index.html" title="">返回</a></span>
+	<span class="pagetitle">车源详情</span>
+</div>
+
+<div id="main" class="row">
+
+	<div id="car-pics" class="dt-slider row">
+		<div class="dt-slider-cont">
+			<ul>
+				<li><img src="pics/car.jpg" /></li>
+			</ul>
+			<div class="dt-slider-title">
+				<div class="thisbg">&nbsp;</div>
+				<h1>本田飞度1.5CVT-本田飞度1.5CVT-本田飞度1.5CVT 本田飞度1.5CVT</h1>
+			</div>
+			<span class="more">1/5</span>
+		</div>
+	</div>
+
+	<div id="carinfo" class="row">
+		<div class="carinfo-base row">
+			<div class="mr10">
+				<p><span class="color-999">上牌时间：</span>2007年10月</p>
+				<p><span class="color-999">表显里程：</span>3.8万公里</p>
+				<p><span class="color-999">发布时间：</span>2013-11-27</p>
+				<p><span class="color-999">信息编号：</span>6567402</p>
+			</div>
+			<div class="ml10 posrel">
+				<span class="price">￥12,500</span>
+				<span class="tuiche" style="display: none;"><a href="">7天无理由退车</a></span>
+				<span class="price_notice"><a href="#">降价通知我</a></span>
+				<span class="view">浏览99999次</span>
+			</div>
+		</div>
+		<div class="service_gua service_gua_click"><!--未展开时去掉service_gua_click-->
+			<div class="gua_title"><em></em><span class="color-999">服务保障：</span><i class="i-7day"></i><i class="i-ckb"></i><i class="i-yanche"></i><i class="i-daikuan"></i><i class="i-kanche"></i><i class="i-shenhe" style=" display: none;"></i><strong>七天无理由退车</strong></div>
+			<div class="gua_content">
+				<dl>
+					<dt><i class="i-7day"></i>七天无理由退车</dt>
+					<dd>车辆交付7日内无需任何理由均可退车</dd>
+				</dl>
+				<dl>
+					<dt><i class="i-ckb"></i>车况宝</dt>
+					<dd>专业全面车况检测，检测有误，原价退车</dd>
+				</dl>
+				<dl>
+					<dt><i class="i-yanche"></i>门店已验车</dt>
+					<dd>该车况信息已经过门店验证</dd>
+				</dl>
+				<dl>
+					<dt><i class="i-daikuan"></i>贷款购车</dt>
+					<dd>首付最高不超过50%</dd>
+				</dl>
+				<dl>
+					<dt><i class="i-kanche"></i>顾问已看车</dt>
+					<dd>该交易顾问已实地看车</dd>
+				</dl>
+				<dl class="last">
+					<dt><i class="i-shenhe"></i>行驶证已审核</dt>
+					<dd>该车行驶证已审核</dd>
+				</dl>
+			</div>
+		</div>
+		<h2>更多信息</h2>
+		<div class="carinfo-box row">
+			<table width="100%">
+				<tr>
+					<td width="50%"><p><span>变速箱：</span>自动</p></td>
+					<td><p><span>使用性质：</span>非营运</p></td>
+				</tr>
+				<tr>
+					<td><p><span>排量：</span>1.5L</p></td>
+					<td>
+			<p><span>年检到期：</span>2013-10-31</p></td>
+				</tr>
+				<tr>
+					<td><p><span>车身颜色：</span>白色</p></td>
+					<td><span>强险到期：</span>2013-10-31</p></td>
+				</tr>
+				<tr>
+					<td><p><span>车身结构：</span>两厢</p></td>
+					<td><span>商险到期：</span>2013-10-31</p></td>
+				</tr>
+				<tr>
+					<td colspan="2"><p><span>保养情况：</span>在一般维修点保养</p></td>
+				</tr>
+			</table>
+		</div>
+		<h2>车况信息</h2>
+		<div class="carinfo-box-ck row">
+			<table width="100%">
+				<tr>
+					<td width="50%"><p><span style="width:110px">是否有事故痕迹：</span><strong class="color-red">*有</strong></p></td>
+					<td><p><span style="width:110px">发动机是否拆过：</span> &nbsp; 无</p></td>
+				</tr>
+				<tr>
+					<td><p><span style="width:110px">是否有泡水痕迹：</span><strong class="color-red">*有</strong></p></td>
+					<td><p><span style="width:110px">里程表是否调过：</span> &nbsp; 待确认</p></td>
+				</tr>
+			</table>
+			<a class="btn mb20" href="">查看事故痕迹</a>
+		</div>
+		<h2>顾问推荐</h2>
+		<div class="carinfo-box row">
+			<p>发动机电子防盗 车内中控锁 遥控钥匙 ABS防抱死 电动天窗 真皮方向盘 多功能方向盘. 氙气大灯 自动空调导航、天窗、换挡拨片、真皮座椅、车子保养很好，私家用车，定期做的保养，平时都是在福州用的，车子动力好，省油，空间很大，需要联系五里亭 卢煜嘉 欢迎你的光临 车子看了流口水，包看报满意。</p>
+			<div class="guwenchengnuo">
+				顾问 <strong class="color-orange">张某某</strong> 承诺以上车辆信息全部属实，如有不实，请致电客服投诉热线：<strong class="color-orange">400-6000-273</strong> 
+			</div>
+		</div>
+		<h2>门店信息</h2>
+		<div class="carinfo-box row carinfo-box-shop">
+			<p><a href="" class="bg-arrow"><span>交易顾问：</span>张某某</a></p>
+			<p><a href="" class="bg-arrow"><span>所属门店：</span>福州省体服务中心</a></p>
+			<p class="adds"><a href=""><span>门店地址：</span><span class="fl">福州市省体育中心福州市省体育中心福州市省体育中心福州市省体育中心</span></a></p>
+		</div>
+		<a class="btn mb20" href="">查看地图</a>
+	</div>
+
+	<div class="row">
+		<div class="carlist-tab">
+			<span><a class="active" href="" title="">同价位车辆</a></span>
+			<span><a href="" title="">同车系车辆</a></span>
+		</div><!--JS切换：以下两个ul列表的calss，.carlist显示 .hidden 隐藏-->
+		<ul class="carlist">
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+		</ul>
+		<ul class="hidden">
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>					
+				</a>
+			</li>
+		</ul>
+		<div class="row"><a class="btn" href="">查看更多门店</a></div>
+	</div>
+
+	<div id="footer" class="row iscall">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> | 
+			<a href="#">电脑版</a> | 
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div id="bottom-call" class="row">
+	<div class="fl">
+		<p>顾问：<span class="color-f50">张某某</span></p>
+		<p>电话：<span class="color-f50">400-6030-273</span> 转 <span class="color-f50">117962</span></p>
+		<span class="callto"><a class="btn" href="">电话预约</a></span>
+	</div>
+</div><!-- 底部拨打电话固定层/ -->
+
+<div id="viewBigImage">
+	<div class="bigimg_topbar">
+		<div class="btn_back"><span>返回</span></div>
+	</div>
+	<div class="bigimg_box">
+		<ul><li><img src="pics/car.jpg"></li></ul>
+	</div>
+	<div class="plan"><a class="current" href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a></div>
+</div>
+
+<div class="bg"></div>
+<div class="popbox2 hidden">
+	<div class="inner">
+		<div class="popbox2_title"><a href="#" class="close2"></a><i></i><span>降价通知</span></div>
+		<div class="popbox2_content">
+			<form class="popbox2_form">
+				<p class="cor-888">请填写手机号，车辆降价我们会及时通知您。</p>
+				<p class="p_input">
+					<span class="label">车价降到</span><span class="select-span2 short"><input type="text" class="pub-tel"></span><span class="other">万元，通知我。</span><span class="error">*请填写价格</span>
+				</p>
+				<p class="p_input">
+					<span class="label">手机号码</span><span class="select-span2"><input type="text" class="pub-tel"></span><span class="error">*手机号必填</span>
+				</p>
+				<p class="tips" style="display: none;">降价通知设置成功！<br>车辆降价我们会及时通知您。</p>
+				<p class="btn_box">
+					<button class="btn btn-green">提　交</button>
+				</p>
+			</form>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

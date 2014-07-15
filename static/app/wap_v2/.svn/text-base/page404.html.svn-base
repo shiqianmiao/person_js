@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>404-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+<div id="header" class="row">
+	<h1 class="logo-full"><a href="" title="">273二手车交易网</a></h1>
+	<span class="gps"><a href="" title="">福州</a></span>
+</div>
+
+<!-- 点击搜索框后，#search层添加search-show的class,#main层添加hidden -->
+<div id="search" class="row (search-show)">
+	<form action="#" method="get">
+		<input type="search" name="s" class="sinput" placeholder="请输入关键字" autofocus x-webkit-speech /><span class="cancel"><a href="">取消</a></span>		
+		<div class="search-auto">
+			<ul>
+				<li><a href="">大众</a><span>123条车源</span></li>
+				<li><a href="">本田</a><span>123条车源</span></li>
+				<li><a href="">丰田</a><span>123条车源</span></li>
+				<li><a href="">梅赛德斯奔驰</a><span>123条车源</span></li>
+				<li><a href="">宝马</a><span>123条车源</span></li>
+				<li><a href="">保时捷</a><span>123条车源</span></li>
+			</ul>
+			<span class="btn">关闭</span>
+		</div>
+	</form>
+	<div class="search-history hidden">
+		<ul>
+			<li><a href="">大众</a><em>&nbsp;</em></li>
+			<li><a href="">本田</a><em>&nbsp;</em></li>
+			<li><a href="">丰田</a><em>&nbsp;</em></li>
+			<li><a href="">梅赛德斯奔驰</a><em>&nbsp;</em></li>
+			<li><a href="">宝马</a><em>&nbsp;</em></li>
+			<li><a href="">保时捷</a><em>&nbsp;</em></li>
+		</ul>
+		<span class="btn">清除历史纪录</span>
+	</div>
+</div>
+
+<div id="main" class="row">
+
+
+	<div class="page404">
+		<p>对不起！您要访问的页面暂时没有找到…</p>
+		<p class="btn btn-green"><a href="">返回首页</a></p>
+	</div>
+	
+
+	<div id="footer" class="row">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> | 
+			<a href="#">电脑版</a> | 
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div class="uptop"><a href="">回到顶部</a></div>
+
+
+</body>
+</html>

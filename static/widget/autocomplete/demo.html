@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>autocomplete</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js'></script>
+<script src='http://static.273.cn/config.js'></script>
+<!-- <link type="text/css" href="http://static.273.cn/widget/autocomplete/autocomplete.css" rel="stylesheet"> -->
+</head>
+<style type="text/css">
+body {
+    margin: 0px;
+}
+</style>
+<body>
+
+    <div style="height:200px;"></div>
+    <div style="width:1200px;margin:0 auto;">
+        <form>
+        <input id="params" type="text" value="">
+        <p>&nbsp;</p>
+        <input id="demo" type="text" value="">
+        <p>&nbsp;</p>
+        <select>
+            <option>a</option>
+            <option>b</option>
+            <option>c</option>
+        </select>
+        </form>
+    </div>
+    <script type="text/javascript">
+    G.use(['jquery', 'widget/autocomplete/autocomplete_v2.js'], function ($, AutoComplete) {
+
+        var auto = new AutoComplete({
+            el : '#demo',
+            placeholder : '不限类型',
+            dataSource : ['ab', 'abc', 'abcd', 'abd'],//'./data.php?q=<%=query%>',
+            // overflow : 10,
+            // selectFirst : true,
+            // selectOnBlur : true,
+            // submitOnEnter : true,
+            // onItemSelect : function (data) {
+            //     // console.log(data);
+            // },
+            params : function () {
+                var temp = {
+                    a : $('#params').val() || 'default'
+                };
+                return temp;
+            }
+
+        });
+
+        window.auto =  auto;
+        window.$ = $;
+    });
+    </script>
+</body>
+</html>

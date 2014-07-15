@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner_box { height: 399px; background: url(../images/safe_service_banner.jpg) no-repeat center top;}
+.sub_nav { height: 82px; background: url(../images/safe_service_sub_nav_bg.gif) repeat-x; margin: 0 0 85px 0;}
+.sub_nav .inner { width: 1000px; margin: 0 auto;}
+.sub_nav li { float: left; display: inline;}
+.sub_nav li a { float: left; display: block; width: 166px; height: 82px; background: url(../images/safe_service_nav.png) no-repeat;}
+.sub_nav li a.a1 { background-position: 0 0;}
+.sub_nav li a.a1_current { background-position: 0 -100px;}
+.sub_nav li a.a2 { background-position: -200px 0;}
+.sub_nav li a.a2_current { background-position: -200px -100px;}
+.sub_nav li a.a3 { background-position: -400px 0;}
+.sub_nav li a.a3_current { background-position: -400px -100px;}
+.sub_nav li a.a4 { background-position: -600px 0;}
+.sub_nav li a.a4_current { background-position: -600px -100px;}
+.sub_nav li a.a5 { background-position: -800px 0;}
+.sub_nav li a.a5_current { background-position: -800px -100px;}
+.sub_nav li a.a6 { width: 165px; background-position: -1000px 0;}
+.sub_nav li a.a6_current { width: 165px; background-position: -1000px -100px;}
+
+.content_part { width: 1000px; margin: 0 auto 63px auto; border-bottom: 1px solid #e5e5e5; clear: both;}
+.content_part .font { float: left; display: inline; width: 400px; color: #3a3a3a; margin: 0 0 0 7px;}
+.content_part .font h3 { margin: 0 0 15px 0;}
+.content_part .font p { width: 371px; font-size: 14px; line-height: 28px; margin: 0 0 0 3px;}
+.content_part .pic { float: right; display: inline;}
+.content_part_last { border: 0;}
+#des1 { padding-bottom: 41px;}
+#des1 .pic { padding: 0 28px 0 0;}
+#des1 .pic div { text-align: center;}
+#des1 .pic img { margin: 0 0 19px 0;}
+#des1 .pic a { display: inline-block; width: 13px; height: 12px; background: url(../images/safe_service_icon.gif) no-repeat -29px top; margin: 0 8px;}
+#des1 .pic a.current { background-position: left top;}
+#des2 { padding: 0 0 236px 0;}
+#des2 .hot { color: #cba250;}
+#des2 .pic { padding: 21px 0 0 0;}
+#des3 { padding-bottom: 61px; margin-bottom: 92px;}
+#des3 .font { padding: 66px 0 0 0;}
+#des3 .pic { padding: 0 112px 0 0;}
+#des3 .btn { padding: 2px 0 0 0;}
+#des4 { padding: 0 0 94px 0;}
+#des4 .font { padding: 0 0 0 0;}
+#des4 .pic { padding: 60px 39px 0 0;}
+#des5 { padding: 0 0 16px 0;}
+#des5 .font { padding: 17px 0 0 0;}
+#des5 .pic { padding: 83px 39px 0 0;}
+
+.des2_pic { width: 1074px; margin: -234px auto 88px auto; clear: both;}
+.des2_pic span.left { float: left; display: inline;}
+.des2_pic span.left .a1 { background-position: left 0;}
+.des2_pic span.left .a2 { background-position: -140px 0;}
+.des2_pic span.right { float: right; display: inline;}
+.des2_pic span.right .a1 { background-position: -70px 0;}
+.des2_pic span.right .a2 { background-position: -210px 0;}
+.des2_pic span a { background: url(../images/safe_service_icon2.gif) no-repeat; display: inline-block; width: 35px; height: 150px;}
+.des2_pic .pic_box { width: 1000px; margin: 0 2px; height: 150px; float: left; display: inline; overflow: hidden; position: relative; z-index: 11;}
+.des2_pic .pic_box li { float: left; display: inline; width: 200px; height: 150px; position: relative; z-index: 10;}
+.des2_pic .pic_box li i { background: #000; position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 34px; filter: Alpha(Opacity=50); opacity:0.5; z-index: 10;}
+.des2_pic .pic_box li i.current { background: #437dc6; filter: Alpha(Opacity=100); opacity:1;}
+.des2_pic .pic_box li span { position: absolute; left: 0; bottom: 0; display: block; width: 100%; height: 34px; z-index: 11; line-height: 34px; color: #fff; text-align: center; font-size: 14px;}
+
+#faq { background: #3a3a3a;}
+#faq .inner { width: 990px; margin: 0 auto; padding: 38px 0 49px 0;}
+#faq .font { float: left; display: inline; width: 600px; color: #b7b7b7; font-size: 14px; line-height: 28px;}
+#faq .font h3 { margin: 0 0 16px 0;}
+#faq .font dt { background: url(../images/safe_service_faq_icon.gif) no-repeat 1px 7px; font-weight: bold; color: #fff; padding: 0 0 0 23px;}
+#faq .pic { float: right; display: inline; padding: 105px 27px 0 0;}

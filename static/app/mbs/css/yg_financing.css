@@ -1,0 +1,45 @@
+#yg_financing { width: 988px;}
+#fin_head .banner {}
+#fin_head .earnings { width: 218px; height: 299px; float: right; display: inline; border: 1px solid #efefef;}
+#fin_head .total { width: 189px; height: 58px; margin: 0 auto;}
+#fin_head .total i { display: inline-block; width: 29px; height: 28px; background: url(../img/yg_financing_icon_group.png) no-repeat 0 -520px; float: left; margin: 16px 17px 0 0;}
+#fin_head .total .font { float: left; display: inline; font-family: Microsoft YaHei; font-size: 14px; font-weight: bold; color: #000; line-height: 25px; padding: 5px 0 0 0;}
+#fin_head .total .font em { font-style: normal;}
+#fin_head .total .font strong { color: #f60; font-size: 16px;}
+#fin_head .earnings dl { clear: both; width: 189px; border-top: 1px dotted #e3e3e3; margin: 0 auto; height: 79px; font-size: 14px; color: #666; line-height: 20px;}
+#fin_head .earnings dt { padding: 7px 0;}
+#fin_head .earnings dd { float: left; display: inline; width: 110px;}
+#fin_head .earnings dd.dd1 { width: 79px;}
+#fin_head .earnings dd strong { display: block; color: #333;}
+
+.fin_style { width: 988px;}
+.fin_style .title { width: 988px; height: 28px; border-bottom: 2px solid #3ab3e6; padding: 32px 0 0 0; position: relative;}
+.fin_style .title h3 { width: 114px; height: 21px; background: url(../img/yg_financing_icon_group.png) no-repeat -70px -520px; margin: 0 0 0 2px;}
+#fin_product1 .title .refresh { width: 400px; height: 28px; position: absolute; top: 24px; right: 10px; text-align: right;}
+#fin_product1 .title .refresh button { display: inline-block; width: 77px; height: 28px; line-height: 28px; text-align: center; border: 0; font-size: 14px; color: #fff; background: #4ca84c; margin: 0 0 0 12px; cursor: pointer;}
+#fin_product1 .title .refresh button.btn1 { width: 90px; background: #b91a37;}
+#fin_product1 .title .refresh button.btn2 { background: #2c7bb9;}
+#fin_product2 .title { border-color: #f8635d;}
+#fin_product2 .title h3 { background-position: -220px -520px;}
+#fin_product3 .title { border-color: #ff8400;}
+#fin_product3 .title h3 { background-position: -370px -520px;}
+.fin_style { clear: both;}
+.fin_style .content { border: 1px solid #efefef; border-top: 0; height: 160px; overflow: hidden; font-size: 14px; color: #666; position: relative;}
+.fin_style .content strong.num { font-size: 40px; font-family: Tahoma; color: #e53418;}
+.fin_style .collect { float: left; display: inline; width: 186px; height: 125px; border-right: 1px solid #efefef; margin: 19px 0 0 0; padding: 0 0 0 61px;}
+.fin_style .collect .p1 span { color: #e53418;}
+.fin_style .collect .p2 { padding: 2px 0;}
+.fin_style .collect .p2 span { color: #4d4d4d;}
+.fin_style .collect .p2 strong { font-size: 16px;}
+.fin_style .collect .p3 span { font-family: Microsoft YaHei; font-size: 18px; color: #e53418; font-weight: bold;}
+.fin_style .money { float: left; display: inline; width: 207px; height: 125px; border-right: 1px solid #efefef; margin: 19px 0 0 0; padding: 0 0 0 61px;}
+.fin_style .money em { display: block; font-size: 16px; font-weight: bold; font-style: normal; padding: 33px 0 15px 0;}
+.fin_style .money span { font-size: 14px; font-weight: bold; color: #e53418;}
+.fin_style .time { float: left; display: inline; width: 469px; height: 125px; margin: 19px 0 0 0;}
+.fin_style .time .p1 { width: 207px; float: left; display: inline; padding: 0 0 0 76px;}
+.fin_style .time .p1 em { display: block; font-size: 16px; font-weight: bold; font-style: normal; padding: 33px 0 15px 0;}
+.fin_style .time .p1 span { font-size: 14px; font-weight: bold; color: #e53418;}
+.fin_style .content .time .p2 { padding: 39px 0 0 0;}
+.fin_style .content .time button { width: 128px; height: 53px; background: #f60; font-size: 16px; font-weight: bold; color: #fff; text-align: center; line-height: 53px; border: 0; cursor: pointer;}
+.fin_style .full_bid { width: 739px; height: 160px; background: url(../img/yg_financing_icon_group.png) no-repeat 0 -330px; position: absolute; top: 0; right: 0;}
+.fin_style .full_bid p { font-size: 16px; font-weight: bold; color: #666; padding: 115px 0 0 263px;}

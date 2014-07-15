@@ -1,0 +1,313 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>上传组件UI</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<style type="text/css" title="">
+
+.js-ui-uploader-list{
+	list-style:none;
+	_height:1px;
+	_line-height:1px;
+	margin-top:8px
+}
+
+.js-ui-uploader-list li{
+	float:left;
+	position:relative;
+	margin:0 5px 5px 0;
+	border:1px solid #ccc;
+	height:92px;
+	width:120px;
+	overflow:hidden;
+}
+.js-ui-uploader-list li img {
+	display:none;
+}
+
+.js-ui-uploder-ok img {
+	display:block !important;
+}
+
+.js-ui-uploader-bar{
+	position:absolute;
+	bottom:0;
+	left:0;
+	background:#fff;
+	text-align:center;
+	font-size:12px;
+	opacity:.75;
+	line-height:20px;
+	height:20px;
+	width:120px;
+	display:none;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75); 
+}
+
+.js-ui-uploader-bar a:hover{
+	text-decoration:none
+}
+
+.js-ui-uploader-move{
+	background:url(../images/uploader-icon.png);
+	background-repeat:no-repeat;
+	display:inline;
+	width:12px;
+	height:12px;
+	line-height:12px;
+	margin:4px 0;
+	display:none;
+}
+
+.js-ui-uploader-bar .left{
+	float:left;
+	background-position:0 -12px;
+}
+
+.js-ui-uploader-bar .right{
+	float:right;
+	background-position:-12px -12px;
+}
+
+.js-ui-uploader-close{
+	overflow:hidden;
+	width:15px;
+	line-height:15px;
+	position:absolute;
+	right:1px;
+	top:1px;
+	opacity:.75;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75); 
+	background:#fff url(../images/uploader-icon.png) no-repeat 3px 3px;
+}
+
+.js-ui-uploader-edit-bar{
+	position:absolute;
+	right:3px;
+	bottom:23px;
+	background:#fff;
+	text-align:center;
+	font-size:11px;
+	opacity:.75;
+	line-height:20px;
+	height:20px;
+	padding:0 4px;
+	border-radius:2px;
+	display:none;
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+.js-ui-uploder-ok .js-ui-uploader-edit-bar,
+.processing .js-ui-uploader-bar,
+.js-ui-uploder-ok .js-ui-uploader-bar,
+.js-ui-uploder-error .js-ui-uploader-bar{
+	display:block;
+}
+
+.js-ui-uploader-edit,
+.js-ui-uploader-edit-bar .left,
+.js-ui-uploader-edit-bar .right{
+	width:12px;
+	line-height:12px;
+	margin:4px 0;
+	float:left;
+	background:url(../images/uploader-icon.png) no-repeat 0 -24px;
+	/*display:inline-block*/
+}
+
+.js-ui-uploader-rotate {
+	display:none;
+}
+
+.js-ui-uploader-edit-bar .left{
+	background-position:0 -36px;
+	display:none;margin:4px 4px 4px 0;
+}
+
+.js-ui-uploader-edit-bar .left:hover{
+	background-position:-12px -36px;
+}
+
+.js-ui-uploader-edit-bar .right{
+	background-position:0 -48px;
+	margin:4px 8px 4px 4px;
+}
+
+.js-ui-uploader-edit-bar .right:hover{
+	background-position:-12px -48px;
+}
+
+.loading .js-ui-uploader-edit{
+	background:url(../images/loading-small.gif) no-repeat 0 0;
+}
+
+.loaded .js-ui-uploader-edit{
+	background-position:0 -60px;
+}
+
+.loaded .js-ui-uploader-edit:hover{
+	background-position:-12px -60px;
+}
+
+.loaded .js-ui-uploader-rotate{
+	display:block;
+}
+
+.js-ui-uploader-edit:hover{
+	background-position:-12px -24px;
+	text-decoration:none
+}
+
+.js-ui-uploader-content img{
+	width:120px;
+	height:90px;
+}
+
+.js-ui-uploader-close:hover{
+	text-decoration:none;
+}
+
+.processing .js-ui-uploader-content{
+	background:url(../images/loading.gif) no-repeat;
+	font-size:8px;
+	background-position:center;
+	/*-webkit-text-size-adjust:none*/
+}
+
+.js-ui-uploader-percent {
+	line-height:90px;
+	text-align:center;
+	width: 120px;
+	height: 90px;
+	display:none;
+}
+
+.processing .js-ui-uploader-percent{
+	display:block;
+}
+
+.js-ui-uploader-error-msg {
+	padding:20px 5px 0 5px;
+	line-height:20px;
+	color:#D40000;
+	display:none;
+}
+.js-ui-uploder-error .js-ui-uploader-error-msg{
+	display:block;
+}
+
+.js-ui-uploder-ok .js-ui-uploader-move {
+	display:block;
+}
+
+.js-ui-uploader-status {
+	display:inline;
+}
+
+.js-ui-uploader-status:hover{
+	cursor:default;
+}
+.js-ui-uploader-status.clickable:hover{
+	cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+<ul class="js-ui-uploader-list">
+	<li id="undefined_SWFUpload_0_0" class="processing">
+		<div class="js-ui-uploader-content">
+			<span class="js-ui-uploader-percent">100%</span>
+			<div class="js-ui-uploader-error-msg"></div>
+			<img src="">
+			<div class="js-ui-uploader-edit-bar loaded">
+				<a class="js-ui-uploader-rotate left" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-rotate right" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-edit" href="javascript:;">&nbsp;</a>
+			</div>
+			<div class="js-ui-uploader-bar">
+				<a data-direction="right" class="js-ui-uploader-move right" href="###">&nbsp;</a>
+				<a data-direction="left" class="js-ui-uploader-move left" href="###">&nbsp;</a>
+				<a class="js-ui-uploader-status" href="###">正在压缩</a>
+			</div>
+		</div>
+		<a class="js-ui-uploader-close" href="###">&nbsp;&nbsp;&nbsp;</a>
+	</li>
+
+	<li id="undefined_SWFUpload_0_1" class="js-ui-uploder-ok">
+	<div class="js-ui-uploader-content">
+		<span class="js-ui-uploader-percent">100%</span>
+		<div class="js-ui-uploader-error-msg"></div>
+		<img src="../pics/car_list_pic.jpg">
+		<div class="js-ui-uploader-edit-bar">
+			<a class="js-ui-uploader-rotate left" href="javascript:;">&nbsp;</a>
+			<a class="js-ui-uploader-rotate right" href="javascript:;">&nbsp;</a>
+			<a class="js-ui-uploader-edit" href="javascript:;">&nbsp;</a>
+		</div>
+		<div class="js-ui-uploader-bar">
+			<a data-direction="right" class="js-ui-uploader-move right" href="###">&nbsp;</a>
+			<a data-direction="left" class="js-ui-uploader-move left" href="###">&nbsp;</a>
+			<a class="js-ui-uploader-status" href="###">封面</a></div>
+	</div>
+	<a class="js-ui-uploader-close" href="###">&nbsp;&nbsp;&nbsp;</a>
+	</li>
+
+
+	<li id="undefined_SWFUpload_0_2" class="js-ui-uploder-ok">
+		<div class="js-ui-uploader-content">
+			<span class="js-ui-uploader-percent">100%</span>
+			<div class="js-ui-uploader-error-msg"></div>
+			<img src="../pics/car_list_pic.jpg">
+			<div class="js-ui-uploader-edit-bar loading">
+				<a class="js-ui-uploader-rotate left" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-rotate right" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-edit" href="javascript:;">&nbsp;</a>
+			</div>
+			<div class="js-ui-uploader-bar"  >
+				<a data-direction="right" class="js-ui-uploader-move right" href="###">&nbsp;</a>
+				<a data-direction="left" class="js-ui-uploader-move left" href="###">&nbsp;</a>
+				<a class="js-ui-uploader-status clickable" href="###">设为封面</a>
+			</div>
+		</div>
+		<a class="js-ui-uploader-close" href="###">&nbsp;&nbsp;&nbsp;</a>
+	</li>
+
+	<li id="undefined_SWFUpload_0_3" class="js-ui-uploder-ok">
+		<div class="js-ui-uploader-content">
+			<span class="js-ui-uploader-percent">100%</span>
+			<div class="js-ui-uploader-error-msg"></div>
+			<img src="../pics/car_list_pic.jpg">
+			<div class="js-ui-uploader-edit-bar loaded">
+				<a class="js-ui-uploader-rotate left" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-rotate right" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-edit" href="javascript:;">&nbsp;</a>
+			</div>
+			<div class="js-ui-uploader-bar" >
+				<a data-direction="right" class="js-ui-uploader-move right" href="###">&nbsp;</a>
+				<a data-direction="left" class="js-ui-uploader-move left" href="###">&nbsp;</a>
+				<a class="js-ui-uploader-status clickable" href="###">设为封面</a>
+			</div>
+		</div>
+		<a class="js-ui-uploader-close" href="###">&nbsp;&nbsp;&nbsp;</a>
+	</li>
+
+	<li id="undefined_SWFUpload_0_4" class="js-ui-uploder-error">
+		<div class="js-ui-uploader-content">
+			<span class="js-ui-uploader-percent"></span>
+			<div class="js-ui-uploader-error-msg">尺寸小于300*225px请重新上传</div>
+			<div class="js-ui-uploader-edit-bar">
+				<a class="js-ui-uploader-rotate left" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-rotate right" href="javascript:;">&nbsp;</a>
+				<a class="js-ui-uploader-edit" href="javascript:;">&nbsp;</a>
+			</div>
+			<div class="js-ui-uploader-bar"  >
+				<a data-direction="right" class="js-ui-uploader-move right" href="###" >&nbsp;</a>
+				<a data-direction="left" class="js-ui-uploader-move left" href="###">&nbsp;</a>
+				<a class="js-ui-uploader-status" href="###">上传失败</a></div>
+			</div>
+		<a class="js-ui-uploader-close" href="###">&nbsp;&nbsp;&nbsp;</a>
+	</li>
+</ul>
+
+</body>
+</html>

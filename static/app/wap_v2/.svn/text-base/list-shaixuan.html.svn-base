@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>筛选-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+
+<!-- 点击搜索框后，#search层添加search-show的class,#main层添加hidden -->
+<div id="search" class="row search-head (search-show)">
+	<form action="#" method="get">
+		<span class="reback"><a href="index.html" title=""><返回</a></span><input type="search" name="s" class="sinput" placeholder="请输入关键字" autofocus x-webkit-speech /><span class="otherlink"><a href="" title="">高级筛选</a></span><span class="cancel"><a href="">取消</a></span>
+	</form>
+	<div class="search-history">
+		<ul>
+			<li><a href="">大众<em>&nbsp;</em></a></li>
+			<li><a href="">本田<em>&nbsp;</em></a></li>
+			<li><a href="">丰田<em>&nbsp;</em></a></li>
+			<li><a href="">梅赛德斯奔驰<em>&nbsp;</em></a></li>
+			<li><a href="">宝马<em>&nbsp;</em></a></li>
+			<li><a href="">保时捷<em>&nbsp;</em></a></li>
+		</ul>
+	</div>
+</div>
+
+<div id="main" class="row">
+	<div class="carlist-order row">
+		<ul>
+			<li class="active"><a href="">发布时间</a><span class="arrow-up"></span></li>
+			<li><a href="">发布价格</a><span class="arrow-down"></span></li>
+			<li><a href="">上牌时间</a><span class="arrow-up"></span></li>
+			<li><a href="">行驶里程</a><span class="arrow-down"></span></li>
+		</ul>
+	</div>
+
+	<div class="row">
+		<ul class="carlist">
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="car.html">
+					<div class="pic">
+						<img src="pics/car.jpg" />
+					</div>
+					<div class="text">
+						<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+						<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审核</span></p>
+						<p class="color-999">2012年10月发布 3万公里 </p>
+					</div>
+				</a>
+			</li>
+		</ul>
+		<div class="row"><a class="btn" href="">查看更多车源</a></div>
+	</div>
+
+	<div id="footer" class="row">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> |
+			<a href="#">电脑版</a> |
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div class="shaixuan show">
+	<div class="shaixuan-left">
+		<span class="back">>></span>
+	</div>
+	<div class="shaixuan-right">
+		<div class="shaixuan-page show">
+			<div class="shaixuan-header">
+				<span class="del">清空条件</span>
+			</div>
+			<div class="shaixuan-list">
+				<ul class="row">
+					<li>
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">类型</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+						<div class="shaixuan-box">
+							<span class="select">轿车</span>
+							<span class="selected">跑车</span>
+							<span class="select last">货车</span>
+						</div>
+					</li>
+					<li>
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">品牌</span>
+							<span class="selected">奥迪<em class="arrow-close"></em></span>
+						</div>
+					</li>
+					<li>
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">车系</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+					</li>
+					<li>
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">车系</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+					</li>
+					<li class="">
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">价格</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+						<div class="shaixuan-box">
+							<span class="select">3万以下</span>
+							<span class="selected">3-5万</span>
+							<span class="select last">5-8万</span>
+						</div>
+					</li>
+					<li class="">
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">车龄</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+						<div class="shaixuan-box">
+							<span class="select">1年以内</span>
+							<span class="selected">1-3年</span>
+							<span class="select last">3-5年</span>
+						</div>
+					</li>
+					<li class="">
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">变速箱</span>
+							<span class="select">不限<em class="arrow-close"></em></span>
+						</div>
+						<div class="shaixuan-box">
+							<span class="select">手动</span>
+							<span class="selected">自动</span>
+						</div>
+					</li>
+					<li class="click">
+						<div class="shaixuan-type">
+							<span class="shaixuan-type-name">表显里程</span>
+							<span class="select">不限<em class="arrow-open"></em></span>
+						</div>
+						<div class="shaixuan-box">
+							<span class="select">1万公里以下</span>
+							<span class="select">1-3万公里</span>
+							<span class="selected">3-5万公里</span>
+							<span class="select">5-8万公里</span>
+							<span class="select">1万公里以下</span>
+							<span class="select">1-3万公里</span>
+							<span class="selected">3-5万公里</span>
+							<span class="select">5-8万公里</span>
+							<span class="select">1万公里以下</span>
+							<span class="select">1-3万公里</span>
+							<span class="selected">3-5万公里</span>
+							<span class="select">5-8万公里</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="bottom-btn">
+				<div class="shange2">
+					<div class="left"><span class="btn">取消</span></div>
+					<div class="right"><span class="btn btn-green">确定</span></div>
+				</div>
+			</div>
+			
+		</div><!-- / -->
+		
+		<div class="shaixuan-page">
+			<h4>热门品牌</h4>
+			<div class="row">
+				<table cellspacing="1">
+					<tr>
+						<td><a href="">大众</a></td><td><a href="">本田</a></td><td><a href="">丰田</a></td>
+					</tr>
+					<tr>
+						<td><a href="">大众</a></td><td><a href="">本田</a></td><td><a href="">丰田</a></td>
+					</tr>
+					<tr>
+						<td><a href="">福特</a></td><td><a href="">马自达</a></td><td></td>
+					</tr>
+				</table>
+			</div>
+			<h4>按字母检索</h4>
+			<div class="zimu">
+				<table cellspacing="1">
+					<tr>
+						<td><a href="">A</a></td><td><a href="">B</a></td><td><a href="">C</a></td><td><a href="">D</a></td><td><a href="">E</a></td><td><a href="">F</a></td>
+					</tr>
+					<tr>
+						<td><a href="">G</a></td><td><a href="">H</a></td><td><a href="">J</a></td><td><a href="">K</a></td><td><a href="">L</a></td><td><a href="">M</a></td>
+					</tr>
+					<tr>
+						<td><a href="">N</a></td><td><a href="">P</a></td><td><a href="">Q</a></td><td><a href="">R</a></td><td><a href="">S</a></td><td><a href="">T</a></td>
+					</tr>
+					<tr>
+						<td><a href="">W</a></td><td><a href="">X</a></td><td><a href="">Y</a></td><td><a href="">Z</a></td><td> </td><td> </td>
+					</tr>
+				</table>
+			</div>
+
+			<h4>A <span class="ml10 color-999">(以A为开头的品牌)</span></h4>
+			<ul>
+				<li><a href="" title="">奥迪</a></li>
+				<li><a href="" title="">安徽江淮</a></li>
+				<li><a href="" title="">阿斯顿马丁</a></li>
+			</ul>
+			<h4>B <span class="ml10 color-999">(以B为开头的品牌)</span></h4>
+			<ul>
+				<li><a href="" title="">宝马</a></li>
+				<li><a href="" title="">奔驰</a></li>
+				<li><a href="" title="">比亚迪</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>图片轮播组件</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src='http://static.273.cn/g.js'></script>
+    <script src='http://static.273.cn/config.js'></script>
+</head>
+<body>
+<style>
+
+</style>
+<div id="chain-slide" class="ui-chain-slide"></div>
+
+<script>
+    G.use(['widget/slide/chainSlide/slide.js'], function (Slide) {
+        Slide({
+            el : '#chain-slide',
+            images: ['http://sta.273.com.cn/app/ms_v2/pics/stores_pic.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m1.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m2.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m3.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m4.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m5.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m6.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m7.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m8.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m9.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m10.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m11.jpg',
+                'http://sta.273.com.cn/widget/imageSlide/pics/m12.jpg'
+            ]
+        });
+    });
+</script>
+</body>
+</html>

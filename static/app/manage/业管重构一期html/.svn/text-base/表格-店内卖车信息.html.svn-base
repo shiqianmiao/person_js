@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-yjfk"><i class="i-yjfk"></i>意见反馈</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li><span>88</span><a href="#">我的卖车信息</a></li>
+                <li class="active"><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">类库</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">数据</li>
+            </ul>
+            <div class="diannei-search">
+                <input type="text" class="input-xlarge">
+                <!--区域卖车页面，已删除卖车信息页面含此部分，个人卖车请删除此部分结构-->
+                <span class="ml10">归属门店：</span>
+                <select class="span1">
+                    <option>不限</option>
+                    <option>不限不限</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <!--/区域卖车页面，已删除卖车信息页面含此部分，个人卖车请删除此部分结构-->
+                <span class="ml10">归属人员：</span>
+                <select class="span1">
+                    <option>不限</option>
+                    <option>不限不限</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <button class="btn btn-success ml10">搜索</button>
+            </div>
+            <div class="diannei-classify mt10 clearfix">
+                <dl class="diannei-dl">
+                    <dt>状 &nbsp;&nbsp;&nbsp;&nbsp; 态：</dt>
+                    <dd class="active">不限</dd>
+                    <dd>待审核</dd>
+                    <dd>审核通过</dd>
+                    <dd>审核未通过</dd>
+                    <dd>已终止</dd>
+                    <dd>已成交</dd>
+                </dl>
+                <dl class="diannei-dl">
+                    <dt>信息来源：</dt>
+                    <dd class="active">不限</dd>
+                    <dd>个人</dd>
+                    <dd>店秘</dd>
+                    <dd>网店</dd>
+                    <dd>呼叫中心</dd>
+                    <dd>联盟站</dd>
+                </dl>
+                <dl class="diannei-dl">
+                    <dt>客户意向：</dt>
+                    <dd>不限</dd>
+                    <dd class="active">意向高</dd>
+                    <dd>意向中</dd>
+                    <dd>意向低</dd>
+                    <dd>无意向</dd>
+                </dl>
+                <dl class="diannei-dl">
+                    <dt>发布时间：</dt>
+                    <dd class="active">不限</dd>
+                    <dd>1天内</dd>
+                    <dd>3天内</dd>
+                    <dd>一周内</dd>
+                    <dd>半个月内</dd>
+                    <dd>一个月内</dd>
+                </dl>
+            </div>
+            <div class="ctitle mt10">店内卖车（共3333条）</div> 
+            <!--已删除卖车信息页面 标题-->   
+            <div class="ctitle mt10">已删除卖车信息（共3333条）</div>  
+            <!--/已删除卖车信息页面 标题-->     
+            <table class="table table-hover table-striped table-bordered table-diannei">
+                <thead>
+                    <tr>
+                        <th>车源编号</th>
+                        <th>发布时间</th>
+                        <th>车主姓名</th>
+                        <th>车型品牌</th>
+                        <th>车辆价格</th>
+                        <th>上牌时间</th>
+                        <th>归属</th>
+                        <th>状态</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="#">2200220</a><i class="i"></i></td>
+                        <td>2222-22-22</td>
+                        <td>蔡先生</td>
+                        <td>大众宝来2013款豪华型手自一体1.6</td>
+                        <td>10.8万</td>
+                        <td>2222-00-00</td>
+                        <td>等等</td>
+                        <td>审核不通过</td>
+                        <td><a href="#">查看</a>|<a href="#">审核</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">2200220</a><i></i></td>
+                        <td>2222-22-22</td>
+                        <td>蔡先生</td>
+                        <td>大众宝来2013款豪华型手自一体1.6</td>
+                        <td>10.8万</td>
+                        <td>2222-00-00</td>
+                        <td>等等</td>
+                        <td>审核不通过</td>
+                        <td><a href="#">查看</a>|<a href="#">成交</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">2200220</a><i></i></td>
+                        <td>2222-22-22</td>
+                        <td>蔡先生</td>
+                        <td>大众宝来2013款豪华型手自一体1.6</td>
+                        <td>10.8万</td>
+                        <td>2222-00-00</td>
+                        <td>等等</td>
+                        <td>审核不通过</td>
+                        <td><a href="#">查看</a>|<a href="#">成交</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="#">2200220</a><i></i></td>
+                        <td>2222-22-22</td>
+                        <td>蔡先生</td>
+                        <td>大众宝来2013款豪华型手自一体1.6</td>
+                        <td>10.8万</td>
+                        <td>2222-00-00</td>
+                        <td>等等</td>
+                        <td>审核不通过</td>
+                        <td><a href="#">查看</a>|<a href="#">成交</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="pagination pagination-right">
+                <ul>
+                    <li class="disabled"><a href="#">1/12页，共222条</a></li>
+                    <li class="disabled"><a href="#">首页</a></li>
+                    <li class="disabled"><a href="#">前一页</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">后一页</a></li>
+                    <li><a href="#">末页</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

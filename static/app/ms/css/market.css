@@ -1,0 +1,80 @@
+#market_banner { height: 380px; position: relative; margin-bottom: 8px;}
+#market_banner span { display: inline-block; width: 70px; height: 70px; position: absolute; top: 155px; background: #000; filter: Alpha(Opacity=50); opacity:0.5;}
+#market_banner span.left { left: 32px;}
+#market_banner span.right { left: 890px;}
+#market_banner a { display: inline-block; width: 70px; height: 70px; position: absolute; background: url(../images/p.png) no-repeat -210px -250px;}
+#market_banner a.left { left: 32px;}
+#market_banner a.right { left: 890px; background-position: -280px -250px;}
+#market_banner a.left:hover { background: #f37c06 url(../images/p.png) no-repeat -210px -250px;}
+#market_banner a.right:hover { background: #f37c06 url(../images/p.png) no-repeat -280px -250px;}
+
+#market_activity .car_list { margin-bottom: 12px;}
+#market_activity li { margin-right: 37px;}
+#market_activity li.last { margin-right: 0;}
+#market_activity li p { text-align: center;}
+
+.moreline{border:1px #ececec solid;background:#f7f7f7;text-align:center;margin:5px 0;line-height:34px;}
+.moreline span em{display:inline-block;width:30px;height:34px;background:url(../images/rp.png) no-repeat 5px -1012px;}
+.moreline span a{display:block;font-size:14px;font-weight:700;}
+.moreline span a:hover{text-decoration:none;}
+.moreline span b{color:#F37C06;}
+
+#market_bellow { clear: both; margin-bottom: 13px;}
+#market_tips { width: 750px; float: left; display: inline;}
+#market_tips .title_style { position: relative; z-index: 2;}
+#market_tips ul { position: relative; top: -1px; z-index: 1;}
+#market_tips li { width: 250px; height: 166px; float: left; display: inline; margin: -1px -1px 0 0; zoom: 1;}
+#market_tips li a { display: block; width: 248px; height: 164px; text-align: center; border: 1px solid #ececec; background: #fcfcfc;}
+#market_tips li a:hover { background: #fff9f2; border: 1px solid #ffe3c5; color: #494949; text-decoration: none;}
+#market_tips li img { padding: 25px 0 0 0; display: block; margin: 0 auto 12px auto;}
+
+#market_faq { width: 230px; float: right; display: inline;}
+#market_faq .right_content_style { height: 328px;}
+
+#market_list { background: #fcfcfc; border: 1px solid #ececec; padding: 20px 0; margin-bottom: 7px;}
+#market_list .news_list { margin: 0 184px 0 135px;}
+#market_list #page { padding-top: 10px;}
+
+.market_sub { width: 375px;}
+
+.market_faq_pop { width: 531px; top: 357px;}
+.market_faq_pop .content { padding-top: 3px; padding-bottom: 0;}
+.market_faq_pop .faq_box { margin: 0 0 10px 0;}
+.market_faq_pop li { margin: 0 20px;}
+.market_faq_pop li dd { width: 463px;}
+
+#market_banner .sliderbox {
+    position:relative;
+}
+#market_banner .slidernav {
+    position:absolute;
+    right:4px;
+    bottom:5px;
+    z-index:10;
+}
+#market_banner .slidernav li {
+    float:left;
+    width:24px;
+}
+#market_banner .slidernav li a {
+    width:16px;
+    padding:2px 4px;
+    height:12px;
+    background:#fff;
+    color:#000;
+    text-align:center;
+}
+#market_banner .slidernav li.current a {
+    background:#3B8DD1;
+    color:#fff;
+}
+#market_banner .slidertext {
+    position:absolute;
+    left:0;
+    bottom:0;
+    height: 30px;
+    line-height: 30px;
+}
+#market_banner .slidertext a, #market_banner .slidernav a {position:relative;width:100%;}
+
+.market_faq_pop .faq_box { height: auto;}

@@ -1,0 +1,94 @@
+@charset "gb2312";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a:link,a:visited { color: #000; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear {  clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix  { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+/*样式开始*/
+#head_box { width: 100%; background: url(../images/head_bg.gif) repeat-x;}
+#head { width: 1000px; margin: 0 auto; height: 169px;}
+#top { height: 30px; line-height: 30px; color: #c7c7c7;}
+#top a { color: #c7c7c7;}
+#top div { float: left; display: inline;}
+#top div.name { margin: 0 22px 0 19px;}
+#top div.top_nav a { font-weight: bold;}
+#top div.top_nav2 { float: right; margin: 0 20px 0 0;}
+
+#top2 { height: 89px; overflow: hidden;}
+#logo { float: left; display: inline;}
+#search { width: 326px; height: 36px; background: #fff; position: relative; float: right; display: inline; margin: 30px 22px 0 0;}
+#search input { padding: 7px; position: absolute; top: 2px; width: 260px; color: #bebebe; border: 1px solid #fff;}
+#search button { background: url(../images/search_btn.gif) no-repeat; width: 43px; height: 32px; border: 0; cursor: pointer; margin: 2px 0 0 0; position: absolute; top: 0px; right: 2px;}
+
+#nav { height: 50px; line-height: 50px;}
+#nav a { display: inline-block; height: 50px; line-height: 50px; padding: 0 27px; background: url(../images/nav_bg.gif) no-repeat right center; font-size: 14px; color: #fff;}
+#nav a.last { background: none;}
+#nav a.current { background: #2b2b2b;}
+#nav a:hover { color: #ebf068; text-decoration: none;}
+
+#banner_box { width: 100%; margin: 0 0 24px 0; background: url(../images/body_bg.jpg) no-repeat center top;}
+#banner { width: 1000px; margin: 0 auto; height: 424px; position: relative;}
+#banner .title { position: absolute; top: 101px; left: 459px;}
+#banner .content { position: absolute; top: 165px; left: 335px; width: 389px; height: 124px; overflow-y: scroll; line-height: 24px; color: #bbc2bb; font-size: 14px;}
+
+#main { width: 1000px; margin: 0 auto;}
+
+.box1 { margin: 0 0 22px 0; clear: both;}
+.box1 .title { height: 40px; background: #f3f3f3; border-left: 5px solid #f6b72a; padding-left: 11px; margin: 0 0 8px 0;}
+.list1 li { width: 178px; float: left; display: inline; margin: 16px 27px 0 0;}
+.list1 li.five { margin-right: 0;}
+.list1 li .pic { margin: 0 0 11px 0;}
+.list1 li img { width: 178px; height: 119px;}
+.list1 li p { line-height: 21px; color: #9a9a9a;}
+.list1 li a { color: #373737;}
+
+#bread { height: 35px; line-height: 35px; color: #636363; background: #f3f3f3; padding: 0 0 0 14px; margin: 23px 0 25px 0;}
+#bread a { color: #636363;}
+
+#content h1 { text-align: center; font-family: "黑体"; font-size: 18px; font-weight: normal; color: #1d1d1d; margin: 0 0 16px 0;}
+#content .video { margin: 0 0 36px 0;}
+#content .video img { width: 640px; height: 480px; margin: 0 auto; display: block;}
+
+#related { height: 172px; background: #f0f0f0; border: 1px solid #ddd; overflow: hidden; margin: 0 0 28px 0;}
+#related div.left { float: left; display: inline; margin: 62px 18px 0 0;}
+#related div.right { float: right; display: inline; margin: 62px 0 0 0;}
+#related li { width: 160px; float: left; display: inline; margin: 26px 23px 0 0;}
+#related li.last { margin-right: 0;}
+#related li .pic { margin: 0 0 8px 0;}
+#related li img { width: 160px; height: 107px;}
+#related li p { text-align: center;}
+#related li p a { color: #373737;}
+
+#foot { width: 100%; background: #068708; border-top: 5px solid #333; height: 81px; line-height: 81px; text-align: center; font-family: Arial, "宋体"; color: #fff; clear: both; margin: 15px 0 0 0;}
+
+
+/*新增_20130121*/
+#page { text-align: center; margin: 25px 0 37px 0;}
+#page a { color: #666; display: inline-block; padding: 0 10px; border: 1px solid #e1e1e1; height: 26px; line-height: 26px; margin: 0 3px;}
+#page a.prev, #page a.next { margin: 0 5px;}
+#page a.current { border: 1px solid #9f4a45; background: #db3128; color: #fff;}
+#page a:hover { text-decoration: none; border: 1px solid #d03b34;}
+
+#content { position: relative;}
+#content .close { position: absolute; top: -13px; right: 10px;}

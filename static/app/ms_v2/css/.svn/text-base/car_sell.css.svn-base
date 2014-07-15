@@ -1,0 +1,196 @@
+#banner { width: 100%; height: 417px; background: url(../pics/car_sell_banner.jpg) no-repeat center top; overflow: visible; padding: 33px 0 0 0;}
+#banner .inner { width: 1190px; margin: 0 auto; height: 450px; position: relative;}
+#banner .banner_form { width: 470px; height: 383px; background: #fff;}
+
+#banner .banner_form .iform {
+  font-family: "宋体";
+}
+#banner .banner_form .iform .form_title { width: 370px; border-bottom: 1px solid #e1e1e1; margin: 0 0 43px 50px; height: 55px; text-align: center; position: relative; color: #4f4f4f;}
+#banner .banner_form .iform .form_title span { display: inline-block; font-size: 24px; font-family: Microsoft YaHei; background: #fff; position: absolute; left: 50%; bottom: -13px; width: 215px; text-align: center; margin-left: -107px;}
+#banner .banner_form .iform em {
+  float: left;
+  width: 106px;
+  text-align: right;
+  line-height: 34px;
+  color: #6C6C6C;
+  font-size: 14px;
+  padding-right: 14px;
+}
+#banner .banner_form .iform em span.hot { color: #d61c00; font-size: 14px; margin-right: 6px;}
+#banner .banner_form .iform li {
+  position: relative;
+  clear: both;
+  height: 46px;
+}
+#banner .banner_form .iform .vehicle {
+  color: #6C6C6C;
+  float: left;
+  font-size: 12px;
+}
+#banner .banner_form .iform .vehicle input {
+  background: #ffffff url(../images/top_nav_icon.png) no-repeat 283px center;
+  width: 268px;
+  height: 24px;
+  line-height: 24px;
+  padding: 4px 20px 4px 10px;
+  border: 1px solid #e1e1e1;
+  color: #898989;
+  outline: none;
+}
+#banner .banner_form .iform .vehicle .vehicle-outer {
+  z-index: 5;
+}
+#banner .banner_form .iform .vehicle .vehicle-inner {
+  position: absolute;
+  width: 298px;
+}
+
+#banner .banner_form .iform .tip{
+  width:288px;
+}
+#banner .banner_form .iform .list ul{
+  width:260px;
+}
+#banner .banner_form .iform .vehicle .vehicle-inner li {
+  height: auto;
+  padding: 2px 1px;
+}
+#banner .banner_form .iform .vehicle li a{
+  height: auto;
+}
+#banner .banner_form .iform .vehicle li a:hover {
+  color: #fc5300;
+}
+#banner .banner_form .iform .vehicle .vehicle-inner li.vechicle-nav a {
+  width: 250px;
+}
+#banner .banner_form .iform .vehicle .vehicle-inner ul.anchors li a {
+  width: auto;
+}
+#banner .banner_form .iform .vehicle ul.anchors {
+  width: 14px !important;
+}
+#banner .banner_form .iform .vehicle ul.anchors li {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#banner .banner_form .iform .vehicle .error-red {
+  background: #ffeded url(../images/error_icon.png) no-repeat 283px center;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+#banner .banner_form .iform .select_input input {
+  cursor: pointer;
+}
+#banner .banner_form .iform li.brand {
+  z-index: 9;
+}
+#banner .banner_form .iform li.cars {
+  z-index: 8;
+}
+#banner .banner_form .iform li.car {
+  z-index: 7;
+}
+#banner .banner_form .iform li.sp {
+  z-index: 6;
+}
+#banner .banner_form .iform li.city {
+  z-index: 5;
+}
+#banner .banner_form .iform li.sp .vehicle input,
+#banner .banner_form .iform li.city .vehicle input {
+  width: 88px;
+  cursor: pointer;
+  background: #ffffff url(../images/top_nav_icon.png) no-repeat 105px center;
+}
+#banner .banner_form .iform li.sp .vehicle .error-red,
+#banner .banner_form .iform li.city .vehicle .error-red {
+  background: #ffeded url(../images/error_icon.png) no-repeat 103px center;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+#banner .banner_form .iform li.sp .right,
+#banner .banner_form .iform li.city .right {
+  float: right;
+}
+#banner .banner_form .iform li.sp .vehicle-outer,
+#banner .banner_form .iform li.city .vehicle-outer {
+  z-index: 4;
+}
+#banner .banner_form .iform li.sp .vehicle-inner,
+#banner .banner_form .iform li.city .vehicle-inner {
+  width: 118px;
+  height: 210px;
+  overflow-y: auto;
+}
+#banner .banner_form .iform .overflow {
+  height: 200px;
+}
+#banner .banner_form .iform li.texts_box input {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px 0 4px 10px;
+  height: 24px;
+  line-height: 24px;
+  width: 288px;
+  border: 1px solid #e1e1e1;
+  color: #6C6C6C;
+  outline: none;
+}
+#banner .banner_form .iform li.texts_box span {
+  line-height: 34px;
+  font-size: 14px;
+}
+#banner .banner_form .iform li.texts_box img {
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: middle;
+  border: 0;
+}
+#banner .banner_form .iform li.texts_box a.code {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+  font-size: 12px;
+  cursor: pointer;
+}
+#banner .banner_form .iform li.texts_box .error-red {
+  background: #ffeded;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+#banner .banner_form .iform li.texts_box span.error { float: left; display: none; width: auto; padding-right: 5px; background: #ffe7e7; border: 1px solid #e28e8e; color: #d00000; font-size: 12px; line-height: 24px; margin: 5px 0 0 120px; width: 293px;}
+#banner .banner_form .iform li.texts_box span.error i { background: url(../images/icons.png) no-repeat -370px -276px; display: inline-block; width: 14px; vertical-align: middle; height: 24px; line-height: 24px; margin: 0 5px;}
+#banner .banner_form .iform li input.short { width: 108px;}
+#banner .banner_form .iform li.submit { padding-top: 9px;}
+#banner .banner_form .iform li.submit button, #banner .banner_form .success .submit_success {
+  width: 300px;
+  height: 33px;
+  line-height: 32px;
+  color: #fff;
+  background: #fc5300;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  float: left;
+  cursor: pointer;
+  border: 1px solid #da4800;
+}
+#banner .banner_form .success .submit_success { display: block; margin: 0 auto; float: none;}
+#banner .banner_form .success { text-align: center;}
+#banner .banner_form .success p { padding: 86px 0 0 0; font-size: 14px; color: #898989; font-family: SimSun; margin-bottom: 20px;}
+#banner .banner_form .success p i { display: block; width: 74px; height: 74px; background: url(../images/icons.png) no-repeat 0 -680px; margin: 0 auto 30px auto;}
+#banner .banner_form .success p strong { font-family: Microsoft YaHei; font-size: 24px; color: #333; display: block; margin: 0 auto 6px auto; height: 24px;}
+#banner .banner_form .success button { float: none;}
+
+.main_banner { width: 1190px; margin: 19px auto;}
+
+.ui-field-fail .js_tel_tip{
+  display: block;
+}
+#banner .banner_form .iform li.ui-field-fail span.error { display: inline-block;}
+#banner .banner_form .iform li.cars .list, #banner .banner_form .iform li.car .list { overflow-x: hidden;}
+#banner .banner_form .iform li.cars .list li, #banner .banner_form .iform li.car .list li { width: 297px;}

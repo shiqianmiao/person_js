@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>车价评估</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body style="background:#f2f2f2">
+<div id="pageheader" class="row pg-careland">
+	<span class="reback"><a href="index.html" title="">返回</a></span>
+	<span class="pagetitle">车价评估</span>
+</div>
+
+<div class="row">
+	<div class="icon-note"><span>请填写车辆基本信息，以保证更准确的估价</span></div>
+</div>
+
+<div id="pinggu">
+	<form>
+		<div class="row">
+			<label><em>*</em>车型品牌</label>
+			<span class="content">奥迪A4 2007款3.0 手自一体 Quattro旗舰型</span>
+		</div>
+		<div class="row">
+			<label><em>*</em>车辆属地</label>
+			<span class="content">请选择</span>
+		</div>
+		<div class="row">
+			<label><em>*</em>上牌时间</label>
+			<span class="content"><input type="month"></span>
+		</div>
+		<div class="row">
+			<label>行驶里程</label>
+			<span class="content"><input class="gongli" type="text" name="" value="" /></span>
+			<span class="gongli">公里</span>
+			<span class="tishi">请输入数字</span>
+		</div>
+		<div class="clearfix">
+			<input type="submit" class="btn btn-green" value="开始评估" style="height: 36px;margin-top:20px;margin-bottom:20px;" />
+		</div>
+	</form>
+</div>
+</body>
+</html>

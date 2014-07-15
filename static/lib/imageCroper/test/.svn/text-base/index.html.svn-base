@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ImageCroper test</title>
+    <meta charset="UTF-8" />
+    <script src="/g.js"  charset="UTF-8"></script>
+    <script src="/config.js"></script>
+</head>
+<body>
+
+<img src="http://static.273.cn/lib/imageCroper/test/test.jpg" id="Img" style="width:200px;282px;">
+<button id="rotate-btn">旋转</button>
+<script>
+G.use(['jquery', 'lib/imageCroper/imageCroper_v2.js'], function ($, ImageCroper) {
+    var imageCroper = new ImageCroper({
+        $el: $('#Img'),
+        uploadTo: 'http://static.273.cn/lib/imageCroper/test/upload.php'
+    });
+
+    $('#rotate-btn')
+        .click(function () {
+            imageCroper.rotate(90);
+            imageCroper.upload();
+        });
+
+    imageCroper
+        .on('select', function (pos) {
+            this.cut(pos.x, pos.y, pos.w, pos.h);
+            this.upload();
+            this.reset();
+        });
+
+    ImageCroper
+        .on('flash::ready', function () {
+            // imageCroper.disable();
+            console.log('flash ready');
+        })
+        .on('fetched', function (url) {
+            console.log('FETCHED', url);
+        })
+        .on('fetch-fail', function (url) {
+            console.error('FAIL', url);
+        })
+        .on('uploaded', function (url, data) {
+            imageCroper.setImage(JSON.parse(data)[0].url, function () {
+                imageCroper.disable();
+            });
+        })
+
+
+});
+</script>
+</body>
+</html>

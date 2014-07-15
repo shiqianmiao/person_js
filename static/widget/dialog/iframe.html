@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>cross domain iframe</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+</head>
+<body>
+
+<div id="demo" style="width:400px;height:200px;">
+    <p>我是一个跨域的iframe～～</p>
+    <button id="js-close">close</button>
+    <button id="js-refresh">refresh</button>
+    <button id="js-resize">resize</button>
+    <button id="js-title">setTitle</button>
+    <button id="js-content">setContent</button>
+    <button id="js-tip">setTip</button>
+
+</div>
+
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/dialog/dialog_helper.js'], function ($, DialogHelper) {
+
+    var dh = new DialogHelper();
+
+    $('#js-close').click(function () {
+        dh.close();
+    });
+
+    $('#js-refresh').click(function () {
+        dh.refresh();
+    });
+
+    $('#js-resize').click(function () {
+        dh.resize(800, 600)
+    });
+
+    $('#js-title').click(function () {
+        dh.setTitle('修改了标题');
+    });
+
+    $('#js-content').click(function () {
+        dh.setContent('修改了内容');
+    });
+
+    $('#js-tip').click(function () {
+        dh.call('setTip','修改了tip', 'by iframe');
+    });
+});
+</script>
+</body>
+</html>

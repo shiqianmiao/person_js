@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>uploader test</title>
+    <meta charset="UTF-8" />
+    <script src="/g.js"  charset="UTF-8"></script>
+    <script src="/config.js"></script>
+    <link rel="stylesheet" type="text/css" href="/less/bootstrap/bootstrap.less">
+</head>
+<body>
+<div id="uploader"></div>
+<script>
+G.use(['../uploader'], function (Uploader) {
+    var uploader = new Uploader({
+        $el : '#uploader'
+    });
+});
+</script>
+</body>
+</html>

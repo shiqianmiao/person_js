@@ -1,0 +1,664 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>【二手车加盟_二手车创业_二手车行业_二手车生意】_273二手车</title>
+<meta name="keywords" content="二手车加盟，二手车生意，二手车行业" />
+<meta name="description" content="273二手车交易网是中国最大的买卖二手车平台,提供最全、最新的二手车求购,卖车信息和二手车评估、估价, 是国内首家二手车网上与实体连锁相结合的交易平台,也是首家不赚差价的二手车服务商。" />
+<script src="http://sta.273.com.cn/g.__1398902400__.js" type="text/javascript"></script>
+<script src="http://sta.273.com.cn/config.__1399342265__.js" type="text/javascript"></script>
+<link href="../css/basic_zs.css" rel="stylesheet" type="text/css">
+<link href="http://sta.273.com.cn/app/ms/css/auto_move.__1398902400__.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="show_scan_code" style="display:none;">
+	<div class="inner" style="padding:10px;">
+    	<img src="http://att.273.com.cn/ms/zs/wxewm.jpg" width="155" height="210" border="0"/>
+    </div>
+</div>
+
+<div id="nav"><!--导航 -->
+<iframe style="position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;border:0 none;filter:alpha(opacity=0)"></iframe>
+	<div class="inner clearfix">
+    	<div class="logo"><a href="http://www.273.cn/" target="_blank"><img src="http://att.273.com.cn/ms/zs/logo.gif" /></a></div>
+    	<ul class="clearfix" id="shownav">
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#market_outlook" id="market_outlook_nav">市场前景</a></li>
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#platform" id="platform_nav">平台简介</a></li>
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#products_services" id="products_services_nav">产品服务</a></li>
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#join" id="join_nav">加盟支持</a></li>
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#successful_case" id="successful_case_nav">成功案例</a></li>
+        	<li><span><img src="http://att.273.com.cn/ms/zs/nav_line.gif" /></span></li>
+        	<li><a href="#leave_words" id="leave_words_nav">留言咨询</a></li>
+        </ul>
+    </div>
+</div>
+
+<div id="show_space" style="display:none;height:58px;"></div>
+<div id="banner">
+	<p class="p1" style="background-image:url(http://img.273.com.cn/eqsdfs01/M05/95/DE/CgDJBVNPd1qAGr64AAEPZhcDY-M131_0-0_9_0_0.jpg)"></p>
+	<p class="p2"></p>
+	<p class="p3"></p>
+</div>
+<a name="market_outlook" id="market_outlook"></a>
+<div id="new_join">&nbsp;
+<div class="scroll" id="marqueeBox" style=" margin-top:11px;overflow: hidden; height: 35px; line-height: 35px;" onmouseover="clearInterval(marqueeInterval[0])" onmouseout="marqueeInterval[0]=setInterval('startMarquee()',marqueeDelay)"><div id="show_scroll_dept"></div></div>
+    </div>
+<script>
+var WWW_URL="http://www.watchtimes.com.cn";
+var BBS_URL="http://bbs.watchtimes.com.cn";
+var marqueeContent=new Array(); //滚动新闻
+
+marqueeContent[0]='<a href="http://chain.273.cn/shop5005" target="_blank">济南阳光新路服务中心</a><span>2014-05-05</span>';
+marqueeContent[1]='<a href="http://chain.273.cn/shop5004" target="_blank">修水新城服务中心</a><span>2014-05-04</span>';
+marqueeContent[2]='<a href="http://chain.273.cn/shop5003" target="_blank">曲靖紫云服务中心</a><span>2014-05-04</span>';
+marqueeContent[3]='<a href="http://chain.273.cn/shop5001" target="_blank">郑州商鼎服务中心</a><span>2014-04-25</span>';
+marqueeContent[4]='<a href="http://chain.273.cn/shop5000" target="_blank">深圳宝安宝民服务中心</a><span>2014-04-25</span>';
+marqueeContent[5]='<a href="http://chain.273.cn/shop4237" target="_blank">连江凤城服务中心</a><span>2014-04-24</span>';
+marqueeContent[6]='<a href="http://chain.273.cn/shop4236" target="_blank">成都优品道服务中心</a><span>2014-04-23</span>';
+marqueeContent[7]='<a href="http://chain.273.cn/shop4235" target="_blank">晋江福埔服务中心</a><span>2014-04-18</span>';
+marqueeContent[8]='<a href="http://chain.273.cn/shop4234" target="_blank">南京文靖路服务中心</a><span>2014-04-18</span>';
+marqueeContent[9]='<a href="http://chain.273.cn/shop4233" target="_blank">昆明官南立交服务中心</a><span>2014-04-18</span>';
+
+var marqueeInterval=new Array(); //定义一些常用而且要经常用到的变量
+var marqueeId=0;
+var marqueeDelay=3000;
+var marqueeHeight=35;
+
+document.getElementById('show_scroll_dept').innerHTML = marqueeContent[0];
+
+function initMarquee() {
+	marqueeId++;
+	if(!marqueeContent[marqueeId]) {
+		marqueeId = 0;
+	}
+	marqueeInterval[0]=setInterval("startMarquee()",marqueeDelay);
+}
+
+function startMarquee() {
+	var str=marqueeContent[marqueeId];
+	marqueeId++;
+	if(marqueeId>=marqueeContent.length) marqueeId=0;
+	if(marqueeBox.childNodes.length==1) {
+		var nextLine=document.createElement('DIV');
+		nextLine.innerHTML=str;
+		marqueeBox.appendChild(nextLine);
+	} else {
+		marqueeBox.childNodes[0].innerHTML=str;
+		marqueeBox.appendChild(marqueeBox.childNodes[0]);
+		marqueeBox.scrollTop=0;
+	}
+	clearInterval(marqueeInterval[1]);
+	marqueeInterval[1]=setInterval("scrollMarquee()",20);
+}
+function scrollMarquee() {
+	marqueeBox.scrollTop++;
+	if(marqueeBox.scrollTop%marqueeHeight==(marqueeHeight-1)){
+		clearInterval(marqueeInterval[1]);
+	}
+}
+
+initMarquee();
+</script>
+
+<div id="main">
+	<div id="market"><!--市场前景-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title1.gif" /></div>
+        <div class="content">
+        	<p class="p1 mar55"><strong>二手车行业：未来十年10倍增长，最具潜力的价值洼地，各路资本进入角逐！</strong><br />
+                        2013年，中国二手车交易量约600万辆；<br />
+                        商务部《关于促进汽车流通业“十二五”发展的指导意见》提出2015年二手车交易量1000万辆的目标；<br />
+                        到2023年，我们估算二手车交易量将达到6000万辆，交易金额将超3万亿元。<br /></p>
+            <p class="mar45"><img src="http://img.273.com.cn/eqsdfs01/M01/4C/CB/CgDJBFLCP5WATt6DAAIXgsxJdhI400_0-0_9_0_0.png" /><a name="platform" id="platform"></a></p>
+            <p class="mar60"><img src="http://img.273.com.cn/eqsdfs01/M00/4C/CB/CgDJBFLCQDqARgoWAAEfmq5Eq_k398_0-0_9_0_0.png" /></p>
+        </div>
+    </div>
+    
+	<div id="about"><!--273简介-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title2.gif" /></div>
+        <div class="content">
+        	<div class="part1 mar55">
+        		<p class="p1 mar50">
+            		<strong> 企业简介</strong><br/>
+273二手车交易网（www.273.cn，简称：273），创办于2003年，是国内最早建立的二手车交易O2O（Online To Offline）平台，以“不赚差价”为基础，为买卖双方提供二手车交易服务。<br />
+273开中国二手车经纪模式之先河，业务体系包括连锁店经纪业务、线上拍卖业务（拍车宝），以及配套的专业二手车检测（车况宝）、安全支付（车付宝）、售后赔付保障（7天无理由退车）、二手车金融等服务。<br />
+在运营模式上，273融合网站、线下连锁店和全国客服中心（400-6000-273），构建了完整的“三网合一”运营体系，为消费者带来全新的二手车交易体验，是目前国内规模最大、交易量最大的二手车交易平台。2013年全年交易量16.7万辆，交易金额100亿元。<br />
+<strong> 发展历史</strong><br />
+·2003年9月，273网站建立，273寓意“二手汽车服务商”。<br/>
+·2005年4月，开展线下二手车交易，探索单店经营模式。<br/>
+·2007年9月，福州设立第一家直营店，确定“不赚差价”的经营模式，开始直营连锁体系建设。</br>
+·2009年11月，开始浙江等省外市场的扩张。 </br>
+·2011年，专业二手车检测服务“车况宝”试运营。</br>
+·2012年3月，线上拍卖业务“拍车宝”试运营。</br>
+·2013年12月，售后保障服务“7天无理由退车”试运营。</br>
+·2014年01月，连锁店覆盖106个城市，全国门店533家。</br>
+·2014年04月，连锁店覆盖114个城市，全国门店602家。            	</p>
+                <p class="mar45"><img src="http://att.273.com.cn/ms/zs/about_pic1.jpg" /></p>
+                <div class="scroll" id="product">
+                	<div class="myBlock" id="product1" style="width:3000px;">
+					<ul>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor1_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor1.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor2_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor2.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor3_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor3.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor4_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor4.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor5_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor5.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor6_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor6.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor7_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor7.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor8_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor8.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor9_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor9.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					  	  
+					  <li>
+					  <dl>
+						<dt><a href="http://att.273.com.cn/ms/zs/honor10_big.jpg" target="_blank"><img src="http://att.273.com.cn/ms/zs/honor10.jpg" alt="" /></a></dt>
+					  </dl>
+					  </li>
+					                      </ul>
+                </div>
+				<div id="product2"></div>
+            </div>
+			
+			<div class="hei55" style="height:50px;"></div>
+            <div class="part1 mar50">
+            	<p class="mar15"><img src="http://att.273.com.cn/ms/zs/sub_title1.gif" /></p>
+                <p class="p1 txt_c mar40">车辆交易价格通过买卖双方面对面商谈确定，273只提供中介服务，以服务佣金为赢利点，将差价让利给买卖双方。实现价格透明，相比传统经销模式具有强大的风险抵抗力。</p>
+                <p class="mar50"><img src="http://img.273.com.cn/eqsdfs01/M05/51/CB/CgDJBFLLbMGAIAq-AAGBGHFSFW8727_0-0_9_0_0.png" width="933" height="275" /></p>
+            </div>
+            <div class="part1 no_bg">
+            	<p class="mar35"><img src="http://img.273.com.cn/eqsdfs01/M01/81/56/CgDJBVMqod-AMvFBAACkrg9flBw585_0-0_9_0_0.png" width="910" height="128" /></p>
+                <p class="mar45"><img src="http://img.273.com.cn/eqsdfs01/M02/95/E1/CgDJBVNPe1aAEiDZAAAdb0bpzHI030_0-0_9_0_0.png" width="676" height="195" /></p>
+                <p class="mar60"><img src="http://img.273.com.cn/eqsdfs01/M04/4A/48/CgDJBVLCXRqACUI9AAOhPgUCZ2s617_0-0_9_0_0.png" width="944" height="583" /></p>
+            </div>
+        </div>
+    </div>
+    <a name="products_services" id="products_services"></a>
+	<div id="services"><!--产品服务-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title3.gif" /></div>
+        <div class="content">
+        	<div class="part1 mar45">
+            	<p class="mar35"><img src="http://att.273.com.cn/ms/zs/sub_title3.gif" /></p>
+                <p><img src="http://att.273.com.cn/ms/zs/services_pic1.gif" /></p>
+                <p class="p1 sty1 mar35">　　273将不断开发新产品，包括汽车金融（担保、贷款、分期付款、工行信用支付），汽车美容及维修合作、保修等，这些新产品制作完成后将复制推广至所有加盟店。</p>
+            </div>
+            <div class="part1 mar55">
+            	<p class="mar65"><img src="http://att.273.com.cn/ms/zs/services_pic2.gif" /></p>
+            </div>
+            <div class="part1 mar55">
+            	<p class="mar55"><img src="http://img.273.com.cn/eqsdfs01/M03/51/CA/CgDJBFLLap6ATM5bAAHykzYTzGo009_0-0_9_0_0.png" width="807" height="300" /></p>
+            </div>
+			
+            <div class="part1 no_bg">
+            	<p class="mar65"><img src="http://att.273.com.cn/ms/zs/services_pic4.gif" /><a name="join" id="join"></a></p>
+            </div>
+        </div>
+    </div>
+    
+	<div id="join"><!--加盟支持-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title4.gif" /></div>
+        <div class="content">
+        	<p class="mar55"><img src="http://att.273.com.cn/ms/zs/join_pic.gif" /><a name="successful_case" id="successful_case"></a></p>
+        </div>
+    </div>
+    
+	<div id="cases"><!--成功案例-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title5.gif" /></div>
+        <div class="content">
+       	  <div class="part1 mar55">
+           	<p class="mar20"><img src="http://att.273.com.cn/ms/zs/sub_title4.gif" /></p>
+                <p class="des">
+                	273的业务扩展迅猛，成为中国二手车交易市场的一匹黑马。现有的经营规模已经不能满足市场的需求，273急需在全国建立更多的网点体系，也为众多有识之士提供一次创富机遇。<br />
+                    <strong>
+                    	想创一番事业，加入273！<br />
+                        想快速实现财富梦想，加入273！<br />
+                        想成就非凡人生，加入273！<br />
+                    </strong>
+                    加入273，共享二手车市场的繁荣，共创事业的辉煌！
+                </p>
+		<div id="product_m" class="scroll" style="margin-left:32px; height:210px">
+                	<div class="myBlockM" id="product_m1" style="width:3000px;">
+					<ul>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop5005/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M02/A4/50/CgDJBFNnOuiAPnacAAJ6TbhHPg4877_204-153c_9_0_0.jpg" /></a>
+                    		<p>济南阳光新路服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop5004/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M05/A0/E4/CgDJBVNl6Y-AeRKHAAGUeL55Bgk795_204-153c_9_0_0.jpg" /></a>
+                    		<p>修水新城服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop5003/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M05/A3/6D/CgDJBFNl5HiAdaKfAANUpdcgmWw879_204-153c_9_0_0.jpg" /></a>
+                    		<p>曲靖紫云服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop5001/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M01/9E/1A/CgDJBFNaFDSAeFCjAAI5vkwxYDo839_204-153c_9_0_0.jpg" /></a>
+                    		<p>郑州商鼎服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop5000/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M01/9B/87/CgDJBVNaELGANExkAAK4ezQcWII314_204-153c_9_0_0.jpg" /></a>
+                    		<p>深圳宝安宝民服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop4237/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M04/9D/62/CgDJBFNYyqGANMV3AAINmKpaw5w411_204-153c_9_0_0.jpg" /></a>
+                    		<p>连江凤城服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop4236/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M03/9A/1F/CgDJBVNXhFiABntfAAGAOxARX28364_204-153c_9_0_0.jpg" /></a>
+                    		<p>成都优品道服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop4235/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M01/96/BC/CgDJBVNQ7BGAQ-89AALzvLlmNq0025_204-153c_9_0_0.jpg" /></a>
+                    		<p>晋江福埔服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop4234/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M02/9A/D9/CgDJBVNYzjeAMXK4AAH7gTvlnwA475_204-153c_9_0_0.jpg" /></a>
+                    		<p>南京文靖路服务中心</p></dt>
+					  </dl>
+					  </li>
+					  					  <li>
+					  <dl>
+						<dt><a href="http://chain.273.cn/shop4233/" target="_blank"><img src="http://img.273.com.cn/eqsdfs01/M00/96/89/CgDJBVNQvh-AaL_4AAKqxMcB5Pk395_204-153c_9_0_0.jpg" /></a>
+                    		<p>昆明官南立交服务中心</p></dt>
+					  </dl>
+					  </li>
+					                      </ul>
+                </div>
+				<div id="product_m2"></div>
+            </div>
+            </div>
+			
+            <div class="part1 no_bg">
+            	<p class="mar40"><img src="http://att.273.com.cn/ms/zs/sub_title5.gif" /></p>
+            	<div class="man_list">
+                	<ul id="case_man">
+					                        	<li>
+                        	<a href="#" id="intro1" class="current"><img src="http://img.273.com.cn/eqsdfs01/M05/4C/D9/CgDJBFLCYJGAC9oXAAAMhUODyJ0303_0-0_9_0_0.jpg" width="84" height="112" /></a>
+                            <dl style="display:block;">
+                            	<dt>张贵发</dt>
+                                <dd>加入时间：2010.4.30</dd>
+                                <dd>所在城市：南京</dd>
+                                <dd>目前加盟店数：3家</dd>                            </dl>
+                        </li>
+					                        	<li>
+                        	<a href="#" id="intro2" class="current"><img src="http://img.273.com.cn/eqsdfs01/M01/4C/B0/CgDJBFLCHAiAC5WyAABK-0ybflg365_0-0_9_0_0.png" width="84" height="112" /></a>
+                            <dl style="display:none;">
+                            	<dt>喻杰</dt>
+                                <dd>加入时间：2012.4.12</dd>
+                                <dd>所在城市：重庆</dd>
+                                <dd>目前加盟店数：1家</dd>                            </dl>
+                        </li>
+					                        	<li>
+                        	<a href="#" id="intro3" class="current"><img src="http://img.273.com.cn/eqsdfs01/M05/4C/B3/CgDJBFLCIBOAKJvtAABQ08dNU1A679_0-0_9_0_0.png" width="84" height="112" /></a>
+                            <dl style="display:none;">
+                            	<dt>詹昌华</dt>
+                                <dd>加入时间：2009.08</dd>
+                                <dd>所在城市：昆明</dd>
+                                <dd>目前加盟店数：3家</dd>                            </dl>
+                        </li>
+					                        	<li>
+                        	<a href="#" id="intro4" class="current"><img src="http://img.273.com.cn/eqsdfs01/M00/4B/46/CgDJBFK_zLSAKA3XAABWBT3AErU938_0-0_9_0_0.png" width="84" height="112" /></a>
+                            <dl style="display:none;">
+                            	<dt>童庆华</dt>
+                                <dd>加入时间：2009.09</dd>
+                                <dd>所在城市：厦门</dd>
+                                <dd>目前加盟店数：11家</dd>                            </dl>
+                        </li>
+					                        	<li>
+                        	<a href="#" id="intro5" class="current"><img src="http://img.273.com.cn/eqsdfs01/M04/4B/46/CgDJBFK_zQKABo1yAABbkqJTW28424_0-0_9_0_0.png" width="84" height="112" /></a>
+                            <dl style="display:none;">
+                            	<dt>杨剑</dt>
+                                <dd>加入时间：2012.04</dd>
+                                <dd>所在城市：广州</dd>
+                                <dd>目前加盟店数：3家</dd>                            </dl>
+                        </li>
+					                        	<li>
+                        	<a href="#" id="intro6" class="current"><img src="http://img.273.com.cn/eqsdfs01/M02/4A/4A/CgDJBVLCYcOAd1mZAABanrFjA7M087_0-0_9_0_0.png" width="84" height="112" /></a>
+                            <dl style="display:none;">
+                            	<dt>樊宇隆</dt>
+                                <dd>加入时间：2012</dd>
+                                <dd>所在城市：鄂尔多斯</dd>
+                                <dd>目前加盟店数：1家</dd>                            </dl>
+                        </li>
+					                        </ul>
+                </div>
+				                <div class="man_con mar60" id="intro1_detail" style="display:block;">
+                	<div class="name">张贵发</div>
+                    <p>
+                    <embed src="http://player.youku.com/player.php/sid/XNTg2MTM1Mjg0/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>273平台辅助 跨区域经营很简单</strong><br />
+            在加盟273这个大平台之前，我就是直营店的员工，在273福州宝龙服务中心工作的这一年，不仅让我对273的模式与业务深入了解，也让我见识到了二手车市场的飞速发展。<br /><br />
+            2010年5月，我离开了宝龙店，只身一人赶赴漳州开拓事业，开设了自己的第一家二手车交易门店----漳州新华服务中心。<br /><br />
+            虽然一开始对于漳州的二手车市场不熟悉，但是我之所以选择273这个创业平台，最重要的也是对于273给予加盟商提供的7大连锁体系支持的信赖。对于开设加盟店前期会遇到的诸多困难，如店面选址、人员招聘培训、店面的日常经营管理，273总部都有特派专员到门店进行指导，对于但是没有创业经验与带领业务团队经验的我提供了很大的帮助。<br /><br />
+            很快地，漳州新华服务中心就步入了轨道实现盈利，今年四月，门店业绩更是突破了10万元的佳绩。2012年，我又先后在南京开设了万达金街服务中心和金盛服务中心。<br /><br />
+            创业过程中，是273这个平台让我实现了自我价值，这感觉很爽。今年希望把自己的这三家加盟店经营好，未来希望自己能够再开5到10家店，能够与273共同发展，共同成长。273是我的一个梦想，我要为我的梦想更加努力。<br /><br /></p>                </div>
+				                <div class="man_con mar60" id="intro2_detail" style="display:none;">
+                	<div class="name">喻杰</div>
+                    <p>
+                    <embed src="http://player.youku.com/player.php/sid/XNTg2MTM2MzUy/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>模式简单 快速复制</strong><br />
+                    选择创业是我早就有的想法，是对自己的一个挑战，只是一直都在寻找适合自己的事业。选择273则是因为它模式简单可以轻松复制，加上二手车行业这几年的飞速发展，我觉得这就是我一直在寻找的机会。<br /><br />
+
+            之后我还亲自走访了其他区域的273连锁店，与更多加盟商进行沟通交流，这更加加深了我的决心。2012年9月，我正式加盟273，在重庆开设了273黄泥磅服务中心，门店刚一开业，就凭借着“不赚差价，车况透明”的交易模式很快得到了重庆地区消费者的认可，开业第一个月就实现盈利，交易佣金达到一万五千元业绩，实现了开门红之后门店业绩也一直稳步上升。<br /><br />
+
+            目前273“不赚差价 阳光透明”经营模式在二手车行业里是首屈一指的，良好的市场口碑与成熟简单的机制让我能更好地去开拓重庆的二手车市场，未来我打算在重庆多开几家交易门店，我相信自己能做到。<br /><br /></p>                </div>
+				                <div class="man_con mar60" id="intro3_detail" style="display:none;">
+                	<div class="name">詹昌华</div>
+                    <p>
+                    <embed src="http://player.youku.com/player.php/sid/XNjExOTk3NjUy/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>看好二手车行业  感谢总部支持</strong><br />
+                    其实我从很早开始就关注二手车这个行业，不难发现二手车正成为汽车行业的新增长点，从2000年25万辆的二手车交易量到2009年的近300万，并且不断地呈现的上升趋势，我想，这是个入手的好时机了。<br /><br />
+
+            云南经济在不断发展，有经济实力买好车的人群在不断扩大，人们对中高档车的需求也不断增加，现在昆明市二手车交易市场中高档车所占比例提高很多，昆明二手车的市场是非常巨大的。我认为273‘不赚差价，阳光透明’的交易模式是未来的一个趋势，273为加盟商提供的全程扶持的加盟体系也非常适合我。<br /><br />
+            今年我希望把自己的这三家加盟店经营好，未来希望自己能够再开5到10家店，能培养出10到20个老板，与273共同发展，共同成长。</p>                </div>
+				                <div class="man_con mar60" id="intro4_detail" style="display:none;">
+                	<div class="name">童庆华</div>
+                    <p>
+                    <embed src="http://player.youku.com/player.php/sid/XNjExOTk3MzQw/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>做大，经营模式要可复制</strong><br />
+                    从最开始的1家小门店再到如今在厦门、宁波、南京跨区域经营11家门店，而且多家门店月毛利超过10万，我能取得这样的成绩，其实多亏了273的经营模式简单，可以实现简单复制，从门店开业到步入轨道运营，我自己投入的精力其实不多。总部为我们加盟商提供的强势推广、网络宣传、集中培训及重点扶持都是我能成功的基础。<br /><br />
+
+            如今我已经拥有了11家273二手车交易门店。从2009年加盟至今走过了5个年头，我也见证了273二手车从几家直营店到如今全国300多家的连锁店规模，辐射全国90多个城市，未来，我相信273这份事业能在二手车市场的道路上越走越远，也希望能跟着总部的脚步将273做的越来越好。</p>                </div>
+				                <div class="man_con mar60" id="intro5_detail" style="display:none;">
+                	<div class="name">杨剑</div>
+                    <p>
+                    <embed src="http://player.youku.com/player.php/sid/XNjM5NDY4MTk2/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>创业一年 走在梦想的道路上</strong><br />
+                    杨剑，之前一直在广汽丰田负责第七代凯美瑞项目管理工作，每日重复的工作似乎让他看到了10年、20年后的生活，生活没有挑战性，这也让他一直在物色适合自己的项目，寻找创业机会。一个偶然的机会，杨剑看到了273二手车交易网的招商广告，因为结识了273，才开始接触了二手车行业。<br />
+<strong>市场潜力大 平台优势明显</strong><br />
+    想要进入二手车行业，杨剑并没有轻易决定，而是考察分析了西方国家成熟的汽车市场以及国内的二手车市场，他发现西方成熟的汽车市场的新旧车交易比例是1:2，而中国则是6:1，其中相差了1倍，如此大的二手车市场发展潜力是巨大的。之后，杨剑又进一步考察了273二手车交易网，了解到273是业内最大的二手车网络平台，而且搭建的是全国的平台，有着“不赚差价”的经营优势，所以果断选择了273作为自己创业的开始。<br />
+2012年4月，杨剑在广东开设了自己的273二手车门店——广州番禹服务中心。在门店开业的三个月，业绩不断突破。但就在2012年7月，广东发布政策开始限号，这在一定程度上波及到了二手车行业，这无疑给了杨剑一个打击，“该放弃么？我不断的问自己，放弃的话，可能真的爬不起来了，何不努力调整，说不定还是个重新洗牌的好机会。”杨剑这么想着，而当时店里面只有一个员工。<br />
+杨剑并没有被这突来的困难所打倒，在接连的几个月中，在番禹门店伙伴共同的努力以及总部的大力支持下，番禹店不断拓展新的业务，如给客户提供年审保险、违章处理等服务。在这个广州二手车的冬天里，有很多的车商耐不住严寒而纷纷倒闭，而273番禹服务中心仍然在不断地招募人员，与更多的4S店合作，提供广州牌照方案，273在广州的影响力也在不断提高，番禹服务中心挺过了最难的时期。今年一月，广州番禹服务中心的业绩更是达到了7万元。<br />
+<strong>迎难而上 一年三家店</strong><br />
+杨剑说：“创业以来，我要感谢身边那些不离不弃的团队伙伴，以及感谢总部对我们加盟商的大力支持，感谢273借了我一双矫健的双腿，我在273找到了我的梦想，并且努力地为实现它而奋斗。”                </div>
+				                <div class="man_con mar60" id="intro6_detail" style="display:none;">
+                	<div class="name">樊宇隆</div>
+                    <p>
+					<embed src="http://player.youku.com/player.php/sid/XNjM3ODQ5NzMy/v.swf" style="float:right;padding:6px 0 0 15px;" allowFullScreen="true" quality="high" width="360" height="300" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+                    <br />
+                    <strong>一个“高富帅”的二手车理想</strong><br />
+                    樊宇隆，1984年出生，是典型的高富帅：在毕业工作攒得一些本钱后，2010年时，他与人合伙创办了一个水泥搅拌站。在他们的精心经营下，企业业绩喜人，樊宇隆也攒下千万身家。<br />
+    <strong>一个高富帅的华丽转行</strong><br />
+2012年樊宇隆忽然放弃了建筑行业，转而投身于二手车行业，在鄂尔多斯开了一个不甚起眼的小门面店，当起了店长。您还别看这店头小，效益却很好，甫一开业就实现盈利，第三个月业绩就突破了6万元，是一个漂亮的开端。
+ “我从11年初开始关注二手车市场。鄂尔多斯作为西部最具汽车消费实力的城市，11年每百人拥有私人汽车25辆，人均0.25辆。我想随着新车保有量的不断上涨，特别是私人用户汽车换购阶段的到来，二手车市场也会随之升温。我想在二手车行业，我可以做点什么了。”樊宇隆回忆说，“在我考虑以什么方式进入二手车市场的时候，在网上找到了273。我认为273‘不赚差价，阳光透明’的交易模式是未来的一个趋势。12年，我正式的加入了273，在鄂尔多斯开了第一家加盟店。”
+<br />
+    <strong>要让鄂尔多斯每10个人中，有5个知道273</strong><br />
+樊宇隆的店里，员工工作非常积极，这是保证开业至今稳定盈利的关键因素。“我们的特点是客户多，”樊宇隆说，“每个月上千个客户咨询是基本量，有了这么多客户，就看我们的服务水平了。我们的员工会非常用心地服务客户，能带着客户大老远地从东胜到巴盟看车，耐心去调解买卖双方的一些误会，让客户都非常感动。”
+在门店的经营管理上，樊宇隆说：“其实，我就是简单的经营模式复制。”在关心自己收益的同时，樊宇隆对员工的收益也很关心。“在我门店开业的第二个月，有位员工业绩做到了2万元。聚会的时候他感慨地说：‘这是我工作以来，拿到工资最多的一个月。’我相信，员工和老板赚的一样多，员工才更有积极性，团队拥有更强的凝聚力，我的门店才能达到如今的业绩。”
+    2013年伊始，樊宇隆笑着告诉笔者，今年他将壮大队伍，在稳定现有业绩的同时，希望在鄂尔多斯再开几家273二手车的门店。</p>                </div>
+				            </div>
+        </div>
+    </div>
+    <a name="leave_words" id="leave_words"></a>
+	<div id="message" class="clearfix mar55"><!--留言咨询-->
+    	<div class="title"><img src="http://att.273.com.cn/ms/zs/title6.gif" /><span class="input_box clearfix"></span></div>
+        <div class="content">
+		    <form id="form1" name="form1" action="http://zs.273.cn/addmsg.html" method="post" >
+        	<div class="form">
+            	<div class="input_box clearfix">
+           	  <label><strong>*</strong>姓　名：</label><input class="input1" name="real_name" id="real_name" valid="required|isEngOrChin" errmsg="请输入姓名!|请输入正确的姓名!" />
+           	  <div class="msg">您的真实姓名</div></div><div class="input_box clearfix"><label><strong>*</strong>手　机：</label><input class="input1" name="mobile" id="mobile" valid="required|isMobile" errmsg="请输入手机!|请输入正确的手机号码!" />
+           	  <div class="msg">请填写您的手机号码</div></div>
+            	<div class="input_box clearfix"><label>邮　箱：</label><input class="input1" name="email" id="email" valid="isEmail" errmsg="请正确填写电子信箱!" />
+            	<div class="msg">请正确填写电子邮箱</div></div>
+            	<div class="input_box clearfix"><label><strong>*</strong>地　址：</label><select class="select1" id="intent_province" name="province_id" valid="required" errmsg="请选择您所在省份">
+				<option value="">--省份--</option>
+				  <option value='18'  >z  浙江</option><option value='12'  >f  福建</option><option value='13'  >g  广东</option><option value='14'  >j  江苏</option><option value='46'  >j  江西</option><option value='39'  >h  湖北</option><option value='53'  >y  云南</option><option value='16'  >s  上海</option><option value='38'  >h  河南</option><option value='35'  >g  广西</option><option value='15'  >s  山东</option><option value='58'  >n  内蒙古</option><option value='17'  >s  四川</option><option value='40'  >h  湖南</option><option value='43'  >c  重庆</option><option value='54'  >g  贵州</option><option value='47'  >a  安徽</option><option value='56'  >h  海南</option><option value='37'  >h  河北</option><option value='44'  >s  山西</option><option value='11'  >b  北京</option><option value='45'  >s  陕西</option><option value='50'  >l  辽宁</option><option value='48'  >h  黑龙江</option><option value='59'  >x  新疆</option><option value='52'  >t  天津</option><option value='49'  >j  吉林</option><option value='57'  >g  甘肃</option><option value='55'  >n  宁夏</option><option value='61'  >q  青海</option><option value='60'  >x  西藏</option>				</select>
+				  <select class="select1" id="intent_city" name="city_id" valid="required" errmsg="请选择您所在城市">
+				  <option value="">--城市--</option>
+				  </select><div class="msg">与您联系的重要方式</div></div>
+            	<div class="input_box clearfix"><label>留　言：</label><textarea name="suggest" class="textarea1" id="suggest" ></textarea>
+            	</div>
+                <div class="btn"><button type="submit">发 送</button><button type="reset" class="button1" id="resetbotton">重 填</button></div>
+            </div>
+			</form>
+            <div class="faq">
+            	<h5><img src="http://att.273.com.cn/ms/zs/message_title.gif" /></h5>
+                <ul>
+                	<li><a href="wenti.html#faq1" target="_blank">273二手车交易网交易模式是怎样的？具体是如何操作的？</a></li>
+                	<li><a href="wenti.html#faq2" target="_blank">公司有专业的评估人员先来做个市场前期调研吗？行业前景具体如何？</a></li>
+                	<li><a href="wenti.html#faq3" target="_blank">加盟店的成功率有多少？</a></li>
+                	<li><a href="wenti.html#faq4" target="_blank">项目的收益情况如何？回报周期有多长？公司如何保障门店均有收益？</a></li>
+                	<li><a href="wenti.html#faq5" target="_blank">加盟费要13.8万，你们提供什么？</a></li>
+                	<li><a href="wenti.html#faq6" target="_blank">同行业品牌中介模式很多为什么要加盟你们？再说你们的网站在我们当地不是很有名气，当地人都知道58网、赶集网，在他们的网站也能交易，那么贵公司和别的平台相比较，优势在哪里？</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div id="quick_link" class="clearfix"><!--快速链接-->
+    	<dl class="d1">
+            <dt>客服电话</dt>
+            <dd class="tel">400-6000-273</dd>
+            <dd class="time">8:30-20:30（工作时间）</dd>
+            <dd>客服邮箱:service@273.cn</dd>
+        </dl>
+        <dl class="d2">
+            <dt>交易帮助</dt>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/help/buy/">买车帮助</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/help/sell/">卖车帮助</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/help/guohu/">过户帮助</a></dd>
+        </dl>
+        <dl class="d3">
+            <dt>了解我们</dt>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/about/">关于273</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/activity/">273动态</a></dd>
+        </dl>
+        <dl class="d4">
+            <dt>客服中心</dt>
+            <dd><a style="text-decoration: none;font-weight: bold;">400-6000-273</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/links/">网站合作</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/tousu/opinion/">意见与建议</a></dd>
+        </dl>
+        <dl class="d5">
+            <dt>投诉中心</dt>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/tousu/information/">信息投诉</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/tousu/stores/">门店投诉</a></dd>
+            <dd><a rel="nofollow" target="_blank" href="http://www.273.cn/tousu/jiucuo/">网页纠错</a></dd>
+        </dl>
+        <dl class="d6">
+            <dt>特色服务</dt>
+            <dd><a target="_blank" href="http://ckb.273.cn/">车况宝</a></dd>
+            <dd><a target="_blank" href="http://pinggu.273.cn/">二手车评估</a></dd>
+        </dl>
+</div>
+
+<div id="foot" class="lay1"><!--底部-->
+    <p>
+        <a href="http://www.273.cn/about/" target="_blank" rel="nofollow">关于我们</a> <span>|</span> <a href="http://zs.273.cn/?from=xdbdh" target="_blank">加盟273</a> <span>|</span> <a href="http://www.273.cn/service/" target="_blank" rel="nofollow">服务中心</a> <span>|</span> <a href="http://www.273.cn/recruit/" target="_blank" rel="nofollow">人才招聘</a> <span>|</span> <a href="http://www.273.cn/links/" target="_blank" rel="nofollow">合作专区</a> <span>|</span> <a href="http://www.273.cn/tousu/" target="_blank" rel="nofollow">投诉建议</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+        273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+        Copyright © 1998 - 2014 273.cn All Rights Reserved<br />
+        273旗下： <a href="http://ckb.273.cn/" target="_blank">车况宝</a><br />
+        <a href='https://search.szfw.org/cert/l/CX20130729002655002728' target='_blank'><img src='http://static.273.cn/app/attr/cert.png'></a>
+        <a target='_blank' href="https://ss.knet.cn/verifyseal.dll?sn=e13072911010041801ccch000000&ct=df&a=1&pa=250598"><img src="http://rr.knet.cn/static/images/logo/cnnic.png" height="41" /></a>
+    </p>
+</div></div>
+</div>
+
+<div class="pop_top" id="do_words" style="display:none">
+	<div class="inner">
+    	<a href="#leave_words" class="message" id="to_leave_words"></a>
+    	<a href="#" class="callback"></a>
+        <a href="wenti.html" class="faq"></a>
+        <a href="#" class="top"></a>
+    </div>
+</div>
+
+<div id="bottom_img">
+	<iframe style="position:absolute;left:0;top:0;width:100%;height:100%;z-index:-1;border:0 none;filter:alpha(opacity=0)"></iframe>
+	<div class="inner"><a href="#leave_words" id="now_leave_words" class="liuyin"></a><a href="#" class="huihu"></a></div>
+</div>
+<div class="pop_box" id="pop_callback"><!--免费回呼-->
+	<div class="pop_box_title">
+    	<a href="#"></a>
+        登录免费电话呼叫
+    </div>
+    <div class="pop_box_content">
+    	<div class="lay">输入您的手机号码,我们将第一时间回拨给您</div>
+    	<div class="lay h60"><input class="input1" value="不支持小灵通"/><p class="tip"><b></b><span class="error"><i></i>网络不稳定，请重试</span></p></div>
+    	<div class="lay mb40"><button type="button">确　定</button>　<button type="button" class="button2">确定中···</button></div>
+    	<div class="footer"><span class="s1">企业咨询热线：<strong>400-6000-273</strong></span></div>
+    </div>
+</div>
+<div class="pop_box" id="pop_call_suc"><!--回呼成功-->
+	<div class="pop_box_title">
+    	<a href="#"></a>
+        登录免费电话呼叫
+    </div>
+    <div class="pop_box_content">
+    	<div class="success_tips">
+    		<p class="p1"><i></i>请求已成功！</p>
+    		<p class="p2">将于<strong>2</strong>个<strong>工作日</strong>内，免费回呼您</p>
+    	</div>
+    	<div class="footer"><span class="s1">企业咨询热线：<strong>400-6000-273</strong></span></div>
+    </div>
+</div>
+<script type="text/javascript">
+    G.use(['app/ms/js/zs.js'], function (zsModule) {
+		zsModule.start();
+	});
+	
+	G.use(['jquery', 'widget/position/position.js'], function ($, Position) {
+
+		var $win = $(window);
+		
+		$("#do_words").css({
+                  "display":"block"
+              });
+		$("#show_scan_code").css({
+                  "display":"block"
+              });
+		$("#show_space").css({
+                  "display":"block"
+              });	  
+		
+		$('#nav').width('100%');
+		$win.resize(function () {
+			Position.pin({
+				el : '#nav',
+				fixed : true,
+				x : '50%',
+				y : 0
+			}, {
+				el : window,
+				x: '50%',
+				y: 0
+			});
+			
+			Position.pin({
+				el : '#bottom_img',
+				fixed : true,
+				x : '50%',
+				y : '100%-25'
+			}, {
+				el : window,
+				x: '50%',
+				y: '100%-25'
+			});
+			
+			Position.pin({
+				el : '#do_words',
+				fixed : true
+			}, {
+				el : '#main',
+				x: '101%',
+				y: '-720'
+			});
+			
+			Position.pin({
+				el : '#show_scan_code',
+				fixed : true
+			}, {
+				el : '#main',
+				x: '-17%',
+				y: '-600'
+			});
+		});
+		$win.resize();
+});
+</script>
+  
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Fd7d2987f5480f097d45980484e1514ff' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F9bb49b0373911147a96a046e410ad137' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+ <script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F0a62050fb9336c9e69562609d8ecefd0' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</body>
+</html>

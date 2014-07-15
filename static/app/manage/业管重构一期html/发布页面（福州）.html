@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>29300001<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li class="active"><span>88</span><a href="#">我的卖车信息</a></li>
+                <li><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">业务管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">买车信息管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">发布卖车</li>
+            </ul>
+            <div class="carinfobody">
+                <div class="ctitle">车主信息</div>
+                <div class="clearfix form-horizontal">
+                    <div class="span9">
+                    <div class="control-group">
+                        <label class="control-label span2">车主姓名：</label>
+                        <div class="controls span9">
+                            <input type="text" class="input-xlarge" /><span class="checkinfo"><i class="i-true"></i></span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span2">联系电话：</label>
+                        <div class="controls span9">
+                            <input type="text" class="input-xlarge" /><span class="reveal" id="j-btn-bydh">[添加备用电话]</span>
+                        </div>
+                    </div>
+                    <div class="control-group">
+                        <label class="control-label span2">身份证号：</label>
+                        <div class="controls span9">
+                            <input type="text" class="input-xlarge" /><span class="checkinfo"><i class="i-false"></i><span class="alerttxt">请输入正确的身份证号码</span></span>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="ctitle">车牌号（车牌号和相关图片不在外网展现）</div> 
+                <div class="clearfix form-horizontal">
+                    <div class="span9">
+                        <div class="control-group">
+                            <label class="control-label span2">车牌号：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-xlarge" /><span class="ml10 f12">请填写真的车牌号</span>
+                            </div>
+                        </div>
+                        <div class="control-group" style="border-bottom:1px dotted #999">
+                            <label class="control-label span2">车牌图片：</label>
+                            <div class="controls span9">
+                                <ul class="thumbnails" >
+                                    <li class="fl ml10">
+                                        <p><img src="img/samplepic01.jpg" style="width:110px;height:90px;"/></p>
+                                        <p align="center"><button class="btn btn-success">上传图片</button></p>
+                                        <p align="center"><a href>查看示例图</a></p>
+                                    </li>
+                                    <li class="fl ml10">
+                                        <p><img src="img/samplepic01.jpg" style="width:110px;height:90px;"/></p>
+                                        <p align="center"><button class="btn btn-success">上传图片</button></p>
+                                        <p align="center"><a href>查看示例图</a></p>
+                                    </li>
+                                    <li class="fl ml10">
+                                        <p><img src="img/samplepic01.jpg" style="width:110px;height:90px;"/></p>
+                                        <p align="center"><button class="btn btn-success">上传图片</button></p>
+                                        <p align="center"><a href>查看示例图</a></p>
+                                    </li>
+                                    <li class="fr ml10 muted f12" >
+                                        <p>至少上传一张车源证明图</p>
+                                        <p>车源正面图和人车合照图需开车门</p>
+                                        <p>行驶证上的车牌号需和您填写的车牌号一致</p>
+                                        <p>人车合照图必须为业务员与车合照</p>
+                                    </li>
+                                </ul><strong><a href="#" class="fr">收起&#8593;</a></strong>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="clearfix mb30">
+                    <h6>注意事项（<span class="alerttxt">请仔细阅读</span>）:</h6>
+                    <div class="f12 mb30">
+                        <p>1.上传一张或者多张图片，以证明车牌号真实性；</p>
+                        <p>2.车牌号和相关图片不在外网展现，只有跟单人可查看；</p>
+                        <p>3.图片要清晰可见，不允许有涂鸦、水印等；</p>
+                        <p>4.请使用真实图片，若发现不真实、图片经过处理等虚假情况，3天内不允许发布、刷新车源；</p>
+                        <p>5.车牌号与图片需店长和质检人员审核才会在外网展现，一经审核不得修改。</p>
+                    </div>
+                    <h6>上传图片后有什么好处？</h6>
+                    <div class="f12">
+                        <p>1.“车牌正面图”审核通过后，外网列表页车源置顶</p>
+                        <p>2.“行驶证图”审核通过后，外网列表页车源置顶，并且获得<span class="wordtag">行驶证已审核</span>标识</p>
+                        <p>3.“人车合照图”审核通过后，外网列表页车源置顶，并且获得<span class="wordtag">顾问已看车</span>标识</p>
+                        <p>4.“车牌正面图”和“行驶证图”审核通过后，外网列表页车源置顶，并且获得<span class="wordtag">行驶证已审核</span><span class="wordtag">顾问已看车</span>标识</p>
+                    </div>
+                    <strong><a href="#">查看“车源真实性标识”效果图</a></strong>
+                </div>
+                <div class="ctitle">车辆信息</div>
+                <div class="clearfix form-horizontal">
+                    <div class="span9">
+                        <div class="control-group">
+                            <label class="control-label span2" >交易城市：</label>
+                            <div class="controls span9">
+                                <select class="span1">
+                                    <option>福建</option>
+                                    <option>不限不限</option>
+                                    <option>3</option>
+                                </select>
+                                <select class="span1 ml10">
+                                    <option>福州</option>
+                                    <option>不限不限</option>
+                                    <option>3</option>
+                                </select>
+                                <select class="span1 ml10">
+                                    <option>台江</option>
+                                    <option>不限不限</option>
+                                    <option>3</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">上传图片：</label>
+                            <div class="controls span9">
+                                <button class="btn btn-success">上传图片</button><span class="ml10 f12">上传图片将在网站列表页<span class="alerttxt">优先展示</span>。图片大小不超过1M，png、jpg格式。最多上传<span class="alerttxt">10</span>张图片。</span>
+                                <div class="chepai-require">
+                                    <span class="ico"></span>
+                                    <ul class="chepai-samplepic">
+                                        <li><span class="f">封面</span><img src="img/samplepic04.jpg" alt="" /><span class="t">左前</span></li>
+                                        <li><img src="img/samplepic05.jpg" alt="" /><span class="t">右后</span></li>
+                                        <li><img src="img/samplepic06.jpg" alt="" /><span class="t">侧面</span></li>
+                                        <li><img src="img/samplepic07.jpg" alt="" /><span class="t">仪表台</span></li>
+                                        <li><img src="img/samplepic08.jpg" alt="" /><span class="t">内饰</span></li>
+                                        <li><img src="img/samplepic09.jpg" alt="" /><span class="t">发动机舱</span></li>
+                                    </ul>
+                                    <ul class="chepai-require-txt">
+                                        <li>亲：建议使用以上角度拍照的图片，提高<span class="alerttxt f16">32</span>倍咨询量！</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车型品牌：</label>
+                            <div class="controls form-inline span9">
+                                <input type="text" class="input-xlarge" />
+                                <label class="checkbox f12"><input type="checkbox" name="optionsCheckboxList1" value="option1" />没有我要的车型</label>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">颜色：</label>
+                            <div class="controls span9">
+                                 <ul class="checkcustom checkcustomsp">
+                                    <li><span><i class="i-col1"></i>红</span></li>
+                                    <li class="active"><span><i class="i-col2"></i>黄</span></li>
+                                    <li><span><i class="i-col3"></i>黑</span></li>
+                                    <li><span><i class="i-col4"></i>白</span></li>
+                                    <li><span><i class="i-col5"></i>蓝</span></li>
+                                    <li><span><i class="i-col6"></i>绿</span></li>
+                                    <li><span><i class="i-col7"></i>灰</span></li>
+                                    <li><span><i class="i-col8"></i>紫</span></li>
+                                    <li><span><i class="i-col9"></i>金</span></li>
+                                    <li><span><i class="i-col10"></i>橙</span></li>
+                                    <li><span><i class="i-col11"></i>棕</span></li>
+                                    <li><span><i class="i-col12"></i>青</span></li>
+                                    <li><span><i class="i-col13"></i>粉</span></li>
+                                    <li><span><i class="i-col14"></i>米</span></li>
+                                    <li><span><i class="i-col15"></i>银</span></li>
+                                    <li><span><i class="i-col16"></i>褐</span></li>
+                                    <li><span class="other">其他</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">上牌年月：</label>
+                            <div class="controls span9">
+                                <select class="span1">
+                                    <option>2001</option>
+                                    <option>2000</option>
+                                    <option>1999</option>
+                                </select>
+                                <select class="span1 ml10">
+                                    <option>12</option>
+                                    <option>11</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车牌所在城市：</label>
+                            <div class="controls span9">
+                                <select class="span1">
+                                    <option>福建</option>
+                                    <option>2000</option>
+                                    <option>1999</option>
+                                </select>
+                                <select class="span1 ml10">
+                                    <option>福州</option>
+                                    <option>11</option>
+                                    <option>10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">行驶公里数：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><span class="ml10">万公里</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">价格：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><span class="ml10">万元</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">使用性质：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom">
+                                    <li><span>非营运</span></li>
+                                    <li class="active"><span>营运</span></li>
+                                    <li><span>营转非</span></li>
+                                    <li><span>客运</span></li>
+                                    <li><span>货运</span></li>
+                                    <li><span>租赁车</span></li>
+                                    <li><span>教练车</span></li>
+                                    <li><span>其他</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">商业险到期：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><i class="i-date"></i>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">商业险金额：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><span class="ml10">万元</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">交强险费到期：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><i class="i-date"></i>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">年检到期：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-medium" /><i class="i-date"></i>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">过户次数：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom fl">
+                                    <li><span>一手车</span></li>
+                                    <li class="active"><span>1次</span></li>
+                                    <li><span>2次</span></li>
+                                    <li><span>3次</span></li>
+                                    <li><span>4次</span></li>
+                                    <li><span>5次</span></li>
+                                    <li><span>6次</span></li>
+                                </ul>
+                                <span><input type="text" style="width:130px;" placeholder="6次以上直接输入" />次</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">保养地点：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom">
+                                    <li><span>4S店</span></li>
+                                    <li class="active"><span>非4S店</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车源性质：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom fl">
+                                    <li><span>个人</span></li>
+                                    <li><span>车商</span></li>
+                                    <li><span>租赁公司</span></li>
+                                    <li><span>修理厂</span></li>
+                                    <li><span>其他</span></li>
+                                </ul>
+                                <span class="ml10 cynb">只在系统内部显示</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车主描述：</label>
+                            <div class="controls span9">
+                                <textarea rows="6" class="input-xlarge" placeholder="范例：代步车，8成新，车况很好，保养到位，价格实惠。"></textarea>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">标题：</label>
+                            <div class="controls span9" style="line-height:30px;">
+                                <b >大众捷达 2012款 1.6典藏版（一句话广告）</b>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">一句话广告：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-xlarge" />
+                                <span class="ml10 f12">推广文字，最多15个汉字 <a href="#">[查看作用]</a></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2"></label>
+                            <div class="controls span9">
+                                <button class="btn btn-success">暂存草稿</button>
+                                <button class="btn btn-success ml10">确认发布</button>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

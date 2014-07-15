@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>投诉详细页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li class="active"><span>88</span><a href="#">我的卖车信息</a></li>
+                <li><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">质检管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">投诉详细页</li>
+            </ul>
+            <div class="carinfobody">
+                <div class="ctitle">详细页表单</div>
+                <div class="clearfix">
+                    <div class="span6">
+                        <span>投诉编号： </span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span6">
+                        <span class="">业管编号： </span>
+                    </div>
+                    <div class="span6">
+                        <span class="span6">客户姓名： 张先生</span>
+                        <span class="span6 fr">客户电话： 13900000000</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span6">被投诉对象： 某某某某服务中心</div>
+                    <div class="span6">
+                        <span class="span6 fr">受理人： 周强</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span6">派单人： 毛敏</div>
+                    <div class="span6">
+                        <span class="span6">派单时间：2013-10-10 10:10:10</span>
+                        <span class="span6">受理人电话：13800000000</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span6">投诉性质： 一般</div>
+                    <div class="span6">
+                        <span class="span6">投诉类型： 费用投诉</span>
+                        <span class="span6">反馈时间： 2013-10-11 10:10:10</span>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="fl">投诉内容： </div>
+                    <div class="fl span10">
+                        <textarea class="span5"></textarea><input type="submit" class="ml10 btn btn-success" value="添加投诉内容" />
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <div class="span6">处理核实结果： 无效投诉</div>
+                    <div class="span6">状态： 结档</div>
+                </div>
+
+
+                <div class="ctitle mt10">投诉内容</div>
+                <table class="table table-hover table-striped table-bordered table-diannei">
+                    <thead>
+                        <tr>
+                            <th>投诉内容</th>
+                            <th>添加人</th>
+                            <th>回访时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <td><a href="#">编辑</a>|<a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <td><a href="#">编辑</a>|<a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <td><a href="#">编辑</a>|<a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <td><a href="#">编辑</a>|<a href="#">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <td><a href="#">编辑</a>|<a href="#">删除</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="ctitle mt10">处理情况</div>
+                <table class="table table-hover table-striped table-bordered table-diannei">
+                    <thead>
+                        <tr>
+                            <th>处理情况</th>
+                            <th>受理人</th>
+                            <th>受理时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>周强</td>
+                            <td>2013-10-10 12:12:12</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="ctitle mt10">回访内容</div>
+                <table class="table table-hover table-striped table-bordered table-diannei">
+                    <thead>
+                        <tr>
+                            <th>回访内容</th>
+                            <th>派单人</th>
+                            <th>派单时间</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>被投诉对象某某某某服务中心，受理人周强。被投诉对象某某某某服务中心，受理人周强。</td>
+                            <td>毛敏</td>
+                            <td>2013-10-10 12:12:12</td>
+                            <th><a href="" title="">删除</a></th>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

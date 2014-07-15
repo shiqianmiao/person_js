@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>搜索</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="topnav clearfix">
+    <div class="fl ml10">
+        <span class="topnav-user"><a href="">林英 (紫阳服务中心)<i></i></a></span>
+        <span class="ml10"><a href="" title="">退出</a></span>
+    </div>
+    <div class="setting_nume">
+        <ul>
+            <li><a href="">个人设置</a></li>
+            <li><a href="">修改密码</a></li>
+        </ul>
+    </div>
+    <div class="fr mr10">
+        <span><i></i><a href="" title="">一路阳光MV</a></span>
+        <span><i class="app"></i><a href="" title="">手机业管</a></span>
+        <span><a href="" title="">培训视频</a></span>
+        <span><a href="" title="">内部论坛</a></span>
+        <span><a href="" title="">内部论坛</a></span>
+        <span><a href="" title="">内部论坛</a></span>
+        <span class="wtfk"><a href="" title="">问题反馈</a></span>
+    </div>
+</div>
+    
+<div class="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="fr mt10">
+                <div class="input-prepend mt10"> 
+                    <div class="btn-group">  
+                        <button class="btn dropdown-toggle" data-toggle="dropdown">  
+                          卖车  
+                          <span class="caret"></span>  
+                        </button>  
+                        <ul class="dropdown-menu">  
+                          <li class="ml10">卖车</li>
+                          <li class="ml10">买车</li>
+                        </ul>
+                    </div>  
+                    <input class="span2" id="appendedDropdownButton" type="text">
+                    <button class="btn btn-success ml10">搜索</button>
+                </div>
+                <span class="ml10"><a href="" title="">高级搜索</a></span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="sidebar">
+
+            <div class="caidan-sousuo clearfix">
+                <span class=""><a href="">菜单</a></span>
+                <span class="on"><a href="">搜索</a></span>
+            </div>
+
+            <div id="caidan" class="clearfix hidden">
+                <div class="clearfix span11 ml10"><a href="#" class="buycar span6">发布买车</a><a href="#" class="buycar span6">发布卖车</a></div>
+                <ul class="nav nav-list">
+                    <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                    <li><a href="#">我的卖车信息</a></li>
+                    <li><a href="#">店内卖车信息</a></li>
+                    <li><a href="#">区域卖车信息</a></li>
+                    <li><a href="#">已删除卖车信息</a></li>
+                </ul>
+            </div>
+
+
+            <div id="sousuo" class="clearfix sidebar-search">
+                <form class="form-horizontal mt10">
+
+                    <div class="clearfix">
+                        <div class="thelabel">关键字：</div>
+                        <div class="theforms"><input type="text" class="span11"/></div>
+                    </div>
+
+                    <div class="clearfix">
+                        <div class="thelabel">类型：</div>
+                        <div class="theforms">
+                            <p><input type="radio" /> 卖车信息 <input type="radio" /> 买车信息</p>
+                        </div>
+                    </div>
+
+                    <div class="clearfix">
+                        <div class="thelabel">价格：</div>
+                        <div class="theforms"><input type="text" class="fl span5 wanyuan" /><span class="fl text-center" style="width:11%;">-</span><input type="text" class="fl span5 wanyuan"/></div>
+                    </div>
+
+                    <div class="clearfix">
+                        <div class="thelabel">归属：</div>
+                        <div class="theforms">
+                            <p><select class="span11"><option>不限</option></select></p>
+                            <p><button class="btn">选择归属人</button></p>
+                            <p>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                                <span class="tagsdel">张三三<em>X</em></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="clearfix mt10">
+                        <button type="submit" class="btn span11 ml10">搜索</button>
+                    </div>
+
+                    <div class="clearfix mt10">
+                        <button type="submit" class="btn ml10">保存搜索条件</button>
+                        <a href="">清空条件</a>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="main">
+
+            <div id="indexpage">
+                <div class="topmessage" class="clearfix">
+                    <span class="fl">状态：<select><option>全部</option></select></span>
+                    <span class="fl ml10">|</span>
+                    <span class="fl ml10">时间：<select><option>按发布时间</option></select> <select><option>不限</option></select></span>
+                </div>
+
+                <div class="clearfix" style="width:300px;margin:20% auto;height:500px;">
+                    <p><strong>抱歉，没有找到相关车源！</strong></p>
+                    <p>建议您更换搜索条件后搜索！</p>
+                </div>
+
+            </div>
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

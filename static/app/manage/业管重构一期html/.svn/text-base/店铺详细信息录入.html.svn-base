@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>店铺详细信息录入</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-yjfk"><i class="i-yjfk"></i>意见反馈</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>组织管理</li>
+                <li><span>88</span><a href="#">店员照片审核</a></li>
+                <li><a href="#">组织结构管理</a></li>
+                <li><a href="#">门店管理</a></li>
+            </ul>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>个人设置</li>
+                <li><a href="#">发布修改照片(上传前)</a></li>
+                <li><a href="#">发布修改照片(上传后)</a></li>
+            </ul>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>日常设置</li>
+                <li class="active"><a href="#">店铺详细信息录入</a></li>
+                <li><a href="#">本店铺详细信息录入</a></li>
+                <li><a href="#">呼叫中心短信发送</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">日常设置</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">店铺详细信息录入</li>
+            </ul>
+
+            <div class="mainlr clearfix">
+
+                <div class="trees span2">
+                    <div class="ctitle">部门列表</div>
+                    <div class="clearfix">
+                        Tree
+                    </div>                    
+                </div><!-- Tree -->
+
+                <div class="editbox span8">
+                    <div class="ctitle">店铺详细信息</div>
+                    <div class="clearfix">
+                        <div class="span6">
+                            <span class="span3 textright">店名：</span>
+                            <select class="span8 ml10">
+                                <option>请选择门店</option>
+                                <option>金山大润发服务中心</option>
+                                <option>仓山万达服务中心</option>
+                            </select>
+                        </div>
+                        <div class="span6 ml20">
+                            <span class="span3 textright">店铺电话：</span>
+                            <input class="ml10 span8" type="text" name="" value="" placeholder="">
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="span6">
+                            <span class="span3 textright">注册公司：</span>
+                            <input class="ml10 span8" type="text" name="" value="" placeholder="">
+                        </div>
+                        <div class="span6 ml20">
+                            <span class="span3 textright">开户银行：</span>
+                            <input class="ml10 span8" type="text" name="" value="" placeholder="">
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="span6">
+                            <span class="span3 textright">开户名：</span>
+                            <input class="ml10 span8" type="text" name="" value="" placeholder="">
+                        </div>
+                        <div class="span6 ml20">
+                            <span class="span3 textright">帐号：</span>
+                            <input class="ml10 span8" type="text" name="" value="" placeholder="">
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="span6">
+                            <span class="span3 textright">作息时间：</span>
+                            <span class="ml10">
+                                早上
+                                <select class="span3">
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                                --- 下午
+                                <select class="span3">
+                                    <option></option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </span>
+                            
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="span8">
+                            <span class="span3">有无POST机：</span>
+                            <label class="radio span2">
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                              否
+                            </label>
+                            <label class="radio span2">
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >是
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <div class="span8">
+                            <span class="span3">是否分期付款：</span>
+                            <label class="radio span2">
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                              否
+                            </label>
+                            <label class="radio span2">
+                              <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" >是
+                            </label>
+                        </div>
+                    </div>
+                    <div class="clearfix">
+                        <span class="span2"></span>
+                        <button class="btn btn-success ml10">提交店铺信息</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

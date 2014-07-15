@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li><a href="#">我的卖车信息</a></li>
+                <li class="active"><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+
+
+
+
+<!-- 从这里开始-->
+  <form class="form-horizontal">
+
+    <div class="clearfix">
+        <div class="fl span6">
+            <div class="control-group">   
+              <label class="control-label" for="input01"><span class="color-red">*</span> 联系人：</label>
+              <div class="controls">
+                <input placeholder="" class="span10" type="text">
+                <p class="help-block"></p>
+              </div>
+            </div>
+        </div>
+
+        <div class="fl span6">
+            <div class="control-group">
+              <label class="control-label"><span class="color-red">*</span> 地区：</label>
+              <div class="controls">
+                <select class="span5">
+                  <option>111</option>
+                  <option>222</option>
+                  <option>333</option>
+                  <option>444</option></select>
+
+                <select class="span5">
+                  <option>111</option>
+                  <option>222</option>
+                  <option>333</option>
+                  <option>444</option></select>
+              </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clearfix">
+
+        <div class="fl span6">
+
+            <div class="control-group">
+
+              <!-- Text input-->
+              <label class="control-label" for="input01"><span class="color-red">*</span> 联系电话：</label>
+              <div class="controls">
+                <input placeholder="" class="span10 mr10" type="text">
+                <a href="">拨号</a>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="fl span6">
+
+            <div class="control-group">
+              <label class="control-label" for="input01">联系电话2：</label>
+              <div class="controls">
+                <input placeholder="" class="span10" type="text">
+                <p class="help-block"></p>
+              </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="control-group">
+          <label class="control-label"><span class="color-red">*</span> 来电原因：</label>
+          <div class="controls">
+            <div class="kf-ldyy">
+              <label class="radio inline ml10">
+                <input checked="checked" value="买车" name="" type="radio">
+                买车
+              </label>
+              <label class="radio inline">
+                <input value="卖车" name="" type="radio">
+                卖车
+              </label>
+              <label class="radio inline">
+                <input value="咨询" name="" type="radio">
+                咨询
+              </label>
+              <label class="radio inline">
+                <input value="评估" name="" type="radio">
+                评估
+              </label>
+              <label class="radio inline">
+                <input value="投诉" name="" type="radio">
+                投诉
+              </label>
+              <label class="radio inline">
+                <input value="过户" name="" type="radio">
+                过户
+              </label>
+              <label class="radio inline">
+                <input value="车商" name="" type="radio">
+                车商
+              </label>
+              <label class="radio inline">
+                <input value="车况宝" name="" type="radio">
+                车况宝
+              </label>
+              <label class="radio inline">
+                <input value="车集市" name="" type="radio">
+                车集市
+              </label>
+              <label class="radio inline">
+                <input value="佣金" name="" type="radio">
+                佣金
+              </label>
+              <label class="radio inline">
+                <input value="求职" name="" type="radio">
+                求职
+              </label>
+              <label class="radio inline">
+                <input value="广告合作" name="" type="radio">
+                广告合作
+              </label>
+              <label class="radio inline">
+                <input value="加盟" name="" type="radio">
+                加盟
+              </label>
+              <label class="radio inline">
+                <input value="分期付款" name="" type="radio">
+                分期付款
+              </label>
+          </div>
+
+
+        </div>
+        </div>
+
+    <div class="control-group">
+
+      <label class="control-label">来电渠道：</label>
+      <div class="controls">
+      <select class="span4">
+      <option>请选择</option>
+      <option>网络</option>
+      <option>线下</option>
+      <option>短信</option>
+      <option>实体口碑</option>
+      <option>其他</option></select>
+          </div>
+
+    </div>
+
+    <div class="control-group">
+          <label class="control-label">备注：</label>
+          <div class="controls">
+            <div class="textarea">
+                  <textarea type="" class="span6"> </textarea>
+            </div>
+          </div>
+        </div>
+
+     <div class="control-group">
+          <label class="control-label"></label>
+
+          <!-- Button -->
+          <div class="controls">
+            <button class="btn btn-primary">保存</button>
+          </div>
+        </div>
+
+  </form>
+<!--到这里结束-->
+
+
+
+
+
+        </div>
+        
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

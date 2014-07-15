@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+<bread>
+  <a href="#" class="first">高级搜索</a><span>表显里程</span>
+</bread>
+<adsearch>
+<div class="search-list2">
+	<ul>
+		<li><a href="#">不限</a></li>
+		<li><a href="#">1万公里以下</a></li>
+		<li><a href="#">2万公里以下</a></li>
+		<li><a href="#">5万公里以下</a></li>
+		<li><a href="#">10万公里以下</a></li>
+	</ul>
+</div>
+<form class="adsearch mileage">
+<p><input type="text" placeholder="最短里程" /><span>-</span><input type="text" placeholder="最长里程">万公里</p>
+<p class="btn"><input type="submit" value="确定选择" /></p>
+</form>
+</adsearch>
+<footer>
+	<div class="footer-nav">
+		<a href="#">273门店</a>
+		<a href="#">我要卖车</a>
+		<a href="#">联系我们</a>
+		<a href="#" class="top">回顶部</a>
+	</div>
+	<div class="version">
+		<a href="#" class="current">触屏版</a>
+		<span>|</span>
+		<a href="#">电脑版</a>
+		<span>|</span>
+		<a href="#">客户端</a>
+	</div>
+	<div class="copyright"><p>闽ICP备05012458号</p></div>
+</footer>

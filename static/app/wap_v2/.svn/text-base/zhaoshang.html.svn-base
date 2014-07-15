@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>我要加盟-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+
+<div id="pageheader" class="row">
+	<span class="reback"><a href="index.html" title=""><返回</a></span>
+	<span class="pagetitle">我要加盟</span>
+</div>
+
+<div id="main" class="row">
+
+	<div class="row zhaoshang-ad">
+		<img src="pics/zs-banner.png" />
+	</div>
+    <div id="zhaoshang" class="row">
+    	<h2>平台介绍</h2>
+    	<div class="zs-info">
+    		<p class="text">273二手车交易网（简称：273），是中国交易量最大的二手车交易服务提供商，也是中国汽车流通协会理事单位和中国连锁经营协会会员单位。</p>
+    		<p class="text">目前，273加盟店共530家，覆盖全国21个省份地区，106个城市。2013年273平台上的二手车交易量达16.7万辆，交易金额约100亿元。在盈利方面，我们有三大盈利保障。</p>
+    		<img src="pics/zs_pic1.png" width="100%">
+    		<p class="text">加盟273，您仅需投资16.8万，即使您毫无相关从业经验，也无需担心，273总部为您提供了从筹备导入期到稳定发展期的全程支持，助您实现无忧经营。</p>
+    	</div>
+    </div>
+    <div id="zhaoshang" class="row">
+    	<h2>加盟优势</h2>
+    	<div class="zs-info">
+    		<p class="p1">全方位运营扶持</p>
+    		<img src="pics/zs_pic2.png" width="100%">
+    		<p class="p2">加盟全程支持</p>
+    		<img src="pics/zs_pic3.png" width="100%">
+    	</div>
+    </div>
+	<div id="zhaoshang" class="row">
+		<h2>加盟申请</h2>
+		<div class="warm-tip"><span class="s1"> 提示 : </span>提交后24小时内将有客服人员与您联系</div>
+		<div class="carinfo-box row">
+			<form class="shenqing">
+				<div class="row"><label><i class="color-red">*</i> 手机：</label> <input type="text" placeholder="请填写你的手机号码"/> </div>
+				<div class="row">
+					<label><i class="color-red">*</i> 地区：</label>
+					<select>
+						<option value="">省份</option>
+						<option value="">福建省</option>
+					</select>
+					<select>
+						<option value="">城市</option>
+						<option value="">福州市</option>
+					</select>
+				</div>
+				<div class="row">
+					<label> 留言：</label><textarea></textarea>
+				</div>
+				<input type="submit" class="btn" value="提交申请"/>
+			</form>
+		</div>
+	</div>
+
+	<div id="footer" class="row iscall">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> |
+			<a href="#">电脑版</a> |
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+<div id="bottom-call" class="row">
+	<div class="fl">
+		<p style="line-height:40px">加盟热线：<span class="color-f50 font-bold" style="font-size:1.3em">400-6000-273</span></p>
+		<span class="callto"><a class="btn" href="">拨打电话</a></span>
+	</div>
+</div><!-- 底部拨打电话固定层/ -->
+<!--
+<div class="bg show"></div>
+<div class="popbox show" style="top:50%;">
+	<div class="popbox-contents">
+		<span class="close">关闭</span>
+		<p class="tc"><b>您的申请已经提交成功！</b></p>
+		<p class="tc color-999">请留意区号为0591的电话回访。</p>
+		<div class="popbox-btn"><span class="btn">返回首页</span></div>
+	</div>
+</div> -->
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>顾问评价</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../css/stores.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header_nav">
+	<div class="row">
+	  <div class="fl">
+        	<ul>
+            	<li><span>|</span></li>
+                <li><a href="#">首页</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">买车</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">卖车</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">车价评估</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">车况宝</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">我要加盟</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">周末集市</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">273连锁店</a></li>
+            	<li><span>|</span></li>
+                <li><a href="#">手机客户端</a></li>
+            	<li><span>|</span></li>
+            </ul>
+		  <span class="tel">全国统一客服热线 <strong>400-6000-273</strong></span>		</div>
+		<div class="fr">
+			<div class="clearfix"></div>
+			<span><a href="# "rel="nofollow">登录</a></span>	
+			<span><a href="##" rel="nofollow">注册</a></span>
+			<span><a href="##" rel="nofollow">收藏</a></span>
+			<span class="navlinks on">
+				<a href="" class="navlink">导航<i></i></a>
+				<div class="navlinks_dl" style=" display: none;">
+					<dl>
+						<dt>汽车咨讯</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>工具箱</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>特色服务</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>快速找车</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>其他分类</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+				</div>
+			</span>
+		</div>
+	</div>
+</div>
+
+<div id="header">
+	<div class="row clearfix">
+    	<div id="header_content">
+    		<div class="left">
+        		<div class="pic"><img src="../images/stores_logo.jpg" class="style1" /></div>
+       	  		<div class="font">
+            		<div class="name clearfix">
+                		<h2>福州金山总站服务中心</h2>
+                    	<div class="sign"><em></em><span>相信自己，相信伙伴！</span></div>
+                	</div>
+                	<p class="des">
+                		店长姓名：<strong class="hot">蔡正元</strong>　　门店电话：<strong class="hot">400-6030-273</strong> 转 <strong class="hot">216 590</strong><br />
+                    	门店地址：福州市晋安区长乐北路60号紫金苑2-02店面 <a href="#" class="map">查看地图&gt;&gt;</a>
+                	</p>
+           	 </div>
+        	</div>
+    		<div class="right">
+        		<div class="eva clearfix">
+                	<dl onMouseOver="this.className='on'" onMouseOut="this.className=''">
+                		<dt>差评</dt>
+                    	<dd>2</dd>
+                	</dl>
+                	<dl onMouseOver="this.className='on'" onMouseOut="this.className=''">
+                		<dt>好评</dt>
+                    	<dd>12</dd>
+                	</dl>
+            		<dl class="good">
+                		<dt>好评率</dt>
+                    	<dd>99.6<em>%</em></dd>
+                	</dl>
+            	</div>
+            	<div class="time">开业时间：2011年03月29日　　待售车源：<strong class="hot">365</strong>辆（今日新增<strong class="hot">4</strong>辆）</div>
+        	</div>
+        </div>
+        <div id="stores_nav_box" class="clearfix">
+        	<div id="stores_nav">
+            	<ul class="clearfix">
+                	<li><a href="#">顾问车源</a></li>
+                	<li><a href="#" class="current">顾问评价</a></li>
+                </ul>
+            </div>
+        	<div id="stores_search">
+            	<form class="clearfix">
+                	<div class="choose">
+                    	<span>本店</span>
+                        <i></i>
+                        <ul style=" display: none;">
+                        	<li><a href="#">本店</a></li>
+                        	<li><a href="#">全站</a></li>
+                        </ul>
+                    </div>
+                	<div class="key clearfix">
+                        <i></i>
+                        <input class="input1" value="输入信息编号、车源关键字" />
+                    </div>
+                    <div class="btn"><button>搜索</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="main">
+	<div class="row">
+   	  <div id="stores_eva">
+        	<div class="title1">
+			<h2 class="on"><a href="">全部评价（358）</a></h2>
+			<h2><a href="">好评（295）</a></h2>
+			<h2><a href="">投诉（63）</a></h2>
+		</div>
+            
+            <div class="eva_content">
+            	<ul class="eva_list">
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i3"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span><em class="tag1">重大投诉</em></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p class="p1">通过业务员卖了一辆丰田进口普拉多 ，对业务员服务很满意，今后会介绍朋友来273</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i2"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>服务态度好！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        	<li class="clearfix">
+                            	<div class="tel"><i class="i1"></i>135****3441<span></span></div>
+                                <div class="comment">
+                                	<p>真会编故事，以为只有你懂车呀！</p>
+                                    <div class="other_info"><span>被评价车源<a href="#" target="_blank">大众途观 2010年款 途观 1.8TSI 手自一体 四驱菁英版</a></span></div>
+                                </div>
+                                <div class="time">2013-08-13</div>
+                            </li>
+                        </ul>
+                        
+                        <div id="page"><a href="#" class="a1">上一页</a><em>1</em><a href="#">2</a><a href="#">3</a><a href="#" class="a1">下一页</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="footer">
+	<div class="row clearfix">
+		<div class="footer-hd">
+			<p class="p1"><a href="#">273首页</a> | <a href="#">买车</a> | <a href="#">卖车</a> | <a href="#">车价评估</a> | <a href="#">车况宝</a> | <a href="#">拍车宝</a> | <a href="#">加盟273</a> | <a href="#">273连锁店</a> | <a href="#">移动客户端</a></p>
+			<p><a href="#" class="s">关于我们</a><a href="#">加盟273</a><a href="#">人才招聘</a><a href="#">联系我们</a><a href="#">使用帮助</a><a href="#">友情链接</a><a href="#">网址地图</a><a href="#">帮助中心</a>  免费咨询二手车：<strong>400-6000-273</strong></p>
+			<p>273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号] &nbsp;&nbsp;&nbsp; Copyright © 1998 - 2014 273.cn All Rights Reserved</p>
+			<p><a href="" class="s"><img src="../pics/cert.png" /></a><a href=""><img src="../pics/cnnic.png" /></a></p>
+		</div>
+		<div class="footer-qr">
+			<a href="#"><img src="../pics/client_code.jpg" height="100px" width="100px"/></a>
+			<div class="info ">
+				<strong>273手机客户端</strong><span>海量车源 随时掌握</span><a href="#">查看详细介绍</a>
+			</div>
+		</div>
+		<div class="footer-qr weixin">
+			<a href="#"><img src="../pics/weixin_code.jpg" height="100px" width="100px"/></a>
+			<div class="info">
+				<strong>273官方微信</strong><span>扫描二维码，即可与273微信互动，还有惊爆优惠等你来拿！</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="uptop">
+		<span class="up"><a href=""></a></span>
+		<span class="fk"><a href=""></a></span>
+	</div>
+    <div class="over_online"><a href="#"></a></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>保障服务</title>
+<link href="css/basic.css" rel="stylesheet" type="text/css" />
+<link href="css/safe_service.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="head"><!--头部-->
+    <div class="lay1">
+    	<div id="top">
+        	<div class="home">·<a href="#">273二手车交易网首页</a></div>
+            <div class="top_nav"><a href="#">登录</a><span>|</span><a href="#">注册</a></div>
+        </div>
+        <div id="head_con">
+        	<h1 id="logo"><a href="#"><img src="images/logo.gif" /></a></h1>
+            <ul>
+            	<li class="first"><a href="#" class="a3">国家认证<br />检测资质</a></li>
+                <li><a href="#" class="a2">专业全面<br />车况检测</a></li>
+            	<li><a href="#" class="a4">车况透明<br />出具报告</a></li>
+            	<li><a href="#" class="a1">检测有误<br />原价退车</a></li>
+            	<li><a href="#" class="a5">持续保障<br />延保服务</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="nav">
+    	<div class="bg"></div>
+        <div class="lay1">
+        	<ul>
+            	<li><a href="#">鉴定首页</a></li>
+            	<li><span></span></li>
+            	<li><a href="#" class="current">保障服务</a></li>
+            </ul>
+            <div class="tel">400-6000-273</div>
+        </div>
+    </div>
+</div>
+
+<div id="banner_box"></div>
+
+<div id="sub_nav">
+	<div class="inner">
+    	<ul>
+        	<li><a href="#" class="a1_current"></a></li>
+            <li><span><img src="images/safe_service_nav_line.gif" /></span></li>
+        	<li><a href="#" class="a2"></a></li>
+            <li><span><img src="images/safe_service_nav_line.gif" /></span></li>
+        	<li><a href="#" class="a3"></a></li>
+            <li><span><img src="images/safe_service_nav_line.gif" /></span></li>
+        	<li><a href="#" class="a4"></a></li>
+            <li><span><img src="images/safe_service_nav_line.gif" /></span></li>
+        	<li><a href="#" class="a5"></a></li>
+            <li><span><img src="images/safe_service_nav_line.gif" /></span></li>
+        	<li><a href="#" class="a6"></a></li>
+        </ul>
+    </div>
+</div>
+    
+<div id="main">
+	<div class="content_part clearfix" id="des1">
+    	<div class="font">
+        	<h3><img src="images/safe_service_h3_1.gif" /></h3>
+            <p>车况宝是273二手车交易网旗下专业检测品牌，拥有专业化的检测团队和标准化的检测方法。车况宝定位于为二手车交易提供车况保障服务，检测项目重点关注车辆的结构性损伤，对造成车辆结构件损伤的事故作出判断，从而让二手车车况更透明、交易更安全。</p>
+        </div>
+        <div class="pic">
+        	<div><img src="images/safe_service_des1_pic.gif" /></div>
+            <div><a href="#" class="current"></a><a href="#"></a></div>
+        </div>
+    </div>
+	<div class="content_part clearfix" id="des2">
+    	<div class="font">
+        	<h3><img src="images/safe_service_h3_2.gif" /></h3>
+            <p>车况宝标准化检测技术由全面的检测项目、规范的检测流程，专业的检测手段，先进的检测设备共同组成，检测结果均由中央数据库计算、控制和输出。在273交易的每一辆二手车，都可以在交易前享受车况宝免费检测（福州市试行）。车况宝检测项目主要包括漆膜厚度、漆面、外观、内饰、配置功能、覆盖件、加强件、结构件事故勘察等。</p>
+        </div>
+        <div class="pic"><img src="images/safe_service_des2_pic.gif" /></div>
+    </div>
+    <div class="des2_pic clearfix">
+    	<span class="left"><a href="#" class="a1"></a></span>
+        <div class="pic_box">
+        	<ul class="clearfix">
+            	<li><img src="images/safe_service_scroll_pic1.jpg" /><i></i><span>事故勘察</span></li>
+            	<li><img src="images/safe_service_scroll_pic2.jpg" /><i class="current"></i><span>漆膜检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic3.jpg" /><i></i><span>噪音检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic4.jpg" /><i></i><span>发动机OBD检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic5.jpg" /><i></i><span>轮胎磨损极限检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic6.jpg" /><i></i><span>空调温度检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic7.jpg" /><i></i><span>漆面外观检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic8.jpg" /><i></i><span>底大边检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic9.jpg" /><i></i><span>底盘拍照</span></li>
+            	<li><img src="images/safe_service_scroll_pic10.jpg" /><i></i><span>加强件检测</span></li>
+            	<li><img src="images/safe_service_scroll_pic11.jpg" /><i></i><span>内饰检测</span></li>
+            </ul>
+        </div>
+        <span class="right"><a href="#" class="a2"></a></span>
+    </div>
+	<div class="content_part clearfix" id="des3">
+    	<div class="font">
+        	<h3><img src="images/safe_service_h3_3.gif" /></h3>
+            <p>车况宝秉承“阳光透明”的使命，为保证检测结果客观公正，车况宝不参与二手车的买卖环节，仅提供检测服务，并出具通俗易懂的检测报告，让买卖双方车辆信息对称，车况透明，放心买车。</p>
+        </div>
+        <div class="pic"><img src="images/safe_service_des3_pic.gif" /></div>
+    </div>
+	<div class="content_part clearfix" id="des4">
+    	<div class="font">
+        	<h3><img src="images/safe_service_h3_4.gif" /></h3>
+            <p>车况宝检测出具检测报告，让买卖双方车辆信息对称。车况宝承诺：检测有误，原价退车。</p>
+            <p>1、在273连锁店交易的车辆，委托方购买后自检测之日起7日内，如发现实车结构件与检测时的检测报告有较大不符，经核实，若确认争议属实，委托方可原价退车（“原价”为交易合同中标注的车辆成交价格，客户退车需支付因退车产生的过户费用）。</p>
+            <p>2、车况宝仅对检测范围内的结构件的检测结果作承诺保障。</p>
+            <p>3、不在车况宝承诺保障范围内的项目，273不提供原价退车服务。</p>
+            <p class="btn"><a href="#" target="_blank"><img src="images/safe_service_des3_btn.gif" /></a></p>
+        </div>
+        <div class="pic"><img src="images/safe_service_des4_pic.gif" /></div>
+    </div>
+    <div class="content_part content_part_last clearfix" id="des5">
+    	<div class="font">
+        	<h3><img src="images/safe_service_h3_5.gif" /></h3>
+            <p>经车况宝检测，车况综合评定符合购买条件的车辆，可向273连锁店申请购买延保服务。</p>
+            <p><strong>购买条件：</strong></p>
+            <p>1、在273成交且在交易当天购买延保服务；</p>
+            <p>2、车辆使用时间须在5年以内，且行驶里程在15万公里内；</p>
+            <p>3、车况综合评定符合购买条件；</p>
+            <p>4、营运车辆转向非营运车辆不得购买。</p>
+            <p><strong>延保范围：</strong></p>
+            <p>发动机、变速箱、自动变速箱、制动系统、差速器、电控单元、ABS防抱死制动系统、辅料等。（不同产品范围不同，此项具体内容以延保协议为准）</p>
+            <p><strong>延保期限：</strong></p>
+            <p>273提供的延保服务，包括3个月、6个月、12个月三种，并有相应的收费标准，消费者可根据需要选择。</p>
+        </div>
+        <div class="pic"><img src="images/safe_service_des5_pic.gif" /></div>
+    </div>
+    <div id="faq">
+      <div class="inner clearfix">
+   	  <div class="font">
+        	<h3><img src="images/safe_service_h3_faq.gif" /></h3>
+            <dl>
+            	<dt>什么是车况宝？</dt>
+                <dd>车况宝是273为了让车况透明而推出的专业检测服务，主要检测汽车车身外观和结构件，帮助消费者判断二手车是否出过导致结构件损坏的事故。车况宝可提供移动式的检测服务。车况宝向消费者承诺“车身结构件检测失误，原价退车”。</dd>
+            </dl>
+            <dl>
+            	<dt>车况宝检测项目有哪些？</dt>
+                <dd>包括：漆膜厚度、漆面外观、内饰、配置功能、性能工况、覆盖件、加强件、结构件事故勘察等。</dd>
+            </dl>
+            <dl>
+            	<dt>车况宝检测的“结构件”指的是什么？</dt>
+                <dd>车况宝标准化检测项目中的结构件是指：组成车身本体的支撑覆盖件、保证车身强度和刚度的零部件，包括：前横梁、右前纵梁、右前减震座、右侧A柱、防火墙、右侧B柱、右侧C柱、右后减震座、右后纵梁、后备箱底板、左前纵梁、左前减震座、左侧A柱、驾驶舱底板、左侧B柱、后隔板、后横梁、左侧C柱、左后减震座、左后纵梁。</dd>
+            </dl>
+            <dl>
+            	<dt>检测一辆车需要多长时间？</dt>
+                <dd>二手车具有“一车一况”的特点，检测时间的长短取决于具体车辆状况，一般在30分钟至60分钟内可完成检测。</dd>
+            </dl>
+            <dl>
+            	<dt>怎样获得“原价退车”服务？</dt>
+                <dd>委托车况宝检测的车辆，委托方自检测当日起7日内如发现实车结构件历史状况（购车前）与车况宝出具的检测报告有较大不符，可向车况宝提出争议，经车况宝复核人员核实，若确认争议属实，车况宝将依据流程进行退车处理，或根据消费者诉求进行赔付。超过7日，视为放弃主张权利，车况宝将不再受理。</dd>
+            </dl>
+            <dl>
+            	<dt>为什么“原价退车”要在7日内提出主张？</dt>
+                <dd>车辆卖出后超过7日，车况发生改变的责任无法界定，超出车况宝保障的承诺范围。</dd>
+            </dl>
+           <dl>
+            	<dt>车况宝与延保服务是什么关系？</dt>
+                <dd>车况宝检测车辆结构件及相关部件的历史和当前状况，是自主购买延保服务的认定标准。车况宝服务无法保证车辆未来性能状况，延保服务则可以为此提供一定的保障。</dd>
+            </dl>
+        </div>
+        <div class="pic"><img src="images/safe_service_des_faq_pic.gif" /></div>
+    	</div>
+    </div>
+</div>
+    
+    <div id="foot2">
+    	<p>
+        	<a href="#">申请加盟</a> <span>|</span> <a href="#">服务中心</a> <span>|</span> <a href="#">合作专区</a> <span>|</span> <a href="#">关于我们</a> <span>|</span> <a href="#">投诉建议</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+            273中国二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+            Copyright &copy; 1998 - 2013 273.cn All Rights Reserved<br />
+            273旗下：<a href="#">拍车宝</a> <span>|</span> <a href="#">车况宝</a>
+        </p>
+        <p><a href="#" target="_blank"><img src="images/cert.png" /></a><a href="#" target="_blank"><img src="images/cnnic.png" /></a></p>
+    </div>
+</body></html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="CACHE-CONTROL" content="PUBLIC"/>
+    <meta http-equiv="EXPIRES" content="Sat, 01 Jan 2050 00:00:00 GMT"/>
+    <script>
+    try{
+        document.domain = '273.cn';
+    } catch (e) {}
+    try {
+        window.parent.parent.RPC_FN.get(window.name)(window);
+    } catch(e) {}
+
+    </script>
+</head>
+<body></body>
+</html>

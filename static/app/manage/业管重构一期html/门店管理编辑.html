@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>门店管理编辑</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-yjfk"><i class="i-yjfk"></i>意见反馈</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>组织管理</li>
+                <li><span>88</span><a href="#">店员照片审核</a></li>
+                <li><a href="#">组织结构管理</a></li>
+                <li class="active"><a href="#">门店管理</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">组织管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">门店管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">编辑操作</li>
+            </ul>
+
+            <div class="salerinfo">                
+                <div class="ctitle">添加管理人员</div>
+                <div class="clearfix">
+                    <div class="fl">
+                        <p><img src="http://img.273.com.cn/head/20130811111548.jpg" width="100" /></p>
+                    </div>
+                    <div class="fl">
+                        <p>姓名：李闯</p>
+                        <p>角色：交易顾问</p>
+                        <p>业管帐号：<span class="number">26100007</span></p>
+                    </div>
+                </div>
+
+                <div class="ctitle">已管理门店</div>
+                <table class="table table-hover table-striped table-bordered table-diannei">
+                    <thead>
+                        <tr>
+                            <th>地区</th>
+                            <th>店名</th>
+                            <th>电话</th>
+                            <th>地址</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="ctitle">选择门店</div>
+                <div class="shaixuan">
+                    <span class="ml10">城市：</span>
+                    <select class="span1 ml10">
+                        <option>省份</option>
+                        <option>福建</option>
+                        <option>3</option>
+                    </select>
+                    <select class="span1 ml10">
+                        <option>城市</option>
+                        <option>福州</option>
+                        <option>3</option>
+                    </select>
+                    <span class="ml10">部门：</span>
+                    <select class="span1 ml10">
+                        <option>选择</option>
+                        <option>1</option>
+                        <option>2</option>
+                    </select>
+                    <span class="ml10">店铺电话：</span>
+                    <input class="ml10 span2" type="text" name="" value="" placeholder="">
+                    <span class="ml10">店铺名称：</span>
+                    <input class="ml10 span2" type="text" name="" value="" placeholder="">
+                    <button class="btn btn-success ml10">搜索</button>
+                </div><!-- / -->
+                <table class="table table-hover table-striped table-bordered table-diannei">
+                    <thead>
+                        <tr>
+                            <th>地区</th>
+                            <th>店名</th>
+                            <th>电话</th>
+                            <th>地址</th>
+                            <th>管理人员</th>
+                            <th>操作</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                        <tr>
+                            <td>福州</td>
+                            <td>省体服务中心</td>
+                            <td>0591-88888273</td>
+                            <td>福州市省体育中心</td>
+                            <td>黄忠友</td>
+                            <td><a href="" title="">查看</a> <a href="" title="">添加</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="pagination pagination-right">
+                <ul>
+                    <li class="disabled"><a href="#">1/12页，共222条</a></li>
+                    <li class="disabled"><a href="#">首页</a></li>
+                    <li class="disabled"><a href="#">前一页</a></li>
+                    <li class="active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                    <li><a href="#">9</a></li>
+                    <li><a href="#">10</a></li>
+                    <li><a href="#">后一页</a></li>
+                    <li><a href="#">末页</a></li>
+                </ul>
+            </div>
+            </div>            
+
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

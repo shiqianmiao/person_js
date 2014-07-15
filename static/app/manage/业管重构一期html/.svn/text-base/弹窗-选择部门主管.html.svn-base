@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>组织结构管理</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <table class="table table-hover table-striped table-bordered table-diannei table-td-center table-th-center">
+        <thead>
+            <tr>
+                <th>主管名称</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>黄忠友</td>
+                <td><a href="" title="">选择</a></td>
+            </tr>
+            <tr>
+                <td>黄忠友</td>
+                <td><a href="" title="">选择</a></td>
+            </tr>
+            <tr>
+                <td>黄忠友</td>
+                <td><a href="" title="">选择</a></td>
+            </tr>
+            <tr>
+                <td>黄忠友</td>
+                <td><a href="" title="">选择</a></td>
+            </tr>
+            <tr>
+                <td>黄忠友</td>
+                <td><a href="" title="">选择</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

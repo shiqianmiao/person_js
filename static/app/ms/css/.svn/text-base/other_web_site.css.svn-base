@@ -1,0 +1,9 @@
+/*中金在线合作页面地区导航*/
+#nav_zjzx { width: 988px; border: 1px solid #e3e3e3; height: 31px; line-height: 31px; margin: 0 auto; background: url(../images/rp.png) repeat-x 0 -1541px; overflow: hidden;}
+#nav_zjzx dl { color: #334fa0;}
+#nav_zjzx dl a { color: #334fa0; margin: 0 10px 0 0;}
+#nav_zjzx dl a:hover { color: #ff3000;}
+#nav_zjzx dt { float: left; display: inline; font-weight: bold; width: 92px; padding: 0 0 0 11px;}
+#nav_zjzx dd { float: left; display: inline;}
+#nav_zjzx dd.more { float: right;}
+#nav_zjzx dd.more a { font-weight: bold; margin-right: 5px;}

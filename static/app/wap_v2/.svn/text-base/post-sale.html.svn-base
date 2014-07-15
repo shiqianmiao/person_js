@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>发布卖车-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css?1139"/>
+</head>
+<body>
+
+<div id="pageheader" class="row">
+	<span class="reback"><a href="index.html" title="">返回</a></span>
+	<span class="pagetitle">发布卖车</span>
+</div>
+
+<div id="main" class="row">
+
+	<div class="row">
+		<p class="color-999 ml10 mt10">为什么选择273帮您卖车？</p>
+		<img width="100%" src="pics/post-sale.jpg" />
+	</div>
+
+	<div id="zhaoshang" class="row">
+
+		<h2>&nbsp;</h2>
+		<div class="row">
+			<div class="post-sale-title">
+				<span class="color-999">拨打卖车热线登记卖车</span>
+				<p>卖车热线：<span class="color-orange">400-6000-273</span><a href="" class="btn btn-green">拨打电话</a></p>
+			</div>
+			<form class="post-sale-form">
+				<p><span class="color-999">您也可以填写以下登记信息卖车</span></p>
+				<p><span class="label"><em class="color-red">*</em> 联系电话：</span><span class="select-span2"><input type="number" class="pub-tel" /></span></p>
+				<p>
+					<span class="label"><em class="color-red">&nbsp;</em> 车型品牌：</span>
+					<span class="select-span">请选择</span>
+				</p>
+				<p><button class="btn btn-green">提交登记</button></p>
+			</form>
+		</div>
+
+
+		<h2>&nbsp;</h2>
+		<div class="row post-sale-info"> 
+			<span class="color-999">卖家常见问题解答</span>
+			<dl>
+				<dt>273卖车交易流程是怎样的</dt>
+				<dd>
+					<i class="bg">&nbsp;</i>
+					<p>1、登记卖车； 2、业务员登记； <br />3、买主看车； 4、双方议价； <br />5、签订合同；  6、车辆过户</p>
+				</dd>
+				<dt>卖车应注意什么？</dt>
+				<dd>
+					<i class="bg">&nbsp;</i>
+					<p>
+						1、提供完整、详细、真实的车辆信息；<br />
+						2、车辆的价格不要过高；<br />
+						3、保持车辆的整洁；<br />
+						4、及时收回放在车上的私人物品<br />
+					</p>
+				</dd>
+				<dt>车辆交易后，卖方什么时候能收到钱？</dt>
+				<dd>
+					<i class="bg">&nbsp;</i>
+					<p>
+						您可以在双方签完买卖协议后以现金交易，也可以银行转账。通常买主会先将车款转入273的监管账户，待过户手续办理完毕后（一般三个工作日），再将款项转到车主账户上。
+					</p>
+				</dd>
+			</dl>
+
+		</div>
+	</div>
+
+	<div id="footer" class="row">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+		</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> |
+			<a href="#">电脑版</a> |
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+
+</div><!-- #main/ -->
+
+</body>
+</html>

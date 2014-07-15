@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li><a href="#">我的卖车信息</a></li>
+                <li class="active"><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">业务管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">卖车信息管理</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">发布卖车</li>
+            </ul>
+            <div class="carcheck">
+                <p class="title">车源状态：<strong class="color-red">待质检审核</strong><b>|</b>车源编号：<strong class="color-red f12">9636210</strong><b>|</b><span class="mr10">福州紫阳服务中心</span>电话：<strong class="f12">0591-87733273</strong><b>|</b><span class="mr10">苏翔</span>电话：<strong class="mr10 f12">15280079251</strong>转接号：<strong class="f12">0591-633922273-638719</strong></p>
+                <div class="check-step">
+                    <div class="r_line" style="width:630px;"></div>
+                    <ul>
+                        <li>
+                          <span class="text color-green">发布车源</span>
+                          <span class="range"><i class="i-pass"></i></span>  
+                        </li>
+                        <li>
+                          <span class="text">待店长审核</span>
+                          <span class="range"><i class="i-pass"></i></span>  
+                        </li>
+                        <li>
+                          <span class="text">质检审核</span>
+                          <span class="range"><i class="i-pass"></i></span>  
+                        </li>
+                        <li class="last">
+                          <span class="text">外网展示</span>
+                          <span class="range"><i class="i-pass"></i></span>  
+                        </li>
+                    </ul>  
+                </div> 
+            </div>
+            <div class="succeed-2 clearfix">
+                <div class="suc-box">
+                    <p class="tit"><span class="bg"></span>发布卖车成功！</p>
+                    <p class="txt"><em></em>信息编号为<b>9545613</b>，等待您店长审核通过后，将在外网展现!</p>
+                </div>
+                <p>
+                    <button class="btn btn-success" style="margin-left:45px;">继续发布卖车</button>
+                    <a href="#" class="ml10">返回我的卖车</a>
+                </p> 
+            </div>
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#citytop{height:150px;background:url(../images/citytop.png) no-repeat 0 bottom;}
+#citytop h1{padding:40px 20px;}
+#citytop h1 a{display:block;width:280px;height:50px;text-indent:-82982px;}
+#citychange{border-top:1px #eee solid;padding:10px 0;}
+#citychange ul.citychange-head{font-weight:700;}
+#citychange ul.citychange-head li{height:24px;padding:5px 0;}
+#citychange ul.citychange-head li span{float:left;margin:0 10px;}
+#citychange ul.citychange-head li span a{margin:0 5px;font-size:14px;}
+#citychange ul.citychange-head li span.linkin{background:url(../images/arrow-right.png) no-repeat right center;padding-right:5px;}
+#citychange ul.citychange-head li span.linkin a{color:#f60;}
+#citychange ul.citychange-head li span.btn a{margin-left:0;float:left;font-size:12px;font-weight:100;position:relative;top:-5px;display:block;width:78px;height:23px;line-height:23px;border:1px #C86400 solid;background:#F37C06;text-align:center;color:#fff;}
+#citychange ul.citychange-head li span.btn a:hover{text-decoration:none;}
+#citychange ul.citychange-head li span.btn input{color:#999;float:left;height:19px;line-height:19px;padding:2px;width:170px;border:1px #cecece solid;border-right:0;position:relative;top:-5px;}
+#citychange ul.citychange-head li span.btn input.on{color:#333;}
+.iform{float:left;position:relative;font-weight:100;top:-5px;margin:0 5px;}
+.iform span.selected{margin:0 !important;width:68px;height:18px;line-height:18px;_line-height:19px;overflow:hidden;background:#fff;border:1px #cecece solid;padding:3px 15px 3px 5px;background:#fff url(../images/icons.png) no-repeat 75px 10px;cursor:pointer;}
+.iform dl.select{display:none;border:1px #cecece solid;background:#fff;line-height:24px;position:absolute;top:0;left:0;width:92px;overflow-y:scroll;height:240px;}
+.iform dl.select dt{margin:0 5px;position:relative;z-index:0;}
+.iform dl.select dd{width:71px;line-height:20px;padding:2px 0;overflow:hidden;}
+.iform dl.click{z-index:6;display:block;}
+.iform dl.click dt{background:#fff url(../images/icons.png) no-repeat 70px 10px;}
+.iform dl.click dd{display:block;}
+.iform dl.select dd a{display:block;margin:0;padding:0 5px;background:#fff;}
+.iform dl.select dd a:hover{background:#efefef;text-decoration:none;}
+.iform em{font-style:normal;line-height:24px;}
+.iform ul.select{border:1px #eee solid;padding:4px;background:#fff;position:absolute;top:0;}
+.citylist{border-top:1px #eee solid;margin-top:5px;padding-top:10px;}
+.citylist li{clear:both;overflow:hidden;padding:5px 0 5px 10px;}
+.citylist li dt{font-weight:700;float:left;font-size:14px;width:40px;line-height:28px;}
+.citylist li dt a{margin-left:10px;}
+.citylist li dd{float:right;width:910px;}
+.citylist li dd a{display:block;float:left;line-height:18px;height:18px;overflow:hidden;padding:0 2px;}
+.citylist li dd a:hover{background:#f60;color:#fff;text-decoration:none;}
+.citylist li dd span{float:left;width:60px;overflow:hidden;padding:5px 0;}
+.citylist li dd span.hot a{color:#f60;}
+.citylist li dd span.hot a:hover{color:#fff;}
+#foot{border-top:1px solid #EBEBEB;}

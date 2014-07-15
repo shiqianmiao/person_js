@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>图片轮播组件</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js'></script>
+<script src='http://static.273.cn/config.js'></script>
+</head>
+<body>
+    <div id="demo"></div>
+
+    <script>
+    var images = [{
+        src : 'http://static.273.cn/app/attr/ad/lb_1.jpg',
+    },{
+        src : 'http://static.273.cn/app/attr/ad/lb_2.jpg',
+    },{
+        src : 'http://static.273.cn/app/attr/ad/lb_3.jpg',
+    }];
+
+    G.use(['widget/slide/slide.js'], function (Slide) {
+        Slide({
+            el : '#demo',
+            images : images
+        });
+    });
+    </script>
+</body>
+</html>

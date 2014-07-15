@@ -1,0 +1,1209 @@
+.inline-block {
+  display: inline-block;
+  zoom: 1;
+}
+.mb15 {
+  margin-bottom: 15px;
+}
+#main {
+  margin: 0;
+}
+#page {
+  padding: 15px 0 0;
+}
+/*筛选列表*/
+.filter_list {
+  font-size: 14px;
+  border-bottom: 1px solid #ebebeb;
+}
+.filter_list h4 {
+  float: left;
+  _display: inline;
+  width: 71px;
+  line-height: 24px;
+  text-align: right;
+  color: #989898;
+}
+.filter_list .selected {
+  background: #f9f9f9;
+  padding: 9px 0 4px;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: #ebebeb;
+}
+.filter_list .selected h4 {
+  width: 75px;
+}
+.filter_list .selected .con {
+  float: left;
+  _display: inline;
+  width: 1090px;
+  padding-left: 15px;
+}
+.filter_list .selected .con span {
+  float: left;
+  position: relative;
+  padding: 0 3px;
+  border: 1px solid #fc5300;
+  color: #fc5300;
+  margin: 0 10px 5px 0;
+  height: 22px;
+  line-height: 22px;
+  cursor: pointer;
+}
+.filter_list .selected .con span a {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  width: 14px;
+  height: 14px;
+  background: #f9f9f9 url(../images/icons.png) no-repeat -420px -610px;
+}
+.filter_list .selected .con span.s {
+  padding: 0 17px 0 3px;
+}
+.filter_list .selected .con a:hover {
+  text-decoration: none;
+  background-position: -420px -630px;
+}
+.filter_list .selected .del {
+  float: left;
+  _display: inline;
+  overflow: hidden;
+}
+.filter_list .selected .del a {
+  position: relative;
+  padding-left: 16px;
+  color: #0090d8;
+  line-height: 24px;
+}
+.filter_list .selected .del a .i-del {
+  display: block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 2px;
+  background: #f9f9f9 url(../images/icons.png) no-repeat -360px -610px;
+  overflow: hidden;
+}
+.filter_list .selected .save {
+  float: right;
+  _display: inline;
+  position: relative;
+  height: 22px;
+  z-index: 7;
+  color: #d6d6d6;
+}
+.filter_list .selected .save a.a2 {
+  color: #0090D8;
+  margin: 0 0 0 3px;
+}
+.filter_list .selected .save a.a1 {
+  color: #0090d8;
+  line-height: 22px;
+  margin: 0 5px;
+}
+.filter_list .selected .save a.a1 .i-save {
+  display: block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 6px;
+  left: -11px;
+  background: #f9f9f9 url(../images/icons.png) no-repeat -760px -280px;
+  overflow: hidden;
+}
+.filter_list .selected .save .arrow {
+  width: 13px;
+  height: 7px;
+  background: url(../images/icons.png) no-repeat -630px -610px;
+  position: absolute;
+  top: 23px;
+  right: 29px;
+  z-index: 2;
+}
+.filter_list .selected .save .down {
+  width: 435px;
+  background: #fff;
+  border: 1px solid #cfcfcf;
+  color: #494949;
+  position: absolute;
+  top: 29px;
+  right: -9px;
+  z-index: 1;
+  font-family: SimSun;
+  font-size: 14px;
+  box-shadow: 1px 1px 5px #bbb;
+}
+.filter_list .selected .save .down li {
+  margin: 0 2px;
+  border-bottom: 1px solid #efefef;
+}
+.filter_list .selected .save .down li .li_c {
+  height: 36px;
+  /*background: #ebf3f7;*/
+
+  line-height: 36px;
+  margin: 2px 0;
+  cursor: pointer;
+}
+.filter_list .selected .save .down li .li_c i.i-s {
+  float: left;
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../images/icons.png) no-repeat -600px -610px;
+  margin: 12px 8px 0 9px;
+}
+.filter_list .selected .save .down li .li_c em.font {
+  float: left;
+  display: inline;
+  width: 370px;
+  height: 36px;
+  overflow: hidden;
+}
+.filter_list .selected .save .down li .li_c a.close {
+  float: right;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/icons.png) no-repeat -538px -608px;
+  padding: 0;
+  margin: 10px 8px 0 0;
+}
+.filter_list .selected .save .down li .li_c a.close:hover {
+  background: #0090d8 url(../images/icons.png) no-repeat -568px -608px;
+}
+.filter_list .selected .save .down li .li_c_on {
+  background: #ebf3f7;
+}
+.filter_list .selected .save .down li.last {
+  border-bottom: 0;
+}
+.filter_list .selected .save .tips {
+  position: absolute;
+  top: 12px;
+  right: 43px;
+  z-index: 1;
+  width: 483px;
+  height: 221px;
+  background: url(../pics/car_list_tips.png) no-repeat;
+}
+.filter_list .selected .save .tips .tips_inner {
+  position: relative;
+  width: 483px;
+  height: 221px;
+}
+.filter_list .selected .save .tips .tips_inner a {
+  display: block;
+  position: absolute;
+  top: 145px;
+  left: 147px;
+  width: 117px;
+  height: 52px;
+}
+/*更多按钮*/
+.filter_list .btn {
+  display: inline-block;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 3px;
+  border: 1px solid #bbb;
+}
+.filter_list .btn a {
+  position: relative;
+  padding-right: 15px;
+}
+.filter_list .btn a i {
+  display: block;
+  width: 15px;
+  height: 10px;
+  position: absolute;
+  top: 6px;
+  right: 0;
+  background: url(../images/icons.png) no-repeat -117px 0;
+}
+.filter_list .btn a:hover {
+  text-decoration: none;
+  color: #fc5300;
+}
+.filter_list .btn a:hover i {
+  background-position: -17px 0;
+}
+.filter_list .content {
+  position: relative;
+  float: left;
+  width: 1094px;
+  padding-left: 15px;
+}
+.filter_list .content ul {
+  float: left;
+  width: 1035px;
+}
+.filter_list .content ul li {
+  float: left;
+  padding: 0 30px 0 0;
+  line-height: 24px;
+  position: relative;
+}
+.filter_list .content ul li a {
+  color: #0090d8;
+  padding: 0 5px;
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+}
+.filter_list .content ul li a span {
+  color: #989898;
+}
+.filter_list .content ul li a.on,
+.filter_list .content ul li a:hover {
+  color: #fff;
+  background: #fc5300;
+  text-decoration: none;
+}
+.filter_list .content ul li a.on span,
+.filter_list .content ul li a:hover span {
+  color: #fff;
+}
+.filter_list .content ul li a.color-hui {
+  color: #989898;
+}
+.filter_list .content ul li .custom {
+  display: inline-block;
+}
+.filter_list .content ul li .custom .i1 {
+  padding: 2px 3px;
+  border: 1px solid #cecece;
+  width: 28px;
+  margin: 0 4px;
+}
+.filter_list .content ul li .custom .sure button {
+  display: none;
+}
+.filter_list .content ul li.last {
+  padding: 0;
+}
+.filter_list .content ul li.input .custom {
+  background: #fff;
+  position: absolute;
+  top: -11px;
+  left: -11px;
+  width: 113px;
+  border: 1px solid #bbb;
+  box-shadow: 1px 1px 5px #bbb;
+  z-index: 5;
+}
+.filter_list .content ul li.input .custom .p1 {
+  padding: 10px;
+}
+.filter_list .content ul li.input .custom .sure {
+  background: #F9F9F9;
+  height: 32px;
+  position: relative;
+}
+.filter_list .content ul li.input .custom .sure button {
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 14px;
+  width: 36px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0;
+  background: #fff2eb;
+  border: 1px #ffb38e solid;
+  color: #fc5300;
+  cursor: pointer;
+}
+.filter_list .filter_box {
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  border-bottom: 1px dashed #f1f1f1;
+  background: #fff;
+  z-index: 1;
+  padding: 5px 0 !important;
+}
+.filter_list .filter_box .box_border {
+  border: 4px solid #fff;
+}
+.filter_list .filter_box .btn-more {
+  position: absolute;
+  right: 8px;
+}
+.filter_list .more_box {
+  position: relative;
+  border: 1px solid #ffcbb1;
+  background: #fffbf9;
+  margin-top: -1px;
+}
+.filter_list .more_box .box_border {
+  border: 4px solid #ffeee5;
+}
+.filter_list .more_box h4 {
+  margin-top: 5px;
+}
+.filter_list .more_box .content ul {
+  margin: 5px 0 0;
+}
+.filter_list .more_box .content ul li {
+  margin: 0 0 10px;
+  color: #494949;
+  height: 24px;
+  overflow: hidden;
+  white-space:nowrap;
+}
+.filter_list .more_box .content ul li a {
+  color: #494949;
+}
+.filter_list .more_box .content ul li a:hover,
+.filter_list .more_box .content ul li a.on {
+  color: #fff;
+}
+.filter_list .more_box .content .brand_list {
+  clear: both;
+  position: relative;
+  width: 1086px;
+  height: 150px;
+  margin-bottom: 5px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  _zoom: 1;
+}
+.filter_list .more_box .content .brand_list li {
+  float: left;
+  width: 105px;
+  padding: 2px 0;
+  margin: 4px 0 8px;
+  white-space: normal;
+}
+.filter_list .more_box .content .brand_list li a {
+  display: inline-block;
+  color: #494949;
+}
+.filter_list .more_box .btn-more {
+  position: absolute;
+  right: 8px;
+  top: 5px;
+  border: 1px solid #fc5300;
+}
+.filter_list .more_box .btn-more a,
+.filter_list .more_box .btn-more a:hover {
+  color: #fc5300;
+}
+.filter_list .more_box .btn-more a i,
+.filter_list .more_box .btn-more a:hover i {
+  background-position: -157px 0;
+}
+.filter_list .more_box .letterlayer {
+  clear: both;
+  position: relative;
+  width: 1027px;
+  overflow: hidden;
+  margin: 5px 0 0;
+}
+.filter_list .more_box .letterlayer .letter_list {
+  float: left;
+  _display: inline;
+  line-height: 24px;
+}
+.filter_list .more_box .letterlayer .letter_list a {
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+  padding: 0 6px;
+  color: #494949;
+  font-size: 16px;
+}
+.filter_list .more_box .letterlayer .letter_list a:hover,
+.filter_list .more_box .letterlayer .letter_list a.on {
+  background: #fc5300;
+  color: #fff;
+  text-decoration: none;
+}
+.filter_list .more_box .letterlayer .letter_list a.a1 {
+  margin-right: 30px;
+  padding: 0 5px;
+  font-size: 14px;
+  vertical-align: top;
+}
+.filter_list .more_box .letterlayer form {
+  float: right;
+  width: 216px;
+}
+.filter_list .more_box .letterlayer form input {
+  width: 204px;
+  height: 20px;
+  line-height: 20px;
+  padding: 1px 5px;
+  border: 1px solid #d3d3d3;
+  color: #989898;
+}
+.filter_list .brand .content,
+.filter_list .cars .content {
+  overflow: hidden;
+}
+.filter_list .brand .content .ls_collapse,
+.filter_list .cars .content .ls_collapse {
+  overflow: hidden;
+  height: 24px;
+}
+.filter_list .more {
+  border-bottom: 0;
+  border-left: 1px solid #ebebeb;
+  border-right: 1px solid #ebebeb;
+  padding: 9px 0;
+}
+.filter_list .more h4 {
+  margin-right: 15px;
+  width: 75px;
+}
+.filter_list .more .item {
+  float: left;
+  display: inline-block;
+  padding-right: 10px;
+  position: relative;
+  z-index: 2;
+}
+.filter_list .more .item .current {
+  border: 1px solid #fc5300;
+}
+.filter_list .more .item .current a {
+  color: #fc5300;
+}
+.filter_list .more .item .current a i {
+  background-position: -17px 0;
+}
+.filter_list .more .item .pop_layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #fff;
+  border: #bbb solid 1px;
+  box-shadow: #bbb 1px 1px 5px;
+}
+.filter_list .more .item .pop_layer ul li a {
+  background: #fff;
+  padding: 1px 3px;
+  display: block;
+  position: relative;
+  line-height: 22px;
+}
+.filter_list .more .item .pop_layer ul li a i {
+  display: inline-block;
+  width: 15px;
+  height: 10px;
+  background: url(../images/icons.png) no-repeat 3px 0;
+  font-size: 0;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+.filter_list .more .item .pop_layer ul li a:hover {
+  background: #fc5300;
+  color: #fff;
+  text-decoration: none;
+}
+.filter_list .more .item .pop_layer ul li a.on{
+  background: #fc5300;
+  color: #fff;
+}
+.filter_list .more .item .pop_layer ul li a:hover i {
+  background-position: -17px 0;
+}
+.filter_list .more .item .pop_layer ul li.title{
+  padding: 0 3px;
+  line-height: 22px;
+}
+.filter_list .more .item .pop_layer ul li.title a {
+  padding: 0 15px 2px 0;
+  margin: 0;
+  color: #494949;
+  width: 56px;
+  height: 20px;
+}
+.filter_list .more .item .pop_layer ul li.title a:hover {
+  color: #fc5300;
+  background: #fff;
+}
+.filter_list .more .item .pop_layer ul#pf li a {
+  width: 71px;
+}
+.filter_list .more .item .pop_layer ul#pf li.title a{
+  width: 56px;
+}
+.filter_list .more .item .pop_layer ul#bsx li a {
+  width: 58px;
+}
+.filter_list .more .item .pop_layer ul#bsx li.title a {
+  width: 43px;
+}
+.filter_list .more .item .btn a{
+  width: 56px;
+  height: 22px;
+  display: block;
+  overflow: hidden;
+}
+.filter_list .more .item .btn a i{
+  top: 8px; 
+}
+.filter_list .more .bs .btn a{
+  width: 43px;
+}
+.filter_list .more .item .pop_layer .diy {
+  position: absolute;
+  top: 27px;
+  background: #fff;
+  width: 250px;
+  border: #cfcfcf 1px solid;
+  left: -1px;
+  box-shadow: #bbb 1px 1px 5px;
+}
+.filter_list .more .item .pop_layer .diy s {
+  height: 6px;
+  line-height: 0;
+  width: 77px;
+  background: #fff;
+  text-decoration: none;
+  position: absolute;
+  top: -6px;
+  left: -1px;
+  border-left: 1px solid #cfcfcf;
+  border-right: 1px solid #cfcfcf;
+}
+.filter_list .more .item .pop_layer .diy p {
+  padding: 5px;
+}
+.filter_list .more .item .pop_layer .diy p span a {
+  border: 0;
+  background: none;
+  margin-right: 0;
+}
+.filter_list .more .item .pop_layer .diy span {
+  padding: 0;
+  width: 80px;
+  height: 26px;
+  display: inline-block;
+  overflow: hidden;
+}
+.filter_list .more .item .pop_layer .diy span a {
+  padding: 0 3px;
+  margin: 2px 0;
+  display: inline-block;
+  line-height: 24px;
+}
+.filter_list .more .item .pop_layer .diy span a:hover,
+.filter_list .more .item .pop_layer .diy span a.on {
+  background: #fc5300;
+  color: #fff;
+  text-decoration: none;
+}
+.filter_list .dis {
+  border-bottom: 1px solid #fff;
+}
+/* 筛选结果 */
+#select_result .result_left {
+  float: left;
+  display: inline;
+  width: 960px;
+}
+#select_result .result_right {
+  float: right;
+  display: inline;
+  width: 210px;
+}
+.filter_result {
+  border: 1px solid #ebebeb;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.filter_result .top_title {
+  position: relative;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 0 0 18px;
+  background: #f9f9f9;
+}
+.filter_result .top_title span.num {
+  color: #fc5300;
+  font-weight: bold;
+}
+.filter_result .top_title a.btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #0090d8;
+}
+.filter_result .top_title a.btn .btn_up,
+.filter_result .top_title a.btn .btn_down {
+  display: block;
+  width: 66px;
+  height: 26px;
+  line-height: 26px;
+  background: url(../images/icons.png) no-repeat -690px -600px;
+  text-indent: 20px;
+  cursor: pointer;
+}
+.filter_result .top_title a.btn .btn_down {
+  background-position: -690px -630px;
+}
+.filter_result .top_title a:hover {
+  text-decoration: none;
+}
+.filter_result .result_info dl {
+  padding: 9px 0;
+  border-bottom: 1px dashed #eee;
+  line-height: 24px;
+}
+.filter_result .result_info dl a {
+  color: #0090d8;
+  padding: 0 3px;
+  display: inline-block;
+}
+.filter_result .result_info dl a span {
+  color: #989898;
+}
+.filter_result .result_info dl a:hover {
+  background: #fc5300;
+  color: #fff;
+  text-decoration: none;
+}
+.filter_result .result_info dl a:hover span {
+  color: #fff;
+}
+.filter_result .result_info dl dt {
+  position: relative;
+  float: left;
+  display: inline;
+  width: 142px;
+  padding: 0 0 0 18px;
+  margin-right: 10px;
+  border-right: 1px solid #e9e9e9;
+}
+.filter_result .result_info dl dt i {
+  position: absolute;
+  display: inline-block;
+  width: 6px;
+  height: 11px;
+  top: 6px;
+  right: -1px;
+  background: url(../images/icons.png) no-repeat -500px -280px;
+}
+.filter_result .result_info dl dd {
+  float: left;
+  display: inline;
+  padding-left: 18px;
+  padding: 0 50px 0 0;
+}
+.filter_result .result_info dl.last {
+  border-bottom: 1px solid #fff;
+}
+.no_filter {
+  position: relative;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 0 0 40px;
+  border: 1px solid #ffdbc9;
+  background: #fffbf9;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+.no_filter span {
+  display: inline-block;
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 8px;
+  left: 18px;
+  background: url(../images/icons.png) no-repeat -340px -610px;
+}
+.detail_result .sub_title {
+  height: 40px;
+  background: #f7f7f7 url(../images/title1_bg.png) repeat-x 0 0;
+  border-left: 1px solid #EBEBEB;
+  border-right: 1px solid #EBEBEB;
+  color: #494949;
+  font-size: 14px;
+  width: 958px;
+  z-index: 11;
+}
+.detail_result .sub_title .left {
+  float: left;
+  display: inline;
+}
+.detail_result .sub_title .left a {
+  float: left;
+  width: 99px;
+  line-height: 40px;
+  border-right: 1px solid #ebebeb;
+  text-align: center;
+}
+.detail_result .sub_title .left a i {
+  display: inline-block;
+  width: 7px;
+  height: 10px;
+  margin: 15px 0 0 3px;
+  vertical-align: top;
+  background: #f9f9f9 url(../images/icons.png) no-repeat -380px -610px;
+}
+.detail_result .sub_title .left a i.i-mid,
+.detail_result .sub_title .left a i.i-time {
+  background-position: -400px -610px;
+}
+.detail_result .sub_title .left a i.i-down {
+  background-position: -380px -630px;
+}
+.detail_result .sub_title .left a i.i-time2 {
+  background-position: -400px -630px;
+}
+.detail_result .sub_title .left a i.i-mid-down{
+  background-position: -410px -630px;
+}
+.detail_result .sub_title .left a:hover,
+.detail_result .sub_title .left a.on {
+  border-right: 1px solid #fc5300;
+  background: #fc5300;
+  color: #fff;
+}
+.detail_result .sub_title .left a:hover{
+  text-decoration: none;
+}
+.detail_result .sub_title .left a:hover i,
+.detail_result .sub_title .left a.on i {
+  background-color: #fc5300;
+}
+.detail_result .sub_title .left a:hover i.i-up,
+.detail_result .sub_title .left a.on i.i-up {
+  background-position: -500px -610px;
+}
+.detail_result .sub_title .left a:hover i.i-down,
+.detail_result .sub_title .left a.on i.i-down {
+  background-position: -500px -630px;
+}
+.detail_result .sub_title .left a:hover i.i-mid,
+.detail_result .sub_title .left a.on i.i-mid {
+  background-position: -400px -630px;
+}
+.detail_result .sub_title .left a:hover i.i-time,
+.detail_result .sub_title .left a.on i.i-time {
+  background-position: -410px -630px;
+}
+.detail_result .sub_title .right {
+  float: right;
+  display: inline;
+}
+.detail_result .sub_title .right .box {
+  display: inline-block;
+  height: 22px;
+  padding: 0 3px;
+  border: 1px solid #bbb;
+  float: left;
+  background: #f0f0f0;
+}
+.detail_result .sub_title .right a {
+  position: relative;
+  padding-left: 16px;
+  line-height: 22px;
+  color: #494949;
+}
+.detail_result .sub_title .right a i {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  left: 0;
+  top: 1px;
+  background: #f9f9f9 url(../images/icons.png) no-repeat -440px -610px;
+}
+.detail_result .sub_title .right a i.i-list {
+  background-position: -460px -610px;
+}
+.detail_result .sub_title .right a i.i-pic {
+  background-position: -480px -610px;
+}
+.detail_result .sub_title .right a:hover,
+.detail_result .sub_title .right .on {
+  text-decoration: none;
+}
+.detail_result .sub_title .right a:hover i.i-onsale,
+.detail_result .sub_title .right .on i.i-onsale {
+  background-position: -440px -630px;
+}
+.detail_result .sub_title .right a:hover i.i-list,
+.detail_result .sub_title .right .on i.i-list {
+  background-position: -460px -630px;
+}
+.detail_result .sub_title .right a:hover i.i-pic,
+.detail_result .sub_title .right .on i.i-pic {
+  background-position: -480px -630px;
+}
+.detail_result .sub_title .switch .on {
+  background: #fff;
+}
+.detail_result .sub_title .onsale {
+  margin: 9px 15px 0 0;
+}
+.detail_result .sub_title .switch {
+  margin: 8px 15px 0 0;
+}
+.detail_result .sub_title .switch .pic {
+  border-left: none;
+}
+.detail_result .search_none {
+  padding: 0 0 0 20px;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  border-bottom: 1px dashed #e9e9e9;
+}
+.detail_result .car_filter_list {
+  margin-bottom: 15px;
+}
+.detail_result .car_filter_list li {
+  padding: 5px 0;
+  clear: both;
+  overflow: hidden;
+  border-bottom: 1px dashed #e9e9e9;
+}
+.detail_result .car_filter_list .car_list_box {
+  padding: 15px 0;
+  cursor: pointer;
+}
+.detail_result .car_filter_list .on {
+  background: #f7f7f7;
+}
+.detail_result .car_filter_list .pic {
+  float: left;
+  width: 185px;
+  height: 140px;
+  position: relative;
+}
+.detail_result .car_filter_list .pic img {
+  width: 185px;
+  height: 140px;
+}
+.detail_result .car_filter_list .info {
+  float: left;
+  width: 440px;
+  margin-left: 20px;
+  line-height: 20px;
+}
+.detail_result .car_filter_list .info h4 {
+  margin-top: 5px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: bold;
+}
+.detail_result .car_filter_list .info h4 a:visited {
+  color: #800080;
+}
+.detail_result .car_filter_list .info h4 a:hover{
+  color: #fc5300;
+}
+.detail_result .car_filter_list .info h4 i {
+  background: url("../images/icons.png") no-repeat scroll 0 -90px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin-left: 5px;
+  *margin-top: 2px;
+  _margin-top: 3px;
+}
+.detail_result .car_filter_list .info p {
+  color: #808080;
+  font-size: 14px;
+}
+.detail_result .car_filter_list .info p.p1 {
+  color: #494949;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.detail_result .car_filter_list .info p.p1 strong {
+  color: #fc5300;
+  font-weight: bold;
+}
+.detail_result .car_filter_list .info p.p1 b {
+  margin: 0 9px;
+  color: #989898;
+}
+.detail_result .car_filter_list .info p.p2{
+  margin-top: 5px;
+  font-size: 12px;
+}
+.detail_result .car_filter_list .info p.p2 span.time {
+  color: #494949;
+  margin-right: 3px;
+}
+.detail_result .car_filter_list .info p.p2 span.tag {
+  padding: 2px 4px;
+  background: #71a6d1;
+  color: #fff;
+  margin-left: 2px;
+}
+.detail_result .car_filter_list .price {
+  float: left;
+  width: 190px;
+  padding-top: 60px;
+  color: #d00;
+  text-align: center;
+}
+.detail_result .car_filter_list .price strong {
+  font-size: 30px;
+  font-weight: bold;
+}
+.detail_result .car_filter_list .mark {
+  float: left;
+  width: 125px;
+}
+.detail_result .car_filter_list .icon1 {
+  padding-top: 62px;
+}
+.detail_result .car_filter_list .icon2 {
+  padding-top: 50px;
+}
+.detail_result .car_filter_list .icon3 {
+  padding-top: 38px;
+}
+.detail_result .car_filter_list .mark p {
+  margin-bottom: 8px;
+  line-height: 16px;
+}
+.detail_result .car_filter_list .mark i {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: url(../images/icons.png) no-repeat;
+  margin: 0 5px 0 0;
+  vertical-align: top;
+}
+.detail_result .car_filter_list .mark i.i-sev {
+  background-position: -20px -90px;
+}
+.detail_result .car_filter_list .mark i.i-ckb {
+  background-position: -160px -90px;
+}
+.detail_result .car_filter_list .mark i.i-dk {
+  background-position: -40px -90px;
+}
+.detail_result .car_filter_list .mark i.i-free {
+  background-position: -60px -90px;
+}
+.detail_result .car_filter_list li.soldout .info h4 a,
+.detail_result .car_filter_list li.soldout .info p,
+.detail_result .car_filter_list li.soldout .info p.p1 strong,
+.detail_result .car_filter_list li.soldout .info p.p2 span.time {
+  color: #a3a3a3;
+}
+.detail_result .car_filter_list li.soldout .info p.p2 span.tag {
+  -moz-opacity: 0.3 !important;
+  opacity: 0.3 !important;
+}
+.detail_result .car_filter_list li.soldout .price {
+  color: #a3a3a3;
+  font-size: 14px;
+}
+.detail_result .car_filter_list li.soldout .price span {
+  display: block;
+}
+.detail_result .car_filter_list li.soldout .mark p {
+  color: #a3a3a3;
+}
+.detail_result .car_list_pic {
+  border-bottom: 1px dashed #e9e9e9;
+  padding: 16px 0 5px;
+}
+.detail_result .car_list_pic li {
+  margin: 4px 26px 0 0;
+}
+.detail_result .car_list_pic li.last {
+  margin-right: 0;
+}
+.detail_result .car_list_pic li.on {
+  background-color: #f7f7f7;
+}
+.detail_result .car_list_pic .pic {
+  position: relative;
+}
+.detail_result .car_list_pic li.soldout h4 a,
+.detail_result .car_list_pic li.soldout .l {
+  color: #a3a3a3;
+}
+.detail_result .car_list_pic li.soldout .r {
+  color: #a3a3a3;
+}
+.detail_result .car_filter_list .pic i,
+.detail_result .car_list_pic .pic i {
+  background: url("../images/soldout.png") no-repeat;
+  cursor: pointer;
+  height: 60px;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 96px;
+  _background: none;
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src='../images/soldout.png');   
+}
+.detail_result li.soldout {
+  _filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+}
+.detail_result li.soldout i {
+  -moz-opacity: 0.7 !important;
+  opacity: 0.7 !important;
+}
+.detail_result li.soldout .pic img {
+  -moz-opacity: 0.3 !important;
+  opacity: 0.3 !important;
+}
+
+/*右侧*/
+.result_right .link_rec {
+  border: 1px solid #ebebeb;
+  background: #fbfbfb;
+  margin-bottom: 20px;
+}
+.result_right .link_rec .content .rec_list {
+  padding: 0;
+}
+.result_right .link_rec .content .rec_list li {
+  width: 186px;
+  height: auto;
+  margin: 0;
+  padding: 12px 12px 5px;
+  border-top: 1px solid #ebebeb;
+}
+.result_right .link_rec .content .rec_list li .pic{
+  height: 140px;
+  width: 185px;
+}
+.result_right .link_rec .content .rec_list li .pic img {
+  width: 185px;
+  height: 140px;
+}
+.result_right .link_rec .content .rec_list li h4 {
+  margin: 0;
+  height: auto;
+}
+.result_right .link_rec .content .rec_list li .price {
+  margin: 0;
+}
+.result_right .link_rec .content .rec_list li .price .l strong {
+  font-size: 16px;
+}
+.result_right .recently {
+  margin-bottom: 0;
+}
+/*列表页交互*/
+/*保存筛选条件*/
+.pop_save_con {
+  top: 20px;
+  width: 523px;
+  z-index: 10;
+}
+.pop_save_con .pop_box_content {
+  padding-bottom: 28px;
+}
+.pop_save_con .success_tips {
+  margin: 0 0 0 50px;
+  padding: 70px 0 0 0;
+}
+.pop_save_con .success_tips .icon {
+  background-position: -160px -600px;
+}
+.pop_save_con .success_tips p {
+  width: 384px;
+  font-size: 16px;
+  color: #565656;
+  padding-bottom: 44px;
+}
+.pop_save_con dt {
+  float: left;
+  display: none;
+}
+.pop_save_con dd {
+  float: left;
+  display: inline;
+  padding: 0 0 0 88px;
+}
+
+.cars-rss{
+  position: absolute;
+  right:-5px;
+  top:5px;
+}
+.cars-rss-bg{
+  display:inline-block;
+  width:138px;
+  height:36px;
+  line-height:33px;
+  text-align:center;
+  background:url(../images/icons.png) no-repeat 0 -780px;
+  color:#fff;
+  font-size:12px;
+  cursor:pointer;
+}
+.on .cars-rss-bg{
+  background-position:-160px -780px; 
+}
+
+.cars-rss-form{
+  display:none;
+}
+
+.on .cars-rss-form{
+  display:inline-block;
+  float:left;
+  margin:5px;
+}
+.cars-rss-form .btn{
+  cursor:pointer;
+  height:24px;
+  float:left;
+  margin:0 10px 0 0;
+}
+.cars-rss-form .btn-default{
+  color:#fc5300;
+  width:46px;
+  border-color:#fc5300!important;
+  background:#fff2eb;
+}
+
+.cars-rss-form .btn-sends{
+  
+}
+
+.cars-rss-form i.yes,.cars-rss-form i.no{
+  display:inline-block;
+  width:18px;
+  background: url(../images/icons.png) -130px -606px;
+}
+.cars-rss-form i.no{
+  background-position:-340px -607px;
+}
+
+.cars-rss-form input{
+  margin:0 10px 0 0;
+  width:130px;
+  height:22px;
+  line-height:22px;
+  border:1px #ccc solid;
+  padding:0 2px;
+  float:left;
+}
+
+.cars-rss-form .loading{
+  display:inline-block;
+  float:left;
+  margin-right:10px;
+  width:44px;
+  height:22px;
+  background:#fff8f5 url(../images/loading_dot.gif) no-repeat center center;
+  border:1px #ffd9c6 solid;
+}
+
+.cars-rss-form input.err{
+  color:#f00;
+  border-color:#f00;
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>dialog</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+</head>
+<body style="">
+
+<div id="demo" style="display:none;">Welcome to use Dialog Component~~</div>
+
+<div style="height:2000px;padding-top:100px;">
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <p>Hello, world</p>
+    <p>Hello, world</p>
+
+    <div style="margin-top:400px;">
+        <button id="trigger">弹出对话框</button>
+    </div>
+</div>
+
+
+<a href="javascript:;" id="demo2">console</a>
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/dialog/dialog.js'], function ($, Dialog) {
+
+    var $el = $('#demo2');
+
+    $el.click(function () {
+        console.log(1);
+    });
+
+    var dialog = new Dialog({
+        title : 'greetings',
+        content : $el, //$('#demo')[0],//'#demo',//'welcome to use dialog component.',
+        ok : function (e) {
+            console.log('ok: ', this, e);
+        },
+        cancel : function (e) {
+            console.log('cancel: ', this, e);
+            return window.confirm('确定取消吗？');
+        },
+        skin : 'black',
+        // close : function () {
+        //     return window.confirm('确定关闭吗？')
+        // },
+
+        buttons : [{
+            text : 'new Dialog',
+            callback : function (e) {
+                new Dialog({
+                    title : 'i am a new dialog',
+                    content : 'hello world',
+                    skin : 'black',
+                    escAble : true
+                });
+                return false;
+            }
+        },{
+            text : '自定义',
+            callback : function (e) {
+                console.log('custom: ', this, e);
+            }
+        }],
+        // maskAble : false,
+        escAble : true
+        // fixAble : true
+
+        // scrollAble : false
+        // visible : false,
+        // drapAble : true,
+        // resizeAble : true,
+        // closeAble : false
+    });
+
+    // method test
+    // dialog.ready(function () {
+
+    //     var self = this;
+    //     setTimeout(function () {
+    //         self.title('title changed~~')
+    //             .content('content changed~~')
+    //             .size(200, 'auto');
+    //     }, 2000);
+    // });
+
+
+
+    // trigger test
+
+    // $('#trigger').click(function () {
+
+    //     new Dialog({
+    //         title : 'trigger',
+    //         content : '我是被trigger出来的',
+    //         width : 200,
+    //         ok : function () {
+    //              return window.confirm('确定关闭吗？');
+    //         }
+    //     })
+    // });
+
+    // for test
+    window.dialog = dialog;
+    window.Dialog = Dialog;
+    window.$ = $;
+
+    // console.log(dialog);
+    // console.dir(Dialog);
+});
+</script>
+</body>
+</html>

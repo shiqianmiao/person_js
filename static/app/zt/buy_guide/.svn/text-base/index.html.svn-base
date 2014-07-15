@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/basic.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="wrap" class="clearfix">
+    	<div id="left">
+        	<div class="banner"><img src="images/left_banner.gif" /></div>
+            <div id="left_nav">
+            	<ul>
+                	<li><a href="#1" class="a1">查看车辆各类证件<span></span></a></li>
+                	<li><a href="#2" class="a2 current">查看车辆变更记录<span></span></a></li>
+                	<li><a href="#3" class="a3">辨别营运车辆<span></span></a></li>
+                	<li><a href="#4" class="a4">查看车辆保险信息到期时间<span></span></a></li>
+                	<li><a href="#5" class="a5">查看年检到期时间<span></span></a></li>
+                	<li><a href="#6" class="a6">欠费以及违章车查询<span></span></a></li>
+                	<li><a href="#7" class="a7">车况检测<span></span></a></li>
+                	<li><a href="#8" class="a8">钱款只交付给谁<span></span></a></li>
+                	<li><a href="#9" class="a9">及时过户<span></span></a></li>
+                	<li><a href="#10" class="a10">转籍车辆需符合当地落户标<span></span></a></li>
+                </ul>
+                <div class="tel"><img src="images/left_tel.gif" /></div>
+            </div>
+        </div>
+    	<div id="right">
+        	<div class="banner"><img src="images/right_banner.gif" /></div>
+            <div class="step">
+            	<div class="title"><a id="1"></a><img src="images/stept1.gif" /></div>
+                <p class="intro">交易时必须要查看该车辆的相关证件，如产权证、行驶证、保险单、购置税单以及该车主的身份证。</p>
+                <div class="pic"><img src="images/right_pic1.jpg" /><div class="pic_title">机动车行驶证与机动车登记证书</div></div>
+                <div class="pic"><img src="images/right_pic2.jpg" /><div class="pic_title">机动车行驶证内页</div>
+                </div>
+                <div class="pic"><img src="images/right_pic3.jpg" /><div class="pic_title">机动车登记证书内页</div>
+                </div>
+                <div class="pic"><img src="images/right_pic4.jpg" /><div class="pic_title">机动车登记证书内页</div>
+                </div>
+                <div class="pic"><img src="images/right_pic5.jpg" /><div class="pic_title">机动车登记证书内页</div>
+                </div>
+                <div class="pic"><img src="images/right_pic6.jpg" /><div class="pic_title">保险单</div>
+                </div>
+                <div class="pic"><img src="images/right_pic7.jpg" /><div class="pic_title">购置税单</div>
+                </div>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="2"></a><img src="images/stept2.gif" /></div>
+                <p class="intro">部分车主为了价格能卖得更高隐瞒车辆变更记录，因此最好能够查看下证件上的变更记录。可在车辆产权证上查看该车辆的变更记录。</p>
+                <div class="pic"><img src="images/right_pic8.jpg" /><div class="pic_title">查看车辆变更记录</div>
+                </div>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="3"></a><img src="images/stept3.gif" /></div>
+                <p class="intro">有些营运车辆会伪装成代步车销售，因此需要查看相关证件来辨别，营运车将会对车辆带来更多的车况问题。可在车辆产权证上即可辨别该车辆是否为营运车辆。</p>
+                <div class="pic"><img src="images/right_pic9.jpg" /><div class="pic_title">辨别营运车辆</div>
+                </div>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="4"></a><img src="images/stept4.gif" /></div>
+                <p class="intro">购车时应注意查看该车辆的保险信息以及到期时间，这些都将计算在成本内。</p>
+                <div class="pic"><img src="images/right_pic10.jpg" /><div class="pic_title">查看保险信息以及到期时间</div>
+                </div>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="5"></a><img src="images/stept5.gif" /></div>
+                <p class="intro">若有拖检情况的话，会导致过户前还要进行补检，延长过户时间；部分车子由于部分特殊情况不能年检，导致不能过户。</p>
+                <div class="pic"><img src="images/right_pic11.jpg" /><div class="pic_title">机动车行驶证与机动车登记证书</div>
+                </div>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="6"></a><img src="images/stept6.gif" /></div>
+                <p class="intro">若买了欠费或者有违章记录的车辆，一旦成交这些成本都将转嫁到买主身上，因此购车前一定要先查询相关欠费以及违章记录。<br /><strong>违章查询地址：</strong><a href="http://chaxun.weiche.me/" target="_blank">http://chaxun.weiche.me/</a></p>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="7"></a><img src="images/stept7.gif" /></div>
+                <p class="intro">建议买家购车时可到第三方车况检测中心进行车况检测，以避免买到事故车。</p>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="8"></a><img src="images/stept8.gif" /></div>
+                <p class="intro">钱款应交付于门店的财务专员，以避免不必要的经济纠纷。</p>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="9"></a><img src="images/stept9.gif" /></div>
+                <p class="intro">成功交易后应及时过户，并且在购车合同中要确认过户对象以及过户时间。</p>
+            </div>
+            <div class="step">
+            	<div class="title"><a id="10"></a><img src="images/stept10.gif" /></div>
+                <p class="intro">在外地购买车辆需要确定您所要落地的当地落户要求。</p>
+            </div>
+          <div id="footer">
+		<p>
+    		<a href="#">关于我们</a> <span>|</span> <a href="#">加盟273</a> <span>|</span> <a href="#">人才招聘</a> <span>|</span> <a href="#">联系我们</a> <span>|</span> <a href="#">使用帮助</a> <span>|</span> <a href="#">网站地图</a> <span>|</span> <a href="#">帮助中心</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+        273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+        Copyright &copy; 1998 - 2014 273.cn All Rights Reserved<br />
+        273旗下：<a href="#">拍车宝</a> <span>|</span> <a href="#">车况宝</a> <span>|</span> <a href="#">二手车贷款</a>
+    	</p>
+	</div>
+        </div>
+    </div>
+</body>
+</html>

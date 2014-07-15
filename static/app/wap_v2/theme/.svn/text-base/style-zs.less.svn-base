@@ -1,0 +1,36 @@
+#zhaoshang h2{color: #878787;}
+.zs-info{
+	padding: 0 10px 20px 10px;
+	p{padding: 20px 0 10px 0;}
+	p.p1{font-size: 1.2em;}
+	img{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		max-width: 100%;
+	}
+}
+.warm-tip{
+	background: url("icon-note-bg.png") repeat-x scroll right center / auto 30px rgba(0, 0, 0, 0);
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 10px 10px;
+    span.s1{color: #8d8d8d;}
+}
+.applysuc{
+	margin:0 auto;
+    padding: 150px 45px 100px;
+    background:#fff url(pagesmile.png) no-repeat center 60px;
+    background-size: 90px;
+    h2{
+    	font-size: 24px;
+    	color: #000;
+    	text-align: center;
+    }
+    .btn{
+    	height: 36px;
+	    margin: 20px auto;
+	    padding: 5px;
+	    width: 80%;
+    }
+}

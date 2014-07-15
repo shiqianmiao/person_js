@@ -1,0 +1,12 @@
+app/ms/js/base.js
+app/ms/data/classify.js
+widget/slide/slide.js
+lib/jquery/plugin/jquery.lazyload.js
+app/ms/tpl/car_list.tpl
+app/ms/tpl/classify.tpl
+widget/map/boverlay.js
+widget/map/bmap.js
+widget/map/map.js
+widget/autocomplete/autocomplete_v2.js
+widget/autocomplete/data_source.js
+app/ms/js/index.js

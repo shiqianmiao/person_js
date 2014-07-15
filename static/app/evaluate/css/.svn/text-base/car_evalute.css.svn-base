@@ -1,0 +1,288 @@
+#evalute_banner{position: relative;height: 415px;clear: both;z-index:5;}
+#evalute_banner .inner{position: relative;width: 990px;height: 415px;overflow: hidden;z-index: 0;}
+#evalute_banner .inner ul{position:absolute;width: 2970px; z-index: 1;}
+#evalute_banner .inner li{float: left;width: 990px;height: 415px;}
+#evalute_banner .inner li a{display: block;width: 990px;height: 415px;}
+#evalute_banner .inner img{width: 990px;height: 415px;}
+#evalute_banner .inner span{margin: 0 15px 0 0;}
+.link{position: absolute;bottom: 20px;text-align: center;z-index: 2;width: 100%;}
+.link_btn{height: 15px;padding: 0 5px;display: inline-block;}
+#evalute_banner .inner .link_btn a{display: inline-block;width: 34px;height: 3px;background: #cecece;margin: 6px 5px;position: relative;overflow: hidden;}
+#evalute_banner .inner .link_btn a.on{background: #F37C06;}
+#evalute_banner .set_info{position: absolute; top: 23px;right: 23px;width: 405px;height: 364px;border: 1px solid #cecece;background: #fff;z-index: 1;}
+/*价格评估表单*/
+.iform li{position: relative;clear:both;height:40px;line-height: 30px;}
+.iform .vehicle{color: #6C6C6C;float: left;font-size: 12px;}
+.iform input{border: 1px solid #D4D4D4;color: #6C6C6C;height: 24px;line-height: 24px;width: 218px;overflow: hidden;background: #fff url(http://sta.273.com.cn/app/ms/images/top_nav_icon.gif) no-repeat 235px center;padding: 2px 20px 2px 10px;}
+.iform .vehicle-outer{position: relative;z-index: 5;}
+.iform .vehicle-inner {background: #FFF;border: 1px solid #D4D4D4;left: 0;position: absolute;top: 1px;width: 248px;overflow:hidden;}
+.iform .vehicle .vehicle-inner li{height: auto;line-height: 20px;padding: 4px 1px;}
+.iform .vehicle li a{display: block;height: auto;overflow: hidden;padding-left: 10px;}
+.iform .vehicle li a:hover{background: #F1F1F1;color: #F37C06;}
+.iform .vehicle a{color: #6C6C6C;text-decoration: none;}
+.iform .vehicle .tip{color: #B4B4B4;height: 24px;line-height: 24px;padding: 0 0 0 10px;width: 238px;}
+.iform .vehicle ul.anchors {padding: 2px 0;position: absolute;right: 19px;text-align: center;top: 24px;width:14px !important;}
+.iform .vehicle ul.anchors li{padding-top: 1px;padding-bottom: 1px;}
+.iform em{font-style:normal;line-height:24px;}
+.iform .select_input input{cursor:pointer;}
+#vehicle-brand .tip {width: auto;}
+#vehicle-brand .list ul {width:210px;}
+#vehicle-brand ul.anchors li{height: 17px;}
+#evalute_banner .set_info .error-red{background: #ffeded url(../images/tishi_icon.png) no-repeat 233px center;color: #d61c00;border: 1px solid #d61c00;}
+#evalute_banner .set_info .iform{padding:25px 43px 0 43px;margin:0;list-style:none;}
+#evalute_banner .set_info .iform em{width:69px;color:#989898;float:left;line-height: 30px;font-size: 14px;}
+#evalute_banner .set_info .iform li.brand{z-index: 9;}
+#evalute_banner .set_info .iform li.cars{z-index: 8;}
+#evalute_banner .set_info .iform li.car{z-index: 7;}
+#evalute_banner .set_info .iform li.sp{z-index: 6;}
+#evalute_banner .set_info .iform li.city{z-index: 5;}
+#evalute_banner .set_info .iform li.sp .vehicle input,#evalute_banner .set_info .iform li.city .vehicle input{width: 88px;background: #fff url(http://sta.273.com.cn/app/ms/images/top_nav_icon.gif) no-repeat 105px center; cursor:pointer;}
+#evalute_banner .set_info .iform li.sp .right,#evalute_banner .set_info .iform li.city .right{float: right;}
+#evalute_banner .set_info .iform li.sp .vehicle-outer,#evalute_banner .set_info .iform li.city .vehicle-outer{position: relative;z-index: 4;}
+#evalute_banner .set_info .iform li.sp .vehicle-inner ,#evalute_banner .set_info .iform li.city .vehicle-inner{background: #FFF;border: 1px solid #D4D4D4;left: 0;position: absolute;top: 1px;width: 118px; height:210px; overflow-y:auto;}
+#evalute_banner .set_info .iform li.sp .vehicle .error-red,#evalute_banner .set_info .iform li.city .vehicle .error-red{background: #ffeded url(../images/tishi_icon.png) no-repeat 103px center;color: #d61c00;border: 1px solid #d61c00;}
+#evalute_banner .set_info .iform .overflow {height: 200px;}
+#vehicle-brand-nav {width: 210px;}
+#vehicle-model-nav {width: 246px;}
+#vehicle-brand-nav a, #vehicle-model-nav a{color: #6C6C6C;text-decoration: none;}
+#evalute_banner .set_info .iform li.texts_box input{margin: 0 8px 0 0;border: 1px solid #D4D4D4;color: #6C6C6C;height: 24px;line-height: 24px;width: 98px;padding: 2px 10px;float: left;}
+#evalute_banner .set_info .iform li.texts_box span{line-height: 30px;}
+#evalute_banner .set_info .iform li.texts_box img{width: 60px;height: 30px;vertical-align: top;cursor: pointer;}
+#evalute_banner .set_info .iform li.texts_box a.code{margin: 0 0 0 4px;vertical-align: top;line-height: 30px;}
+#evalute_banner .set_info .iform li.texts_box .error-red{background: #ffeded;color: #d61c00;border: 1px solid #d61c00;}
+#evalute_banner .set_info .iform li.submit button{width: 250px; height: 36px; line-height: 36px;color: #fff; background: #F37C06;font-size: 14px;font-weight: bold;border: 0; float: right; cursor:pointer;}
+
+/*宣传区*/
+#super_inter{background: url(../images/eva_super_bg.gif) no-repeat;height: 103px;}
+#super_inter li{float: left;width: 325px;height: 103px;position: relative;overflow:hidden;z-index:1;}
+#super_inter li.data,#super_inter li.data .mod_box_info{width: 333px;}
+#super_inter li.offer .mod_box_info{width: 330px;}
+#super_inter li .mod_box{width: 230px; padding: 48px 0 15px 95px;}
+#super_inter li .mod_box h4{color: 909090;font-size: 22px;}
+#super_inter li .mod_box p{width: 204px;color: #b0b0b0;line-height: 20px;}
+#super_inter li.offer .mod_box p{padding-left: 5px;}
+#super_inter li .mod_box_info{position: absolute;top:-102px;left:0;width:323px;height: 101px;border: 1px solid #cecece; color: #b0b0b0;background: #fafafa;border-top: 0;}
+#super_inter li .mod_box_info p{text-align: center;font-size: 14px;line-height: 20px;}
+.mt20{margin-top: 20px;}
+
+#expert_group{margin: 10px auto 0;}
+#expert_group .title_style{position: relative;}
+#expert_group .title_style .know{position: relative;float: right;}
+#expert_group .title_style .know a{display: inline-block; float: right;background: url(../images/right_icon.png) no-repeat 5px;height: 30px;line-height: 30px; padding: 0 8px 0 20px;cursor: pointer;z-index: 1;}
+#expert_group .title_style .know a:hover{text-decoration: none;}
+
+#expert_group .expert_list{margin: 10px 0; overflow:hidden;position:relative;height:auto;}
+#expert_group .expert_list ul{overflow: hidden;position: relative;width: 1000px;background: #fff;zoom:1;}
+#expert_group .expert_list li{display: inline;float: left;width: 238px;height: 98px;margin: 0 10px 0 0;border: 1px solid #e8e8e8;}
+#expert_group .expert_list li.last{margin: 0;}
+#expert_group .expert_list .experts {padding: 10px 0 10px 15px; height: 76px;}
+#expert_group .expert_list .experts .ep_pic{display: inline;float: left;width: 60px;height: 76px;}
+#expert_group .expert_list .experts .ep_pic img{width: 60px;height: 76px;}
+#expert_group .expert_list .experts .ep_info {display: inline;float: left;margin: 0 0 0 10px;width: 150px;}
+#expert_group .expert_list .experts .ep_info p{color: #A3A3A3;font-size: 12px;line-height: 20px;height: 20px;overflow: hidden;}
+#expert_group .expert_list .experts .ep_info strong{padding: 0 0 0 8px;color: #494949;}
+#expert_group .expert_list .experts .ep_info span{color: #F37C06;font-weight: bold;}
+.moreline{border:1px #ececec solid;background:#f7f7f7;text-align:center;line-height:34px;}
+.moreline span em{display:inline-block;width:30px;height:34px;background:url(../images/right_icon.png) no-repeat 5px;}
+.moreline span a{display:block;font-size:14px;font-weight:700;}
+.moreline span a:hover{text-decoration:none;}
+.moreline span b{color:#F37C06;}
+/*了解评估团弹框*/
+#expert_group .group_inter{position: absolute;top: -144px;right: 0;display: none;z-index: 5;}
+#expert_group .group_inter .detail{width: 300px;height: 150px;border: 1px solid #cecece;background: #fff;}
+#expert_group .group_inter .detail h4{padding: 5px 15px 0;font-size: 14px; height: 19px;}
+#expert_group .group_inter .detail h4 span.close{position: absolute;right: 6px;top: 6px;z-index: 3;background: url("../images/close1.png") no-repeat;display: block;width: 19px;height: 19px;text-indent: -82982px;cursor: pointer;}
+#expert_group .group_inter .detail p{padding: 10px 15px 0;line-height: 15px;}
+#expert_group .group_inter .know_on{background:#fff url(../images/right_icon.png) no-repeat 5px;position: absolute;top: 151px;right: 0;width: 70px;height: 25px;line-height: 25px;padding: 0 0 0 25px;border: 1px solid #cecece;border-top: 0;cursor: pointer;}
+/*无数据*/
+#evalute_result{border:1px solid #ededed;}
+#evalute_result .car_info{height: 48px;line-height: 48px;background: #fafafa;border-bottom: 1px solid #ededed;}
+#evalute_result .car_info .left{display: inline-block;float: left;width: 50%;height: 48px;overflow: hidden;}
+#evalute_result .car_info .left span{background: url(../images/eva_title_bg.gif) no-repeat; font-size: 14px; font-weight: bold;margin: 0 0 0 10px;padding: 0 0 0 10px;}
+#evalute_result .car_info .right{display: inline;float: right;}
+#evalute_result .car_info .right span{color: #A3A3A3;padding: 0 0 0 18px;}
+#evalute_result .car_info .right strong{padding: 0 20px 0 5px;color: #494949;}
+#evalute_result .car_info .right span.time{background: url(../images/eva_icon.png) no-repeat 0 0;}
+#evalute_result .car_info .right span.addr{background: url(../images/eva_icon.png) no-repeat 0 -15px;}
+#evalute_result .car_info .right span.mileage{background: url(../images/eva_icon.png) no-repeat 0 -30px;}
+
+#evalute_result .eva_info{position: relative;height: 250px;}
+#evalute_result .eva_info .logo {height: 250px;left: 0;overflow: hidden;position: relative;width: 238px;}
+#evalute_result .eva_info .logo .logo_switch {height: 250px;width: 480px;}
+#evalute_result .eva_info .logo .nodata {background: url("../images/nodata_pc.gif") no-repeat;float: left;height: 250px;width: 238px;}
+#evalute_result .eva_info .logo .hasdata {background: url("../images/hasdata_pc.gif") no-repeat;float: left;height: 250px;width: 238px;}
+#evalute_result .eva_info .detail_info{position: absolute;left: 250px;top: 0;margin: 20px 0;width: 507px;height: 210px; border-right: 1px dashed #cecece;}
+#evalute_result .eva_info .detail_info span.no{display: block;width: 390px;margin: 95px auto;font-size: 14px;font-weight: bold;}
+#evalute_result .eva_info .choose{position: absolute; top: 0;left: 758px;width: 232px;height: 250px;background: url(../images/eva_pc1.gif) no-repeat;}
+#evalute_result .eva_info .choose .item{margin: 90px 0 0 51px;}
+#evalute_result .eva_info .choose a.btn{display: block; width: 128px; height: 30px; line-height: 30px;margin-bottom: 7px; color: #fff; background: #F37C06;font-size: 14px;font-weight: bold;border: 0;cursor: pointer;padding:0;text-align:center;}
+#evalute_result .eva_info .choose a{background: url(../images/right_icon.png) no-repeat 5px; display: block;height: 30px;line-height: 30px;color: #494949;padding: 0 0 0 20px;}
+#evalute_result .eva_info .choose a:hover{text-decoration: none;}
+#order_car .table_ordercar table{border: none;width: 100%}
+#order_car .table_ordercar table th{background: #fafafa; text-align: left;line-height: 28px;border-bottom: 1px solid #ededed;}
+#order_car .table_ordercar table th.s{width: 60%;padding-left: 20px;border-left: 1px solid #ededed;}
+#order_car .table_ordercar table th.addr{border-right: 1px solid #ededed;}
+#order_car .table_ordercar table td{border-bottom: 1px dashed #e3e3e3;text-align: left;line-height: 28px;}
+#order_car .table_ordercar table td.price{color: #F37C06;font-weight: 700;}
+#order_car .table_ordercar table td.s1{padding-left: 20px;}
+#order_car .table_ordercar table tr.last td{border: none;}
+#order_car .table_ordercar table tbody > tr:nth-child(2n) > td{background-color: #fafafa;}
+/*有数据*/
+#evalute_result .eva_info .detail_info p.p1{padding: 30px 30px 0 15px;color: #A3A3A3;font-size: 14px;}
+#evalute_result .eva_info .detail_info p.p1 strong{color: #494949;}
+#evalute_result .eva_info .detail_info p.p2{padding: 5px 0 0 15px;color: #d00;font-size: 16px;font-family: "Microsoft YaHei";}
+#evalute_result .eva_info .detail_info p.p2 span{font-size: 50px;font-weight: 700;padding-left: 5px;}
+#evalute_result .eva_info .note_box{background: url(../images/eva_note_bg.gif) no-repeat;width: 480px;height: 82px;}
+#evalute_result .eva_info .note_box p{padding: 20px 10px;line-height: 24px;}
+.color-red{color: #d00;}
+/*弹出层*/
+.pop_box{display:none;z-index:1001;}
+.evalute_box{width: 375px;}
+.content .input_box .input1{height: 26px;width: 290px;margin: 0 0 0 34px;color:#aaa;}
+.content .btn label{width: 50px;}
+.content .error_tips{background: #ffeded url(../images/form-msg-no.png) no-repeat 3px center;display: none;width: 280px;height: 20px;line-height: 20px;margin: 0 0 10px 34px;padding: 6px 5px 5px 20px; color: #d61c00;border: 1px solid #d61c00;}
+.content .warm_tips{margin: 0 0 10px 0;}
+.content .warm_tips span{color: #F37C06;}
+.i_true{background: url(../images/form-msg-yes.png) no-repeat;padding-left: 5px;position: absolute;right: 15px;top: 70px;display: block;width: 15px;height: 17px;}
+.i_false{background: url(../images/form-msg-no.png) no-repeat;padding-left: 5px;position: absolute;right: 15px;top: 70px;display: block;width: 15px;height: 17px;}
+.evalute_box{width: 375px;height: auto;}
+.evalute_box .content strong.tit{background: url(../images/form-msg-ok.png) no-repeat;font-size: 16px;margin:30px 34px 0;padding: 0 0 0 35px;display: inline-block;width: 270px;line-height: 30px;}
+.evalute_box .content p.autoclose{margin:0 34px 30px;padding: 0 0 0 35px;color: #999;}
+.evalute_box .content p.autoclose .num{color: #F37C06;font-size: 14px;padding: 0 5px 0 0;}
+
+/*20140306修改*/
+#same_car_price { width: 749px; float: left; display: inline;}
+#hot_car { width: 230px; float: right; display: inline;}
+
+.table_ordercar2 { clear: both;}
+.table_ordercar2 table{border: none;width: 100%}
+.table_ordercar2 table th{background: #fafafa; text-align: left;line-height: 28px;border-bottom: 1px solid #ededed; height: 28px;}
+.table_ordercar2 table th.s{width: 60%;padding-left: 20px;border-left: 1px solid #ededed;}
+.table_ordercar2 table th.addr{border-right: 1px solid #ededed;}
+.table_ordercar2 table td{border-bottom: 1px dashed #e3e3e3;text-align: left;line-height: 28px; height: 28px;}
+.table_ordercar2 table td.price{color: #F37C06;font-weight: 700;}
+.table_ordercar2 table td.s1{padding-left: 20px;}
+.table_ordercar2 table tr.last td{ border-bottom: 1px solid #ededed;}
+.table_ordercar2 table tbody > tr:nth-child(2n) > td{background-color: #fafafa;}
+.table_ordercar2 table .first { padding: 0 0 0 20px; border-left: 1px solid #ededed;}
+.table_ordercar2 table .last { border-right: 1px solid #ededed;}
+.sub_table_title { height: 30px; line-height: 30px; background: #fafafa; font-weight: bold; border: 1px solid #ededed; border-top: 0;}
+.table_ordercar2 table .style1 { font-weight: bold; color: #969696; text-align: right; padding-right: 22px; line-height: 28px;}
+.table_ordercar2 table i.i_red, .table_ordercar2 table i.i_gray { display: inline-block; width: 14px; height: 14px; background: #bcbcbc; color: #fff; line-height: 14px; vertical-align: middle; position: relative; top: -1px; text-align: center; font-style: normal; margin: 0 9px 0 -3px;}
+.table_ordercar2 table i.i_red { background: #f37c06;}
+.table_ordercar2  table.other_style { background: #fafafa;}
+.table_ordercar2  table.other_style th { background: #fff; border-bottom: 1px dashed #e3e3e3;}
+.table_ordercar2  table.other_style tbody > tr:nth-child(2n) > td{background-color: #fff;}
+
+.sub_table_title .cars { display: inline-block; width: 134px; float: left; padding: 0 0 0 16px;}
+.sub_table_title .num { display: inline-block; width: 58px; float: left; padding: 0 20px 0 0; text-align: right;}
+
+#hot_car .title_style strong { padding: 0 16px;}
+#hot_car .title_style .current { background: none;}
+#hot_car .title_style {background:url(../images/border-orange.png) repeat-x 0 bottom;}
+
+#order_car { margin-top: 10px;}
+
+#expert_group .expert_list2{margin: 10px 0; overflow:hidden;position:relative;height:auto;}
+#expert_group .expert_list2 ul{overflow: hidden;position: relative;width: 1000px;background: #fff;zoom:1;}
+#expert_group .expert_list2 li{display: inline;float: left;width: 321px;height: 98px;margin: 0 10px 0 0;border: 1px solid #e8e8e8;}
+#expert_group .expert_list2 li.last{margin: 0;}
+#expert_group .expert_list2 li h3 { font-size: 13px; margin: 0 0 2px 0; padding: 0;}
+#expert_group .expert_list2 .experts {padding: 15px 0 15px 15px; height: 76px;}
+#expert_group .expert_list2 .experts .ep_pic{display: inline;float: left;width: 93px;height: 70px;}
+#expert_group .expert_list2 .experts .ep_pic img{width: 93px;height: 70px;}
+#expert_group .expert_list2 .experts .ep_info {display: inline;float: left;margin: 0 0 0 10px;width: 190px;}
+#expert_group .expert_list2 .experts .ep_info p{color: #A3A3A3;font-size: 12px;line-height: 18px;height: 20px; width: 187px;}
+#expert_group .expert_list2 .experts .ep_info span{color: #494949;}
+
+#eva_list .left_part { width: 750px; float: left; display: inline;}
+#eva_list .right_part { width: 230px; float: right; display: inline;}
+
+.iform li{position:relative;clear:both;}
+.iform .vehicle {color: #6C6C6C;float: left;font-size: 12px;}
+.ifrom .click{display: none;}
+.right_part .iform .vehicle input{color: #6C6C6C; border: 1px solid #D4D4D4;height: 24px;line-height: 24px;background: #fff url(http://sta.273.com.cn/app/ms/images/top_nav_icon.gif) no-repeat 134px center;padding: 2px 21px 2px 9px;}
+.right_part .iform .vehicle input {width: 118px;}
+.iform .vehicle .vehicle-outer{position: relative;z-index: 5;}
+.iform .vehicle .vehicle-inner {background: #FFF;border: 1px solid #D4D4D4;left: 0;position: absolute;top: 1px;}
+.right_part .iform .vehicle .vehicle-inner {width: 148px;}
+.iform .vehicle .click{display: block;z-index: 6;}
+.iform .vehicle .vehicle-inner li{height: auto;line-height: 20px;padding: 4px 1px;}
+.iform .vehicle li a{display: block;height: auto;overflow: hidden;padding-left: 10px;}
+.iform .vehicle li a:hover{background: #F1F1F1;color: #F37C06;}
+.iform .vehicle a{color: #6C6C6C;text-decoration: none;}
+.right_part .iform .vehicle .tip{color: #B4B4B4;height: 24px;line-height: 24px;padding: 0 0 0 10px;width: 138px;overflow: hidden;}
+.iform .vehicle .close {background: url("../images/close.png") no-repeat scroll center center rgba(0, 0, 0, 0);display: inline-block;float: right;height: 15px;margin: 3px 5px 0 0;width: 14px;}
+.iform .vehicle ul.anchors {padding: 2px 0;position: absolute;right: 19px;text-align: center;top: 24px;width: auto;}
+.iform .vehicle ul.anchors li{padding-top: 1px;padding-bottom: 1px;}
+.iform .vehicle .overflow {height: 270px;}
+.right_part #vehicle-model-nav {width: 148px;}
+.right_part #vehicle-brand-nav{width: 110px;}
+#vehicle-brand-nav a, #vehicle-model-nav a{color: #6C6C6C;text-decoration: none;}
+.iform em{font-style:normal;line-height: 30px;}
+
+.right_content_style .iform{padding:20px 14px 0;margin:0;list-style:none;}
+.right_content_style .iform li{height:47px;}
+.right_content_style .iform em{width:50px;color:#989898;float:left;}
+.right_content_style .iform li.brand{z-index:9;}
+.right_content_style .iform li.cars{z-index:8;}
+.right_content_style .iform li.car{z-index:7;}
+.right_content_style .iform li.sp{z-index:6;}
+.right_content_style .iform li.city{z-index:5;}
+.right_content_style .iform li.sp .vehicle input,.right_content_style .iform li.city .vehicle input{width: 38px;background-position: 54px center;cursor: pointer;}
+.right_content_style .iform li.sp .right,.right_content_style .iform li.city .right{left: 130px; position: absolute;}
+.right_content_style .iform li.sp .vehicle-outer,.right_content_style .iform li.city .vehicle-outer{position: relative;z-index: 4;}
+.right_content_style .iform li.sp .vehicle-inner ,.right_content_style .iform li.city .vehicle-inner{background: #FFF;border: 1px solid #D4D4D4;left: 0;position: absolute;top: 1px;width: 68px;height:210px;overflow-y:auto;}
+.right_content_style .iform .error-red{background: #ffeded url(../images/eva_error_bg.png) no-repeat 132px center;color: #d61c00;border: 1px solid #d61c00;}
+.right_content_style .iform li.sp .vehicle .error-red,.right_content_style .iform li.city .vehicle .error-red{background: #ffeded url(../images/eva_error_bg.png) no-repeat 52px center;color: #d61c00;border: 1px solid #d61c00;}
+.right_content_style .iform li.texts_box input{float: left;margin: 0 10px 0 0;padding: 2px 0 2px 10px;height: 24px;line-height: 24px;width: 58px;border: 1px solid #D4D4D4;color: #6C6C6C;}
+.right_content_style .iform li.texts_box span{line-height: 30px;}
+.right_content_style .iform li.texts_box img{width: 60px;height: 30px;vertical-align: top;cursor: pointer;border: 0;}
+.right_content_style .iform li.texts_box .error-red{background: #ffeded;color: #d61c00;border: 1px solid #d61c00;}
+.right_content_style .iform li.submit input{width:105px;height:30px;background:#FFECD7;border:1px #F8C99A solid;color:#F37C06;font-size:14px;font-weight:700;cursor:pointer;}
+
+#eva_list .filter { background: #fcfcfc; border: 1px solid #ececec; height: 44px;}
+#eva_list .filter .morelayer { background: #fff; position:absolute;left:-1px;top:-1px; border:#cfcfcf solid 1px; box-shadow:#cfcfcf 1px 1px 5px;}
+#eva_list .filter dl { margin: 0 14px; line-height: 24px; padding:10px 0;}
+#eva_list .filter dt { float: left; display: inline; padding: 0 0 0 5px; width: 56px; color:#989898;}
+#eva_list .filter dd { float: left; display: inline; position:relative; width: 80px; border: 1px solid #cecece; background: url(../images/rp.png) no-repeat 100% -232px;position:relative;z-index:0; height: 20px; display: inline-block; line-height: 20px; margin: 0 15px 0 0;}
+#eva_list .filter dd a { padding: 0 5px; line-height: 20px; display: block; zoom: 1;}
+#eva_list .filter dd a:hover { text-decoration: none;}
+#eva_list .filter dd a:visited { color: #494949; text-decoration: none;}
+#eva_list .filter dd .morelayer { display: none;}
+#eva_list .filter dd.current { border: 1px solid #ff8400; color: #f37c06; text-decoration: none; background:url(../images/rp.png) no-repeat 100% -272px;}
+#eva_list .filter dd.current a { color: #f37c06;}
+#eva_list .filter dd.current .morelayer { display: block;}
+#eva_list .filter dd.current a:visited { color: #f37c06;}
+#eva_list .filter dd.current .morelayer a { color: #494949;}
+#eva_list .filter dd.current .morelayer a:visited { color: #494949;}
+#eva_list .filter dd.current .morelayer a:hover { color: #fff;}
+#eva_list .filter .morelayer .title { padding: 0 14px 0 5px; background: url(../images/rp.png) no-repeat 100% -232px; color: #494949;}
+#eva_list .filter dd.dd1, #eva_list .filter dd.dd1 .morelayer ul { width: 100px;}
+#eva_list .filter dd.dd2, #eva_list .filter dd.dd2 .morelayer ul { width: 100px;}
+#eva_list .filter dd.dd3, #eva_list .filter dd.dd3 .morelayer ul { width: 240px;}
+#eva_list .filter dd.dd3 .morelayer .title { width: 221px; height: 20px; overflow: hidden;}
+#eva_list .filter dd.dd3 a { width: 220px; height: 20px; overflow: hidden; display: block;}
+#eva_list .filter dd.dd3 .morelayer a { width: 210px;}
+
+#eva_list .filter .morelayer ul li a{position:static!important;background:none;border:0;word-break:keep-all;margin-left:5px;}
+#eva_list .filter dd .morelayer ul li a{background:#fff;border:0;margin:0 1px;}
+#eva_list .filter dd .morelayer ul li a:hover{background:#f37c06;color:#fff;border:0;}
+#eva_list .filter dd .morelayer ul { height: 450px; overflow-y: scroll;}
+
+/*#eva_list .filter .morelayer .search{width:680px;height:24px;padding:10px;background:#fff;border-bottom:1px #eee dotted;}
+#eva_list .filter .morelayer .search form{float:left;width:210px;}
+#eva_list .filter .morelayer .search span#brand_char{float:right;padding-top:2px;}
+#eva_list .filter .morelayer .search span#brand_char a{float:left;}
+#eva_list .filter .morelayer .search form input{float:left;padding:2px 5px;line-height:18px;height:18px;width:150px;border:1px #cecece solid;border-right:0;}
+#eva_list .filter .morelayer .search form button{display:block;height:24px;padding:0 5px;cursor:pointer;border:1px #F8C99A solid;background:#FFECD7;color:#F37C06;float:left;}
+#eva_list .filter .morelayer .search span a{display:inline-block;padding:0 10px;margin:0 1px;border:0;background:#fff;font-family:"Microsoft";}
+#eva_list .filter .morelayer .search span a.on,#eva_list .filter .morelayer .search span a:hover{background:#F37C06;color:#fff;}*/
+
+#eva_list #page { border: 1px solid #ececec; border-top: 0; padding-bottom: 25px;}
+
+#friend_link .channel_intro {}
+#friend_link .channel_intro h4 { line-height: 24px;}
+#friend_link .channel_intro p { float: left; display: inline; width: 860px; color: #494949; margin: 0 0 0 10px; padding: 0 0 0 11px; line-height: 24px;}
+
+#eva_middle { margin: 0 0 10px 0;}

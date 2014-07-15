@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo1</title>
+    <script type="text/javascript" src="http://static.273.cn/g.js"></script>
+    <script type="text/javascript" src="http://static.273.cn/config.js"></script>
+</head>
+<body>
+<script>
+G.use(['app/demo/js/a.js'], function (A) {
+    A.say();
+});
+</script>
+
+</body>
+</html>

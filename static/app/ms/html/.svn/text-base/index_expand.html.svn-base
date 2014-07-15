@@ -1,0 +1,530 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="top_nav"><!--顶部导航-->
+    	<div class="top_nav lay1">
+        	<div class="tel">全国统一客服热线 <strong>400-6000-273</strong></div>
+        	<div class="nav">
+			<a href="# "rel="nofollow" class="navlink">登录</a>
+			<a href="#" rel="nofollow" class="navlink">注册</a>
+			<span class="">
+				<a href="javascript:;" class="navlink"><b>免费订阅</b></a>
+				<!-- 免费订阅 -->
+				<div id="chewuzhi"><h5>车物志</h5><p class="des">每月一刊为您提供最新最全的购车、汽车美容、维修出行等资讯及服务...</p><form id="dyForm" method="get" action="http://news.273.cn/Subscribe/signup/"><p class="mail"><label>免费订阅请输入您的常用邮箱</label><input value="abc@abc.com" name="dyEmail" id="dyEmail"><br><button id="dyButton" class="no" >完成订阅</button></p></form><h5>分享至</h5>
+				<!-- Baidu Button BEGIN -->
+				<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+				<a class="bds_qzone"></a>
+				<a class="bds_tsina"></a>
+				<a class="bds_tqq"></a>
+				<a class="bds_renren"></a>
+				<a class="bds_t163"></a>
+				<span class="bds_more"></span>
+				</div>
+				<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+				<script type="text/javascript" id="bdshell_js"></script>
+				<script type="text/javascript">
+				document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+				</script>
+				<!-- Baidu Button END -->
+			</div>
+		</span>
+		<a href="#" class="navlink">收藏</a>
+		<span class="">
+			<a href="javascript:;" class="navlink"><b>导航</b></a>
+			<!-- 网站导航 -->
+			<div id="daohang" class="clearfix">
+				<ul>
+				<li>汽车资讯</li>
+				<li><a href="" title="">汽车百科科科科科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>工具箱</li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>特色服务</li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>快速找车</li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>其他分类</li>
+				<li><a href="" title="">手机客户端</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				<li><a href="" title="">汽车百科</a></li>
+				</ul>
+			</div>
+		</span>
+		</div>
+
+
+        </div>
+    </div>
+
+    <div class="gg1"><a href="#" target="_blank" rel="nofollow"><img src="../pics/index_gg1.jpg" /></a></div>
+
+    <div id="head" class="lay1"><!--头部-->
+    	<div class="logo"><h1><a href="#"><img src="../images/logo.gif" /></a></h1></div>
+    	<div class="city on">
+        	<span class="current"><a href="#">福州站</a></span>
+			<ul class="citylist">
+				<li><span><a href="" title="">北京</a></span><span><a href="" title="">天津</a></span><span><a href="" title="">上海</a></span><span><a href="" title="">重庆</a></span><span class="more"><a href="" title="">全部地区门店</a></span></li>
+				<li><span><a href="" title="">北京市北京阿萨德</a></span><span><a href="" title="">天津</a></span><span><a href="" title="">上海</a></span><span><a href="" title="">重庆</a></span><span class="on"><a href="" title="">福建</a></span><span><a href="" title="">天津</a></span><span><a href="" title="">上海</a></span><span><a href="" title="">重庆</a></span><span><a href="" title="">北京</a></span><span><a href="" title="">天津</a></span><span><a href="" title="">上海</a></span><span><a href="" title="">重庆</a></span></li>
+				<li class="side"><span class="on"><a href="" title="">全省</a></span><span><a href="" title="">福州</a></span><span><a href="" title="">厦门</a></span><span><a href="" title="">泉州</a></span><span><a href="" title="">莆田</a></span><span><a href="" title="">三明</a></span><span><a href="" title="">漳州</a></span><span><a href="" title="">龙岩</a></span><span><a href="" title="">南平</a></span><span><a href="" title="">宁德</a></span></li>
+			</ul>
+        </div>
+    	<div class="search">
+        	<div class="s1 clearfix">
+            	<div class="search_box">
+                	<input value="试试搜索“宝马”或者“福克斯 自动档”" class="on" />
+                    <button>搜　索</button>
+                </div>
+                <div class="ad"><a href="#">高级搜索</a></div>
+            </div>
+        	<div class="s2"><a href="#">奥迪</a><a href="#">奔驰</a><a href="#" class="hot">宝马320</a><a href="#">SSC跑车</a><a href="#" class="hot">准新车</a><a href="#">雪弗兰</a></div>
+        </div>
+    </div>
+
+    <div id="nav" class="lay1"><!--导航-->
+    	<div class="left"><a href="#" class="current">首页</a><a href="#">买车</a><a href="#">卖车</a><a href="#" class="new">车况宝<span><img src="../images/nav_a_icon.png" /></span></a><a href="#">拍车宝</a><a href="#">车价评估</a><a href="#" class="last">我要加盟</a></div>
+    	<div class="right"><a href="#">免费评估</a><a href="#" class="last">273连锁店</a></div>
+	</div>
+
+    <div id="main" class="lay1 clearfix">
+    	<div id="index_left">
+       	  <div id="classify"><!--分类-->
+            	<dl class="d1 clearfix">
+                	<dt>级　别：</dt>
+                  <dd><a href="#" class="a1">轿车</a></dd>
+                  <dd><a href="#" class="a2">商务车</a></dd>
+                    <dd><a href="#" class="a3 current">越野车</a></dd>
+                  <dd><a href="#" class="a4">跑车</a></dd>
+                  <dd><a href="#" class="a5">皮卡车</a></dd>
+                  <dd><a href="#" class="a6">面包车</a></dd>
+                  <dd><a href="#" class="a7">客车</a></dd>
+                  <dd><a href="#" class="a8">货车</a></dd>
+            </dl>
+            	<dl class="clearfix">
+               	  <dt>品　牌：</dt>
+                  <dd><a href="#" title="关键词">大众</a></dd>
+                  <dd><a href="#" title="关键词">本田</a></dd>
+                  <dd><a href="#" title="关键词">丰田</a></dd>
+                  <dd><a href="#" title="关键词">现代</a></dd>
+                  <dd><a href="#" title="关键词">日产</a></dd>
+                  <dd><a href="#" title="关键词">奇瑞</a></dd>
+                  <dd><a href="#" title="关键词">福特</a></dd>
+                  <dd><a href="#" title="关键词">雪铁龙</a></dd>
+                  <dd><a href="#" title="关键词">比亚迪</a></dd>
+                    <dd><a href="#" title="关键词">起亚</a></dd>
+                  <dd><a href="#" title="关键词">吉利</a></dd>
+                  <dd><a href="#" title="关键词">雪佛兰</a></dd>
+                    <dd><a href="#" title="关键词">起亚</a></dd>
+            </dl>
+            	<dl class="clearfix">
+               	  <dt>价　格：</dt>
+                  <dd><a href="#" title="关键词">3万以下</a></dd>
+                  <dd><a href="#" title="关键词">3-5万</a></dd>
+                  <dd><a href="#" title="关键词">5-10万</a></dd>
+                  <dd><a href="#" title="关键词">10-15万</a></dd>
+                  <dd><a href="#" title="关键词">15-20万</a></dd>
+                  <dd><a href="#" title="关键词">20-30万</a></dd>
+                  <dd><a href="#" title="关键词">30-40万</a></dd>
+                  <dd><a href="#" title="关键词">40万以上</a></dd>
+            </dl>
+            	<dl class="clearfix">
+               	  <dt>车　龄：</dt>
+                  <dd><a href="#" title="关键词">1年以内</a></dd>
+                  <dd><a href="#" title="关键词">2年以内</a></dd>
+                    <dd><a href="#" title="关键词">3年以内</a></dd>
+                  <dd><a href="#" title="关键词">3-5年</a></dd>
+                  <dd><a href="#" title="关键词">5-8年</a></dd>
+                  <dd><a href="#" title="关键词">8年以上</a></dd>
+            </dl>
+            	<dl class="clearfix last">
+               	  <dt>热　卖：</dt>
+                  <dd><a href="#" title="关键词">伊兰特</a></dd>
+                  <dd><a href="#" title="关键词">福克斯</a></dd>
+                  <dd><a href="#" title="关键词">凯越</a></dd>
+                  <dd><a href="#" title="关键词">F3</a></dd>
+                  <dd><a href="#" title="关键词">雅阁</a></dd>
+                  <dd><a href="#" title="关键词">思域</a></dd>
+                  <dd><a href="#" title="关键词">天籁</a></dd>
+                  <dd><a href="#" title="关键词">卡罗拉</a></dd>
+                  <dd><a href="#" title="关键词">赛拉图</a></dd>
+                  <dd><a href="#" title="关键词">Elantra悦动</a></dd>
+            </dl>
+            </div>
+
+            <div id="car_price"><!--车源列表_价格-->
+            	<div class="title_style">
+        	    	<h3><a href="#" class="current">3万以下</a><a href="#"><span>3-5万</span></a><a href="#">5-10万</a><a href="#">10-15万</a><a href="#">15-30万</a><a href="#">30万以上</a></h3>
+                </div>
+                <div class="car_list_box">
+                	<ul class="car_list clearfix">
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li class="last">
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li class="last">
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="gg2"><a href="#" target="_blank"><img src="../pics/index_gg2.jpg" /></a></div>
+
+            <div id="car_new"><!--最新二手车-->
+           	  <div class="title_style">
+       	    	  <h3><a href="#" class="current">最新二手车</a><a href="#"><span>拍车宝车源</span><em><img src="../images/car_list_icon2.png" /></em></a></h3>
+                  <span class="link_icon"><a href="#" class="current"></a><a href="#"></a><a href="#"></a></span>                </div>
+                <div class="car_list_box short">
+                	<ul class="car_list clearfix">
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a><span class="num_bg"></span><span class="num"><span>5</span></span></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li class="last">
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li>
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    	<li class="last">
+                        	<div class="pic"><a title="宝马520Li全新5系典雅型手自一体" href="#" target="_blank"><img src="../pics/car_list_pic.jpg" alt="宝马520Li全新5系典雅型手自一体" /></a></div>
+                            <p><a href="#" target="_blank">宝马520Li全新5系典雅型手自</a></p>
+                            <p><span>18万</span>2009年上牌 7万公里</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="store"><!--身边门店-->
+            	<div class="title_style">
+        	    	<h3><strong class="current">身边门店</strong></h3>
+                    <span class="more"><a href="#">其他地区门店</a></span>
+                </div>
+                <div class="content clearfix">
+                	<div class="map"><a href="#"><img src="../pics/store_map.gif" /></a></div>
+                	<div class="right">
+                    	<div class="info clearfix">
+                        	<div class="pic"><a href="#" target="_blank"><img src="../pics/store_pic.jpg" /></a></div>
+                            <div class="font">
+                            	<h5><a href="#" target="_blank">福州五里亭服务中心</a></h5>
+                                <p><span>地址：</span><span class="dizhi" title="福州市福州市福马路福马路福马路福马路411号渠成新村一楼B21商铺">福州市福州市福马路福马路福马路福马路411号渠成新村一楼B21商铺</span></p>
+								<p><span>电话：</span><strong>0591-87504303</strong></p>
+                            </div>
+                        </div>
+                        <div class="other">
+                       	  <div class="sub_title">
+                           	<h4>其他门店</h4>
+                              <span class="link_icon"><a href="#" class="current"></a><a href="#"></a><a href="#"></a></span>                            </div>
+                            <ul class="clearfix">
+                            	<li>鼓楼 | <a href="#" target="_blank">福州资阳服务中心</a></li>
+                            	<li>金山 | <a href="#" target="_blank">福清服务中心</a></li>
+                            	<li>鼓楼 | <a href="#" target="_blank">福州资阳服务中心</a></li>
+                            </ul>
+                        </div>
+                        <div class="join">
+                            <a href="#" target="_blank" class="join_btn">我要加盟</a>
+                        	<ul>
+                            	<li><label>区域现状：</label>您好，该地区门店稀缺。是加盟273二手车的好机会!</li>
+                            	<li><label>行业现状：</label>二手车，十年增长十倍的朝阳行业，等你淘金!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    	<div id="index_right">
+        	<div id="release"><a href="#" class="a1"><span>发布卖车</span></a><a href="#" class="a2">发布卖车</a></div>
+
+            <div id="focus"><a href="#"><img src="../pics/focus_pic.jpg" /></a></div>
+
+            <div id="assess"><!--价格评估-->
+            	<div class="title_style">
+        	    	<h3><strong>价格评估</strong></h3>
+                </div>
+                <div class="right_content_style">
+					<form class="iform">
+						<ul>
+							<li class="type">
+							<em>类&nbsp; 型：</em>
+							<span class="selected">不限类型</span>
+							<dl class="select click">
+							<dt>不限类型</dt>
+							<dd><a href="">轿车</a></dd>
+							<dd><a href="">跑车</a></dd>
+							<dd><a href="">SUV</a></dd>
+							</dl>
+						</li>
+						<li class="brand">
+							<em>品&nbsp; 牌：</em>
+							<span class="selected">不限品牌</span>
+							<dl class="select">
+							<dt>不限品牌</dt>
+							<dd><a href="">轿车</a></dd>
+							<dd><a href="">跑车</a></dd>
+							<dd><a href="">SUV</a></dd>
+							</dl>
+						</li>
+						<li class="cars">
+							<em>&nbsp;</em>
+							<dl class="select">
+							<dt>不限车系</dt>
+							<dd><a href="">轿车</a></dd>
+							<dd><a href="">跑车</a></dd>
+							<dd><a href="">SUV</a></dd>
+							</dl>
+						</li>
+						<li class="car">
+							<em>&nbsp;</em>
+							<dl class="select">
+							<dt>不限车型</dt>
+							<dd><a href="">轿车</a></dd>
+							<dd><a href="">跑车</a></dd>
+							<dd><a href="">SUV</a></dd>
+							</dl>
+						</li>
+						<li class="sp">
+							<em>上&nbsp; 牌：</em>
+							<span class="selected">年份</span>
+							<dl class="select click">
+							<dt>年份</dt>
+							<dd><a href="">2013</a></dd>
+							<dd><a href="">2013</a></dd>
+							<dd><a href="">2013</a></dd>
+							</dl>
+
+							<span class="selected right">月份</span>
+							<dl class="select">
+							<dt>月份</dt>
+							<dd><a href="">01</a></dd>
+							<dd><a href="">02</a></dd>
+							<dd><a href="">03</a></dd>
+							</dl>
+						</li>
+						<li class="city">
+							<em>交易地：</em>
+							<dl class="select click">
+							<dt>省份</dt>
+							<dd><a href="">北京北京北京北京</a></dd>
+							<dd><a href="">上海</a></dd>
+							<dd><a href="">福建</a></dd>
+							</dl>
+							<dl class="select right">
+							<dt>城市</dt>
+							<dd><a href="">福州</a></dd>
+							<dd><a href="">泉州</a></dd>
+							<dd><a href="">厦门</a></dd>
+							</dl>
+						</li>
+						<li class="texts"><em>里&nbsp; 程：</em><input type="text" /> 万公里</li>
+						<li class="texts"><em>手&nbsp; 机：</em><input type="text" value="用于回复结果" /><span class="form-msg-no" title="请输入正确的手机号码">请输入正确的手机号码</span></li>
+						<li class="submit"><em>&nbsp; </em><input type="submit" value="提交评估" /></li>
+						</ul>
+					</form>
+				</div>
+            </div>
+
+            <div class="gg3"><a href="#" target="_blank"><img src="../pics/index_gg3.jpg" /></a></div>
+
+            <div id="guide_buy"><!--二手车导购-->
+            	<div class="title_style">
+        	    	<h3><strong>二手车导购</strong></h3>
+                    <span class="more"><a href="#">更多</a></span>
+                </div>
+                <div class="right_content_style">
+                	<ul class="u1 clearfix">
+                    	<li><a href="#" target="_blank"><span class="s1"></span>交易过户</a></li>
+                    	<li><a href="#" target="_blank"><span class="s2"></span>车险理赔</a></li>
+                    	<li><a href="#" target="_blank"><span class="s3"></span>车辆检查</a></li>
+                    	<li><a href="#" target="_blank"><span class="s4"></span>驾驶技巧</a></li>
+                    	<li><a href="#" target="_blank"><span class="s5"></span>汽车养护</a></li>
+                    	<li><a href="#" target="_blank"><span class="s6"></span>交通法规</a></li>
+                    </ul>
+                    <ul class="u2">
+                    	<li><a href="#">273二手车可以分期吗?</a></li>
+                    	<li><a href="#">请问,273总部为加盟商都提供什么?</a></li>
+                    </ul>
+                    <div class="ask_box">
+                    	<input class="input1" value="用于回复结果" /><input type="submit" class="btn" value="提问" />
+                    </div>
+                </div>
+            </div>
+
+            <div id="join" class="hot_box"><!--合作加盟-->
+            	<div class="title_style">
+        	    	<h3><strong class="current">合作加盟</strong></h3>
+                </div>
+                <div class="right_content_style">
+                	<ul>
+                    	<li><label>区域现状：</label>您好，该地区门店稀缺。是加盟273二手车的好机会!</li>
+                    	<li><label>行业现状：</label>二手车，十年增长十倍的朝阳行业，等你淘金!</li>
+                    </ul>
+                    <div class="btn"><a href="#" target="_blank">我要加盟</a></div>
+                </div>
+            </div>
+
+            <div id="news"><!--门店动态-->
+            	<div class="title_style">
+        	    	<h3><strong>门店动态</strong></h3>
+                    <span class="more"><a href="#">更多</a></span>
+                </div>
+                <div class="right_content_style">
+                	<ul>
+                    	<li><a href="#" target="_blank">震撼逆天!三星四核新品爆低1999元品爆低1999元</a></li>
+                    	<li><a href="#" target="_blank">死磕小米2 魅族MX2狂降爆低2018元</a></li>
+                    	<li><a href="#" target="_blank">端午节优惠季 四核手机低至799元</a></li>
+                    	<li><a href="#" target="_blank">3D电视 海信LED46EC660X3D</a></li>
+                    	<li><a href="#" target="_blank">易迅热售高性价比笔记本促销专场</a></li>
+                    	<li><a href="#" target="_blank">2700元起三星I9500火拼iphone5</a></li>
+                    	<li><a href="#" target="_blank">纷降价迎战华为四核爆990元</a></li>
+                    	<li><a href="#" target="_blank">送移动电源/16G卡全网</a></li>
+                    	<li><a href="#" target="_blank">首发酷睿四核I5高端主机3599元</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="super" class="lay1"><!--我们的优势-->
+    	<p>全国400多加连锁点<br />数万真实在售车辆</p>
+    	<p>数千二手车顾问实车验收<br />信息真实有效</p>
+    	<p>专业车况监测<br />客观公正有保证</p>
+    	<p class="last">不赚差价 买卖合算<br />车况透明 交易放心</p>
+    </div>
+
+    <div id="friend_link" class="lay1"><!--合作伙伴-->
+    	<div class="title_style">
+        	<h3><a href="#" class="current">合作伙伴</a><a href="#">网址导航</a></h3>
+        </div>
+    	<div class="content"><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span><a href="#" target="_blank">新浪游戏</a><span>|</span><a href="#" target="_blank">07073网页游戏</a><span>|</span><a href="#" target="_blank">兔友</a><span>|</span><a href="#" target="_blank">5173</a><span>|</span><a href="#" target="_blank">麦团</a><span>|</span></div>
+    </div>
+
+    <div id="quick_nav" class="lay1 clearfix"><!--快速导航-->
+   	  <dl class="d1">
+        	<dt>售后服务电话</dt>
+        <dd class="tel">400-6000-273</dd>
+            <dd class="time">7x24小时(全年无休)</dd>
+            <dd>客服邮箱:service@273.cn</dd>
+      </dl>
+   	  <dl class="d2">
+        	<dt>交易帮助</dt>
+            <dd><a href="#" target="_blank">买车帮助</a></dd>
+            <dd><a href="#" target="_blank">卖车帮助</a></dd>
+            <dd><a href="#" target="_blank">过户帮助</a></dd>
+      </dl>
+   	  <dl class="d3">
+        	<dt>了解我们</dt>
+            <dd><a href="#" target="_blank">关于273</a></dd>
+            <dd><a href="#" target="_blank">273动态</a></dd>
+      </dl>
+   	  <dl class="d4">
+        	<dt>客服中心</dt>
+            <dd><a href="#" target="_blank">免费咨询电话</a></dd>
+            <dd><a href="#" target="_blank">网站合作</a></dd>
+            <dd><a href="#" target="_blank">意见与建议</a></dd>
+      </dl>
+   	  <dl class="d5">
+        	<dt>投诉中心</dt>
+            <dd><a href="#" target="_blank">信息投诉</a></dd>
+            <dd><a href="#" target="_blank">门店投诉</a></dd>
+            <dd><a href="#" target="_blank">网页纠错</a></dd>
+      </dl>
+   	  <dl class="d6">
+        	<dt>特色服务</dt>
+            <dd><a href="#" target="_blank">车况宝</a></dd>
+            <dd><a href="#" target="_blank">车友问答</a></dd>
+            <dd><a href="#" target="_blank">二手车评估</a></dd>
+      </dl>
+    </div>
+
+    <div id="foot" class="lay1"><!--底部-->
+    	<p>
+        	<a href="#" target="_blank">关于我们</a> <span>|</span> <a href="#" target="_blank">加盟273</a> <span>|</span> <a href="#" target="_blank">人才招聘</a> <span>|</span> <a href="#" target="_blank">联系我们</a> <span>|</span> <a href="#" target="_blank">使用帮助</a> <span>|</span> <a href="#" target="_blank">友情链接</a> <span>|</span> <a href="#" target="_blank">网站地图</a> <span>|</span> <a href="#" target="_blank">帮助中心</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+            273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+            Copyright © 1998 - 2013 273.cn All Rights Reserved<br />
+            273旗下：<a href="#" target="_blank">拍车宝</a> <span>|</span> <a href="#" target="_blank">车况宝</a> <span>|</span> <a href="#" target="_blank">二手车贷款</a>
+        </p>
+    </div>
+</body>
+</html>

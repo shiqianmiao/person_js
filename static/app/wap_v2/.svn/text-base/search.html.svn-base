@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>搜索-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+	<div id="pageheader" class="row">
+	<span class="reback"><a href="index.html" title=""><返回</a></span>
+	<span class="pagetitle">高级搜索</span>
+</div>
+<div id="main" class="row">
+	<div class="search-list">
+		<ul>
+			<li><a href="#" target="_blank"><span class="all">不限</span><label>品牌</label></a></li>
+			<li><a href="#" target="_blank"><span>5-10万</span><label>价格</label></a></li>
+			<li><a href="#" target="_blank"><span>1-2年</span><label>车龄</label></a></li>
+			<li><a href="#" target="_blank"><span>福州</span><label>地区</label></a></li>
+			<li><a href="#" target="_blank"><span class="all">不限</span><label>福州</label></a></li>
+		</ul>
+		<div class="row"><a class="btn" href="">查看更多选项</a></div>
+	</div>
+	<div class="row">
+        <form class="adsearch ">
+        	<div class="row">
+        		<input class="input" type="text" placeholder="输入搜索关键词" />
+        	</div>
+        	<div class="row">
+        		<input class="btn" type="submit" value="开始搜索" />
+        	</div>
+        </form>
+	</div>
+	<div id="footer" class="row">
+		<p class="footer-nav">
+			<a href="#">273门店</a>
+			<a href="#">我要卖车</a>
+			<a href="#">联系我们</a>
+			<a href="#">招商加盟</a>
+			</p>
+		<p class="version">
+			<a href="#" class="current">触屏版</a> |
+			<a href="#">电脑版</a> |
+			<a href="#">客户端</a>
+		</p>
+		<p class="copyright"><p>闽ICP备05012458号</p></p>
+	</div><!-- #footer/ -->
+</div><!-- #main/ -->
+</body>

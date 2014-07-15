@@ -1,0 +1,31 @@
+.car_brand_title { z-index: 2;}
+.car_brand_title .title { height: 33px; background: #f7f7f8; border: 1px solid #dcdcdc;}
+.car_brand_title .title a { display: inline-block; width: 98px; height: 33px; border: 1px solid #dcdcdc; font-size: 14px; font-weight: bold; text-align: center; line-height: 33px; margin: -1px 0 -1px -1px; text-decoration: none; position: relative; z-index: 1;}
+.car_brand_title .title a.current { background: #fff; color: #f48701; border-bottom-color: #fff; position: relative; z-index: 2;}
+.car_brand_title .letter { border: 1px solid #dcdcdc; border-top: 0; border-bottom: 2px solid #f60; height: 32px; font-size: 14px; margin-bottom: -1px; position: relative; z-index: 2;}
+.car_brand_title .letter label { float: left; display: inline-block; padding: 10px 0 0 13px;}
+.car_brand_title .letter ul { float: left; display: inline;}
+.car_brand_title .letter ul li { float: left; display: inline; margin: 4px 3px 0 3px;}
+.car_brand_title .letter ul li a { display: inline-block; width: 26px; height: 28px; text-align: center; line-height: 28px;}
+.car_brand_title .letter ul li a.current { color: #fff; background: #f60;}
+.car_brand_title .letter ul li a.gray { color: #989898;}
+.car_brand_title .letter ul li a:hover { color: #fff; background: #f60; text-decoration: none;}
+.car_brand_title .letter .list1 li a { width: 70px;}
+
+
+.car_brand_table_box { position: relative; z-index: 1;}
+.car_brand_table { border-collapse: collapse;}
+.car_brand_table td { border: 1px solid #dcdcdc; padding: 14px 0;}
+.car_brand_table .left_font { font-size: 24px; font-family: Arial, SimSun; font-weight: bold; display: block; text-align: center;}
+.car_brand_table .list1 { margin: 0 0 0 25px;}
+.car_brand_table .list1 li { float: left; display: inline; width: 121px; font-size: 14px; line-height: 36px;}
+.car_brand_table .spacing1 li { width: 85px;}
+.car_brand_table .spacing2 li { width: 107px;}
+.car_brand_table .gray td { background: #fcfcfc;}
+.car_brand_table .orange td { background: #fff9f2; border: 1px solid #ffe3c5;}
+.car_brand_table .orange .left_font { color: #f60;}
+.car_brand_table .ch { font-size: 18px; font-family: Microsoft YaHei;}
+.car_brand_table .spacing3 li{ margin-right: 35px; width: auto;}
+
+.car_brand_title .year{height: auto;}
+.car_brand_title .year ul{width: 876px;}

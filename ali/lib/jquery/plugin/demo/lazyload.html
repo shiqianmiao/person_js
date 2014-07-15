@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>image magnifier</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+<style> 
+a {
+    display: block;
+}
+</style>
+</head>
+<body>
+<a id="1">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/1.jpg" />
+</a>
+<a id="2">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/2.jpg" />
+</a>
+<a id="3">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/3.jpg" />
+</a>
+<a id="4">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/1.jpg" />
+</a>
+<a id="5">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/2.jpg" />
+</a>
+<a id="6">
+<img class="lazyload" src="http://static.273.cn/lib/jquery/plugin/pics/default.png" data-original="http://static.273.cn/lib/jquery/plugin/pics/3.jpg" />
+</a>
+
+
+<script type="text/javascript">
+G.use(['lib/jquery/plugin/jquery.lazyload.js'], function (LazyLoad) {
+
+    new LazyLoad({
+        el : '.lazyload',
+        effect : 'fadeIn',
+        threshold : 100     // 100px预加载
+    })
+});
+</script>
+</body>
+</html>

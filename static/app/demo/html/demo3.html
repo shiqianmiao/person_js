@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo3</title>
+    <script type="text/javascript" src="http://static.273.cn/g.js"></script>
+    <script type="text/javascript" src="http://static.273.cn/config.js"></script>
+</head>
+<body>
+<script>
+G.use(['app/demo/cmb/ab.cmb.js'], function () {
+    G.use(['app/demo/js/a.js'], function (A) {
+        A.say();
+    });
+    G.use(['app/demo/js/b.js'], function (B) {
+        B.say();
+    });
+});
+</script>
+
+</body>
+</html>

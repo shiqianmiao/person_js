@@ -1,0 +1,53 @@
+{
+    "rootpaths": ["http://sta.273.com.cn/"],
+    "src": "",
+    "dest": "build/",
+    "db": "db/",
+    "report": "report/",
+    "cacheExpire": 604800,
+    "versionTemplate": "<%= url.href.replace(url.ext, '.__' + version + '__' + url.ext) %>",
+    "builder": [
+        ["g.js", "copy"],
+        ["g-modern.js", "copy"],
+        ["config.json", "config"],
+        ["**/*.tpl", "template"],
+        ["**/*.js", "javascript"],
+        ["**/*.css", "css"],
+        ["**/*", "copy"]
+    ],
+    "memcached": {
+        "static" : {
+            "127.0.0.1:11211" : 1
+        },
+        "test" : {
+            "127.0.0.1:11211" : 1
+        },
+        "sim" : {
+            "127.0.0.1:11211" : 1
+        },
+        "online" : {
+            "127.0.0.1:11211" : 1
+        },
+        "ali" : {
+            "218.244.141.149:11211" : 1
+        }
+    },
+    "deploy": {
+        "static": [
+            ["foo@127.0.0.1::static", "-avR", "--delete", "--password-file=/.rsync_password"]
+        ],
+        "sim": [
+            ["foo@127.0.0.1::static", "-avR", "--delete", "--password-file=/.rsync_password"]
+        ],
+        "online": [
+            ["foo@127.0.0.1::static", "-avR", "--delete", "--password-file=/.rsync_password"]
+        ],
+        "ali": [
+            ["foo@218.244.141.149::static", "-avR", "--password-file=/.rsync_password"]
+        ]
+    },
+    "watch": {
+        "files": "/**/*",
+        "tasks": ["build:<%= file %>"]
+    }
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>dialog demo2</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+</head>
+<body style="">
+
+<div id="demo" style="display:none;">hi，lovesueee~~hi，lovesueee~~hi，lovesueee~~lovesueee~~hi，lovesueee~i，lovesueee~~i，lovesueee~~i，lovesueee~~</div>
+
+<div style="height:2000px;padding-top:100px;">
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+    <p>Hello, world</p>
+    <p>Hello, world</p>
+
+    <div style="margin-top:400px;">
+        <button id="trigger">弹出对话框</button>
+    </div>
+</div>
+
+
+
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/dialog/dialog.js'], function ($, Dialog) {
+
+    // var dialog = new Dialog({
+    //     title : 'greetings',
+    //     // height : 200,
+    //     ok : function (e) {
+    //         console.log('ok: ', this, e);
+    //     },
+    //     cancel : function (e) {
+    //         console.log('cancel: ', this, e);
+    //         return window.confirm('确定取消吗？');
+    //     }
+    // });
+
+    // dialog.ready(function () {
+    //     this.open('http://static.273.cn/widget/dialog/iframe.html');
+    // });
+
+    // for crossdomain
+    var dialog = new Dialog({
+        title : 'greetings',
+        width : 500,
+        height: 300,
+        skin : 'gray',
+        //maskAble : false,
+        ok : function (e) {
+            console.log('ok: ', this, e);
+        },
+        cancel : function (e) {
+            console.log('cancel: ', this, e);
+            return window.confirm('确定取消吗？');
+        }
+    });
+
+    dialog.ready(function () {
+        this.open('http://www.cnblogs.com/lovesueee');
+    });
+
+    // for test
+    window.dialog = dialog;
+    window.Dialog = Dialog;
+    window.$ = $;
+
+    // console.log(dialog);
+    // console.dir(Dialog);
+});
+</script>
+</body>
+</html>

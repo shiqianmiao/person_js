@@ -1,0 +1,6 @@
+文件结构说明：
+
+html：存放所有的html页面
+css：存放所有css文件
+images：存放所有供css使用的样式图片,png-8格式
+pics：存放所有html页面使用的示例图片，jpg格式 <img src="" />

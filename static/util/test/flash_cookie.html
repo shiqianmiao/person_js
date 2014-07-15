@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>flash cookie</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://sta.273.com.cn/g.js' type="text/javascript"></script>
+<script src='http://sta.273.com.cn/config.js' type="text/javascript"></script>
+</head>
+<body>
+
+
+<script type="text/javascript">
+G.use(['util/flash_cookie.js'], function (FlashCookie) {
+
+    FlashCookie.set('testforlso', 'true');
+    FlashCookie.set('hello', 'world');
+
+    console.log(FlashCookie.loaded);
+    console.log(FlashCookie.get('testforlso'));
+    console.log(FlashCookie.get('hello'));
+    window.FlashCookie = FlashCookie;
+});
+</script>
+</body>
+</html>

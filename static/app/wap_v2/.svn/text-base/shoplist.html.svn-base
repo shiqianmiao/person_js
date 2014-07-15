@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>门店列表-273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+	<div id="pageheader" class="row">
+		<span class="reback"><a href="index.html" title=""><返回</a></span>
+		<span class="pagetitle">门店列表</span>
+	</div>
+	<div id="main" class="row">
+		<div class="area-list2">
+			<ul>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+				<li><a href="#">福州市</a></li>
+			</ul>
+			<div class="top-area"><a href="#" class="current">福州</a></div>
+		</div>
+		<div class="row">
+			<div class="store-list">
+				<ul>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+					<li>
+						<a href="shop.html">
+							<h3>福州鼓山服务中心</h3>
+							<p class="add">福州市晋安区前屿东路13号四季绿都春园…<br />0591-63315100</p>
+						</a>
+						<span class="phone"><a href="tel:059163315100" mce_href="tel:059163315100">拨打电话</a></span>
+					</li>
+				</ul>
+			</div>
+			<div class="row"><a class="btn" href="">查看更多车源</a></div>
+		</div>
+	</div>
+	<div id="footer" class="row">
+			<p class="footer-nav">
+				<a href="#">273门店</a>
+				<a href="#">我要卖车</a>
+				<a href="#">联系我们</a>
+				<a href="#">招商加盟</a>
+			</p>
+			<p class="version">
+				<a href="#" class="current">触屏版</a> |
+				<a href="#">电脑版</a> |
+				<a href="#">客户端</a>
+			</p>
+			<p class="copyright"><p>闽ICP备05012458号</p></p>
+		</div><!-- #footer/ -->
+</body>

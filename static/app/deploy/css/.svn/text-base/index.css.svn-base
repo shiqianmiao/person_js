@@ -1,0 +1,39 @@
+body {
+  background-color: #eee;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.black {
+    color: black;
+}
+
+.yellow {
+    color: #FFA300;
+}
+
+.list {
+    width: 600px;
+}
+
+.result {
+    width: 500px;
+}
+
+.env {
+    width: 100px;
+}
+
+.env, .submit {
+    margin-top: 20px;
+}
+
+.panel-body {
+    word-break: break-word;
+}

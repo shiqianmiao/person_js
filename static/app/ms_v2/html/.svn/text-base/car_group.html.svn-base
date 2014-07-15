@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>聚合页</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../css/car_group.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+<script type="text/javascript">
+	
+	$(document).ready(function() { 
+		var tags_a = $("#tags a"); 
+		tags_a.each(function(){ 
+		    var x = 9; 
+		    var y = 0; 
+		    var rand = parseInt(Math.random() * (x - y + 1) + y); 
+		    $(this).addClass("tags"+rand); 
+		}); 
+	}) 
+</script>
+</head>
+<body>
+
+<div id="header_nav">
+	<div class="row">
+		<div class="fl">
+			<span class="tel">全国统一客服热线 <strong>400-6000-273</strong></span>
+		</div>
+		<div class="fr">
+			<div class="clearfix"></div>
+			<span><a href="# "rel="nofollow">登录</a></span>	
+			<span><a href="##" rel="nofollow">注册</a></span>
+			<span><a href="##" rel="nofollow">收藏</a></span>
+			<span class="navlinks +on">
+				<a href="" class="navlink">导航<i></i></a>
+				<div class="navlinks_dl">
+					<dl>
+						<dt>汽车咨讯</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>工具箱</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>特色服务</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>快速找车</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+					<dl>
+						<dt>其他分类</dt>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+						<dd><a href="">二手车选购</a></dd>
+					</dl>
+				</div>
+			</span>
+		</div>
+	</div>
+</div>
+
+<div id="header" class="clearfix">
+	<div class="row">
+
+		<div class="logo"><h1><a href="">273二手车交易网</a></h1></div>
+
+		<div class="city +city_on">
+        	<span class="oncity"><i></i>福州站</span> [<a href="##">切换城市</a>]
+            <div class="down">
+            	<dl class="d1 clearfix">
+                	<dt>周边省市</dt>
+                    <dd><a href="#">福建</a></dd><dd><a href="#" class="current">福州</a></dd><dd><a href="#">漳州</a></dd><dd><a href="#">厦门</a></dd><dd><a href="#">泉州</a></dd><dd><a href="#">莆田</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd>
+                </dl>
+            	<dl class="clearfix">
+                	<dt>热门省市</dt>
+                    <dd><a href="#">全国</a></dd><dd><a href="#">福建</a></dd><dd><a href="#">浙江</a></dd><dd><a href="#">广东</a></dd><dd><a href="#">泉州</a></dd><dd><a href="#">莆田</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd>
+                </dl>
+                <div class="more"><a href="#"><i></i>更多省市</a></div>
+            </div>
+        </div>
+
+        <div class="search">
+        	<div class="clearfix">
+	        	<form class="search_box">
+	            	<div class="fl"><i></i><input value="试试搜索“宝马”或者“福克斯 自动档”" class="+on" /></div>
+	                <div class="fr"><button>搜　索</button></div>
+	            </form>
+        	</div>
+        </div>
+
+	</div>
+</div>
+
+<div id="nav">
+	<ul class="row clearfix">
+		<li class="fl on"><a href="">首页</a></li>
+		<li><a href="">买车</a></li>
+		<li><a href="">卖车</a></li>
+		<li><a href="">车价评估</a></li>
+		<li><a href="">车况宝</a></li>
+		<li><a href="">拍车宝</a></li>
+		<li><a href="">我要加盟</a></li>
+		<li><a href="">集市专题</a></li>
+		<li class="fr">
+			<span class="app"><i></i><a href="">手机客户端</a></span>
+			<span><a href="">273 连锁店</a></span>
+		</li>
+	</ul>
+</div>
+
+<div id="main">
+    <div id="bread" class="row clearfix"><!--页面路径-->
+    	<div class="left"><a href="#">福州二手车</a> &gt; <a href="#">福州二手本田</a> &gt; <a href="#">福州二手雅阁</a> </div>
+	</div>
+	<div class="content row clearfix">
+		<span>共有37个<a href="#">福州二手雅阁</a>相关热门搜索词</span>
+	</div>
+	<div class="row clearfix">
+		<div id="tags" class="cloud">
+			<a href="#">2008雅阁</a><a href="#">雅阁百万纪念版</a><a href="#">2.4雅阁顶配</a>
+			<a href="#">七代雅阁</a><a href="#">八代雅阁</a><a href="#">2007年雅阁</a>
+			<a href="#">雅阁3.0</a><a href="#">2.3雅阁</a><a href="#">手动雅阁</a><a href="#">七代雅阁2.4</a>
+			<a href="#">2005雅阁</a><a href="#">雅阁2.0手动</a><a href="#">v6雅阁</a><a href="#">雅阁8代</a>
+			<a href="#">7代雅阁</a><a href="#">白色雅阁</a><a href="#">2010款雅阁</a>
+			<a href="#">雅阁2.0</a><a href="#">09年雅阁</a><a href="#">10年雅阁</a><a href="#">雅阁豪华版</a>
+		</div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="row clearfix">
+		<div class="footer-hd">
+			<p class="p1"><a href="#">273首页</a> | <a href="#">买车</a> | <a href="#">卖车</a> | <a href="#">车价评估</a> | <a href="#">车况宝</a> | <a href="#">拍车宝</a> | <a href="#">加盟273</a> | <a href="#">273连锁店</a> | <a href="#">移动客户端</a></p>
+			<p><a href="#" class="s">关于我们</a><a href="#">加盟273</a><a href="#">人才招聘</a><a href="#">联系我们</a><a href="#">使用帮助</a><a href="#">友情链接</a><a href="#">网址地图</a><a href="#">帮助中心</a>  免费咨询二手车：<strong>400-6000-273</strong></p>
+			<p>273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号] &nbsp;&nbsp;&nbsp; Copyright © 1998 - 2014 273.cn All Rights Reserved</p>
+			<p><a href="" class="s"><img src="../pics/cert.png" /></a><a href=""><img src="../pics/cnnic.png" /></a></p>
+		</div>
+		<div class="footer-qr">
+			<a href="#"><img src="../pics/client_code.jpg" height="100px" width="100px"/></a>
+			<div class="info ">
+				<strong>273手机客户端</strong><span>海量车源 随时掌握</span><a href="#">查看详细介绍</a>
+			</div>
+		</div>
+		<div class="footer-qr weixin">
+			<a href="#"><img src="../pics/weixin_code.jpg" height="100px" width="100px"/></a>
+			<div class="info">
+				<strong>273官方微信</strong><span>扫描二维码，即可与273微信互动，还有惊爆优惠等你来拿！</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="uptop">
+		<span class="up"><a href=""></a></span>
+		<span class="fk"><a href=""></a></span>
+	</div>
+</div>
+
+<div class="popwindows">
+	<div class="bg"></div>
+	<div class="popcontents">
+		<div style="margin:20% auto;background:#fff;padding:10px;width:400px;height:240px;">
+			弹窗内容
+		</div>
+	</div>
+</div>
+</body>
+</html>

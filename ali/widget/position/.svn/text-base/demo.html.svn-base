@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>position</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+
+<style type="text/css">
+.baseEl {
+    border: 20px solid #999;
+    background-color: #EEE;
+    width: 300px;
+    height: 200px;
+    padding: 0 0 0 20px;
+    margin: 0px 0 0 100px;
+    line-height: 200px;
+    text-align: center;
+}
+
+.pinEl {
+    background-color: red;
+    width: 50px;
+}
+
+.container {
+    position : absolute;
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+    top: 10px;
+    left: 20px;
+}
+</style>
+</head>
+<body>
+<!-- <div class="container">
+
+</div> -->
+<div id="b" class="baseEl">基准元素b</div>
+<div id="a" class="pinEl">目标元素a</div>
+<div id="c">锚点</div>
+<div style="height:2000px;"></div>
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/position/position.js'], function ($, Position) {
+
+    Position.pin({
+        el : '#a',
+        fixed : true,
+        x : 'right',
+        y : 'top'
+    }, {
+        // el: '#b',
+        x: 'right',
+        y: '50px'
+    });
+
+    window.$ = $;
+    window.Position = Position;
+});
+</script>
+</body>
+</html>

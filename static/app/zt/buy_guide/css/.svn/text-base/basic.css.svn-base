@@ -1,0 +1,61 @@
+@charset "utf-8";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a:link,a:visited { color: #000; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+/*样式开始*/
+#wrap { width: 1000px; margin: 0 auto; padding: 0 8px 0 0; background: url(../images/wrap_bg.gif) repeat-y; overflow: hidden;}
+#left { width: 252px; float: left; display: inline;}
+#left_nav li { height: 50px; line-height: 50px;}
+#left_nav li a { display: block; color: #fff; font-size: 14px; width: 186px; height: 50px; padding: 0 0 0 34px; background: url(../images/left_nav_icon.gif) no-repeat 13px 20px; border-bottom: 1px solid #1c7fdc; position: relative;}
+#left_nav li a.a2 { background-position: 13px -32px;}
+#left_nav li a.a3 { background-position: 13px -83px;}
+#left_nav li a.a4 { background-position: 13px -133px;}
+#left_nav li a.a5 { background-position: 13px -185px;}
+#left_nav li a.a6 { background-position: 13px -237px;}
+#left_nav li a.a7 { background-position: 13px -288px;}
+#left_nav li a.a8 { background-position: 13px -338px;}
+#left_nav li a.a9 { background-position: 13px -389px;}
+#left_nav li a.a10 { background-position: 13px -440px;}
+#left_nav li a span { background: url(../images/left_nav_arrow.png) no-repeat; width: 23px; height: 50px; position: absolute; top: 0; right: -23px; display: none;}
+#left_nav li a.current { background-color: #333;}
+#left_nav li a.current span { display: block;}
+#left_nav li a:hover { text-decoration: none;}
+#left_nav .tel { width: 201px; padding: 27px 0 27px 19px;}
+#right { width: 732px; float: left; display: inline; padding: 0 0 0 16px;}
+#right .banner { margin: 0 0 41px 0;}
+.step { padding: 0 0 33px 0;}
+.step .title { margin: 0 0 7px 0;}
+.step .intro { font-size: 14px; line-height: 24px; margin: 0 0 9px 0; width: 686px;}
+.step .intro strong { color: #1474cd;}
+.step .pic { width: 686px; height: 400px; position: relative; margin: 0 0 14px 0;}
+.step .pic img { width: 684px; height: 398px; border: 1px solid #e9e9e9;}
+.step .pic .pic_title { width: 684px; height: 31px; line-height: 31px; text-align: center; position: absolute; left: 1px; bottom: 1px; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000) \\5; background-color:rgba(0,0,0,.5); font-size: 14px; font-weight: bold; color: #fff;}
+
+#footer { clear: both; line-height: 24px; color: #000; font-family: Arial, SimSun; padding: 19px 0 25px 0; border-top: 1px solid #d9d9d9; width: 686px;}
+#footer p { margin: 0 0 7px 0;}
+#footer a { color: #000;}
+#footer span { color: #d2d2d2; margin: 0 5px;}
+#footer strong { color: #f37c06;}

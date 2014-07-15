@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>mask</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+</head>
+<body style="overflow:hidden;">
+
+<div id="demo" style="height:2000px;width:2000px;">
+    <p>hi，lovesueee~~</p>
+    <select>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+    </select>
+</div>
+
+
+<script type="text/javascript">
+G.use(['jquery', 'widget/mask/mask.js'], function ($, Mask) {
+
+    var mask = new Mask({
+         // scrollAble : false
+    });
+
+    // var mask2 = new Mask({
+    //      scrollAble : true
+    // });
+
+    // for test
+    window.mask = mask;
+    window.Mask = Mask;
+    window.$ = $;
+
+    console.log(mask);
+    console.dir(Mask);
+    console.log(G.util.ua.ie);
+});
+</script>
+</body>
+</html>

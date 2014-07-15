@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>demo4</title>
+    <script type="text/javascript" src="http://static.273.cn/g.js"></script>
+    <script type="text/javascript" src="http://static.273.cn/config.js"></script>
+</head>
+<body>
+<div data-widget="app/demo/js/c.js#change" data-text="changed!!">
+      hello world~~
+</div>
+
+<script>
+G.use(['app/demo/js/c.js'], function (C) {
+    C.start();
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+.BMap_Tip {
+    display: block;
+    height: 26px;
+    background: url("../images/btip.png") no-repeat 0 -28px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.BMap_Tip span.letter {
+    width: 20px;
+    text-align: center;
+    line-height: 18px;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+}
+
+.BMap_Tip_On {
+    width: 200px;
+}
+.BMap_Tip span.text {
+  display: none;
+}
+
+.BMap_Tip_On span.letter {
+  width: 17px;
+}
+
+.BMap_Tip_On span.text {
+  display: block !important;
+  font-size: 12px;
+  float: left;
+  height: 26px;
+  line-height: 20px;
+  color: #fff;
+  padding: 0 5px;
+  background: url("../images/btip.png") no-repeat right 0;
+}
+
+.BMap_Tip_On span.text a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.BMap_Tip_On span.text a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+<bread>
+  <div class="bread-left"><a href="#" class="first">首页</a><span>车源列表</span></div>
+</bread>
+
+<div class="search-cate">
+	<ul>
+	  <li>
+		<div class="l">车型:</div>
+			<div class="r"><a href="#" class="current">不限</a><a href="#">轿车</a>丨<a href="#">商务车</a>丨<a href="#">越野车</a>丨<a href="#">轿车</a>丨<a href="#">商务车</a>丨<a href="#">越野车</a>丨<a href="#" class="more">更多</a></div>
+		</li>
+		<li>
+		  <div class="l">品牌:</div>
+			<div class="r"><a href="#" class="current">不限</a><a href="#">大众</a>丨<a href="#">本田</a>丨<a href="#">丰田</a>丨<a href="#" class="more">更多</a></div>
+		</li>
+		<li>
+		  <div class="l">价格:</div>
+			<div class="r"><a href="#" class="current">3万以下</a><a href="#">不限</a>丨<a href="#">3-5万</a>丨<a href="#">5-10万</a>丨<a href="#">10-15万</a>丨<a href="#">15-20万</a>丨<a href="#">20-30万</a>丨<a href="#">30-40万</a>丨<a href="#">40万以上</a>丨<a href="#" class="more">收起</a></div>
+		</li>
+		<li>
+		  <div class="l">车龄:</div>
+			<div class="r"><a href="#" class="current">不限</a><a href="#">1年内</a>丨<a href="#">1-3年</a>丨<a href="#">3-5年</a>丨<a href="#" class="more">更多</a></div>
+		</li>
+		<li>
+		  <div class="l">里程:</div>
+			<div class="r"><a href="#" class="current">不限</a><a href="#">1万公里内</a>丨<a href="#">2万公里内</a>丨<a href="#" class="more">更多</a></div>
+		</li>
+		<li>
+		  <div class="l">图片:</div>
+			<div class="r"><a href="#" class="current">不限</a><a href="#">有图</a>丨</div>
+		</li>
+	</ul>
+	<li><div class="search-btn"><a href="#">进入高级搜索</a></div></li>
+	<li><div class="expand expand-down"><a href="#"><span>精简筛选条件</span></a></div></li>
+</div>
+
+<carlist>
+	<div class="search-none">
+		<h4>很抱歉，没有搜到车源！</h4>
+		<p>根据您的搜索条件没有搜到车源，您可以放宽您的搜索条件重新搜索。</p>
+	</div>
+
+	<div class="details-part">
+		<h4><span>你可能喜欢</span></h4>
+	</div>
+
+	<ul>
+		<li>
+			<a href="car.html"><div class="pic"><img src="car.jpg" /></div>
+			<div class="info">
+				<h3>铃木雨燕 2012款 手动自由型</h3>
+				<p>2012年10月-3万公里</p>
+				<p>今天</p>
+			</div>
+			<span class="price">2.15万</span></a>
+		</li>
+		<li>
+			<a href="car.html"><div class="pic"><img src="car.jpg" /></div>
+			<div class="info">
+				<h3>铃木雨燕 2012款 手动自由型</h3>
+				<p>2012年10月-3万公里</p>
+				<p>今天</p>
+			</div>
+			<span class="price">2.15万</span></a>
+		</li>
+		<li>
+			<a href="car.html"><div class="pic"><img src="car.jpg" /></div>
+			<div class="info">
+				<h3>铃木雨燕 2012款 手动自由型</h3>
+				<p>2012年10月-3万公里</p>
+				<p>今天</p>
+			</div>
+			<span class="price">2.15万</span></a>
+		</li>
+		<li>
+			<a href="car.html"><div class="pic"><img src="car.jpg" /></div>
+			<div class="info">
+				<h3>铃木雨燕 2012款 手动自由型</h3>
+				<p>2012年10月-3万公里</p>
+				<p>今天</p>
+			</div>
+			<span class="price">2.15万</span></a>
+		</li>
+	</ul>
+</carlist>
+<footer>
+	<div class="footer-nav">
+		<a href="#">273门店</a>
+		<a href="#">我要卖车</a>
+		<a href="#">联系我们</a>
+		<a href="#" class="top">回顶部</a>
+	</div>
+	<div class="version">
+		<a href="#" class="current">触屏版</a>
+		<span>|</span>
+		<a href="#">电脑版</a>
+		<span>|</span>
+		<a href="#">客户端</a>
+	</div>
+	<div class="copyright"><p>闽ICP备05012458号</p></div>
+</footer>

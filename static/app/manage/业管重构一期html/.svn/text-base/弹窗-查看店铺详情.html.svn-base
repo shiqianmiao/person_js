@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>查看店铺详情</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div style="width:480px;position:absolute;border:1px #ddd solid;padding:10px;top:30px;left:30px;">
+
+    <div class="clearfix">
+        <div class="ctitle ml10 mt10">店铺管理</div>
+    </div>
+    <div class="row-fluid">
+        <div class="clearfix">
+            <div class="span6">
+                <span class="fl"><b>店名：</b></span><span class="ml10">福州测试店</span>
+            </div>
+            <div class="fl ml10">
+                <span class="fl"><b>地址：</b></span><span class="ml10">就是这个地方……</span>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="span6">
+                <span class="fl"><b>作息时间：</b></span><span class="ml10">早上8:30到晚上18:00</span>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="span6">
+                <span class="fl"><b>有无POS机：</b></span><span class="ml10">无</span>
+            </div>
+            <div class="fl ml10">
+                <span class="fl"><b>店铺电话：</b></span><span class="ml10">13888888888</span>
+            </div>
+        </div>
+        <div class="clearfix">
+            <div class="span10">
+                <span class="fl"><b>外地车子转籍落户条件：</b></span><span class="ml10">早上8:30到晚上18:00</span>
+            </div>
+        </div>
+
+        <div class="clearfix text-center">
+            <button class="btn">关闭</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

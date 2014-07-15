@@ -1,0 +1,202 @@
+#menu{height:33px !important;}
+#navbar{text-indent:10px;}
+#navbar a{color:#0063DA;}
+#screen{z-index:0;width:988px;margin:10px auto;padding:10px 0 0;_padding:0;clear:both;_zoom:1;border:1px #d7d7d7 solid;border-top:2px #f60 solid;}
+#screen .pp #brand-kw{width:200px;height:18px;padding:2px;}
+#screen strong{display:block;float:left;width:60px;text-align:right;font-weight:100;}
+#screen #var strong{_line-height:36px;}
+#screen #var{padding-bottom:10px;width:970px;margin:auto;_padding:0;overflow:hidden;_zoom:1;}
+#screen #var strong{display:block;line-height:30px;text-align:left;}
+#screen #var p{float:left;width:880px;}
+#screen #var span{display:inline-block;border:1px #f60 solid;height:13px;line-height:13px;margin:5px;padding:3px 2px 2px;cursor:pointer;}
+#screen #var span a{color:#f60;display:inline-block;}
+#screen span a:hover{text-decoration:none;}
+#screen #var span del{text-decoration:none;display:inline-block;margin-left:5px;height:13px;}
+#screen #var span del a{display:inline-block;font-family:"Verdana";font-size:10px;width:13px;height:13px;background:#f60;color:#fff;text-align:center;}
+#screen #var span.clear{border-color:#fff;}
+#screen #var span.clear a{color:#0164DC;}
+#screen #var span.clear a:hover{color:#f60;}
+#screen .screenlist{border-top:1px #d7d7d7 dotted;width:970px;margin:0 9px;padding:10px 0;display:inline-block;_zoom:1;}
+#screen .screenlist p{float:left;}
+#screen .screenlist span{margin:0 10px;}
+#screen .screenlist span a{color:#0164DC;}
+#screen .screenlist span.on a,#screen .screenlist span a:hover{color:#f60;}
+#screen .screenlistmore span.more,#screen #brand span.more{float:right;}
+#screen .screenlistmore span.more{margin-right:10px;}
+#screen .screenlistmore strong{margin-right:10px;}
+#screen span.more a,#screen .screenlistmore span.more a:hover{display:block;width:40px;height:18px;padding:2px 5px;background:#f7f7f7 url(../images/car-list-icon.png) no-repeat 35px -321px;color:#515151;}
+#screen span.more a:hover,#screen .screenlistmore span.more a{display:block;width:40px;height:18px;padding:2px 5px;background:#d7d7d7 url(../images/car-list-icon.png) no-repeat 35px -341px;color:#fff;}
+#screen .screenlist ul{float:left;margin-left:20px;}
+#screen ul li input{width:30px;height:14px;padding:1px;text-align:center;}
+#screen ul li span.btn{border:1px #ccc solid;margin-left:10px;cursor:pointer;background:#eee;padding:3px 5px;}
+#screen ul li span.btn:hover{background:#fff;}
+#screen .screenlistmore{border-top:1px #d7d7d7 solid;border-bottom:1px #d7d7d7 solid;background:#f5f5f5;padding:9px;width:970px;display:inline-block;_zoom:1;}
+#screen .pp{float:left;}
+#screen .pp form input{width:170px;height:14px;padding:2px;background:#fff;border:1px #d9d9d9 solid;}
+#screen .pp form span.input-default-text{float:left;padding:1px 0 0 4px;position:absolute;color:#999;}
+#screen .pp-py{padding:10px 0 5px;}
+#screen .pp-py span a{display:inline-block;font-family:"Microsoft Yahei";margin-right:10px;height:20px;padding:0 10px 5px 10px;}
+#screen .pp-py span a:hover{color:#f60;}
+#screen .pp-py span.on a{background:url(../images/car-list-icon-b.png) no-repeat center 0;color:#fff;}
+#screen .pp-list{overflow:hidden;_zoom:1;width:750px;height:60px;padding:10px;border:1px #d9d9d9 solid;background:#fff;overflow:auto;}
+#screen .pp-list span{display:inline-block;width:140px;height:24px;line-height:24px;overflow:hidden;}
+#screen .pp-list span a{color:#0164DC;}
+#screen .pp-list span.on a,#screen .pp-list span a:hover{color:#f60;}
+#chexi{border-top:0 !important;}
+#screen .cx{float:left;}
+#screen .cx p a{margin:5px;color:#0164DC;}
+#screen .cx p a:hover{color:#f60;}
+#screen #screen-bottom{background:#f5f5f5;padding:9px;width:970px;border:0 !important;z-index:0;}
+#screen #screen-bottom strong{line-height:30px;}
+#screen #screen-bottom ul#xuanxiang{float:left;}
+#screen #screen-bottom ul#xuanxiang li{z-index:4;position:relative;float:left;margin:5px;}
+#screen #screen-bottom ul#xuanxiang span{display:block;width:55px;text-align:center;z-index:2;cursor:pointer;_cursor:hand;border:1px #d9d9d9 solid;padding:2px 10px 2px 5px;background:#fff url(../images/car-info-icons.png) no-repeat right 10px;}
+#screen #screen-bottom ul#xuanxiang li.on span,#screen #screen-bottom ul#xuanxiang li:hover span{border-bottom:none;}
+#screen #screen-bottom ul#xuanxiang li div{display:none;width:214px;position:absolute;padding:10px;background:#fff;border:1px #d9d9d9 solid;top:23px;z-index:0;border-top:0;}
+#screen #screen-bottom ul#xuanxiang li.on div,#screen #screen-bottom ul#xuanxiang li:hover div{display:block;}
+#screen #screen-bottom ul#xuanxiang li div s{display:block;height:1px;padding:0;width:164px;position:absolute;top:0;border-top:1px #d9d9d9 solid;text-decoration:none;left:70px;}
+#screen #screen-bottom ul#xuanxiang li div a{margin:5px 8px;float:left;color:#0164DC;border:1px #fff solid;padding:0 2px; white-space:nowrap;}
+#screen #screen-bottom ul#xuanxiang li div a:hover{text-decoration:none;border-color:#f60;color:#f60;}
+#screen #screen-bottom ul#xuanxiang li div a.on{color:#f60;border:1px #f60 solid;}
+#screen #screen-bottom ul#xuanxiang li .ispic{width:100px;}
+#screen #screen-bottom ul#xuanxiang li .ispic s{width:30px;}
+#screen #screen-bottom ul#xuanxiang li .isdiy{width:290px;}
+#screen #screen-bottom ul#xuanxiang li .isdiy p{display:block;clear:both;padding:5px;overflow:hidden;}
+#screen #screen-bottom ul#xuanxiang li .isdiy p span.btn{display:inline;background:#eee;border:1px #ccc solid;padding:3px 5px;}
+#screen #screen-bottom ul#xuanxiang li .isdiy s{width:240px;}
+#screen #screen-bottom ul#xuanxiang li .color{width:264px;}
+#screen #screen-bottom ul#xuanxiang li .color s{width:210px;}
+#screen #screen-bottom ul#xuanxiang li .color a{padding-right:20px;}
+#screen #screen-bottom ul#xuanxiang li .color a.hei{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px 1px;}
+#screen #screen-bottom ul#xuanxiang li .color a.bai{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -29px;}
+#screen #screen-bottom ul#xuanxiang li .color a.lan{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -59px;}
+#screen #screen-bottom ul#xuanxiang li .color a.hui{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -89px;}
+#screen #screen-bottom ul#xuanxiang li .color a.hong{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -119px;}
+#screen #screen-bottom ul#xuanxiang li .color a.huang{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -149px;}
+#screen #screen-bottom ul#xuanxiang li .color a.lv{background:url(../images/car-list-xuanxiang-color.png) no-repeat 28px -179px;}
+#zhaohui{padding:20px 0 30px;}
+#zhaohui .msg{width:700px;margin:30px auto;}
+#zhaohui .msg h2{font-size:18px;line-height:36px;padding:10px 0 0 50px;background:url(../images/car-list-zhaohui-icon.png) no-repeat 0 0;}
+#zhaohui .msg .msg-box{margin:5px 0 10px 50px;padding:30px;background:#f9f9f9;overflow:hidden:_zoom:1;}
+#zhaohui .msg .msg-box form{margin-left:10px;display:inline;}
+#zhaohui .msg .msg-box form.zhaohui-2{font-size:14px;}
+#zhaohui .msg .msg-box form.zhaohui-2 input{width:150px;height:18px;padding:2px;}
+#zhaohui .msg .msg-box form.zhaohui-2 button{padding:0 5px;}
+#zhaohui .msg .msg-box form.zhaohui-2 p{font-size:12px;padding-bottom:20px;}
+#zhaohui .msg .msg-box form.zhaohui-2 p b{color:#f60;}
+#zhaohui .msg .msg-box span.color-f60{font-weight:700;color:#f60;font-size:16px;display:inline;}
+#zhaohui .msg .msg-box2{margin-left:50px;line-height:30px;font-size:14px;}
+#zhaohui .msg .msg-box2 a{color:#f60;}
+#zhaohui .nocar{margin:20px auto;width:600px;height:120px;text-indent:-82982px;background:url(../images/nocar.jpg) no-repeat center;}
+
+/******
+* author:chenlie@273.cn
+*******/
+
+#car-list-title{width:990px;margin:0 auto;}
+.car-list-title-ie6{_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop));}
+#car-list-title h4{border-bottom:2px solid #fe6500;color:#393939;font-size:14px;font-weight:bold;line-height:20px;padding:0 0 0 10px;}
+#car-list-title h4 span{float:right;display:inline;font-size:12px;color:#848383;font-weight:normal;margin:0 9px 0 0;font-family:Arial, "宋体";}
+#car-list-title #seque{background:#f5f5f5;border:1px solid #dedfde;overflow:visible;}
+#car-list-title #seque .inner{height:37px;position:relative; z-index: 3;}
+#car-list-title #seque .left a, #car-list-title #seque .right a{background:#fff;border:1px solid #d9d9d9;display:inline-block;height:22px;line-height:22px;color:#333;width:69px;text-align:center;}
+#car-list-title #seque .current{color:#f60;}
+#car-list-title #seque a:hover{text-decoration:none;}
+#car-list-title #seque .left{float:left;display:inline;}
+#car-list-title #seque .left .div1, #car-list-title #seque .left .div2{float:left;display:inline;margin:6px 0 0 0;}
+#car-list-title #seque .left .div1{padding:0 0 0 9px;margin-right:10px;}
+#car-list-title #seque .left .div1 a{margin-right:-1px;}
+#car-list-title #seque .left .div1 .last{margin-right:0;}
+#car-list-title #seque .left .div1 .a1 span, #car-list-title #seque .left .div1 .a1-2 span, #car-list-title #seque .left .div1 .a1-3 span, #car-list-title #seque .left .div1 .a2 span, #car-list-title #seque .left .div1 .a2-2 span, #car-list-title #seque .left .div1 .a2-3 span, #car-list-title #seque .left .div2 a span{background:url(../images/car-list-icon.png) no-repeat right 1px;padding:0 12px 0 0;}
+#car-list-title #seque .left .div1 .a1-2 span{background-position:right -29px;}
+#car-list-title #seque .left .div1 .a1-3 span{background-position:right -59px;}
+#car-list-title #seque .left .div1 .a2 span{background-position:right -89px;}
+#car-list-title #seque .left .div1 .a2-2 span{background-position:right -119px;}
+#car-list-title #seque .left .div1 .a2-3 span{background-position:right -149px;}
+#car-list-title #seque .left .div2{border-left:1px dotted #d7d7d7;padding:0 0 0 9px;}
+#car-list-title #seque .left .div2 a{margin-right:15px;}
+#car-list-title #seque .left .div2 a span{padding:0 16px 0 0;margin:0 0 0 4px;background-position:right -176px;}
+
+#car-list-title #seque .left .div2 div.rec, #car-list-title #seque .left .div2 div.rec2 { display: inline-block;background:#fff;border:1px solid #d9d9d9;height:22px;line-height:22px;color:#333;width:69px;text-align:center; margin-right: 15px; cursor: pointer; position: relative; z-index: 3; float: left;}
+#car-list-title #seque .left .div2 div.rec span {background:url(../images/car-list-icon.png) no-repeat right -176px;padding:0 16px 0 0;margin:0 0 0 4px;}
+#car-list-title #seque .left .div2 div.rec2 { border-bottom: 0;}
+#car-list-title #seque .left .div2 div.rec ul, #car-list-title #seque .left .div2 div.rec2 ul { position: absolute; left: -1px; top: 22px; border: 1px solid #d9d9d9; border-top: 0; z-index: 3;}
+#car-list-title #seque .left .div2 div.rec li, #car-list-title #seque .left .div2 div.rec2 li {}
+#car-list-title #seque .left .div2 div.rec ul a, #car-list-title #seque .left .div2 div.rec2 ul a { border: 0; margin-right: 0; text-align: left; padding-left: 7px; width: 62px;}
+#car-list-title #seque .left .div2 div.rec ul a:hover, #car-list-title #seque .left .div2 div.rec2 ul a:hover { color: #f60;}
+
+#car-list-title #seque .left .current{color:#f60;}
+#car-list-title #seque .right{float:right;display:inline;margin:9px 9px 0 0;}
+#car-list-title #seque .right a{height:17px;line-height:17px;margin-left:-1px;color:#727272;width:44px;}
+#car-list-title #seque .right .first{margin-left:0;}
+#car-list-title #seque .right a span{background:url(../images/car-list-icon.png) no-repeat left -208px;padding:0 0 0 12px;}
+#car-list-title #seque .right .a3 span{background-position:left -208px;}
+#car-list-title #seque .right .a3-2 span{background-position:left -238px;}
+#car-list-title #seque .right .a4 span{background-position:left -268px;}
+#car-list-title #seque .right .a4-2 span{background-position:left -298px;}
+#car-list-title #seque .right .current{color:#f60;}
+#car-list-title #seque .close{position:absolute;right:0;bottom:0;margin:0 -7px -7px 0;}
+#car-list-title #seque .close a{display:block;width:15px;height:15px;background:url(../images/car-list-icon.png) no-repeat 0 -430px;}
+
+#car-list-pic{width:990px;margin:auto;padding:10px 0; z-index: 0;}
+.car-list-pic-part{width:220px;height:300px;border:4px solid #fff;float:left;display:inline;padding:5px;overflow:hidden;margin:0 0 20px 5px;}
+#car-list-pic .mouseover{border:4px solid #f2f1f2;}
+.car-list-pic-part .b-pic{width:220px;height:166px;overflow:hidden;position:relative;margin:0 0 6px 0; z-index: 0;}
+.car-list-pic-part .b-pic img { z-index: 0;}
+.car-list-pic-part .no-pic{height:210px;margin-bottom:10px;}
+.car-list-pic-part table{width:220px;height:166px;}
+.car-list-pic-part td{text-align:center;vertical-align:middle;}
+.car-list-pic-part .b-pic .num{position:absolute;left:0;top:0;width:39px;height:18px;line-height:18px;text-align:center;color:#fff;z-index:2;}
+.car-list-pic-part .b-pic .num-bg{position:absolute;left:0;top:0;width:39px;height:18px;background:#000;z-index:1;filter:Alpha(Opacity=60);opacity:0.6;}
+.car-list-pic-part .s-pic{width:220px;height:38px;overflow:hidden;margin:0 0 10px 0;}
+.car-list-pic-part .s-pic li{ width:50px; float:left; display:inline; margin:0 5px 0 0; _margin:0 3px 0 0;}
+.car-list-pic-part .s-pic li img{width:50px;height:36px;border:1px solid #c4c4c4; display: block; float: left;}
+.car-list-pic-part h5{clear:both;font-size:14px;font-weight:bold;height:24px;overflow:hidden;line-height:24px;padding:0 0 0 3px;margin:0 0 7px 0;}
+.car-list-pic-part h5 a{color:#0462dc;}
+.car-list-pic-part p{line-height:24px;color:#666;padding:0 0 0 3px;}
+.car-list-pic-part p.price strong{float:right;display:inline;font-size:16px;font-family:Arial, "Microsoft Yahei", "宋体";color:#ff0b00;line-height:23px;}
+.car-list-pic-part p.price em{margin:0 0 0 12px;}
+.car-list-pic-part p.time em{float:right;display:inline;font-size:14px;}
+.car-list-pic-part p.time span{color:#999;}
+
+#car-list-relat{width:990px;margin:0 auto 23px auto;}
+#car-list-relat h4{font-size:14px;font-weight:bold;color:#535353;border-bottom:2px solid #f60;line-height:28px;padding:0 0 0 10px;margin-bottom:10px;}
+#car-list-relat .last{margin-right:0;}
+#car-list-relat .mouseover{border:4px solid #f2f1f2;}
+
+#car-pic-list{width:990px;margin:5px auto 13px auto;}
+.car-pic-list-table{width:100%;color:#535353;text-align:center;background:#fff;}
+.car-pic-list-table th{height:27px;font-weight:normal;border-bottom:1px solid #dedfde;vertical-align:middle;}
+.car-pic-list-table td{border-bottom:1px dotted #e0e0e0;}
+.car-pic-list-table .pic{width:161px;height:121px;position:relative;margin:10px;}
+.car-pic-list-table .pic a img{border:1px solid #bebebe;}
+.car-pic-list-table .pic span{display:inline-block;width:39px;height:18px;line-height:18px;text-align:center;color:#fff;position:absolute;left:1px;top:1px;z-index:2;}
+.car-pic-list-table .pic em{width:39px;height:18px;background:#000;position:absolute;left:1px;top:1px;filter:Alpha(Opacity=60);opacity:0.6;z-index:1;}
+.car-pic-list-table .pic .sus{width:310px;padding:5px;border:1px solid #e0e0e0;position:absolute;left:51px;top:73px;background:#fff;z-index:2;}
+.car-pic-list-table .pic .sus .b{width:310px;height:233px;overflow:hidden;}
+.car-pic-list-table .pic .sus .b img{}
+.car-pic-list-table .pic .sus ul{width:310px;height:62px;background:#e6e6e6;overflow:hidden;}
+.car-pic-list-table .pic .sus li{width:54px;height:54px;float:left;display:inline;overflow:hidden;margin:4px;}
+.car-pic-list-table .pic .sus li img{width:54px;height:54px;}
+.car-pic-list-table .intro h5{font-size:15px;font-family:Arial, "Microsoft Yahei", "宋体";line-height:26px;width:399px;margin:0 0 6px 3px;text-align:left;}
+.car-pic-list-table .intro h5 a{color:#0063dc;}
+.car-pic-list-table .intro h5 a:visited{color:#800080;}
+.car-pic-list-table .intro h5 span.ckb{display:inline-block;width:24px;height:22px;text-indent:-82982px;background:url(../images/car-list-icon-b.png) no-repeat 0 -30px;margin:0 0 0 10px;}
+.car-pic-list-table .intro p{color:#666;line-height:21px;width:399px;text-align:left;margin:0 0 0 3px;}
+.car-pic-list-table .price{color:#666;font-size:14px;line-height:21px;}
+.car-pic-list-table .price span{display:block;font-size:12px;}
+.car-pic-list-table .price span strong{font-size:18px;font-family:Arial, "Microsoft Yahei", "宋体";font-weight:bold;color:#ff0b00;}
+.car-pic-list-table .bg td{background:#fffddf;}
+
+#car-pic-list-relat{width:990px;margin:0 auto 31px auto;}
+#car-pic-list-relat h4{font-size:14px;font-weight:bold;color:#535353;border-bottom:2px solid #f60;line-height:28px;padding:0 0 0 9px;}
+
+#page{width:990px;margin:0 auto;text-align:center;color:#999;font-family:Arial, "宋体";}
+#page a, #page em{display:inline-block;border:1px solid #ccc;line-height:23px;padding:0 9px;color:#0063dc;margin:0 2px 0 3px;}
+#page a:hover{border:1px solid #f50;color:#f60;text-decoration:none;}
+#page em{border:1px solid #f50;color:#f60;background:#fceee3;}
+#page span{margin:0 0 0 9px;}
+#page .prev{background:url(../images/car-list-icon.png) no-repeat 5px -373px;padding-left:16px;}
+#page .next{background:url(../images/car-list-icon.png) no-repeat 49px -403px;padding-right:16px;}
+
+div.tmpline{border-top:1px #ddd solid;background:#eee;height:1px;border-bottom:#fafafa;font-size:1px;margin:30px auto 20px;}

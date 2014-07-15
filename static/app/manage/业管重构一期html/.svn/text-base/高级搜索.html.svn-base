@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>高级搜索</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>29300001<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li class="active"><span>88</span><a href="#">我的卖车信息</a></li>
+                <li><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">业务管理</a> <span class="divider">&gt;</span>
+              </li>              
+              <li class="active">高级搜索</li>
+            </ul>
+            <div class="carinfobody">
+                <div class="ctitle">高级搜索</div>
+                <div class="clearfix form-horizontal">
+                    <div class="span9">
+                        <div class="control-group">
+                            <label class="control-label span2">关键词：</label>
+                            <div class="controls span9">
+                                <input type="text" class="input-xlarge" /><span class="checkinfo"><i class="i-true"></i></span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">类型：</label>
+                            <div class="controls span9">
+                                <span><input type="radio" class="input-xlarge" />卖车信息</span>
+                                <span class="ml10"><input type="radio" class="input-xlarge" />买车信息</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">交易地：</label>
+                            <div class="controls span9">
+                                <span class="">
+                                    <select class="span3"><option>请选择省份</option></select>
+                                </span>
+                                <span class="ml10">
+                                    <select class="span3"><option>请选择城市</option></select>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车辆类型：</label>
+                            <div class="controls span9">
+                                <span class="">
+                                    <select class="span3"><option>请选择</option></select>
+                                </span>
+                            </div>
+                        </div>                        
+                        <div class="control-group">
+                            <label class="control-label span2">车辆品牌：</label>
+                            <div class="controls span9">
+                                <div class="clearfix">车型控件</div>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">变速箱：</label>
+                            <div class="controls span9">
+                                <span><input type="radio" class="input-xlarge" />手动</span>
+                                <span class="ml10"><input type="radio" class="input-xlarge" />自动【。。。】</span>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">价格：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom fl">
+                                    <li><span>不限</span></li>
+                                    <li class="active"><span>3万以下</span></li>
+                                    <li><span>3-5万</span></li>
+                                    <li><span>3-5万</span></li>
+                                    <li><span>3-5万</span></li>
+                                    <li><span>3-5万</span></li>
+                                    <li><span>3-5万</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label span2">车龄：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom fl">
+                                    <li><span>不限</span></li>
+                                    <li class="active"><span>1年以内</span></li>
+                                    <li><span>1-3年</span></li>
+                                    <li><span>3-5年</span></li>
+                                    <li><span>3-5年</span></li>
+                                    <li><span>3-5年</span></li>
+                                    <li><span>3-5年</span></li>
+                                </ul>
+                            </div>
+                        </div>                        
+                        <div class="control-group">
+                            <label class="control-label span2">颜色：</label>
+                            <div class="controls span9">
+                                 <ul class="checkcustom checkcustomsp">
+                                    <li><span><i class="i-col1"></i>红</span></li>
+                                    <li class="active"><span><i class="i-col2"></i>黄</span></li>
+                                    <li><span><i class="i-col3"></i>黑</span></li>
+                                    <li><span><i class="i-col4"></i>白</span></li>
+                                    <li><span><i class="i-col5"></i>蓝</span></li>
+                                    <li><span><i class="i-col6"></i>绿</span></li>
+                                    <li><span><i class="i-col7"></i>灰</span></li>
+                                    <li><span><i class="i-col8"></i>紫</span></li>
+                                    <li><span><i class="i-col9"></i>金</span></li>
+                                    <li><span><i class="i-col10"></i>橙</span></li>
+                                    <li><span><i class="i-col11"></i>棕</span></li>
+                                    <li><span><i class="i-col12"></i>青</span></li>
+                                    <li><span><i class="i-col13"></i>粉</span></li>
+                                    <li><span><i class="i-col14"></i>米</span></li>
+                                    <li><span><i class="i-col15"></i>银</span></li>
+                                    <li><span><i class="i-col16"></i>褐</span></li>
+                                    <li><span class="other">其他</span></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label span2">信息归属：</label>
+                            <div class="controls span9">
+                                <ul class="checkcustom fl">
+                                    <li><span>不限</span></li>
+                                    <li class="active"><span>本店</span></li>
+                                    <li><span>个人信息</span></li>
+                                    <li><span>个人录入</span></li>
+                                </ul>                               
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label span2">选择归属人：</label>
+                            <div class="controls span9">
+                                <div class="btn-group userexit-group fl" style="margin:0;">
+                                    <button data-toggle="dropdown" class="btn dropdown-toggle"><i class="i-user"></i>选择归属人<span class="icon-chevron-down"></span></button>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">张某某</a></li>
+                                        <li><a href="#">王某某</a></li>
+                                    </ul>
+                                </div>
+                                <div class="fl mt5" style="margin-left:30px;">
+                                    <span class="tagsdel">张某某<em>x</em></span>
+                                    <span class="tagsdel">王某某<em>x</em></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label span2">车牌所在地：</label>
+                            <div class="controls span9">
+                                <span class="">
+                                    <select class="span3"><option>请选择省份</option></select>
+                                </span>
+                                <span class="ml10">
+                                    <select class="span3"><option>请选择城市</option></select>
+                                </span>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <label class="control-label span2"></label>
+                            <div class="controls span9">
+                                <input type="submit" class="btn span4" value="搜索" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

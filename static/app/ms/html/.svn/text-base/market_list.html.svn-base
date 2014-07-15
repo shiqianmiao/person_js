@@ -1,0 +1,246 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="../css/basic.css" rel="stylesheet" type="text/css" />
+<link href="../css/market.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="mask_layer"></div><!--遮罩层-->
+
+<div class="market_sub pop_box"><!--弹出框-->
+	<h4>集市活动订阅<span class="close">关闭</span></h4>
+    <div class="content">
+    	<div class="input_box">
+    		<label>地　　区</label><select class="select1"><option>福建</option></select><select class="select1"><option>福州</option></select>
+    	</div>
+    	<div class="input_box">
+    		<label>姓　　名</label><input class="input1" />
+    	</div>
+    	<div class="input_box">
+    		<label><em>*</em>电话号码</label><input class="input1" />
+    	</div>
+    	<div class="input_box">
+    		<label><em>*</em>联系邮箱</label><input class="input1" />
+    	</div>
+    	<div class="btn"><label></label><button type="submit">提　交</button><button type="submit" class="cancel">取　消</button></div>
+    	<div class="warm_tips"><p>温馨提示:当您选择的城市有举办二手车交易集市活动时候，我们将会根据您留下的联系方式第一时间通知您！</p></div>
+    </div>
+</div>
+
+<div class="market_faq_pop pop_box">
+	<h4>集市活动订阅<span class="close">关闭</span></h4>
+    <div class="content">
+    	<div class="faq_box">
+                    	<ul>
+                        	<li>
+                            	<dl class="dl1 clearfix">
+                                	<dt></dt>
+                                    <dd>什么是273二手车交易集市？</dd>
+                                </dl>
+                            	<dl class="dl2 clearfix">
+                                	<dt></dt>
+                                    <dd>273二手车集市是指：需要买卖车的用户都可以参加由273举办的交易集市现场，参加 车辆交易买卖。并且273采用的是“不赚差价”的经营模式，他们只按比例收取服务佣金，为买主和卖主双方提供了最直接的对接交易平台。同时，在273还有专业的评估师，他们站在中间的角度最大限度替保障买卖双方的利益，规避了不少二手车商自主估价、隐瞒车况的情况。</dd>
+                                </dl>
+                            </li>
+                        	<li>
+                            	<dl class="dl1 clearfix">
+                                	<dt></dt>
+                                    <dd>都有哪些城市举办集市呢？</dd>
+                                </dl>
+                            	<dl class="dl2 clearfix">
+                                	<dt></dt>
+                                    <dd>目前，273在南京、漳州、厦门、泉州、福州、济南、常州七个城市先后举办过二手车交易集市。并将陆续在其他城市举办，敬请关注！</dd>
+                                </dl>
+                            </li>
+                        	<li>
+                            	<dl class="dl1 clearfix">
+                                	<dt></dt>
+                                    <dd>集市是定期举办还是不定期呢？</dd>
+                                </dl>
+                            	<dl class="dl2 clearfix">
+                                	<dt></dt>
+                                    <dd>南京地区逢单月举办“集市活动”。其他地区的集市是不定期举办。</dd>
+                                </dl>
+                            </li>
+                        	<li class="last">
+                            	<dl class="dl1 clearfix">
+                                	<dt></dt>
+                                    <dd>怎么样才能知道集市信息呢？</dd>
+                                </dl>
+                            	<dl class="dl2 clearfix">
+                                	<dt></dt>
+                                    <dd>您可以关注我们的官方微信(usedcar_273)、微博(273二手车)、网站(www.273.cn)或者订阅集市。都能第一时间知道我们的集市信息。</dd>
+                                </dl>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bottom_tips"><p><i></i>如果这边没有您想要的答案，您可以致电我们，咨询热线：<strong>400-600-0273</strong></p></div>
+    </div>
+</div>
+
+<div class="temp_msg">
+9月11日凌晨2：00-5：00服务器升级，期间网站无法访问，敬请见谅!
+<span class="close" title="关闭">关闭</span>
+</div>
+	<div id="top_nav"><!--顶部导航-->
+    	<div class="top_nav lay1">
+        	<div class="tel">全国统一客服热线 <strong>400-6000-273</strong></div>
+        	<div class="nav">
+			<a href="# "rel="nofollow" class="navlink">登录</a>
+			<a href="##" rel="nofollow" class="navlink">注册</a>
+			<span class="">
+				<a href="javascript:;" class="navlink"><b>免费订阅</b></a>
+				<!-- 免费订阅 -->
+				<div id="chewuzhi"><h5>车物志</h5><p class="des">每月一刊为您提供最新最全的购车、汽车美容、维修出行等资讯及服务...</p><form id="dyForm" method="get" action="http://news.273.cn/Subscribe/signup/"><p class="mail"><label>免费订阅请输入您的常用邮箱</label><input value="abc@abc.com" name="dyEmail" id="dyEmail"><br><button id="dyButton" class="no" >完成订阅</button></p></form><h5>分享至</h5>
+				<!-- Baidu Button BEGIN -->
+				<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare">
+				<a class="bds_qzone"></a>
+				<a class="bds_tsina"></a>
+				<a class="bds_tqq"></a>
+				<a class="bds_renren"></a>
+				<a class="bds_t163"></a>
+				<span class="bds_more"></span>
+				</div>
+				<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=0" ></script>
+				<script type="text/javascript" id="bdshell_js"></script>
+				<script type="text/javascript">
+				document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+				</script>
+				<!-- Baidu Button END -->
+			</div>
+		</span>
+		<a href="##" class="navlink">收藏</a>
+		<span class="o n">
+			<a href="javascript:;" class="navlink last"><b>导航</b></a>
+			<!-- 网站导航 -->
+			<div id="daohang" class="clearfix">
+				<ul>
+				<li>汽车资讯</li>
+				<li><a href="##" title="">汽车百科科科科科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>工具箱</li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>特色服务</li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>快速找车</li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				</ul>
+				<ul>
+				<li>其他分类</li>
+				<li><b><a href="##" title="">手机客户端</a></b></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				<li><a href="##" title="">汽车百科</a></li>
+				</ul>
+			</div>
+		</span>
+		</div>
+
+
+        </div>
+    </div>
+
+    <div class="gg1"><span class="close">关闭</span><a href="##" target="_blank" rel="nofollow"><img src="../pics/index_gg1.jpg" /></a></div>
+
+    <div id="head" class="lay1"><!--头部-->
+    	<div class="logo"><h1><a href="##">273二手车交易网</a></h1></div>
+    	<div class="city city_on">
+        	<span class="oncity">福州站</span> [<a class="change" href="##">切换城市</a>]
+            <div class="down" style=" display: none;">
+            	<dl class="d1 clearfix">
+                	<dt>周边省市</dt>
+                    <dd><a href="#">福建</a></dd><dd><a href="#" class="current">福州</a></dd><dd><a href="#">漳州</a></dd><dd><a href="#">厦门</a></dd><dd><a href="#">泉州</a></dd><dd><a href="#">莆田</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd>
+                </dl>
+            	<dl class="clearfix">
+                	<dt>热门省市</dt>
+                    <dd><a href="#">全国</a></dd><dd><a href="#">福建</a></dd><dd><a href="#">浙江</a></dd><dd><a href="#">广东</a></dd><dd><a href="#">泉州</a></dd><dd><a href="#">莆田</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd><dd><a href="#">宁德</a></dd><dd><a href="#">龙岩</a></dd><dd><a href="#">三明</a></dd><dd><a href="#">南平</a></dd>
+                </dl>
+                <div class="more"><a href="#">更多省市</a></div>
+            </div>
+        </div>
+    	<div class="search">
+        	<div class="s1 clearfix">
+            	<div class="search_box">
+                	<input value="试试搜索“宝马”或者“福克斯 自动档”" class="on" />
+                    <button>搜　索</button>
+                </div>
+            </div>
+        	<div class="s2"><a href="##">奥迪</a><a href="##">奔驰</a><a href="##" class="hot">宝马320</a><a href="##">SSC跑车</a><a href="##" class="hot">准新车</a><a href="##">雪弗兰</a></div>
+        </div>
+    </div>
+
+    <div id="nav" class="lay1"><!--导航-->
+    	<div class="left"><a href="##" class="current">首页</a><a href="##">买车</a><a href="##">卖车</a><a href="##" class="new">车况宝<span><img src="../images/nav_a_icon.png" /></span></a><a href="##">拍车宝</a><a href="##">车价评估</a><a href="##" class="last">我要加盟</a></div>
+    	<div class="right"><a href="##" class="m">手机客户端</a><a href="##">273连锁店</a></div>
+	</div>
+    
+    <div id="bread" class="lay1"><a href="##">首页</a><span>&gt;</span><a href="##">买车</a><span>&gt;</span><strong>车辆筛选</strong></div>
+    
+    <div id="market_list" class="lay1">
+   	  <ul class="news_list">
+       	  <li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">9、10月新开业门店（35家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">8月份新开业门店（10家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">让市场更健康、让交易更安全 ——273二手车交易网十年经营解析</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">机动车排放标准对二手车交易的影响</a></li>
+       	  <li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">2013年汽车后市场盈利模式创新研讨会深圳举办</a></li>
+            <li class="line"></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">9、10月新开业门店（35家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">8月份新开业门店（10家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">让市场更健康、让交易更安全 ——273二手车交易网十年经营解析</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">机动车排放标准对二手车交易的影响</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">2013年汽车后市场盈利模式创新研讨会深圳举办</a></li>
+          <li class="line"></li>
+       	  <li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">9、10月新开业门店（35家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">8月份新开业门店（10家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">让市场更健康、让交易更安全 ——273二手车交易网十年经营解析</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">机动车排放标准对二手车交易的影响</a></li>
+       	  <li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">2013年汽车后市场盈利模式创新研讨会深圳举办</a></li>
+            <li class="line"></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">9、10月新开业门店（35家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">8月份新开业门店（10家）</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">让市场更健康、让交易更安全 ——273二手车交易网十年经营解析</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">机动车排放标准对二手车交易的影响</a></li>
+        	<li><span>2013-09-11 15:42</span><i></i><a href="#" target="_blank">2013年汽车后市场盈利模式创新研讨会深圳举办</a></li>
+            <li class="line"></li>
+      </ul>
+        <div id="page"><!--分页-->
+            	<span class="s1">上一页</span><em>1</em><a href="##">2</a><a href="##">3</a><a href="##">4</a><a href="##">5</a><span class="s2">...</span><a href="##">20</a><a href="##" class="a1">下一页</a><span class="s3">共 <strong>20</strong> 页</span>
+      </div>
+</div>
+
+<div id="foot" class="lay1"><!--底部-->
+    	<p>
+        	<a href="##" target="_blank">关于我们</a> <span>|</span> <a href="##" target="_blank">加盟273</a> <span>|</span> <a href="##" target="_blank">人才招聘</a> <span>|</span> <a href="##" target="_blank">联系我们</a> <span>|</span> <a href="##" target="_blank">使用帮助</a> <span>|</span> <a href="##" target="_blank">友情链接</a> <span>|</span> <a href="##" target="_blank">网站地图</a> <span>|</span> <a href="##" target="_blank">帮助中心</a> <span>|</span> 免费咨询二手车：<strong>400-6000-273</strong><br />
+            273二手车交易网一专业二手车连锁交易平台 [闽ICP备05012458号]<br />
+            Copyright © 1998 - 2013 273.cn All Rights Reserved<br />
+            273旗下：<a href="##" target="_blank">拍车宝</a> <span>|</span> <a href="##" target="_blank">车况宝</a> <span>|</span> <a href="##" target="_blank">二手车贷款</a>
+        </p>
+</div>
+	<div id="uptop">
+		<span class="fankui"><a href="##">意见反馈</a></span>
+		<span class="uptop"><a href="##">返回顶部</a></span>
+	</div>
+	<div id="m-uptop" style="right:20px">
+		<span class="close"><a href="##">关闭</a></span>
+		<a href="##"><img src="../images/appqrcode.png" width="100px" height="100px" /></a>
+		<p>273二手车客户端<br />点击或者扫描下载</p>
+	</div>
+</body>
+</html>

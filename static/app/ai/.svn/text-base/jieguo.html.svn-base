@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>评估结果-客户端</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="css/evaluate.css"/>
+</head>
+<body>
+
+
+<div class="return-yes">
+	<h2>奥迪A4 2007款3.0 手自一体 Quattro旗舰型</h2>
+	<p><label>上牌时间：</label>2008年07月</p>
+	<p><label>车辆属地：</label>福建 福州 <span class="price"><label>评估报价：</label><b>24.2万</b></span></p>
+	<p><label>行驶里程：</label>10万公里</p>
+</div>
+
+<div class="return-no">
+	<h2>奥迪A4 2007款3.0 手自一体 Quattro旗舰型</h2>
+	<div class="carlist-no">
+		<p>抱歉，无法评估出该车价格!<br />建议您调整车辆里程后重新评估。</p>
+	</div>
+</div>
+<div class="row">
+	<div class="carlist-no">
+		<p>抱歉，无法评估出该车价格!<br />建议您调整车辆里程后重新评估。</p>
+	</div>
+</div>
+<div class="row">
+	<div class="likes-title"><h2>评估结果相近车辆</h2></div>
+	<ul class="carlist">
+		<li>
+			<a class="tuiche">7天无理由退车</span>
+			<a href="car.html">
+				<div class="pic">
+					<img src="pics/car.jpg" />
+				</div>
+				<div class="text">
+					<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+					<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审</span></p>
+					<p class="color-999">2012年10月发布 3万公里 </p>
+				</div>					
+			</a>
+		</li>
+		<li>
+			<a href="car.html">
+				<div class="pic">
+					<img src="pics/car.jpg" />
+				</div>
+				<div class="text">
+					<h3>铃木雨燕 2012款 手动自由型 豪华配置版本惊艳出售</h3>
+					<p class="tags row"><span class="price">￥31,500</span><span class="bluetag">顾问已看车</span><span class="bluetag">行驶证已审</span></p>
+					<p class="color-999">2012年10月发布 3万公里 </p>
+				</div>					
+			</a>
+		</li>
+	</ul>
+</div>
+
+</body>
+</html>

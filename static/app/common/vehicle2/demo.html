@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>vehicle</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js'></script>
+<script src='http://static.273.cn/config.js'></script>
+<link type="text/css" href="http://static.273.cn/app/common/vehicle/vehicle.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <div id="vehicle-type" class="vehicle">
+        <input type="text" value="不限类型" readonly>
+        <input type="hidden" name="car_type" value="0">
+        <div class="vehicle-outer">
+            <div class="vehicle-inner">
+                <ul>
+                    <li><a href="javascript:;" data-value="0">不限类型</a></li>
+                    <li><a href="javascript:;" data-value="1">轿车</a></li>
+                    <li><a href="javascript:;" data-value="2">越野车/SUV</a></li>
+                    <li><a href="javascript:;" data-value="3">面包车</a></li>
+                    <li><a href="javascript:;" data-value="4">商务车/MPV</a></li>
+                    <li><a href="javascript:;" data-value="5">货车</a></li>
+                    <li><a href="javascript:;" data-value="6">跑车</a></li>
+                    <li><a href="javascript:;" data-value="7">皮卡</a></li>
+                    <li><a href="javascript:;" data-value="8">客车</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <div id="vehicle-brand" class="vehicle">
+        <input type="text" value="">
+        <input type="hidden" name="brand_id" value="0">
+        <div class="vehicle-loading"></div>
+        <div class="vehicle-outer">
+            <div class="vehicle-inner"></div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <div id="vehicle-series" class="vehicle">
+        <input type="text" value="">
+        <input type="hidden" name="series_id" value="0">
+        <div class="vehicle-loading"></div>
+        <div class="vehicle-outer">
+            <div class="vehicle-inner"></div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p>
+
+    <div id="vehicle-model" class="vehicle">
+        <input type="text" name="model_name" value="">
+        <input type="hidden" name="model_id" value="0">
+        <div class="vehicle-loading"></div>
+        <div class="vehicle-outer">
+            <div class="vehicle-inner"></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- begin autocomplete -->
+    <div class="vehicle">
+    <div class="vehicle-outer">
+    <div class="vehicle-inner vehicle-auto overflow">
+        <ul>
+            <li><a href="javascript:;" data-value="0">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="1">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="2">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="3">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="4">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="5">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="6">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="7">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+            <li><a href="javascript:;" data-value="8">福<span class="kw">田</span>客车</a></li>
+        </ul>
+    </div>
+    </div>
+    </div>
+    <!-- end autocomplete -->
+    <script>
+    G.use(['app/common/vehicle/vehicle.js']);
+    </script>
+</body>
+</html>

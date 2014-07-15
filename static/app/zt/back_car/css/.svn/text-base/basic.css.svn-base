@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a:link,a:visited { color: #000; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+/*样式开始*/
+body { background: url(../images/body_bg.jpg) no-repeat center 25px;}
+
+#banner { height: 611px;}
+
+#tips { width: 1000px; margin: 0 auto; padding: 16px 0 0 0;}
+
+#tips .title { height: 49px; background: url(../images/icon_group.png) no-repeat 0 -210px; width: 263px;}
+#tips .content { width: 1000px; height: 435px; position: relative;}
+#tips .content p { width: 656px; font-family: Microsoft YaHei; font-size: 24px; line-height: 40px; padding: 23px 0 23px 24px; color: #626262; border-bottom: 2px dashed #d2d2d2;}
+#tips .content p em { font-style: normal; color: #ef8700;}
+#tips .content p strong { font-weight: normal; color: #1d75d9;}
+#tips .content a { width: 320px; height: 77px; display: block; position: absolute; right: -15px;}
+#tips .content .btn1 { top: 24px;}
+#tips .content .btn2 { top: 146px;}
+
+#step { width: 1000px; margin: 0 auto 87px auto;}
+
+#car_list { width: 1000px; margin: 0 auto 21px auto;}
+#car_list .title { height: 49px; background: url(../images/icon_group.png) no-repeat; margin: 0 0 13px 0;}
+#car_list ul { padding: 0 0 11px 0;}
+#car_list li { float: left; display: inline; line-height: 20px; color: #626262; width: 240px; height: 274px; margin: 19px 13px 0 0;}
+#car_list li.last { margin-right: 0;}
+#car_list li .pic { width: 240px; height: 180px; position: relative; margin: 0 0 7px 0;}
+#car_list li .pic img{ width: 240px; height: 180px;}
+#car_list li .pic .icon { position: absolute; top: 11px; left: 12px; display: inline-block; background: url(../images/icon.png) no-repeat; width: 38px; height: 45px;}
+*html #car_list li .pic .icon { background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/icon.png');}
+#car_list li h4 { font-family: Microsoft YaHei; font-size: 14px; font-weight: bold; margin: 0 0 7px 0;height: 40px;}
+#car_list li h4 a { color: #3c3c3c;}
+#car_list li .sub_content p { float: left; display: inline;}
+#car_list li .sub_content span { float: right; display: inline-block; font-size: 14px; font-weight: bold; color: #d00; font-family: Microsoft YaHei; padding: 4px 0 0 0; height: 32px; line-height: 32px;}
+#car_list li .sub_content span strong { font-family: Tahoma; font-size: 27px;}
+#car_list .more a { display: block; background: #3c3c3c; color: #ffeb6d; font-family: Microsoft YaHei; font-size: 16px; text-align: center; line-height: 44px; height: 44px; letter-spacing: 1px;}
+#car_list .more a strong { font-size: 17px; color: #fff; font-weight: normal; margin: 0 3px 0 0;}
+#car_list .more a i { background: url(../images/more_icon.gif) no-repeat left center; display: inline-block; height: 44px; vertical-align: middle; width: 19px; margin: 0 0 0 6px;}
+#car_list .more a:hover { text-decoration: none;}
+
+#foot { clear: both; line-height: 24px; text-align: center; color: #000; font-family: Arial, SimSun; padding: 4px 0 30px 0;}
+#foot p { margin: 0 0 7px 0;}
+#foot a { color: #000;}
+#foot span { color: #56a4cc; margin: 0 5px;}
+#foot strong { color: #cb2947;}
+#foot p.pic a { display: inline-block; width: 114px; height: 41px; margin: 0 3px; background: url(../images/icon_group.png) no-repeat 0 -128px;}
+#foot p.pic a.a2 { background-position: -129px -128px;}
+
+.mask { width: 100%; height: 100%; background: #000; filter: Alpha(Opacity=70); opacity:0.7; position: absolute; top: 0; left: 0; z-index: 10;}
+
+.pop_box1 { width: 850px; position: absolute; top: 50%; left: 50%; margin: -195px 0 0 -425px; background: #fff; z-index: 11;}
+.pop_box1 .title { height: 35px; background: #f2f2f2; font-size: 14px; line-height: 35px; padding: 0 0 0 21px; font-weight: bold; color: #494949;}
+.pop_box1 .title a.close { display: block; width: 35px; height: 35px; background: #e6e6e6 url(../images/icon_group.png) no-repeat 7px -73px; float: right;}
+
+.pop_box2 { width: 850px; position: absolute; top: 50%; left: 50%; margin: -195px 0 0 -425px; background: #fff; z-index: 11;}
+.pop_box2 .title { height: 35px; background: #f2f2f2; font-size: 14px; line-height: 35px; padding: 0 0 0 21px; font-weight: bold; color: #494949;}
+.pop_box2 .title a.close { display: block; width: 35px; height: 35px; background: #e6e6e6 url(../images/icon_group.png) no-repeat 7px -73px; float: right;}
+.pop_box2 .content { text-align: center; padding: 24px 0;}

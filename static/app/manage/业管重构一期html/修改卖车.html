@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+<link href="css/operationmanage.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div class="navbar" id="navbar" name="navbar">
+    <div class="container-fluid">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <a class="logo" href="#">273业务管理系统</a>
+        <span class="localname">鼓山服务中心</span>
+        <div class="nav-collapse">
+            <ul class="nav navigation">
+                <li class="active">
+                    <a href="#">业务管理</a>
+                </li>
+                <li>
+                    <a href="#">积分系统</a>
+                </li>
+                <li>
+                    <a href="#">电话转接</a>
+                </li>
+            </ul>
+            <div class="btn-group userexit-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown"><i class="i-user"></i>piercalex汉<span class="icon-chevron-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">退出</a></li>
+                </ul>
+            </div>
+            <button class="btn btn-yjfk"><i class="i-yjfk"></i>意见反馈</button>
+        </div>
+    </div>
+</div>
+<div class="container-fluid containers">
+    <div class="row-fluid">
+        <!--sidebar-->
+        <div class="span2 sidebar">
+            <a href="#" class="buycar"><i></i>发布买车</a>
+            <ul class="nav nav-list">
+                <li class="nav-header"><i class="i_deltadown"></i>卖车信息管理</li>
+                <li class="active"><span>88</span><a href="#">我的卖车信息</a></li>
+                <li><a href="#">店内卖车信息</a></li>
+                <li><a href="#">区域卖车信息</a></li>
+                <li><a href="#">已删除卖车信息</a></li>
+            </ul>
+        </div>
+        <!--/sidebar-->
+        <!--main-->
+        <div class="span10 main">
+            <ul class="breadcrumb">
+              <li><i class="icon-home"></i></li>
+              <li>
+                <a href="#">首页</a> <span class="divider">&gt;</span>
+              </li>
+              <li>
+                <a href="#">类库</a> <span class="divider">&gt;</span>
+              </li>
+              <li class="active">数据</li>
+            </ul>
+            <div class="carinfobody">
+                <div class="ctitle" id="carinfo-main" name="carinfo-main">车主信息</div>
+                <table class="table table-hover">
+                    <tr>
+                        <td class="tit">车主姓名：</td>
+                        <td><input type="text" class="input-xlarge"><span class="checkinfo"><i class="i-true"></i></span></td>
+                    </tr>
+                    <tr>
+                        <td class="tit">联系电话：</td>
+                        <td><input type="text" class="input-xlarge"><span class="reveal" id="j-btn-bydh">[添加备用电话]</span></td>
+                    </tr>
+                    <tr id="j-tr-bydh">
+                        <td class="tit">备用电话：</td>
+                        <td><input type="text" class="input-xlarge"></td>
+                    </tr>
+                    <tr>
+                        <td class="tit">身份证号：</td>
+                        <td><input type="text" class="input-xlarge"><span class="checkinfo"><i class="i-false"></i><span class="alerttxt">请输入正确的身份证号码</span></span></td>
+                    </tr>
+                </table>
+                <div class="ctitle">车牌号（车牌号和相关图片不在外网展现）</div>
+                <table class="table table-hover">
+                    <tr>
+                        <td class="tit">车牌号：</td>
+                        <td><input type="text" class="input-xlarge"><span class="checkinfo"><i class="i-true"></i>填写车牌号后<span class="alerttxt">同时需要上传</span>“车牌图片”</span></td>
+                    </tr>
+                    <tr>
+                        <td class="tit sp">车牌图片：</td>
+                        <td>
+                            <button class="btn btn-success">上传车牌</button><span class="ml10 f12">请使用真实的车牌号。若发现不真实、PS等虚假情况，<span class="alerttxt">3天内不允许发布、刷新车源！</span></span>
+                            <div class="chepai-require">
+                                <span class="ico"></span>
+                                <ul class="chepai-samplepic">
+                                    <li><img src="img/samplepic01.jpg" alt="" /><span class="t">车牌正面(需开车门)</span></li>
+                                    <li><img src="img/samplepic02.jpg" alt="" /><span class="t">行驶证图片</span></li>
+                                    <li><img src="img/samplepic03.jpg" alt="" /><span class="t">看车证明图</span></li>
+                                </ul>
+                                <ul class="chepai-require-txt">
+                                    <li>1.上传“车牌号正面图”或“行驶证图片”，网站列表展现<span class="alerttxt">排名置顶</span>。 <a href="#">【查看作用】</a></li>
+                                    <li>2.车牌号和相关图片不在外网展现,只有跟单人自己可查看。未认证车牌号，按原有流程\规则在外网展示</li>
+                                    <li>3.“看车证明图”需要<span class="alerttxt">车牌号清晰</span>，<span class="alerttxt">交易顾问在车门后</span>的照片。该照片证明交易顾问本人看过车，用户更信赖，图片不在外网展示，<span class="alerttxt">外网车源添加已看车标识</span>。</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="ctitle">车辆信息</div>
+                <table class="table table-hover mb30">
+                    <tr>
+                        <td class="tit">交易城市：</td>
+                        <td>
+                            <select class="span1">
+                                <option>福建</option>
+                                <option>不限不限</option>
+                                <option>3</option>
+                            </select>
+                            <select class="span1 ml10">
+                                <option>福州</option>
+                                <option>不限不限</option>
+                                <option>3</option>
+                            </select>
+                            <select class="span1 ml10">
+                                <option>台江</option>
+                                <option>不限不限</option>
+                                <option>3</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit sp">上传图片</td>
+                        <td>
+                            <button class="btn btn-success">上传图片</button><span class="ml10 f12">上传图片将在网站列表页<span class="alerttxt">优先展示</span>。图片大小不超过1M，png、jpg格式。最多上传<span class="alerttxt">10</span>张图片。</span>
+                            <div class="chepai-require">
+                                <span class="ico"></span>
+                                <ul class="chepai-samplepic">
+                                    <li><img src="img/samplepic04.jpg" alt="" /><span class="t">左前</span></li>
+                                    <li><img src="img/samplepic05.jpg" alt="" /><span class="t">右后</span></li>
+                                    <li><img src="img/samplepic06.jpg" alt="" /><span class="t">侧面</span></li>
+                                    <li><img src="img/samplepic07.jpg" alt="" /><span class="t">仪表台</span></li>
+                                    <li><img src="img/samplepic08.jpg" alt="" /><span class="t">内饰</span></li>
+                                    <li><img src="img/samplepic09.jpg" alt="" /><span class="t">发动机舱</span></li>
+                                </ul>
+                                <ul class="chepai-require-txt">
+                                    <li>亲：建议使用以上角度拍照的图片，提高<span class="alerttxt f16">32</span>倍咨询量！</li>
+                                </ul>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">车型品牌：</td>
+                        <td>
+                            <input type="text" class="input-xlarge">
+                            <label class="checkbox f12 ml10">
+                                <input type="checkbox" name="optionsCheckboxList1" value="option1" />没有我要的车型
+                            </label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">颜色：</td>
+                        <td>
+                            <ul class="checkcustom checkcustomsp">
+                                <li class="active"><span><i class="i-col1"></i>红</span></li>
+                                <li><span><i class="i-col2"></i>黄</span></li>
+                                <li><span><i class="i-col3"></i>黑</span></li>
+                                <li><span><i class="i-col4"></i>白</span></li>
+                                <li><span><i class="i-col5"></i>蓝</span></li>
+                                <li><span><i class="i-col6"></i>绿</span></li>
+                                <li><span><i class="i-col7"></i>灰</span></li>
+                                <li><span><i class="i-col8"></i>紫</span></li>
+                                <li><span><i class="i-col9"></i>金</span></li>
+                                <li><span><i class="i-col10"></i>橙</span></li>
+                                <li><span><i class="i-col11"></i>棕</span></li>
+                                <li><span><i class="i-col12"></i>青</span></li>
+                                <li><span><i class="i-col13"></i>粉</span></li>
+                                <li><span><i class="i-col14"></i>米</span></li>
+                                <li><span><i class="i-col15"></i>银</span></li>
+                                <li><span><i class="i-col16"></i>褐</span></li>
+                                <li><span class="other">其他</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">上牌年月：</td>
+                        <td>
+                            <select class="span1">
+                                <option>2001</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                            </select>
+                            <select class="span1 ml10">
+                                <option>12</option>
+                                <option>11</option>
+                                <option>10</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">车牌所在城市：</td>
+                        <td>
+                            <select class="span1">
+                                <option>福建</option>
+                                <option>2000</option>
+                                <option>1999</option>
+                            </select>
+                            <select class="span1 ml10">
+                                <option>福州</option>
+                                <option>11</option>
+                                <option>10</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">行驶公里数：</td>
+                        <td>
+                            <input type="text" class="span2"><span class="ml10">万公里</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">价格：</td>
+                        <td>
+                            <input type="text" class="span2"><span class="ml10">万元</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">使用性质：</td>
+                        <td>
+                            <ul class="checkcustom">
+                                <li><span>非营运</span></li>
+                                <li class="active"><span>营运</span></li>
+                                <li><span>营转非</span></li>
+                                <li><span>客运</span></li>
+                                <li><span>货运</span></li>
+                                <li><span>租赁车</span></li>
+                                <li><span>教练车</span></li>
+                                <li><span>其他</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">商业险到期：</td>
+                        <td>
+                            <input type="text" class="span2"><i class="i-date"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">商业险金额：</td>
+                        <td>
+                            <input type="text" class="span2"><span class="ml10">万元</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">交强险费到期：</td>
+                        <td>
+                            <input type="text" class="span2"><i class="i-date"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">年检到期：</td>
+                        <td>
+                            <input type="text" class="span2"><i class="i-date"></i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">过户次数：</td>
+                        <td>
+                            <ul class="checkcustom fl">
+                                <li><span>一手车</span></li>
+                                <li class="active"><span>1次</span></li>
+                                <li><span>2次</span></li>
+                                <li><span>3次</span></li>
+                                <li><span>4次</span></li>
+                                <li><span>5次</span></li>
+                                <li><span>6次</span></li>
+                            </ul>
+                            <input type="text" class="span2"><span class="ml10">次</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">保养地点：</td>
+                        <td>
+                            <ul class="checkcustom">
+                                <li><span>4S店</span></li>
+                                <li class="active"><span>非4S店</span></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit">车源性质：</td>
+                        <td>
+                            <ul class="checkcustom fl">
+                                <li><span>个人</span></li>
+                                <li class="active"><span>车商</span></li>
+                                <li><span>租赁公司</span></li>
+                                <li><span>修理厂</span></li>
+                                <li><span>其他</span></li>
+                            </ul>
+                            <span class="ml10 cynb">只在系统内部显示</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit sp">车主描述：</td>
+                        <td>
+                            <textarea rows="6" class="input-xlarge"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="tit sp">标题：</td>
+                        <td><b>大众捷达 2012款 1.6典藏版（一句话广告）</b></td>
+                    </tr>
+                    <tr>
+                        <td class="tit sp">一句话广告：</td>
+                        <td>
+                            <input type="text" class="input-xlarge" />
+                            <span class="ml10 f12">推广文字，最多15个汉字 <a href="#">[查看作用]</a></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="statusbar clearfix">
+                <div class="statusbtns statusbtns-fabu">
+                    <button class="btn btn-success">保存</button>
+                    <button class="btn btn-small">保存并提交审核</button>
+                </div>
+            </div>
+            <a href="#navbar" class="totop"></a>
+        </div>
+        <!--/main-->
+    </div>
+</div>
+<script src="http://cdnjs.bootcss.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/custom.js"></script>
+</script>
+</body>
+</html>

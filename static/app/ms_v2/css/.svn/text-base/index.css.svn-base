@@ -1,0 +1,805 @@
+/* 选车、评估 */
+.xp {
+  width: 400px;
+  height: 380px;
+  background: #fff;
+  position: absolute;
+  top: 160px;
+  z-index: 7;
+}
+.xp h2 {
+  position: absolute;
+  width: 198px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #ececec;
+  text-align: center;
+  background: #f6f6f6;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.xp .on h2 {
+  border: 1px solid #fff;
+  background: #fff;
+}
+.xp .pinggu h2 {
+  left: 200px;
+}
+.xp .content {
+  display: none;
+  width: 400px;
+  height: 340px;
+  font-size: 14px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: #fff;
+}
+.xp .content .xuanche_list {
+  padding: 8px 15px 0 15px;
+  font-family: "宋体";
+  background: url(../images/xuanche_bg.png) no-repeat 15px -2px;
+}
+.xp .content .xuanche_list dl {
+  padding: 14px 0 14px 30px;
+  border-bottom: 1px dashed #e2e2e2;
+}
+.xp .content .xuanche_list dl dt {
+  line-height: 20px;
+  padding: 4px 0;
+  color: #f65100;
+  font-weight: bold;
+  display: none;
+}
+.xp .content .xuanche_list dl dd {
+  float: left;
+  width: 68px;
+  line-height: 21px;
+}
+.xp .content .xuanche_list dl dd a.more {
+  position: relative;
+  display: block;
+  color: #fc5300;
+}
+.xp .content .xuanche_list dl dd i {
+  background: url(../images/icons.png) no-repeat -100px -60px;
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  width: 16px;
+  height: 16px;
+  margin: 0 0 0 3px;
+  *top: 0;
+}
+.xp .content .xuanche_list dl.last {
+  border: none;
+  height: 42px;
+}
+.xp .content .xuanche_list dl.last dd{
+  line-height: 42px;
+}
+.xp .content .other {
+  height: 49px;
+  padding-left: 15px;
+  background: #f7f7f7;
+  line-height: 49px;
+  color: #898989;
+  font-size: 12px; 
+}
+.xp .content .other i {
+  background: url(../images/icons.png) no-repeat -330px -767px;
+  float: left;
+  width: 24px;
+  height: 49px;
+  margin: 0 6px 0 0;
+}
+.xp .content .other .tel {
+  margin-right: 8px;
+  color: #fc5300;
+  font-size: 24px;
+  font-weight: bold;
+  vertical-align: middle
+}
+.xp .content .iform {
+  padding: 22px 40px 0 40px;
+  font-family: "宋体";
+}
+.xp .content .iform em {
+  float: left;
+  width: 70px;
+  line-height: 34px;
+  color: #6C6C6C;
+  font-size: 14px;
+}
+.xp .content .iform li {
+  position: relative;
+  clear: both;
+  height: 42px;
+}
+.xp .content .iform .vehicle {
+  color: #6C6C6C;
+  float: left;
+  font-size: 12px;
+}
+.xp .content .iform .vehicle input {
+  background: #ffffff url(../images/top_nav_icon.png) no-repeat 235px center;
+  width: 218px;
+  height: 24px;
+  line-height: 24px;
+  padding: 4px 20px 4px 10px;
+  border: 1px solid #D4D4D4;
+  color: #6C6C6C;
+  outline: none;
+}
+.xp .content .iform .vehicle .vehicle-outer {
+  z-index: 5;
+}
+.xp .content .iform .vehicle .vehicle-inner {
+  position: absolute;
+  width: 248px;
+}
+.xp .content .iform .vehicle .vehicle-inner li {
+  height: auto;
+  padding: 2px 1px;
+}
+.xp .content .iform .vehicle li a{
+  height: auto;
+}
+.xp .content .iform .vehicle li a:hover {
+  color: #fc5300;
+}
+.xp .content .iform .vehicle ul.anchors {
+  width: 14px !important;
+}
+.xp .content .iform .vehicle ul.anchors li {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.xp .content .iform .vehicle .error-red {
+  background: #ffeded url(../images/error_icon.png) no-repeat 233px center;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+.xp .content .iform .select_input input {
+  cursor: pointer;
+}
+.xp .content .iform li.brand {
+  z-index: 9;
+}
+.xp .content .iform li.cars {
+  z-index: 8;
+}
+.xp .content .iform li.car {
+  z-index: 7;
+}
+.xp .content .iform li.sp {
+  z-index: 6;
+}
+.xp .content .iform li.city {
+  z-index: 5;
+}
+.xp .content .iform li.sp .vehicle input,
+.xp .content .iform li.city .vehicle input {
+  width: 88px;
+  cursor: pointer;
+  background: #ffffff url(../images/top_nav_icon.png) no-repeat 105px center;
+}
+.xp .content .iform li.sp .vehicle .error-red,
+.xp .content .iform li.city .vehicle .error-red {
+  background: #ffeded url(../images/error_icon.png) no-repeat 103px center;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+.xp .content .iform li.sp .right,
+.xp .content .iform li.city .right {
+  float: right;
+}
+.xp .content .iform li.sp .vehicle-outer,
+.xp .content .iform li.city .vehicle-outer {
+  z-index: 4;
+}
+.xp .content .iform li.sp .vehicle-inner,
+.xp .content .iform li.city .vehicle-inner {
+  width: 118px;
+  height: 210px;
+  overflow-y: auto;
+}
+.xp .content .iform .overflow {
+  height: 200px;
+}
+.xp .content .iform li.texts_box input {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 4px 0 4px 10px;
+  height: 24px;
+  line-height: 24px;
+  width: 108px;
+  border: 1px solid #D4D4D4;
+  color: #6C6C6C;
+  outline: none;
+}
+.xp .content .iform li.texts_box span {
+  line-height: 34px;
+  font-size: 12px;
+}
+.xp .content .iform li.texts_box img {
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: middle;
+  border: 0;
+}
+.xp .content .iform li.texts_box a.code {
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 0 0 4px;
+  vertical-align: top;
+  font-size: 12px;
+  cursor: pointer;
+}
+.xp .content .iform li.texts_box .error-red {
+  background: #ffeded;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+.xp .content .iform li.submit input {
+  width: 250px;
+  height: 35px;
+  line-height: 34px;
+  color: #fff;
+  background: #F37C06;
+  font-size: 14px;
+  font-weight: bold;
+  border: 0;
+  float: right;
+  cursor: pointer;
+}
+.xp .on .content {
+  display: block;
+}
+#vehicle-brand .tip {
+  width: auto;
+}
+#vehicle-brand .list ul {
+  width: 210px;
+}
+#vehicle-brand ul.anchors li {
+  height: 17px;
+}
+#vehicle-brand-nav {
+  width: 210px;
+}
+#vehicle-model-nav {
+  width: 230px;
+}
+#vehicle-brand-nav a,
+#vehicle-model-nav a {
+  color: #6C6C6C;
+  text-decoration: none;
+}
+.index_shops .shop {
+  float: left;
+  width: 780px;
+  position: relative;
+  margin-right: 20px;
+}
+.index_shops .shop .index_map {
+  margin-top: 20px;
+  float: left;
+  width: 350px;
+  height: 380px;
+}
+.index_shops .shop .scrollbar {
+  position: absolute;
+  display: block;
+  display:none;
+  width: 11px;
+  height: 43px;
+  right: -5px;
+  background: url(../images/scrollbar.png) no-repeat 0 0;
+}
+.index_shops .shop .scrollbar_on {
+  background-position: -20px 0 !important;
+}
+.index_shops .shop .shoplist {
+  float: left;
+  margin: 20px 0 0;
+  padding: 0 20px;
+  width: 389px;
+  height: 380px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  outline: none;
+  scrollbar-face-color:#fff;/*滚动条凸出部分的颜色(前景色),包括两端的方形按钮、水平或竖直滑动的滑块的颜色*/
+  scrollbar-track-color:#fafafa;/*滚动条的背景颜色,如果省略的话将出现虚点，颜色将采用face-color的颜色*/
+  scrollbar-arrow-color:#eee;/*按钮(上下或者左右可以点击使滑块滚动的方形按钮)上三角箭头的颜色*/
+  scrollbar-3dlight-color:#f0f0f0;/*滚动条亮边的颜色,形成3D效果，有层次感，肉眼观察在滚动条左边及上边出现一条有色线（竖直方向滚动）*/
+  scrollbar-darkshadow-color:#f0f0f0;/*滚动条强阴影的颜色,肉眼观察出现滚动条下边及右边*/
+  scrollbar-highlight-color:#fff;/*滚动条空白部分的颜色,肉眼观察改变不明显，具体颜色改变出现在左边和上边空白处，介于face-color效果与3dlingt-color效果之间有个空白颜色（默认为白色）。此外，滚动条前景色有种凹陷的感觉，周边线条颜色凸起*/
+  scrollbar-shadow-color:#fff;/*立体滚动条阴影的颜色，具体出现在滑块及方形按钮的右边及下边，形成阴影效果，颜色介于face-color效果和darkshadow-color效果之间，不是很明显*/
+  scrollbar-base-color:#f9f9f9;/*滚动条的基本颜色,当前面7个效果出现时，滚动条基本颜色设置肉眼很难观察到，如果不设置前面7个效果,系统将根据base-color自动设置，其中前景色，背景色(虚点表示)颜色一致，其他效果(阴影以黑色填充),没有什么要求时，建议不设置此效果*/
+  /*border-right: 1px #ededed solid;*/
+}
+.index_shops .shop .shoplist li {
+  border-bottom: 1px #e7e7e7 dashed;
+  width: 100%;
+  float: left;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.index_shops .shop .shoplist li .title {
+  line-height: 18px;
+  height: 18px;
+  padding: 9px 0;
+}
+.index_shops .shop .shoplist li .title i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  line-height: 18px;
+  font-size: 12px;
+  padding-right: 4px;
+  color: #fff;
+  text-align: center;
+  background: url(../images/icons.png) no-repeat -100px -20px;
+}
+.index_shops .shop .shoplist li .title h5 {
+  float: left;
+  margin: 0 10px;
+  height: 18px;
+  _margin-top: 2px;
+}
+.index_shops .shop .shoplist li .title span {
+  float: right;
+  color: #989898;
+}
+.index_shops .shop .shoplist li .title span strong {
+  color: #494949;
+  margin: 0 5px;
+}
+.index_shops .shop .shoplist li .info {
+  display: none;
+}
+.index_shops .shop .shoplist li .info .text {
+  padding: 5px 10px;
+}
+.index_shops .shop .shoplist li .info .text p {
+  line-height: 18px;
+  font-size: 12px;
+}
+.index_shops .shop .shoplist li .info .text p .color-hei {
+  display: inline-block;
+  width: 235px;
+  height: 18px;
+  overflow: hidden;
+  vertical-align: top;
+}
+.index_shops .shop .shoplist li .info .text p .color-cheng{
+  font-weight: bold;
+}
+.index_shops .shop .shoplist li.on {
+  height: 112px;
+}
+.index_shops .shop .shoplist li.on h5 {
+  font-size: 14px;
+  font-weight: bold;
+}
+.index_shops .shop .shoplist li.on .info {
+  display: block;
+}
+.index_news .news {
+  float: left;
+  width: 780px;
+  margin-right: 20px;
+}
+.index_news .content {
+  width: 789px;
+  height: 300px;
+  overflow: hidden;
+}
+.index_news .content .details {
+  float: left;
+  display: inline;
+  width: 460px;
+  font-family: "宋体";
+}
+.index_news .content .details .part {
+  margin: 26px 0 0 0;
+}
+.index_news .content .details .part .pic img {
+  width: 160px;
+  height: 120px;
+  float: left;
+  display: inline;
+}
+.index_news .content .details .part .font {
+  width: 260px;
+  float: left;
+  display: inline;
+  margin: 0 0 0 19px;
+  padding: 3px 0 0 0;
+}
+.index_news .content .details .part .font h4 {
+  margin: 0 0 4px 0;
+}
+.index_news .content .details .part .font a {
+  font-family: "宋体";
+  font-size: 16px;
+  font-weight: bold;
+}
+.index_news .content .details .part p {
+  color: #989898;
+  line-height: 22px;
+}
+.index_news .content .details .part .font a.con{
+  color: #989898;
+  font-size: 12px;
+  font-weight: normal;
+}
+.index_news .content .list {
+  float: right;
+  display: inline;
+  width: 329px;
+  padding: 27px 0 0 0;
+}
+.index_news .content .list li {
+  font-family: "宋体";
+  font-size: 14px;
+  color: #fc5300;
+  line-height: 26px;
+  height:26px;
+  width:320px;
+  overflow:hidden;
+}
+.index_news .content .list li a {
+  margin: 0 0 0 2px;
+  color: #2f3031;
+}
+.index_news .content .list li a:hover {
+  color: #fc5300;
+}
+#hot_brands .tab_title {
+  background: #f7f7f7;
+  border-right: 1px solid #ebebeb;
+}
+#hot_brands .tab_title li {
+  float: left;
+  display: inline;
+  text-align: center;
+  font-family: Microsoft YaHei;
+  font-size: 14px;
+}
+#hot_brands .tab_title li a {
+  display: inline-block;
+  width: 147px;
+  height: 70px;
+  background: #f7f7f7;
+  float: left;
+  border: 1px solid #ebebeb;
+  border-right: 0;
+  color: #2f3031;
+}
+#hot_brands .tab_title li a img {
+  display: block;
+  width: 125px;
+  height: 40px;
+  margin: 4px auto 0 auto;
+}
+#hot_brands .tab_title li a.current {
+  background: #fff;
+  border-top: 3px solid #fc5300;
+  border-bottom: 1px solid #fff;
+  height: 68px;
+}
+#hot_brands .tab_title li a.current img {
+  margin-top: 2px;
+}
+#hot_brands .tab_title li a:hover {
+  text-decoration: none;
+}
+#hot_brands .tab_title li.last a {
+  width: 152px;
+}
+#hot_brands .more {
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+#hot_brands .more a {
+  width: 100%;
+  padding: 10px 0;
+  display: block;
+  background-color: #f7f7f7;
+  border: 1px solid #ebebeb;
+  font-family: "Microsoft YaHei";
+  font-size: 16px;
+  font-weight: bold;
+}
+#hot_brands .more a strong {
+  font-weight: bold;
+  color: #fc5300;
+  margin: 0 3px;
+}
+#hot_brands .more a i {
+  display: inline-block;
+  background: url(../images/icons.png) no-repeat -95px -60px;
+  width: 20px;
+  height: 15px;
+  position: absolute;
+  top: 16px;
+  *top: 17px;
+  _top: 16px;
+}
+#hot_brands .more a:hover {
+  text-decoration: none;
+  background-color: #ffeae0;
+  border-color: #ffd9c7;
+  color: #2f3031;
+}
+#hot_brands .nocar {
+  padding: 95px 0;
+  margin-left: 420px;
+}
+#hot_brands .nocar .icon {
+  float: left;
+  width: 60px;
+  height: 60px;
+  background: #ffffff url(../images/icons.png) no-repeat -260px -600px;
+}
+#hot_brands .nocar p {
+  float: left;
+  display: inline;
+  margin: 0 0 0 10px;
+  font-size: 14px;
+  color: #989898;
+}
+#hot_brands .nocar p strong {
+  display: block;
+  margin: 6px 0;
+  color: #494949;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Microsoft YaHei";
+}
+#hot_brands .nocar p a {
+  color: #0090d8;
+}
+.box_style1 {
+  background: #fbfbfb;
+  border: 1px solid #ebebeb;
+}
+.title_style1 {
+  padding: 11px 0;
+}
+.title_style1 h3 {
+  font-size: 16px;
+  font-family: Microsoft YaHei;
+  color: #2f315e;
+  font-weight: bold;
+  border-left: 3px solid #fc5300;
+  padding: 0 0 0 8px;
+  margin: 0 0 0 15px;
+  height: 16px;
+  line-height: 16px;
+}
+.title_style1 .more_style1 {
+  float: right;
+  display: inline-block;
+  color: #989898;
+  height: 16px;
+  margin: 0 12px 0 0;
+  line-height: 16px;
+  font-family: "宋体";
+}
+.title_style1 a:hover{
+  color: #fc5300;
+}
+.title_style1 .more_style1 i {
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  background: url(../images/icons.png) no-repeat -100px -60px;
+  vertical-align: middle;
+  margin: 0 0 0 4px;
+}
+#sell_elite .title_style1 {
+  margin: 0 0 22px 0;
+}
+#sell_elite {
+  width: 378px;
+  height: 438px;
+  float: right;
+  display: inline;
+}
+#sell_elite ul {
+  padding: 0 0 0 21px;
+}
+#sell_elite li {
+  width: 104px;
+  float: left;
+  display: inline;
+  margin: 0 18px 0 0;
+  line-height: 20px;
+  position: relative;
+  height: 186px;
+}
+#sell_elite li.last {
+  margin-right: 0;
+}
+#sell_elite li .pic {
+  margin: 0 0 8px 0;
+}
+#sell_elite li .pic img {
+  width: 92px;
+  height: 120px;
+}
+#sell_elite li h4 a {
+  font-size: 14px;
+  font-family: "宋体";
+  color: #494949;
+  font-weight: bold;
+}
+#sell_elite li h4 a:hover{
+  color: #fc5300;
+}
+#sell_elite li h4 i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background: url(../images/icons.png) no-repeat -60px -70px;
+  margin: 0 0 0 4px;
+  cursor: pointer;
+}
+#sell_elite li p {
+  color: #989898;
+  font-size: 12px;
+  font-family: "宋体";
+}
+#sell_elite li p strong {
+  font-weight: bold;
+  color: #494949;
+  margin: 0 0 0 6px;
+}
+#sell_elite li span.tel_num {
+  display: inline-block;
+  width: 84px;
+  height: 28px;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  position: absolute;
+  top: 148px;
+  left: 0;
+  font-size: 12px;
+  font-family: "宋体";
+  line-height: 14px;
+  padding: 4px 9px 4px 9px;
+}
+#sell_elite li span.tel_num strong {
+  font-weight: bold;
+  color: #fc5300;
+}
+#faq {
+  width: 378px;
+  height: 339px;
+  overflow: hidden;
+  float: right;
+  display: inline;
+}
+#faq .title_style1 {
+  margin: 0 3px 0 0;
+}
+#faq dl {
+  border-bottom: 1px dashed #e7e7e7;
+  margin: 0 16px;
+  padding: 15px 0 12px 0;
+}
+#faq dl.last {
+  border: 0;
+}
+#faq dt {
+  font-size: 14px;
+  font-family: "宋体";
+  font-weight: bold;
+  color: #2f3031;
+  margin: 0 0 10px 0;
+  line-height: 18px;
+}
+#faq dt strong {
+  margin: 0 0 0 10px;
+  font-weight: bold;
+  float: left;
+  display: inline;
+}
+#faq a:hover dt strong{
+  color: #fc5300;
+}
+#faq dt i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icons.png) no-repeat -60px -20px;
+  vertical-align: middle;
+  float: left;
+}
+#faq dd {
+  font-size: 12px;
+  font-family: "宋体";
+  color: #989898;
+  line-height: 20px;
+  clear: both;
+}
+#faq dd i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url(../images/icons.png) no-repeat -80px -20px;
+  float: left;
+}
+#faq dd p {
+  margin: 0 0 0 10px;
+  float: left;
+  display: inline;
+  width: 314px;
+}
+/*评估输入验证码弹窗*/
+.pop_eva_code{
+  z-index: 100;
+  width: 345px;
+}
+.pop_eva_code .pop_box_content{
+  height: 150px;
+  padding-top: 20px;
+}
+.pop_eva_code .text{
+  padding: 0 0 15px 23px;
+}
+.pop_eva_code .text i{
+  background: url("../images/icons.png") no-repeat -290px -280px;
+  display: inline-block;
+  height: 13px;
+  margin: 0 4px 0 0;
+  width: 3px;
+}
+.pop_eva_code .input_box{
+  padding: 0 0 15px 23px;
+}
+.pop_eva_code .input_box .input1{
+  width: 136px;
+  margin-right: 10px;
+}
+.pop_eva_code .input_box .error-red{
+  background: #ffeded;
+  color: #d61c00;
+  border: 1px solid #d61c00;
+}
+.pop_eva_code .input_box img{
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  vertical-align: middle;
+  border: 0;
+}
+.pop_eva_code .input_box .code{
+  display: inline-block;
+  height: 34px;
+  line-height: 34px;
+  margin: 0 0 0 10px;
+  vertical-align: top;
+  font-size: 12px;
+  color: #898989;
+}
+.pop_eva_code .input_box a:hover{
+  text-decoration: underline;
+  color: #fc5300;
+}
+.pop_eva_code .btn{
+  padding: 0 0 0 23px;
+}
+.pop_eva_code .btn button{
+  width: 140px;
+}

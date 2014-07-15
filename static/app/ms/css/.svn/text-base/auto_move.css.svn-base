@@ -1,0 +1,109 @@
+@charset "utf-8";
+/*------------------------------------------------
+��������ҳ��Ĺ���ͼƬ
+
+�� ��:       wulm
+------------------------------------------------*/
+.myBlock {
+	overflow:hidden;
+	float:left;
+	display:inline
+}
+.myBlock ul {
+	width:100%;
+	overflow:hidden;
+	zoom:1;
+	list-style:none
+}
+.myBlock ul li {
+	width:253px;
+	float:left;
+	padding:10px 0;
+	display:inline
+}
+.myBlock ul li:hover {
+	background-color:#FFC
+}
+.myBlock dl {
+	width:250px;
+	margin:0 auto;
+	list-style:none;
+}
+.myBlock dl dt {
+	width:250px;
+	height:170px;
+	overflow:hidden;
+	background-color:#FFF
+}
+.myBlock dl dt img {
+	width:250px;
+}
+.myBlock dl dd {
+	line-height:18px;
+	list-style:none;
+	text-align:center
+}
+.myBlock dl dd a {
+	display:inline-block;
+	width:100%;
+}
+.myClone {
+	overflow:hidden;
+	zoom:1
+}
+.myClone ul {
+	float:left;
+	display:inline
+}
+
+.myBlockM {
+	overflow:hidden;
+	float:left;
+	display:inline
+}
+.myBlockM ul {
+	width:100%;
+	overflow:hidden;
+	zoom:1;
+	list-style:none
+}
+.myBlockM ul li {
+	width:210px;
+	float:left;
+	padding:10px 0;
+	display:inline
+}
+.myBlockM ul li:hover {
+	background-color:#FFC
+}
+.myBlockM dl {
+	width:204px;
+	margin:0 auto;
+	list-style:none;
+}
+.myBlockM dl dt {
+	width:204px;
+	height:190px;
+	overflow:hidden;
+	background-color:#FFF
+}
+.myBlockM dl dt img {
+	width:204px;
+}
+.myBlockM dl dd {
+	line-height:18px;
+	list-style:none;
+	text-align:center
+}
+.myBlockM dl dd a {
+	display:inline-block;
+	width:100%;
+}
+.myClone {
+	overflow:hidden;
+	zoom:1
+}
+.myClone ul {
+	float:left;
+	display:inline
+}

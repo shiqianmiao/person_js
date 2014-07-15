@@ -1,0 +1,16 @@
+{
+  "name": "apollo",
+  "version": "0.0.1",
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "grunt": "~0.4.0",
+    "grunt-contrib-jshint": ">=0.1.1",
+    "grunt-crane": ">=0.0.4"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.0"
+  }
+}

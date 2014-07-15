@@ -1,0 +1,94 @@
+﻿body { font-family: "宋体"; font-size: 12px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a:link,a:visited { color: #000; text-decoration: none;}
+a:hover { text-decoration:underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+#banner{width: 100%;}
+#main .head{width: 982px;height: 65px;}
+#main .head img{width: 982px;height: 65px;}
+#main .top-30{top: -30px;}
+#main .content{height: 320px;background: #fffcf3;}
+#main .content .left{position: absolute;top: 85px;left: 20px;width: 411px;height: 261px;}
+#main .content .right{position: absolute;top: 85px;right: 20px;width: 504px;height: 260px;}
+
+.about{position: relative;width: 982px;margin: 0 auto;}
+.about .content .bg{background: url(../images/market_templet/bg_about.jpg) no-repeat;}
+.about .content .left .title{background: url(../images/market_templet/act_title.jpg) no-repeat 0 0; position: absolute; top: 32px; left: 15px; width: 360px; }
+.about .content .left .title a{display: inline-block; float: right; background: #61a632 url(../images/market_templet/icon_pen.jpg) no-repeat 0 0; padding-left: 35px; width: 75px; height: 30px;line-height: 30px;font-size: 14px;font-weight: bold;color: #fff;}
+.about .content .left .title a:hover {text-decoration:none;}
+.about .content .left .detail{position: absolute; top: 70px; left: 15px; width: 380px;}
+.about .content .left .detail p{ line-height: 30px;color: #7f5700; font-size: 14px;font-family: Microsoft YaHei;clear: both;}
+.about .content .left .detail p span.t{float: left;}
+.about .content .left .detail p span.s{width:260px;float:left;}
+.about .content .left .detail small{float: left; background: url(../images/market_templet/i_round.png) no-repeat 0 0;display: inline-block;width: 22px;height: 23px;line-height: 23px;margin: 5px 10px 0 0;text-align: center; color: #fff;}
+.about .content .left .detail .note{padding-left: 100px;}
+.about .content .left .detail .tit{color: #ca2947;}
+.about .content .right img{width: 504px; height: 250px;}
+.route{position: relative;width: 982px;margin: -20px auto 0 auto;}
+.route .content .right .address{padding-top: 10px;line-height: 25px;}
+.route .content .right .address p{font-size: 14px;}
+.route .content .right .address span{color: #a3a3a3;}
+.route .content .right .address .tel{color: #ca2947;}
+.route .content .right .find .sub_title {width: 446px; height: 36px;background: #f5f5f5;margin: 12px 0;}
+.route .content .right .find .sub_title a{display:inline-block;width: 140px; height: 34px;line-height: 34px;color: #000;text-align: center;margin: 2px 0 0 1px;}
+.route .content .right .find .sub_title a.current{background: #fff;font-weight: bold;}
+.route .content .right .find .sub_title a:hover {text-decoration:none;}
+.route .content .right .find .input_box{position: relative;width: 430px;height: 28px;background: #fff;border: 1px solid #dedede;font-size: 14px;margin-bottom: 10px;}
+.route .content .right .find .input_box label{color: #a3a3a3;position: absolute;top: 5px;left: 12px;}
+.route .content .right .find .input_box .input1{position: absolute;top: 0;left: 50px;width: 380px;height: 28px;line-height: 28px;border: 0;}
+.route .content .right .find .btn button{width: 104px;height: 28px;line-height: 28px;border: 0;background: #116ba9;font-weight: bold;color: #fff;cursor: pointer;text-align: center;}
+#foot1 {clear: both;line-height: 24px;text-align: center;font-family: Arial, SimSun;padding: 4px 0 15px 0; color: #000;}
+#foot1 a{color: #000;}
+#foot1 p{margin-bottom: 7px;}
+#foot1 span{margin: 0 5px;}
+#foot1 p img{height: 41px; margin: 0 3px;}
+#foot1 strong{color: #cb2947;}
+#foot2 {clear: both;line-height: 24px;text-align: center;font-family: Arial, SimSun;padding: 4px 0 15px 0; color: #fff;}
+#foot2 a{color: #fff;}
+#foot2 p{margin-bottom: 7px;}
+#foot2 span{margin: 0 5px;}
+#foot2 p img{height: 41px; margin: 0 3px;}
+#foot2 strong{color: #ffd160;}
+/*模板1*/
+.bg_1{background: #E9D598;}
+#main .bottom_1{width: 982px;height: 27px;background: url(../images/market_templet/bottom_1.jpg) no-repeat;}
+/*模板2*/
+.bg_2{background: #eeab07;}
+#main .bottom_2{width: 982px;height: 27px;background: url(../images/market_templet/bottom_2.jpg) no-repeat;}
+/*模板3*/
+.bg_3{background: #aa1d02;}
+#main .bottom_3{width: 982px;height: 27px;background: url(../images/market_templet/bottom_3.jpg) no-repeat;}
+/*遮罩层*/
+.mask_layer{background:#000;height: 100%;width: 100%;left: 0;top: 0;opacity: 0.5;position: absolute;z-index: 10;}
+/*弹出层*/
+.pop_box {width:410px;border:5px #8E8E8F solid;position:absolute;top:0;left:0;background:#FCFCFC; z-index: 99;}
+.pop_box h4{background:#f0f0f0;height:26px;line-height:26px;padding:2px 20px;font-size:14px;position:relative;}
+.pop_box h4 span.close{display:block;width:30px;height:30px;background:url(../images/p.png) no-repeat -140px -270px;text-indent:-82982px;right:0;top:0;position:absolute;cursor:pointer;}
+.pop_box .content { padding: 27px 0 25px 0;}
+.pop_box .input_box { margin: 0 0 13px 0;}
+.pop_box label { display: inline-block; width: 89px; text-align: right; font-size: 14px; color: #a3a3a3; padding: 0 13px 0 0;}
+.pop_box label em { font-style: normal; color: #e20000; margin: 0 6px 0 0;}
+.pop_box .input1 { font-size: 12px; padding: 5px 5px 4px 5px; border: 1px solid #cecece; width: 222px;}
+.pop_box .select1 { width: 112px; margin: 0 10px 0 0;}
+.pop_box .btn { margin: 0 0 10px 0;}
+.pop_box .btn button { margin: 0 10px 0 0; font-size:14px; width:110px; height:28px; line-height:28px; border:1px #F8CEA3 solid; background:#FFECD7; color:#F37C06; cursor:pointer; font-weight:700;}
+.pop_box .btn button.cancel{border-color:#cecece;background:#f2f2f2;color:#888;}
+.pop_box .warm_tips { color: #a3a3a3; line-height: 18px; padding: 3px 34px 0 34px;}
+.pop_box .bottom_tips { font-size: 14px; line-height: 40px; background: #efefef;}
+.pop_box .bottom_tips p { margin: 0 0 0 20px;}
+.pop_box .bottom_tips i { display: inline-block; width: 14px; height: 40px; vertical-align: middle; background: url(../images/rp.png) no-repeat left -1480px; margin: 0 9px 0 0;}
+.pop_box .bottom_tips strong { color: #ff7e00;}

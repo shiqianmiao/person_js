@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#banner_box { height: 527px; position: relative; width: 100%;}
+#banner_box .banner { height: 399px; background: url(../../images/ckb/index_banner.jpg) no-repeat center top; position: absolute; top: 0; left: 0; width: 100%; z-index: 11;}
+/**html #banner_box .banner {background:none; filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/banner1.png');}*/
+#banner_box .tab { width: 180px; position: absolute; top: 372px; left: 50%; margin: 0 0 0 -90px; z-index: 31;}
+#banner_box .tab a { display: inline-block; margin: 0 5px; padding: 5px 0;}
+#banner_box .tab span { display: inline-block; width: 50px; height: 3px; background: #fff; overflow: hidden; cursor: pointer;}
+#banner_box .tab .current span { background: #2565aa;}
+#banner_box #process { background: url(../../images/ckb/process.gif) no-repeat; width: 990px; height: 128px; position: absolute; top: 399px; left: 50%; margin: 0 0 0 -495px; z-index: 1;}
+#banner_box .form_box { width: 990px; position: absolute; top: 0; left: 50%; margin: 0 0 0 -495px; height: 399px; z-index: 21;}
+#banner_box .login_box { width: 300px; height: 325px; background: #fff; float: right; margin: 36px 0 0 0; box-shadow: 0 1px 3px #aaa;}
+#banner_box .login_box .title { height: 50px; background: url(../../images/ckb/banner_form_bg.png) no-repeat; line-height: 50px;}
+#banner_box .login_box .title h3 { background: url(../../images/ckb/form_title_bg.gif) no-repeat left center; font-size: 14px; margin: 0 0 0 25px; padding: 0 0 0 14px; color: #666;}
+#banner_box .login_box .title a { display: inline-block; width: 150px; font-size: 14px; text-align: center;}
+#banner_box .login_box .title a:hover { text-decoration: none;}
+#banner_box .login_box .title a.current, #banner_box .login_box .title a.current2 { background: #fff; border-right: 1px solid #ebebeb; width: 149px; font-weight: bold;}
+#banner_box .login_box .title a.current2 { border-left: 1px solid #ebebeb; border-right: 0;}
+#banner_box .login_box .content { height: 275px; text-align: center;}
+#banner_box .login_box .content .form { padding: 37px 0 0 0;}
+#banner_box .login_box .content .p1 { margin: 0 auto 17px auto; width: 250px; height: 37px; text-align: left; position: relative;}
+#banner_box .login_box .content .input1 { border: 1px solid #e1e1e1; padding: 10px 14px 9px 14px; font-size: 14px; width: 220px;}
+#banner_box .login_box .content .p1 span { font-size: 14px; color: #d2d2d2; position: absolute; top: 11px; left: 16px;}
+#banner_box .login_box .content .btn { padding: 7px 0 0 0;}
+#banner_box .login_box .content button { background: url(../../images/ckb/banner_form_bg.png) no-repeat left -100px; width: 250px; height: 37px; border: 0; cursor: pointer; font-size: 14px; color: #fff; margin: 0 0 33px 0;}
+#banner_box .login_box .content .other a { color: #898989;}
+#banner_box .login_box .content .other a:hover { color: #2567a9;}
+#banner_box .login_box .content .other span { color: #d2d2d2; margin: 0 11px;}
+
+#new_detect .title_style { width: 990px; margin: 0 auto 3px auto;}
+#new_detect .car_list { width: 992px; height: 314px; background: url(../../images/ckb/car_list_bg.gif) no-repeat; margin: 0 auto 15px auto;}
+#new_detect .car_list li { float: left; display: inline; margin-right: -3px;}
+#new_detect .car_list li.last { margin-right: 0;}
+#new_detect .car_list li .pic { width: 240px; height: 180px; margin: 5px auto 6px auto; position: relative;}
+#new_detect .car_list li .pic span { width: 35px; height: 39px; display: inline-block; position: absolute; top: 16px; left: 23px;}
+#new_detect .car_list li .pic_a { width: 240px; height: 180px; margin: 5px auto 6px auto; position: relative;}
+#new_detect .car_list li .pic_a span { width: 35px; height: 39px; display: inline-block; background: url(../../images/ckb/car_list_icon_a.png) no-repeat; position: absolute; top: 16px; left: 23px;}
+#new_detect .car_list li .pic_b { width: 240px; height: 180px; margin: 5px auto 6px auto; position: relative;}
+#new_detect .car_list li .pic_b span { width: 35px; height: 39px; display: inline-block; background: url(../../images/ckb/car_list_icon_b.png) no-repeat; position: absolute; top: 16px; left: 23px;}
+#new_detect .car_list li .pic_c { width: 240px; height: 180px; margin: 5px auto 6px auto; position: relative;}
+#new_detect .car_list li .pic_c span { width: 35px; height: 39px; display: inline-block; background: url(../../images/ckb/car_list_icon_c.png) no-repeat; position: absolute; top: 16px; left: 23px;}
+#new_detect .car_list li .pic_d { width: 240px; height: 180px; margin: 5px auto 6px auto; position: relative;}
+#new_detect .car_list li .pic_d span { width: 35px; height: 39px; display: inline-block; background: url(../../images/ckb/car_list_icon_d.png) no-repeat; position: absolute; top: 16px; left: 23px;}
+#new_detect .car_list li a { display: inline-block; width: 250px; height: 314px;}
+#new_detect .car_list h3 { font-size: 14px; font-family: Microsoft YaHei; color: #404040; font-weight: bold; width: 220px; margin: 0 auto 11px auto; line-height: 22px;}
+#new_detect .car_list li a:hover { text-decoration: none; background: url(../../images/ckb/car_list_mouseon.png) no-repeat; cursor: pointer;}
+#new_detect .car_list li p { margin: 0 0 0 15px;}
+#new_detect .car_list li p span { float: left; display: inline-block; width: 109px; height: 27px; line-height: 27px; overflow: hidden;}
+#new_detect .car_list li p span.price { font-size: 20px; font-family: Microsoft YaHei; color: #fe8300; font-weight: bold;}
+#new_detect .car_list li p span del { color: #989898;}
+#new_detect .car_list li p span label { color: #989898;}
+#new_detect .shortcut { clear: both; width: 969px; margin: 0 auto 16px auto;}
+#new_detect .shortcut li { width: 231px; height: 70px; float: left; display: inline; margin: 0 15px 0 0;}
+#new_detect .shortcut li.last { margin-right: 0;}
+#new_detect .shortcut li a { display: block; width: 100%; height: 100%; background: url(../../images/ckb/shortcut_pic.png) no-repeat;}
+#new_detect .shortcut li a.a1:hover { background-position: left -191px;}
+#new_detect .shortcut li a.a2 { background-position: -246px 0;}
+#new_detect .shortcut li a.a2:hover { background-position: -246px -191px;}
+#new_detect .shortcut li a.a3 { background-position: -493px 0;}
+#new_detect .shortcut li a.a3:hover { background-position: -493px -191px;}
+#new_detect .shortcut li a.a4 { background-position: -739px 0;}
+#new_detect .shortcut li a.a4:hover { background-position: -739px -191px;}
+
+#new_detect .more { width: 970px; height: 70px; margin: 0 auto 15px auto;}
+#new_detect .more a { display: block; width: 968px; height: 68px; background: #f7f7f7; border: 1px solid #efefef; text-align: center; color: #8c8c8c; font-family: Microsoft YaHei; line-height: 68px; font-size: 18px; clear: both;}
+#new_detect .more a span { background: url(../../images/ckb/new_detect_more_icon.png) no-repeat left 16px; width: 27px; height: 68px; vertical-align: middle; display: inline-block; margin: 0 0 0 7px;}
+#new_detect .more a:hover { text-decoration: none; background: #f2f6fb; border: 1px solid #dce5ed;}
+
+#index_below { width: 990px; margin: 0 auto 19px auto;}
+#index_below #faq { width: 655px; float: left; display: inline;}
+#index_below #faq h2 span { background-position: left -60px;}
+#index_below #faq .content { font-size: 14px; line-height: 24px; padding: 17px 0 0 14px;}
+#index_below #faq .content dl { width: 625px;}
+#index_below #faq .content dt { font-weight: bold;}
+#index_below #stores { width: 320px; float: right; display: inline;}
+#index_below #stores h2 span { background-position: left -124px;}
+#index_below #stores .content { padding: 2px 0 0 0; margin: 0 0 21px 0;}
+#index_below #stores li { margin: 0 11px 0 13px; border-bottom: 1px solid #ececec; clear: both; padding: 23px 0;}
+#index_below #stores li .pic { width: 120px; height: 90px; float: left; display: inline;}
+#index_below #stores li .pic img { width: 120px; height: 90px;}
+#index_below #stores li .font { float: left; display: inline; margin: 0 0 0 9px; width: 163px; padding: 5px 0 0 0;}
+#index_below #stores li h3 { font-size: 14px; font-weight: bold; line-height: 20px;}
+#index_below #stores li p { margin: 0 0 0 0; font-size: 12px; line-height: 20px; width: 163px;}
+#index_below #stores li p label { color: #989898;}
+#index_below #stores li p strong { color: #f70;}
+#index_below #stores .tel { margin: 0 0 0 13px;}

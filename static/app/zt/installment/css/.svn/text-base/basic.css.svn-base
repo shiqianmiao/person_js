@@ -1,0 +1,107 @@
+@charset "utf-8";
+/*------------------------------------------------
+基本样式表
+
+作 者:       origin
+e-mail:     origin@vip.qq.com
+------------------------------------------------*/
+body { font-family: "宋体"; font-size: 12px;}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,form,input,select,button { margin: 0px; padding: 0px;}
+img { border: 0;}
+ul,li { list-style-type: none;}
+input,select,button { font-family: "宋体"; font-size: 12px;}
+a:link,a:visited { color: #000; text-decoration: none;}
+a:hover { text-decoration: underline;}
+.clear { clear: both; height: 0; font-size: 0;}
+hr { margin: 0; *margin: -7px 0 -7px 0; height: 0; border: none; border-top: 1px solid #f00; display: block;}
+
+/*清浮动代码*/
+/* Clear Fix */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix { display:inline-block;}
+/* Hide from IE Mac */
+.clearfix { display:block;}
+/* End hide from IE Mac */
+/* end of clearfix */
+
+
+
+/*样式开始*/
+
+/*主站部分(头部共用)*/
+#top_nav { background: #f8f8f8; border-bottom: 1px solid #e7e7e7; height: 24px; line-height: 24px;position:relative;z-index:4;}
+#top_nav .tel { float: left; display: inline; color:#989898;}
+#top_nav .tel strong { color: #f37c06;}
+#top_nav .nav{ float: right; display: inline;}
+#top_nav .nav a.navlink{float:left;padding:0 7px 0 5px;height:24px;line-height:24px;display:inline-block;text-align:center;background: url(../images/top_nav_bg.png) no-repeat 100% 6px; border-left:1px solid #f8f8f8; border-right:1px solid #f8f8f8;}
+#top_nav .nav a.navlink b{font-weight:100;background:url(../images/top_nav_bg.png) no-repeat 100% -26px;padding-right:13px;}
+#top_nav .nav span{float:left;}
+#top_nav .nav span.on{position:relative;display:inline-block;line-height:24px;height:24px;}
+#top_nav .nav span.on a.navlink{position:relative;z-index:3;background:#fff;border:#d3d3d3 solid 1px;border-bottom:0;border-top:0;padding:0 7px 0 5px;}
+#top_nav .nav span.on a.navlink:hover{text-decoration:none;}
+#top_nav .nav span.on #chewuzhi,#top_nav .nav span.on #daohang{display:block;}
+#top_nav .nav a.last{background:none;}
+
+#daohang,#chewuzhi{display:none;position:absolute;box-shadow: #ccc 1px 1px 5px;top:23px;left:-167px;z-index:2;width:200px;overflow:hidden;border:1px solid #d3d3d3;background:#fff;padding:10px 20px;color:#6d6d6d;}
+#chewuzhi form{width:210px;}
+#chewuzhi h5{font-size:12px;font-family:"宋体";font-weight:bold;}
+#chewuzhi p.des{border-bottom:1px dotted #ccc;}
+#chewuzhi p.mail{padding:11px 0 0 0;margin:0 10px 10px 0;padding-bottom:15px;border-bottom:1px #d3d3d3 dotted;color:#989898;}
+#chewuzhi p.mail input{border:1px solid #c3c3c3;width:160px;padding:2px;height:18px;font-family:Arial;color:#989898;margin:6px 0 7px 0;}
+#chewuzhi p.mail input.on{color:#333;}
+#chewuzhi p.mail button{width:68px;height:21px;line-height:21px;border:1px #F9CEA4 solid;background:#FFECD7;color:#F37C06;font-weight:bold;text-align:center;cursor:pointer;}
+#chewuzhi p.mail button.no{background:#eee;border-color:#d3d3d3;color:#989898;cursor:auto;}
+#pop-chewuzhi .share{clear:both;}
+#daohang{width:400px;left:-391px}
+#daohang ul{float:left;margin-left:10px;}
+#daohang ul li{width:70px;height:24px;font-weight:700;overflow:hidden;}
+#daohang ul li a{font-weight:100;}
+#daohang ul li b a{font-weight:100;color:#f50;}
+
+
+/*专题样式*/
+.lay1 { width: 960px; margin: 0 auto;}
+h3 { text-indent: -9999px;}
+
+body { background: #077ebd url(../images/banner.jpg) no-repeat center 25px;}
+#banner { height: 530px;}
+
+#coop_bank { background: url(../images/part1_bg.jpg) no-repeat; height: 285px;}
+#coop_bank h3 { height: 148px;}
+#coop_bank ul { margin: 0 0 0 41px;}
+#coop_bank li { float: left; display: inline; background: url(../images/icon_group.png) no-repeat; border: 1px solid #d7d7d7; width: 267px; height: 86px; margin: 0 34px 0 0;}
+#coop_bank li.li2 { background-position: -303px 0;}
+#coop_bank li.li3 { background-position: -613px 0;}
+
+#apply_con { background: url(../images/part2_bg.jpg) no-repeat; height: 374px;}
+#apply_con h3 { height: 130px;}
+#apply_con .box { border: 3px solid #077ebd; float: left; display: inline; margin: 0 17px 0 0;}
+#apply_con .box .sub_title { font-size: 23px; font-family: Microsoft YaHei; color: #fff; background: #077ebd; height: 33px; text-align: center;}
+#apply_con .box .sub_content { background: #fff; height: 149px;}
+#apply_con .box li { font-size: 14px; font-family: Microsoft YaHei; color: #1c1c1c; line-height: 24px; margin: 0 0 0 15px;}
+#apply_con .box li i { display: inline-block; width: 6px; height: 24px; background: url(../images/icon_group.png) no-repeat 0 -110px; vertical-align: middle; margin: 0 6px 0 0;}
+#apply_con .b1 { width: 254px; margin-left: 42px;}
+#apply_con .b1 ul { padding: 61px 0 0 0;}
+#apply_con .b2 { width: 373px;}
+#apply_con .b2 ul { padding: 11px 0 0 0;}
+#apply_con .b3 { width: 203px;}
+#apply_con .b3 ul { padding: 36px 0 0 0;}
+
+#loan_flow { background: url(../images/part3_bg.jpg) no-repeat; height: 355px;}
+#loan_flow h3 { height: 135px;}
+#loan_flow .content { width: 881px; height: 168px; background: url(../images/icon_group.png) no-repeat 0 -157px; margin: 0 0 0 42px;}
+
+#faq { background: url(../images/part4_bg.jpg) no-repeat; height: 498px; width: 1000px; margin: 0 auto -13px auto;}
+#faq h3 { height: 128px;}
+#faq dl { line-height: 31px; font-size: 14px; color: #1c1c1c; font-family: Microsoft YaHei; margin: 0 0 17px 68px;}
+#faq dl i { display: inline-block; width: 20px; height: 31px; margin: 0 9px 0 0; vertical-align: middle; background: url(../images/icon_group.png) no-repeat -24px -105px;}
+#faq dl dt { font-weight: bold;}
+#faq dl dd i { background-position: -63px -105px;}
+
+#foot { clear: both; line-height: 24px; text-align: center; color: #fff; font-family: Arial, SimSun; padding: 4px 0 30px 0;}
+#foot p { margin: 0 0 7px 0;}
+#foot a { color: #fff;}
+#foot span { color: #56a4cc; margin: 0 5px;}
+#foot strong { color: #ffd800;}
+#foot p.pic a { display: inline-block; width: 114px; height: 41px; margin: 0 3px; background: url(../images/icon_group.png) no-repeat 0 -362px;}
+#foot p.pic a.a2 { background-position: -129px -362px;}

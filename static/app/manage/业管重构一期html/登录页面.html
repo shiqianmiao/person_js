@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>登录页面</title>
+<style type="text/css">
+	body{
+		background:url(img/login_bg.gif) no-repeat center top;margin:0;font-size:14px;overflow:hidden;
+	}
+	.login{margin:auto;background: url(img/login_bg2.png) no-repeat center 100px;width:350px;padding-top:100px;}
+	.login .mlogo{height:208px;}
+	.input_box{margin:0 0 15px;color:#f6f6f6;position:relative;}
+	.input1,.input2{margin:0;width:332px;height:40px;line-height:40px;padding:0 0 0 16px;border-radius:0;color:#ededed;background:#89a0b4;border:1px solid #91a9be;font-size:14px;}
+	.input2{margin:0 10px 0 0;width:186px;}
+	.icon-true,.icon-false{background:url(img/i.png) no-repeat;display:inline-block;vertical-align:middle;height:21px;margin:10px 0 0 10px;width:21px;position:absolute;}
+	.icon-false{background-position:0 -24px;}
+	.input_box a{color:#ededed;text-decoration:none;line-height: 38px;}
+	.input_box a:hover{text-decoration:underline;}
+	.input_box .fr{float:right;}
+	.input_box img{vertical-align:middle;margin-top:-3px;margin-bottom:1px;width:84px;height:42px;padding-right: 10px;}
+    .button1{width: 250px;height: 42px;line-height: 42px;border:0;text-align:center;background:#4d8cda;font-size:14px;color:#ededed;}
+    p{position:fixed;width:100%;bottom:25px;text-align:center;color:#afb5bc;margin:0;font-family: Arial,"宋体";}
+</style>
+</head>
+<body>
+	<div class="login">
+		<div class="mlogo"></div>
+		<div class="input_box">
+			<input type="text" class="input1" placeholder="用户名"/><span class=""></span>
+		</div>
+		<div class="input_box">
+			<input type="text" class="input1" placeholder="密码"/><span class="icon-true"></span>
+		</div>
+		<div class="input_box">
+			<input type="text" class="input2" placeholder="验证码"/><img src="img/icon.png"/><a href="#" class="code">换一张</a><span class="icon-false"></span>
+		</div>
+		<div class="input_box">
+			<input type="submit" class="button1" value="登 录" /><a href="#" class="fr">忘记密码？</a>
+		</div>	
+	</div>
+	<p>Copyright © 1998 - 2014 273.cn All Rights Reserved</p>
+</body>
+</html>

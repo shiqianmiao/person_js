@@ -1,0 +1,22 @@
+body { background: #f9f9f9;}
+
+#main { padding-top: 0; margin-top: 48px;}
+#faq_title { margin: 0 0 42px 0;}
+#faq_con { background: url(http://static.273.cn/app/ms/images/zs/faq_con_bg.gif) repeat-y right top;}
+#faq_con .left { width: 697px; float: left; display: inline;}
+#faq_con .q1 { margin: 0 25px; border-bottom: 1px dashed #dfdfdf; font-family: Microsoft YaHei; line-height: 26px; padding: 17px 0 24px 0;}
+#faq_con .q1 dt { float: left; display: inline;}
+#faq_con .q1 dd { float: left; display: inline;}
+#faq_con .q1 .d1 dt { width: 37px;}
+#faq_con .q1 .d1 dd { width: 610px;}
+#faq_con .q1 .d2 dt { width: 27px;}
+#faq_con .q1 .d2 dd { width: 620px;}
+#faq_con .q1 .d1 { font-size: 20px; color: #2d64b3; clear: both; line-height: 32px; margin: 0 0 7px 0;}
+#faq_con .q1 .d2 { font-size: 16px; color: #818080; clear: both;}
+#faq_con .left .last { border: 0;}
+#faq_con .right { width: 291px; float: left; display: inline;}
+#faq_con .right h4 { font-size: 14px; font-weight: bold; border-top: 1px solid #e5e5e5; padding: 16px 0 0 20px; margin: 0 0 3px 0;}
+#faq_con .right li { margin: 0 16px 0 21px; background: url(http://static.273.cn/app/ms/images/zs/faq_icon.gif) no-repeat left 8px; line-height: 24px; padding: 0 0 0 11px; font-size: 12px;}
+#faq_con .right li a { color: #2d64b3;}
+
+#faq_pic { text-align: center; padding: 42px 0;}

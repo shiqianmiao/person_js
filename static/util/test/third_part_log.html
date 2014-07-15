@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>third part log</title>
+</head>
+<body>
+</body>
+<script type="text/javascript">
+    var iframe  = document.createElement('iframe');
+    var url = location.href;
+    var refer = document.referrer || '-';
+    var from = 'aika';
+
+    var src = 'http://sta.273.com.cn/util/log.html?from=' + from + '&url=' + url + '&refer=' + refer;
+    iframe.src = 'javascript:false';
+    iframe.style.display = "none";
+
+    document.body.appendChild(iframe);
+    iframe.src = src;
+
+</script>
+</html>

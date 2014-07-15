@@ -1,0 +1,63 @@
+/* ie6 hack 背景图不缓存导致闪烁 */
+html {
+    _filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}
+
+.js-ui-magnifier {
+    display: inline;
+    _zoom : 1;
+}
+
+.js-ui-magnifier:after {
+    clear: both;
+    content: " ";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.js-ui-magnifier-wrap {
+    position: relative;
+    float: left;
+}
+
+.js-ui-magnifier-wrap img {
+    float: left;
+}
+
+.js-ui-magnifier-lens {
+    position: absolute;
+    top: 999px;
+    left: 999px;
+    background: url(./images/lens.png) repeat  0 0;
+    cursor: move;
+    display: none;
+}
+
+.js-ui-magnifier-icon {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 20px;
+    height: 20px;
+    background: url(./images/icon.png) repeat 0 0;
+    filter:alpha(opacity=50);
+    display: none;
+}
+
+.js-ui-magnifier-view {
+    position: absolute;
+    border: 1px solid #CCC;
+    overflow: hidden;
+    visibility: hidden;
+    z-Index: 9999;
+    background-color: #FFF;
+}
+
+.js-ui-magnifier-view img{
+    position: absolute;
+    max-width: none;
+    top: 9999px;
+    left: 9999px;
+}

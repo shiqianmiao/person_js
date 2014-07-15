@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>273二手车</title>
+<meta name="apple-itunes-app" content="app-id="/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="viewport" content="width=device-width">
+<meta content="yes" name="apple-mobile-web-app-capable"/>
+<meta content="black" name="apple-mobile-web-app-status-bar-style"/>
+<meta content="telephone=no" name="format-detection"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<link rel="stylesheet" type="text/css" href="theme/style.css"/>
+</head>
+<body>
+<header>
+<h1 class="logo"><a href="index.html">273二手车</a></h1>
+<div class="city"><a href="area.html">福州</a></div>
+<div class="search">
+<form>
+	<input type="text" placeholder="请输入关键字" /><input type="submit" value="搜索" />
+	<ul class="dropdown">
+		<li>奥迪A6L<span>123条车源</span></li>
+		<li>奥迪A4L<span>123条车源</span></li>
+		<li>奥迪Q5<span>123条车源</span></li>
+		<li class="close">关 闭</li>
+	</ul>
+</form>
+</div>
+</header>
+<div class="page404">
+<p>对不起！您要访问的页面暂时没有找到…</p>
+<p class="search-btn"><a href="">返回首页</a></p>
+</div>
+<footer>
+	<div class="footer-nav">
+		<a href="#">273门店</a>
+		<a href="#">我要卖车</a>
+		<a href="#">联系我们</a>
+		<a href="#" class="top">回顶部</a>
+	</div>
+	<div class="version">
+		<a href="#" class="current">触屏版</a>
+		<span>|</span>
+		<a href="#">电脑版</a>
+		<span>|</span>
+		<a href="#">客户端</a>
+	</div>
+	<div class="copyright"><p>闽ICP备05012458号</p></div>
+</footer>
