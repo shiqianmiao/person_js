@@ -1,0 +1,10 @@
+app/backend_v2/js/jquery-ui-1.10.3.custom.min.js
+app/backend_v2/js/jquery.ui.touch-punch.min.js
+app/backend_v2/js/bootstrap.min.js
+app/backend_v2/js/bootstrap-select.js
+app/backend_v2/js/flatui-checkbox.js
+app/backend_v2/js/bootstrap-switch.js
+app/backend_v2/js/flatui-radio.js
+app/backend_v2/js/jquery.tagsinput.js
+app/backend_v2/js/jquery.placeholder.js
+app/backend_v2/js/application.js

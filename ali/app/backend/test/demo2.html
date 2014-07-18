@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>backend demo -- bootstrap</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script src='http://static.273.cn/g.js' type="text/javascript"></script>
+<script src='http://static.273.cn/config.js' type="text/javascript"></script>
+<link href='http://static.273.cn/app/backend/css/bootstrap.css' type="text/css" rel="stylesheet"></link>
+
+<style>
+#sidebar {
+  width: 199px;
+  margin-left: 0;
+  border-right: 1px solid #e7e7e7;
+  background-color: #FAFAFA;
+  height: 100%;
+}
+#menu {
+  background: #ffffff;
+  margin: 0;
+  width: 199px;
+  list-style: none;
+}
+#menu a {
+  outline: none;
+}
+#menu h2 {
+  font-size: 14px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 1px solid #eee;
+}
+#menu h2 a {
+  color: #6f6f6f;
+  margin-left: 10px;
+}
+#menu h2 a i {
+  margin-right: 5px;
+}
+#menu h2 a:hover {
+  cursor: pointer;
+  color: #000000;
+  -webkit-transition: color linear 0.2s;
+  -moz-transition: color linear 0.2s;
+  -ms-transition: color linear 0.2s;
+  -o-transition: color linear 0.2s;
+  transition: color linear 0.2s;
+  text-decoration: none;
+}
+#menu li ul {
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #FAFAFA;
+  overflow: hidden;
+  display:none;
+}
+
+#menu .active ul {
+    display:block;
+}
+#menu ul li {
+  height: 28px;
+  margin: 0;
+}
+#menu ul li a {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0 8px;
+  height: 22px;
+  padding: 3px 10px;
+  font-size: 13px;
+  font-weight: normal;
+  line-height: 22px;
+}
+#menu ul li.active a {
+  color: #ffffff;
+  background: #48a6d2;
+}
+#menu ul li:first-child {
+  margin-top: 5px;
+}
+#menu ul li:last-child {
+  margin-bottom: 5px;
+}
+
+.ui-datagrid {
+  position: relative;
+}
+.ui-datagrid .ui-datagrid-loading {
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+</style>
+</head>
+<body>
+<div class="dropdown">
+  <a class="btn" data-toggle="dropdown" data-target="#" data-widget="dropdown">切换管理后台<span class="icon-chevron-down"></span></a>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="＃">aaaaa</a></li>
+    <li><a href="＃">bbbbb</a></li>
+    <li><a href="＃">ccccc</a></li>
+    <li><a href="＃">ddddd</a></li>
+  </ul>
+</div>
+
+<input type="text" data-widget="datepicker" data-start-date="2013-9-13">
+
+<div data-widget="sidebar" data-source='{"menu":{"1":{"text":"\u699c\u5355","menu":[{"text":"\u5168\u56fd\u95e8\u5e97\u79ef\u5206\u6392\u540d","url":"\/score\/allDeptRank","active":true},{"text":"\u5168\u56fd\u4e1a\u52a1\u5458\u79ef\u5206\u6392\u540d","url":"\/score\/sameUserRank"}],"icon":"icon-play-circle","active":true},"3":{"text":"\u79ef\u5206\u5f55\u5165\u65e5\u5fd7","menu":[{"text":"\u5f62\u8c61\u4e0e\u7f34\u8d39\u8ba1\u5206\u5f55\u5165","url":"\/score\/scoreAlter","code":"score.systemAlter"},{"text":"\u79ef\u5206\u8c03\u6574\u8bb0\u5f55","url":"\/score\/scoreAlterLog","code":"score.systemAlterLog"}],"icon":"icon-play-circle"},"4":{"text":"\u7533\u8bc9","menu":[{"text":"\u7533\u8bc9\u5217\u8868","url":"\/score\/appeal"}],"icon":"icon-play-circle"}},"active":[1,0]}' id="sidebar">
+    <ul id="menu"></ul>
+</div>
+
+<div class="ui-datagrid" data-widget="datagrid" id="datagrid-1" data-url="http://bc.corp.273.cn/score/allDeptRank/ajaxGetData/?">
+    <table class="table table-hover table-striped table-bordered table-diannei">
+        <thead>
+            <tr>
+                <th data-field-name="field1">地区</th>
+                <th data-field-name="field2">店名</th>
+                <th data-field-name="field3">店长</th>
+                <th data-field-name="field4">近12个月平均积分</th>
+                <th data-field-name="field5">2013年月平均积分</th>
+                <th data-field-name="field6">操作</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div class="pagination pagination-right">
+    <ul>
+        <li class="disabled"><a href="#">1/12页，共222条</a></li>
+        <li><a href="#">首页</a></li>
+        <!-- <li class="disabled"><a href="#">前一页</a></li> -->
+        <li class="active"><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">6</a></li>
+        <li><a href="#">7</a></li>
+        <li><a href="#">8</a></li>
+        <li><a href="#">9</a></li>
+        <li><a href="#">10</a></li>
+        <!-- <li><a href="#">后一页</a></li> -->
+        <li><a href="#">末页</a></li>
+    </ul>
+    </div>
+    <!-- <div class="ui-datagrid-loading">载入中...</div> -->
+</div>
+
+<div class="alert alert-success">... <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button></div>
+<div class="alert alert-info">...</div>
+<div class="alert alert-warning">...</div>
+<div class="alert alert-danger">...</div>
+<script type="text/javascript">
+G.use(['app/backend/js/backend.js'], function (Backend) {
+    Backend.run();
+});
+</script>
+</body>
+</html>

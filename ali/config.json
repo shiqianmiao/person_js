@@ -1,5 +1,5 @@
 {
-    "baseUrl": "http://sta.273.com.cn/",
+    "baseUrl": "http://sta.miaosq.com/",
     "alias": {
         "jquery": "lib/jquery/jquery-1.8.2.js",
         "underscore": "lib/underscore/underscore.js",
