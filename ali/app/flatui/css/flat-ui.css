@@ -198,13 +198,13 @@ you can use the generic selector below, but it's slower:
   border-bottom-color: #34495e !important;
   border-top-color: #34495e !important;
 }
-body {
+/*body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.72222;
   color: #34495e;
   background-color: #ffffff;
-}
+}*/
 a {
   color: #16a085;
   text-decoration: none;
@@ -311,7 +311,7 @@ h6,
   font-size: 24px;
 }
 p {
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.72222;
   margin: 0 0 15px;
 }
