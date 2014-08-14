@@ -219,17 +219,14 @@ em { color: #39ddfa; }
 #sidebar_top {
 	width: 280px;
 	height: 10px;
-	background: url(../img/templatemo_sidebar_top.png) no-repeat;
 }
 #sidebar_bottom {
 	width: 280px;
 	height: 10px;
-	background: url(../img/templatemo_sidebar_bottom.png) no-repeat;
 }
 
 #sidebar {
 	padding: 20px 30px;
-	background: url(../img/templatemo_sidebar.png) repeat-y;
 }
 
 .col_w260 {
